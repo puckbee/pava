@@ -1,4 +1,4 @@
-spmvTune is an SpMV optimiation framework by automatically select the appropriate format(CSR COO and etc.)
+spmvTune is an SpMV optimiation framework by automatically selecting the appropriate format(CSR COO and etc.)
 
 1) number of iterations and overhead of pre-processing
 
