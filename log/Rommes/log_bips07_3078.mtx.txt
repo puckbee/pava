@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Rommes/bips07_3078.mtx
+Reading matrix completed
+Basic informations
+        numRows = 21129
+        numCols = 21129
+            nnz = 75744
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes bips07_3078 CSR 68 0.007751 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes bips07_3078 COO 68 0.001820 0.000675 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes bips07_3078 CSC 68 0.003322 0.000399 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 21129 # was wrong
+ Performance Rommes bips07_3078 DIA 68 0.769612 0.235754 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes bips07_3078 IE 68 0.001238 0.000134 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 21129 # was wrong
+ Performance Rommes bips07_3078 BSR 68 0.026376 0.000074 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes bips07_3078 ESB-d 68 0.001875 0.000177 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes bips07_3078 ESB-s 68 0.001815 0.000028 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rommes bips07_3078 CVR 68 0.000146 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes bips07_3078 CSR5 68 0.000789 0.000019 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes bips07_3078 VHCC 68 0.040614 0.000033 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes bips07_3078 CSR 136 0.002610 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes bips07_3078 COO 136 0.000855 0.000895 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes bips07_3078 CSC 136 0.003586 0.000503 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 21129 # was wrong
+ Performance Rommes bips07_3078 DIA 136 0.846965 0.235857 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes bips07_3078 IE 136 0.000823 0.000038 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 21129 # was wrong
+ Performance Rommes bips07_3078 BSR 136 0.031858 0.000117 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes bips07_3078 ESB-d 136 0.002414 0.000194 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes bips07_3078 ESB-s 136 0.002788 0.000028 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rommes bips07_3078 CVR 136 0.000101 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes bips07_3078 CSR5 136 0.000283 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes bips07_3078 VHCC 136 0.064889 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes bips07_3078 CSR 204 0.002651 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes bips07_3078 COO 204 0.001156 0.001130 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes bips07_3078 CSC 204 0.004426 0.000643 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 21129 # was wrong
+ Performance Rommes bips07_3078 DIA 204 0.888830 0.235981 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes bips07_3078 IE 204 0.001029 0.000057 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 19838 out of 21129 # was wrong
+ Performance Rommes bips07_3078 BSR 204 0.036801 0.000235 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes bips07_3078 ESB-d 204 0.003463 0.000208 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes bips07_3078 ESB-s 204 0.003627 0.000033 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rommes bips07_3078 CVR 204 0.000099 0.000019 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes bips07_3078 CSR5 204 0.000260 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes bips07_3078 VHCC 204 0.088645 0.000035 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes bips07_3078 CSR 272 0.003422 0.000056 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes bips07_3078 COO 272 0.001350 0.001272 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes bips07_3078 CSC 272 0.004909 0.000724 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 21129 # was wrong
+ Performance Rommes bips07_3078 DIA 272 0.895967 0.235120 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes bips07_3078 IE 272 0.001085 0.000085 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 18808 out of 21129 # was wrong
+ Performance Rommes bips07_3078 BSR 272 0.037535 0.000186 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes bips07_3078 ESB-d 272 0.003955 0.000232 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes bips07_3078 ESB-s 272 0.004240 0.000104 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rommes bips07_3078 CVR 272 0.000178 0.000051 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes bips07_3078 CSR5 272 0.000396 0.000077 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes bips07_3078 VHCC 272 0.104891 0.000038 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

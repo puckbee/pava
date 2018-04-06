@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/saylr4.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3565
+        numCols = 3565
+            nnz = 25888
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB saylr4 CSR 68 0.004473 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB saylr4 COO 68 0.000536 0.000202 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB saylr4 CSC 68 0.000784 0.000110 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB saylr4 DIA 68 0.001275 0.000041 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB saylr4 IE 68 0.001142 0.000040 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB saylr4 BSR 68 0.005967 0.000022 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB saylr4 ESB-d 68 0.000876 0.000149 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB saylr4 ESB-s 68 0.000635 0.000120 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB saylr4 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB saylr4 CSR5 68 0.000765 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB saylr4 VHCC 68 0.016117 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB saylr4 CSR 136 0.000728 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB saylr4 COO 136 0.000222 0.000261 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB saylr4 CSC 136 0.000848 0.000133 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB saylr4 DIA 136 0.001836 0.000039 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB saylr4 IE 136 0.000623 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 641 out of 3565 # was wrong
+ Performance HB saylr4 BSR 136 0.004964 0.000068 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB saylr4 ESB-d 136 0.000905 0.000257 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB saylr4 ESB-s 136 0.000887 0.000218 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB saylr4 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB saylr4 CSR5 136 0.000155 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB saylr4 VHCC 136 0.027449 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB saylr4 CSR 204 0.000972 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB saylr4 COO 204 0.000278 0.000368 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB saylr4 CSC 204 0.000984 0.000162 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB saylr4 DIA 204 0.002388 0.000045 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB saylr4 IE 204 0.000866 0.000019 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 606 out of 3565 # was wrong
+ Performance HB saylr4 BSR 204 0.006370 0.000066 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB saylr4 ESB-d 204 0.000980 0.000367 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB saylr4 ESB-s 204 0.001006 0.000338 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB saylr4 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB saylr4 CSR5 204 0.000202 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB saylr4 VHCC 204 0.038300 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB saylr4 CSR 272 0.001062 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB saylr4 COO 272 0.000272 0.000436 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB saylr4 CSC 272 0.001079 0.000185 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB saylr4 DIA 272 0.002755 0.000042 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB saylr4 IE 272 0.001113 0.000034 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB saylr4 BSR 272 0.007253 0.000084 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB saylr4 ESB-d 272 0.001096 0.000434 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB saylr4 ESB-s 272 0.001132 0.000392 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB saylr4 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB saylr4 CSR5 272 0.000249 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB saylr4 VHCC 272 0.048386 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

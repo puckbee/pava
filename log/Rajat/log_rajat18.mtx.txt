@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Rajat/rajat18.mtx
+Reading matrix completed
+Basic informations
+        numRows = 94295
+        numCols = 94295
+            nnz = 485152
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rajat rajat18 CSR 68 0.017798 0.000124 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rajat rajat18 COO 68 0.008223 0.004702 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rajat rajat18 CSC 68 0.015435 0.001831 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Rajat rajat18 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat18 IE 68 0.000894 0.000165 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 94295 # was wrong
+ Performance Rajat rajat18 BSR 68 0.244513 0.000438 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat18 ESB-d 68 0.011956 0.001346 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat18 ESB-s 68 0.009862 0.001042 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat18 CVR 68 0.000431 0.000067 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat18 CSR5 68 0.001282 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat18 VHCC 68 0.256814 0.000157 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rajat rajat18 CSR 136 0.011853 0.000134 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rajat rajat18 COO 136 0.003545 0.006029 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rajat rajat18 CSC 136 0.016865 0.002213 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Rajat rajat18 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat18 IE 136 0.000617 0.000133 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 17 out of 94295 # was wrong
+ Performance Rajat rajat18 BSR 136 0.261044 0.000495 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat18 ESB-d 136 0.014212 0.001578 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat18 ESB-s 136 0.016430 0.001112 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat18 CVR 136 0.000228 0.000052 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat18 CSR5 136 0.000617 0.000045 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat18 VHCC 136 0.380271 0.000109 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rajat rajat18 CSR 204 0.016344 0.000166 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rajat rajat18 COO 204 0.011475 0.008044 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rajat rajat18 CSC 204 0.022739 0.002922 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Rajat rajat18 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat18 IE 204 0.000953 0.000133 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 94295 # was wrong
+ Performance Rajat rajat18 BSR 204 0.323250 0.000663 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat18 ESB-d 204 0.019711 0.001924 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat18 ESB-s 204 0.020941 0.001354 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat18 CVR 204 0.000214 0.000053 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat18 CSR5 204 0.000596 0.000056 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat18 VHCC 204 0.457703 0.000112 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rajat rajat18 CSR 272 0.020783 0.000178 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rajat rajat18 COO 272 0.016272 0.008949 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rajat rajat18 CSC 272 0.025475 0.003201 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Rajat rajat18 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat18 IE 272 0.001185 0.000178 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 94295 # was wrong
+ Performance Rajat rajat18 BSR 272 0.321534 0.000649 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat18 ESB-d 272 0.023197 0.002120 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat18 ESB-s 272 0.024230 0.001578 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat18 CVR 272 0.000381 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat18 CSR5 272 0.000661 0.000064 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat18 VHCC 272 0.493593 0.000108 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

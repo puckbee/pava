@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/linverse.mtx
+Reading matrix completed
+Basic informations
+        numRows = 12000
+        numCols = 12000
+            nnz = 107984
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef linverse CSR 68 0.006530 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef linverse COO 68 0.001830 0.000917 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_indef linverse CSC 68 0.002990 0.000340 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12000 # was wrong
+ Performance GHS_indef linverse DIA 68 0.004783 0.000202 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef linverse IE 68 0.001392 0.000097 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 691 out of 12000 # was wrong
+ Performance GHS_indef linverse BSR 68 0.018011 0.000027 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef linverse ESB-d 68 0.002752 0.000620 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef linverse ESB-s 68 0.001890 0.000569 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef linverse CVR 68 0.000254 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef linverse CSR5 68 0.000823 0.000018 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef linverse VHCC 68 0.056590 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef linverse CSR 136 0.002439 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef linverse COO 136 0.000677 0.001270 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_indef linverse CSC 136 0.002899 0.000412 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12000 # was wrong
+ Performance GHS_indef linverse DIA 136 0.007382 0.000265 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef linverse IE 136 0.000636 0.000026 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 12000 # was wrong
+ Performance GHS_indef linverse BSR 136 0.022433 0.000034 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef linverse ESB-d 136 0.003130 0.001012 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef linverse ESB-s 136 0.002681 0.000911 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef linverse CVR 136 0.000105 0.000016 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef linverse CSR5 136 0.000249 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef linverse VHCC 136 0.089422 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef linverse CSR 204 0.004701 0.000059 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef linverse COO 204 0.002826 0.001736 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_indef linverse CSC 204 0.003557 0.000496 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12000 # was wrong
+ Performance GHS_indef linverse DIA 204 0.010151 0.000296 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef linverse IE 204 0.000964 0.000034 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 12000 # was wrong
+ Performance GHS_indef linverse BSR 204 0.035910 0.000083 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef linverse ESB-d 204 0.003683 0.001403 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef linverse ESB-s 204 0.003763 0.001307 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef linverse CVR 204 0.000108 0.000019 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef linverse CSR5 204 0.000286 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef linverse VHCC 204 0.127886 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef linverse CSR 272 0.005359 0.000055 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef linverse COO 272 0.003717 0.001998 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_indef linverse CSC 272 0.003898 0.000543 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12000 # was wrong
+ Performance GHS_indef linverse DIA 272 0.011529 0.000295 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef linverse IE 272 0.001135 0.000048 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 11989 out of 12000 # was wrong
+ Performance GHS_indef linverse BSR 272 0.037375 0.000043 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef linverse ESB-d 272 0.004055 0.001771 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef linverse ESB-s 272 0.004326 0.001509 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef linverse CVR 272 0.000210 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef linverse CSR5 272 0.000396 0.000043 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef linverse VHCC 272 0.148175 0.000035 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

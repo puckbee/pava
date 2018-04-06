@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Nemeth/nemeth19.mtx
+Reading matrix completed
+Basic informations
+        numRows = 9507
+        numCols = 9507
+            nnz = 827808
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nemeth nemeth19 CSR 68 0.026727 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nemeth nemeth19 COO 68 0.008989 0.011646 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nemeth nemeth19 CSC 68 0.015632 0.000786 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Nemeth nemeth19 DIA 68 0.100136 0.001509 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nemeth nemeth19 IE 68 0.001706 0.000163 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Nemeth nemeth19 BSR 68 0.087398 0.000061 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nemeth nemeth19 ESB-d 68 0.015138 0.000402 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nemeth nemeth19 ESB-s 68 0.011908 0.000342 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nemeth nemeth19 CVR 68 0.000432 0.000066 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nemeth nemeth19 CSR5 68 0.001461 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nemeth nemeth19 VHCC 68 0.429523 0.000090 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nemeth nemeth19 CSR 136 0.017474 0.000059 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nemeth nemeth19 COO 136 0.002479 0.013288 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nemeth nemeth19 CSC 136 0.015036 0.000878 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Nemeth nemeth19 DIA 136 0.175473 0.001643 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nemeth nemeth19 IE 136 0.001201 0.000032 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 958 out of 9507 # was wrong
+ Performance Nemeth nemeth19 BSR 136 0.111162 0.000071 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nemeth nemeth19 ESB-d 136 0.013451 0.000653 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nemeth nemeth19 ESB-s 136 0.013950 0.000571 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nemeth nemeth19 CVR 136 0.000468 0.000046 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nemeth nemeth19 CSR5 136 0.000970 0.000044 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nemeth nemeth19 VHCC 136 0.589271 0.000060 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nemeth nemeth19 CSR 204 0.026464 0.000075 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nemeth nemeth19 COO 204 0.016691 0.017158 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nemeth nemeth19 CSC 204 0.011654 0.001118 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Nemeth nemeth19 DIA 204 0.241481 0.001751 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nemeth nemeth19 IE 204 0.001301 0.000049 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Nemeth nemeth19 BSR 204 0.149666 0.000205 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nemeth nemeth19 ESB-d 204 0.018118 0.000913 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nemeth nemeth19 ESB-s 204 0.019237 0.000830 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nemeth nemeth19 CVR 204 0.000453 0.000044 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nemeth nemeth19 CSR5 204 0.000840 0.000053 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nemeth nemeth19 VHCC 204 0.651250 0.000058 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nemeth nemeth19 CSR 272 0.033777 0.000132 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nemeth nemeth19 COO 272 0.003337 0.019321 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nemeth nemeth19 CSC 272 0.011617 0.001244 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Nemeth nemeth19 DIA 272 0.220603 0.001560 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nemeth nemeth19 IE 272 0.001508 0.000068 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Nemeth nemeth19 BSR 272 0.170283 0.000362 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nemeth nemeth19 ESB-d 272 0.020731 0.001087 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nemeth nemeth19 ESB-s 272 0.021899 0.001161 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nemeth nemeth19 CVR 272 0.000582 0.000043 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nemeth nemeth19 CSR5 272 0.000862 0.000060 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nemeth nemeth19 VHCC 272 0.663948 0.000056 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

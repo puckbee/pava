@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/man_5976.mtx
+Reading matrix completed
+Basic informations
+        numRows = 5977
+        numCols = 5977
+            nnz = 230928
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB man_5976 CSR 68 0.009972 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB man_5976 COO 68 0.003455 0.003185 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB man_5976 CSC 68 0.005502 0.000296 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB man_5976 DIA 68 0.043611 0.002175 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB man_5976 IE 68 0.001755 0.000093 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB man_5976 BSR 68 0.026963 0.000040 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB man_5976 ESB-d 68 0.003393 0.000169 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB man_5976 ESB-s 68 0.003821 0.000106 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB man_5976 CVR 68 0.000188 0.000024 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB man_5976 CSR5 68 0.000878 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB man_5976 VHCC 68 0.127786 0.000054 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB man_5976 CSR 136 0.005761 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB man_5976 COO 136 0.003648 0.003731 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB man_5976 CSC 136 0.004306 0.000353 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB man_5976 DIA 136 0.086248 0.002685 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB man_5976 IE 136 0.000592 0.000024 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 21 out of 5977 # was wrong
+ Performance HB man_5976 BSR 136 0.033388 0.000099 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB man_5976 ESB-d 136 0.004376 0.000284 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB man_5976 ESB-s 136 0.004609 0.000198 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB man_5976 CVR 136 0.000175 0.000020 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB man_5976 CSR5 136 0.000444 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB man_5976 VHCC 136 0.208790 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB man_5976 CSR 204 0.007195 0.000041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB man_5976 COO 204 0.001000 0.004911 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB man_5976 CSC 204 0.005409 0.000441 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB man_5976 DIA 204 0.110314 0.003306 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB man_5976 IE 204 0.000903 0.000025 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB man_5976 BSR 204 0.043576 0.000069 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB man_5976 ESB-d 204 0.005754 0.000395 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB man_5976 ESB-s 204 0.005878 0.000327 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB man_5976 CVR 204 0.000167 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB man_5976 CSR5 204 0.000414 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB man_5976 VHCC 204 0.295377 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB man_5976 CSR 272 0.009037 0.000077 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB man_5976 COO 272 0.001020 0.005966 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB man_5976 CSC 272 0.005726 0.000481 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB man_5976 DIA 272 0.132159 0.003338 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB man_5976 IE 272 0.001175 0.000035 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 938 out of 5977 # was wrong
+ Performance HB man_5976 BSR 272 0.049217 0.000164 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB man_5976 ESB-d 272 0.006458 0.000552 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB man_5976 ESB-s 272 0.006615 0.000380 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB man_5976 CVR 272 0.000282 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB man_5976 CSR5 272 0.000520 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB man_5976 VHCC 272 0.322185 0.000052 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

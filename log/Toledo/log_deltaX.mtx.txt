@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Toledo/deltaX.mtx
+Reading matrix completed
+Basic informations
+        numRows = 68601
+        numCols = 21962
+            nnz = 247424
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Toledo deltaX CSR 68 0.011918 0.000129 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Toledo deltaX COO 68 0.004612 0.001787 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Toledo deltaX CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Toledo deltaX DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Toledo deltaX IE 68 0.002137 0.000123 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Toledo deltaX BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Toledo deltaX ESB-d 68 0.005257 0.000538 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Toledo deltaX ESB-s 68 0.004689 0.000252 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Toledo deltaX CVR 68 0.000395 0.000036 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Toledo deltaX CSR5 68 0.000938 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Toledo deltaX VHCC 68 0.140007 0.000082 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Toledo deltaX CSR 136 0.006118 0.000133 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Toledo deltaX COO 136 0.002797 0.002384 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Toledo deltaX CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Toledo deltaX DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Toledo deltaX IE 136 0.000609 0.000048 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Toledo deltaX BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Toledo deltaX ESB-d 136 0.007587 0.000557 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Toledo deltaX ESB-s 136 0.007759 0.000219 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Toledo deltaX CVR 136 0.000191 0.000030 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Toledo deltaX CSR5 136 0.000475 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Toledo deltaX VHCC 136 0.236992 0.000062 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Toledo deltaX CSR 204 0.008952 0.000130 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Toledo deltaX COO 204 0.003555 0.003306 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Toledo deltaX CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Toledo deltaX DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Toledo deltaX IE 204 0.000849 0.000043 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Toledo deltaX BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Toledo deltaX ESB-d 204 0.010718 0.000581 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Toledo deltaX ESB-s 204 0.011125 0.000182 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Toledo deltaX CVR 204 0.000182 0.000031 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Toledo deltaX CSR5 204 0.000446 0.000044 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Toledo deltaX VHCC 204 0.293863 0.000060 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Toledo deltaX CSR 272 0.011690 0.000140 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Toledo deltaX COO 272 0.009381 0.003744 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Toledo deltaX CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Toledo deltaX DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Toledo deltaX IE 272 0.008920 0.000053 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Toledo deltaX BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Toledo deltaX ESB-d 272 0.012770 0.000663 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Toledo deltaX ESB-s 272 0.013056 0.000161 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Toledo deltaX CVR 272 0.000183 0.000033 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Toledo deltaX CSR5 272 0.000486 0.000082 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Toledo deltaX VHCC 272 0.331367 0.000101 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

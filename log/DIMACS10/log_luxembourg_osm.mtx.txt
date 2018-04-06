@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/luxembourg_osm.mtx
+Reading matrix completed
+Basic informations
+        numRows = 114600
+        numCols = 114600
+            nnz = 239344
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm CSR 68 0.012183 0.000072 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm COO 68 0.005172 0.002328 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm CSC 68 0.014740 0.001011 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 luxembourg_osm DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 luxembourg_osm IE 68 0.000811 0.000142 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 49576 out of 114600 # was wrong
+ Performance DIMACS10 luxembourg_osm BSR 68 0.264447 0.000104 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 luxembourg_osm ESB-d 68 0.005991 0.000881 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 luxembourg_osm ESB-s 68 0.005729 0.000055 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 luxembourg_osm CVR 68 0.000387 0.000044 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 luxembourg_osm CSR5 68 0.001100 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 luxembourg_osm VHCC 68 0.137847 0.000086 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm CSR 136 0.007109 0.000073 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm COO 136 0.003543 0.003253 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm CSC 136 0.017293 0.001250 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 luxembourg_osm DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 luxembourg_osm IE 136 0.000589 0.000052 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm BSR 136 0.301200 0.000118 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 luxembourg_osm ESB-d 136 0.009265 0.000909 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 luxembourg_osm ESB-s 136 0.009737 0.000050 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 luxembourg_osm CVR 136 0.000216 0.000035 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 luxembourg_osm CSR5 136 0.000477 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 luxembourg_osm VHCC 136 0.235264 0.000065 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm CSR 204 0.009591 0.000079 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm COO 204 0.005655 0.004275 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm CSC 204 0.022893 0.001511 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 luxembourg_osm DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 luxembourg_osm IE 204 0.000904 0.000050 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 49750 out of 114600 # was wrong
+ Performance DIMACS10 luxembourg_osm BSR 204 0.337012 0.000139 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 luxembourg_osm ESB-d 204 0.013452 0.000933 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 luxembourg_osm ESB-s 204 0.013800 0.000053 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 luxembourg_osm CVR 204 0.000190 0.000036 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 luxembourg_osm CSR5 204 0.000493 0.000046 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 luxembourg_osm VHCC 204 0.314233 0.000066 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm CSR 272 0.012000 0.000070 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm COO 272 0.011637 0.004590 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm CSC 272 0.025505 0.001640 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 luxembourg_osm DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 luxembourg_osm IE 272 0.001149 0.000056 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance DIMACS10 luxembourg_osm BSR 272 0.352069 0.000159 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 luxembourg_osm ESB-d 272 0.016028 0.001004 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 luxembourg_osm ESB-s 272 0.016140 0.000058 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 luxembourg_osm CVR 272 0.000234 0.000038 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 luxembourg_osm CSR5 272 0.000540 0.000118 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 luxembourg_osm VHCC 272 0.351511 0.000066 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

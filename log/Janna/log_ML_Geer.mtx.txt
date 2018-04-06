@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Janna/ML_Geer.mtx
+Reading matrix completed
+Basic informations
+        numRows = 1504003
+        numCols = 1504003
+            nnz = 110879984
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Janna ML_Geer CSR 68 2.285702 0.004412 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Janna ML_Geer COO 68 0.550380 1.532816 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Janna ML_Geer CSC 68 1.782062 0.074347 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Janna ML_Geer DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Janna ML_Geer IE 68 0.020528 0.004485 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Janna ML_Geer BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Janna ML_Geer ESB-d 68 1.560273 0.012361 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Janna ML_Geer ESB-s 68 1.590282 0.007170 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Janna ML_Geer CVR 68 0.020131 0.008804 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Janna ML_Geer CSR5 68 0.087254 0.008019 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Janna ML_Geer VHCC 68 64.294592 0.012828 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Janna ML_Geer CSR 136 2.144134 0.004182 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Janna ML_Geer COO 136 0.521044 1.547502 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Janna ML_Geer CSC 136 1.626672 0.081456 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Janna ML_Geer DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Janna ML_Geer IE 136 0.011246 0.004076 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Janna ML_Geer BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Janna ML_Geer ESB-d 136 1.321500 0.011928 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Janna ML_Geer ESB-s 136 1.358959 0.004920 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Janna ML_Geer CVR 136 0.011662 0.005724 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Janna ML_Geer CSR5 136 0.052474 0.005547 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Janna ML_Geer VHCC 136 63.082443 0.007567 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Janna ML_Geer CSR 204 2.170844 0.004322 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Janna ML_Geer COO 204 0.347082 1.596924 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Janna ML_Geer CSC 204 1.659936 0.082258 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Janna ML_Geer DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Janna ML_Geer IE 204 0.011839 0.004208 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Janna ML_Geer BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Janna ML_Geer ESB-d 204 1.418789 0.012727 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Janna ML_Geer ESB-s 204 1.371232 0.004473 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Janna ML_Geer CVR 204 0.011893 0.005121 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Janna ML_Geer CSR5 204 0.048358 0.004977 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Janna ML_Geer VHCC 204 63.074729 0.006599 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Janna ML_Geer CSR 272 2.136234 0.004626 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Janna ML_Geer COO 272 0.360416 1.599218 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Janna ML_Geer CSC 272 1.621975 0.083595 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Janna ML_Geer DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Janna ML_Geer IE 272 0.012702 0.004435 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Janna ML_Geer BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Janna ML_Geer ESB-d 272 1.383674 0.013376 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Janna ML_Geer ESB-s 272 1.422963 0.004589 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Janna ML_Geer CVR 272 0.012492 0.004922 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Janna ML_Geer CSR5 272 0.043436 0.004950 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Janna ML_Geer VHCC 272 62.670240 0.006052 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Pajek/geom.mtx
+Reading matrix completed
+Basic informations
+        numRows = 7344
+        numCols = 7291
+            nnz = 23808
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 44 out of 7344 # was wrong
+ Performance Pajek geom CSR 68 0.004243 0.000019 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 51 out of 7344 # was wrong
+ Performance Pajek geom COO 68 0.000562 0.000227 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Pajek geom CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Pajek geom DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pajek geom IE 68 0.000774 0.000090 
+WARNING! # 51 out of 7344 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Pajek geom BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pajek geom ESB-d 68 0.001841 0.000072 
+WARNING! # 51 out of 7344 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pajek geom ESB-s 68 0.001712 0.000023 
+WARNING! # 50 out of 7344 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pajek geom CVR 68 0.000091 0.000010 
+WARNING! # 42 out of 7344 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pajek geom CSR5 68 0.000881 0.000018 
+WARNING! # 46 out of 7344 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pajek geom VHCC 68 0.019039 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pajek geom CSR 136 0.000802 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pajek geom COO 136 0.000336 0.000300 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Pajek geom CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Pajek geom DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pajek geom IE 136 0.000129 0.000022 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Pajek geom BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pajek geom ESB-d 136 0.001117 0.000085 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pajek geom ESB-s 136 0.001169 0.000025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pajek geom CVR 136 0.000063 0.000012 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pajek geom CSR5 136 0.000229 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pajek geom VHCC 136 0.036274 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pajek geom CSR 204 0.001061 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pajek geom COO 204 0.000737 0.000420 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Pajek geom CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Pajek geom DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pajek geom IE 204 0.000141 0.000024 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Pajek geom BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pajek geom ESB-d 204 0.002780 0.000102 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pajek geom ESB-s 204 0.001419 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pajek geom CVR 204 0.000064 0.000015 
+WARNING! # 8 out of 7344 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pajek geom CSR5 204 0.000253 0.000036 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pajek geom VHCC 204 0.057589 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pajek geom CSR 272 0.001276 0.000031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pajek geom COO 272 0.000470 0.000477 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Pajek geom CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Pajek geom DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pajek geom IE 272 0.000220 0.000028 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Pajek geom BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pajek geom ESB-d 272 0.001354 0.000117 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pajek geom ESB-s 272 0.001649 0.000038 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pajek geom CVR 272 0.000176 0.000018 
+WARNING! # 16 out of 7344 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pajek geom CSR5 272 0.000365 0.000046 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pajek geom VHCC 272 0.069462 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

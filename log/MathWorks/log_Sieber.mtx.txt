@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/MathWorks/Sieber.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2291
+        numCols = 2291
+            nnz = 14880
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Sieber CSR 68 0.003717 0.000018 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Sieber COO 68 0.000396 0.000116 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks Sieber CSC 68 0.000423 0.000061 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance MathWorks Sieber DIA 68 0.059321 0.007184 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Sieber IE 68 0.001114 0.000082 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance MathWorks Sieber BSR 68 0.002812 0.000028 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Sieber ESB-d 68 0.000567 0.000085 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Sieber ESB-s 68 0.000367 0.000063 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance MathWorks Sieber CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Sieber CSR5 68 0.000535 0.000014 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks Sieber VHCC 68 0.008891 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Sieber CSR 136 0.000329 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Sieber COO 136 0.000147 0.000163 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks Sieber CSC 136 0.000486 0.000085 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance MathWorks Sieber DIA 136 0.095484 0.008911 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Sieber IE 136 0.000869 0.000015 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance MathWorks Sieber BSR 136 0.002435 0.000035 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Sieber ESB-d 136 0.000476 0.000150 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Sieber ESB-s 136 0.000492 0.000133 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance MathWorks Sieber CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Sieber CSR5 136 0.000169 0.000020 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks Sieber VHCC 136 0.017628 0.000039 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Sieber CSR 204 0.000464 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Sieber COO 204 0.000166 0.000237 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks Sieber CSC 204 0.000626 0.000111 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance MathWorks Sieber DIA 204 0.141134 0.008634 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Sieber IE 204 0.000972 0.000022 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance MathWorks Sieber BSR 204 0.003377 0.000098 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Sieber ESB-d 204 0.000591 0.000219 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Sieber ESB-s 204 0.000605 0.000193 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance MathWorks Sieber CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Sieber CSR5 204 0.000178 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks Sieber VHCC 204 0.023145 0.000061 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Sieber CSR 272 0.000597 0.000042 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Sieber COO 272 0.000217 0.000261 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks Sieber CSC 272 0.000673 0.000128 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance MathWorks Sieber DIA 272 0.168985 0.007529 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Sieber IE 272 0.001017 0.000051 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance MathWorks Sieber BSR 272 0.003913 0.000058 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Sieber ESB-d 272 0.000654 0.000271 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Sieber ESB-s 272 0.000704 0.000234 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance MathWorks Sieber CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Sieber CSR5 272 0.000241 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks Sieber VHCC 272 0.029236 0.000080 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

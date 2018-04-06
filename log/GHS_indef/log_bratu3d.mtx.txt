@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/bratu3d.mtx
+Reading matrix completed
+Basic informations
+        numRows = 27793
+        numCols = 15626
+            nnz = 177264
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef bratu3d CSR 68 0.009203 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef bratu3d COO 68 0.002990 0.001287 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef bratu3d CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef bratu3d DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef bratu3d IE 68 0.002330 0.000067 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef bratu3d BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef bratu3d ESB-d 68 0.004572 0.000238 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef bratu3d ESB-s 68 0.003300 0.000120 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef bratu3d CVR 68 0.000268 0.000028 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef bratu3d CSR5 68 0.000935 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef bratu3d VHCC 68 0.102608 0.000053 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef bratu3d CSR 136 0.004881 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef bratu3d COO 136 0.001195 0.001895 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef bratu3d CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef bratu3d DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef bratu3d IE 136 0.000608 0.000035 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef bratu3d BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef bratu3d ESB-d 136 0.004763 0.000309 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef bratu3d ESB-s 136 0.004395 0.000127 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef bratu3d CVR 136 0.000149 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef bratu3d CSR5 136 0.000411 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef bratu3d VHCC 136 0.174728 0.000048 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef bratu3d CSR 204 0.005635 0.000039 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef bratu3d COO 204 0.001669 0.002569 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef bratu3d CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef bratu3d DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef bratu3d IE 204 0.000889 0.000037 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef bratu3d BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef bratu3d ESB-d 204 0.006421 0.000341 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef bratu3d ESB-s 204 0.006387 0.000158 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef bratu3d CVR 204 0.000152 0.000028 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef bratu3d CSR5 204 0.000421 0.000040 
+WARNING! # 8025 out of 27793 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef bratu3d VHCC 204 0.234637 0.000051 
+WARNING! # 9228 out of 27793 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef bratu3d CSR 272 0.007212 0.000081 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef bratu3d COO 272 0.001977 0.002928 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef bratu3d CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef bratu3d DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef bratu3d IE 272 0.001142 0.000845 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef bratu3d BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef bratu3d ESB-d 272 0.007391 0.000397 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef bratu3d ESB-s 272 0.007389 0.000181 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef bratu3d CVR 272 0.000146 0.000029 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef bratu3d CSR5 272 0.000435 0.000053 
+WARNING! # 1411 out of 27793 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef bratu3d VHCC 272 0.277008 0.000050 
+WARNING! # 1981 out of 27793 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

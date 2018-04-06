@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Grund/poli.mtx
+Reading matrix completed
+Basic informations
+        numRows = 4009
+        numCols = 4009
+            nnz = 8192
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Grund poli CSR 68 0.003857 0.000016 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Grund poli COO 68 0.000284 0.000071 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Grund poli CSC 68 0.000427 0.000062 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Grund poli DIA 68 0.035780 0.007640 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Grund poli IE 68 0.000865 0.000091 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Grund poli BSR 68 0.003063 0.000024 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Grund poli ESB-d 68 0.000399 0.000045 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Grund poli ESB-s 68 0.000308 0.000017 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Grund poli CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Grund poli CSR5 68 0.000731 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Grund poli VHCC 68 0.006592 0.000015 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Grund poli CSR 136 0.000242 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Grund poli COO 136 0.000193 0.000091 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Grund poli CSC 136 0.000611 0.000095 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Grund poli DIA 136 0.051117 0.009515 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Grund poli IE 136 0.000657 0.000015 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Grund poli BSR 136 0.002579 0.000032 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Grund poli ESB-d 136 0.000446 0.000057 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Grund poli ESB-s 136 0.000475 0.000022 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Grund poli CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Grund poli CSR5 136 0.000137 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Grund poli VHCC 136 0.013102 0.000019 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Grund poli CSR 204 0.000367 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Grund poli COO 204 0.000229 0.000123 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Grund poli CSC 204 0.000682 0.000113 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Grund poli DIA 204 0.068224 0.011654 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Grund poli IE 204 0.000986 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 345 out of 4009 # was wrong
+ Performance Grund poli BSR 204 0.003879 0.000102 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Grund poli ESB-d 204 0.000505 0.000071 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Grund poli ESB-s 204 0.000545 0.000027 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Grund poli CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Grund poli CSR5 204 0.000210 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Grund poli VHCC 204 0.018793 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Grund poli CSR 272 0.000409 0.000042 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Grund poli COO 272 0.000279 0.000134 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Grund poli CSC 272 0.000743 0.000126 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Grund poli DIA 272 0.078576 0.011385 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Grund poli IE 272 0.000986 0.000042 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 305 out of 4009 # was wrong
+ Performance Grund poli BSR 272 0.003317 0.000116 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Grund poli ESB-d 272 0.000578 0.000085 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Grund poli ESB-s 272 0.000600 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Grund poli CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Grund poli CSR5 272 0.000254 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Grund poli VHCC 272 0.024924 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

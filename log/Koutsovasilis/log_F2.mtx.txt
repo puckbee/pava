@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Koutsovasilis/F2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 71506
+        numCols = 71506
+            nnz = 5365792
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Koutsovasilis F2 CSR 68 0.141457 0.000623 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Koutsovasilis F2 COO 68 0.029197 0.080657 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Koutsovasilis F2 CSC 68 0.129137 0.006923 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Koutsovasilis F2 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Koutsovasilis F2 IE 68 0.003633 0.000517 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Koutsovasilis F2 BSR 68 0.726952 0.001164 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Koutsovasilis F2 ESB-d 68 0.090235 0.002648 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Koutsovasilis F2 ESB-s 68 0.087465 0.002292 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Koutsovasilis F2 CVR 68 0.001820 0.000493 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Koutsovasilis F2 CSR5 68 0.004417 0.000523 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Koutsovasilis F2 VHCC 68 3.092253 0.001106 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Koutsovasilis F2 CSR 136 0.137410 0.000470 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Koutsovasilis F2 COO 136 0.017706 0.082670 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Koutsovasilis F2 CSC 136 0.134635 0.007994 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Koutsovasilis F2 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Koutsovasilis F2 IE 136 0.001312 0.000287 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 14 out of 71506 # was wrong
+ Performance Koutsovasilis F2 BSR 136 0.762238 0.000897 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Koutsovasilis F2 ESB-d 136 0.085721 0.004256 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Koutsovasilis F2 ESB-s 136 0.088654 0.003821 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Koutsovasilis F2 CVR 136 0.000659 0.000337 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Koutsovasilis F2 CSR5 136 0.002808 0.000388 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Koutsovasilis F2 VHCC 136 3.237972 0.000642 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Koutsovasilis F2 CSR 204 0.198700 0.000495 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Koutsovasilis F2 COO 204 0.140460 0.081594 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Koutsovasilis F2 CSC 204 0.134248 0.010599 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Koutsovasilis F2 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Koutsovasilis F2 IE 204 0.001589 0.000292 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 8514 out of 71506 # was wrong
+ Performance Koutsovasilis F2 BSR 204 0.797210 0.000902 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Koutsovasilis F2 ESB-d 204 0.114394 0.005878 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Koutsovasilis F2 ESB-s 204 0.117890 0.005465 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Koutsovasilis F2 CVR 204 0.000561 0.000298 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Koutsovasilis F2 CSR5 204 0.002582 0.000372 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Koutsovasilis F2 VHCC 204 3.287221 0.000579 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Koutsovasilis F2 CSR 272 0.217439 0.000572 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Koutsovasilis F2 COO 272 0.023025 0.081704 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Koutsovasilis F2 CSC 272 0.137296 0.011660 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Koutsovasilis F2 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Koutsovasilis F2 IE 272 0.001774 0.000379 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 8519 out of 71506 # was wrong
+ Performance Koutsovasilis F2 BSR 272 0.784824 0.001191 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Koutsovasilis F2 ESB-d 272 0.131779 0.006869 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Koutsovasilis F2 ESB-s 272 0.138338 0.006375 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Koutsovasilis F2 CVR 272 0.000632 0.000272 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Koutsovasilis F2 CSR5 272 0.002214 0.000358 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Koutsovasilis F2 VHCC 272 3.329409 0.000511 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

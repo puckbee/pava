@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/vsp_mod2_pgp2_slptsk.mtx
+Reading matrix completed
+Basic informations
+        numRows = 101365
+        numCols = 100879
+            nnz = 778736
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSR 68 0.038886 0.000245 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk COO 68 0.009732 0.012796 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk IE 68 0.002714 0.000340 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk ESB-d 68 0.018144 0.000871 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk ESB-s 68 0.016827 0.000579 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CVR 68 0.000462 0.000129 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSR5 68 0.001596 0.000101 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk VHCC 68 0.487421 0.000373 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 399 out of 101365 # was wrong
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSR 136 0.033469 0.000326 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1211 out of 101365 # was wrong
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk COO 136 0.004576 0.016654 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk IE 136 0.000667 0.000177 
+WARNING! # 1217 out of 101365 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk ESB-d 136 0.018720 0.000893 
+WARNING! # 1199 out of 101365 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk ESB-s 136 0.019500 0.000639 
+WARNING! # 432 out of 101365 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CVR 136 0.000423 0.000097 
+WARNING! # 835 out of 101365 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSR5 136 0.001090 0.000094 
+WARNING! # 737 out of 101365 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk VHCC 136 0.639635 0.000232 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 387 out of 101365 # was wrong
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSR 204 0.044828 0.000348 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1211 out of 101365 # was wrong
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk COO 204 0.006458 0.019905 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk IE 204 0.001366 0.000152 
+WARNING! # 1217 out of 101365 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk ESB-d 204 0.027512 0.000917 
+WARNING! # 1188 out of 101365 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk ESB-s 204 0.026782 0.000768 
+WARNING! # 377 out of 101365 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CVR 204 0.000400 0.000102 
+WARNING! # 899 out of 101365 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSR5 204 0.001005 0.000117 
+WARNING! # 897 out of 101365 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk VHCC 204 0.690521 0.000209 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSR 272 0.054696 0.000377 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk COO 272 0.007736 0.020085 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk IE 272 0.001167 0.000180 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk ESB-d 272 0.030082 0.000999 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk ESB-s 272 0.030876 0.000684 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CVR 272 0.000501 0.000093 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk CSR5 272 0.000960 0.000104 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_mod2_pgp2_slptsk VHCC 272 0.728682 0.000193 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

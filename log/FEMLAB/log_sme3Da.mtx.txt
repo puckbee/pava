@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/FEMLAB/sme3Da.mtx
+Reading matrix completed
+Basic informations
+        numRows = 12505
+        numCols = 12505
+            nnz = 874896
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB sme3Da CSR 68 0.040716 0.000052 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB sme3Da COO 68 0.009649 0.012185 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB sme3Da CSC 68 0.035960 0.000976 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance FEMLAB sme3Da DIA 68 13.306269 0.208769 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB sme3Da IE 68 0.002508 0.000178 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB sme3Da BSR 68 0.149609 0.000764 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB sme3Da ESB-d 68 0.015041 0.000142 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB sme3Da ESB-s 68 0.013219 0.000154 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB sme3Da CVR 68 0.000248 0.000073 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB sme3Da CSR5 68 0.001411 0.000055 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB sme3Da VHCC 68 0.464109 0.000121 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB sme3Da CSR 136 0.035582 0.000063 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB sme3Da COO 136 0.002970 0.015621 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB sme3Da CSC 136 0.035008 0.001242 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance FEMLAB sme3Da DIA 136 13.404373 0.208346 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB sme3Da IE 136 0.001800 0.000069 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 6379 out of 12505 # was wrong
+ Performance FEMLAB sme3Da BSR 136 0.195249 0.001374 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB sme3Da ESB-d 136 0.013065 0.000149 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB sme3Da ESB-s 136 0.014831 0.000119 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB sme3Da CVR 136 0.000175 0.000054 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB sme3Da CSR5 136 0.000680 0.000052 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB sme3Da VHCC 136 0.613753 0.000083 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB sme3Da CSR 204 0.054673 0.000090 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB sme3Da COO 204 0.017822 0.018499 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB sme3Da CSC 204 0.031492 0.001567 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance FEMLAB sme3Da DIA 204 13.425944 0.210993 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB sme3Da IE 204 0.002060 0.000058 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB sme3Da BSR 204 0.230172 0.001128 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB sme3Da ESB-d 204 0.018454 0.000159 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB sme3Da ESB-s 204 0.020604 0.000113 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB sme3Da CVR 204 0.000179 0.000049 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB sme3Da CSR5 204 0.000689 0.000064 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB sme3Da VHCC 204 0.672324 0.000078 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB sme3Da CSR 272 0.066631 0.000219 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB sme3Da COO 272 0.003578 0.020322 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB sme3Da CSC 272 0.034035 0.001693 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance FEMLAB sme3Da DIA 272 13.467836 0.208040 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB sme3Da IE 272 0.002665 0.000095 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 142 out of 12505 # was wrong
+ Performance FEMLAB sme3Da BSR 272 0.240332 0.002020 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB sme3Da ESB-d 272 0.021342 0.000180 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB sme3Da ESB-s 272 0.023610 0.000159 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB sme3Da CVR 272 0.000368 0.000051 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB sme3Da CSR5 272 0.000700 0.000074 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB sme3Da VHCC 272 0.695450 0.000079 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

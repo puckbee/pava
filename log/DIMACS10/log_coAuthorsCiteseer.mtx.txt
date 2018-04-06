@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/coAuthorsCiteseer.mtx
+Reading matrix completed
+Basic informations
+        numRows = 227321
+        numCols = 227321
+            nnz = 1628272
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer CSR 68 0.083562 0.000608 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer COO 68 0.014053 0.032658 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer CSC 68 0.114543 0.007866 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 coAuthorsCiteseer DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 coAuthorsCiteseer IE 68 0.002137 0.000823 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 coAuthorsCiteseer BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 coAuthorsCiteseer ESB-d 68 0.036318 0.001871 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 coAuthorsCiteseer ESB-s 68 0.034923 0.001306 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 coAuthorsCiteseer CVR 68 0.000643 0.000345 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 coAuthorsCiteseer CSR5 68 0.002400 0.000320 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 coAuthorsCiteseer VHCC 68 1.001841 0.000855 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer CSR 136 0.074646 0.000433 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer COO 136 0.010507 0.033970 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer CSC 136 0.103702 0.009619 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 coAuthorsCiteseer DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 coAuthorsCiteseer IE 136 0.000761 0.000469 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 coAuthorsCiteseer BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 coAuthorsCiteseer ESB-d 136 0.041730 0.001850 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 coAuthorsCiteseer ESB-s 136 0.043358 0.000871 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 coAuthorsCiteseer CVR 136 0.000415 0.000244 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 coAuthorsCiteseer CSR5 136 0.001667 0.000281 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 coAuthorsCiteseer VHCC 136 1.163509 0.000557 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer CSR 204 0.097355 0.000414 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer COO 204 0.043551 0.035190 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer CSC 204 0.118663 0.012016 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 coAuthorsCiteseer DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 coAuthorsCiteseer IE 204 0.001110 0.000457 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 coAuthorsCiteseer BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 coAuthorsCiteseer ESB-d 204 0.099548 0.001866 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 coAuthorsCiteseer ESB-s 204 0.061125 0.000824 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 coAuthorsCiteseer CVR 204 0.000386 0.000252 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 coAuthorsCiteseer CSR5 204 0.001602 0.000313 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 coAuthorsCiteseer VHCC 204 1.239457 0.000508 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer CSR 272 0.113678 0.000364 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer COO 272 0.050302 0.035064 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 coAuthorsCiteseer CSC 272 0.110786 0.012987 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 coAuthorsCiteseer DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 coAuthorsCiteseer IE 272 0.001277 0.000431 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 coAuthorsCiteseer BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 coAuthorsCiteseer ESB-d 272 0.112704 0.001978 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 coAuthorsCiteseer ESB-s 272 0.069226 0.000803 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 coAuthorsCiteseer CVR 272 0.000485 0.000242 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 coAuthorsCiteseer CSR5 272 0.001520 0.000292 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 coAuthorsCiteseer VHCC 272 1.267187 0.000457 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

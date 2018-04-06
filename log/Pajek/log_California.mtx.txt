@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Pajek/California.mtx
+Reading matrix completed
+Basic informations
+        numRows = 9665
+        numCols = 9665
+            nnz = 16160
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pajek California CSR 68 0.003910 0.000020 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pajek California COO 68 0.000503 0.000175 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pajek California CSC 68 0.000901 0.000163 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 9665 # was wrong
+ Performance Pajek California DIA 68 0.339027 0.071476 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pajek California IE 68 0.001405 0.000138 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 9665 # was wrong
+ Performance Pajek California BSR 68 0.010833 0.000033 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pajek California ESB-d 68 0.000801 0.000088 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pajek California ESB-s 68 0.000665 0.000020 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pajek California CVR 68 0.000092 0.000009 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pajek California CSR5 68 0.000678 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pajek California VHCC 68 0.009285 0.000016 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pajek California CSR 136 0.000546 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pajek California COO 136 0.000328 0.000250 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pajek California CSC 136 0.001100 0.000216 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 9665 # was wrong
+ Performance Pajek California DIA 136 0.379826 0.070632 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pajek California IE 136 0.000885 0.000020 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 9665 # was wrong
+ Performance Pajek California BSR 136 0.012070 0.000050 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pajek California ESB-d 136 0.001009 0.000102 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pajek California ESB-s 136 0.000968 0.000025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pajek California CVR 136 0.000057 0.000011 
+WARNING! # 5 out of 9665 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pajek California CSR5 136 0.000227 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pajek California VHCC 136 0.016823 0.000020 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pajek California CSR 204 0.000823 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pajek California COO 204 0.000660 0.000315 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pajek California CSC 204 0.001292 0.000261 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 9665 # was wrong
+ Performance Pajek California DIA 204 0.419566 0.070508 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pajek California IE 204 0.001193 0.000020 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4 out of 9665 # was wrong
+ Performance Pajek California BSR 204 0.017236 0.000133 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pajek California ESB-d 204 0.001087 0.000115 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pajek California ESB-s 204 0.001224 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pajek California CVR 204 0.000062 0.000014 
+WARNING! # 4 out of 9665 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pajek California CSR5 204 0.000240 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pajek California VHCC 204 0.024373 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pajek California CSR 272 0.000925 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pajek California COO 272 0.000418 0.000343 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pajek California CSC 272 0.001419 0.000295 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 9665 # was wrong
+ Performance Pajek California DIA 272 0.444709 0.070509 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pajek California IE 272 0.001245 0.000061 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 9665 # was wrong
+ Performance Pajek California BSR 272 0.008480 0.000131 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pajek California ESB-d 272 0.001274 0.000134 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pajek California ESB-s 272 0.001336 0.000036 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pajek California CVR 272 0.000159 0.000017 
+WARNING! # 21 out of 9665 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pajek California CSR5 272 0.000402 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pajek California VHCC 272 0.028446 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Bai/mhd4800a.mtx
+Reading matrix completed
+Basic informations
+        numRows = 4801
+        numCols = 4801
+            nnz = 102256
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai mhd4800a CSR 68 0.006077 0.000018 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai mhd4800a COO 68 0.001674 0.001287 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai mhd4800a CSC 68 0.002470 0.000132 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai mhd4800a DIA 68 0.010116 0.000378 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai mhd4800a IE 68 0.001359 0.000095 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bai mhd4800a BSR 68 0.013202 0.000028 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai mhd4800a ESB-d 68 0.001760 0.000052 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai mhd4800a ESB-s 68 0.001755 0.000021 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bai mhd4800a CVR 68 0.000132 0.000016 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai mhd4800a CSR5 68 0.000844 0.000018 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai mhd4800a VHCC 68 0.052028 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai mhd4800a CSR 136 0.002000 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai mhd4800a COO 136 0.000597 0.001539 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai mhd4800a CSC 136 0.002117 0.000178 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai mhd4800a DIA 136 0.014460 0.000438 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai mhd4800a IE 136 0.000589 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bai mhd4800a BSR 136 0.015281 0.000057 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai mhd4800a ESB-d 136 0.002326 0.000063 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai mhd4800a ESB-s 136 0.002066 0.000025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bai mhd4800a CVR 136 0.000103 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai mhd4800a CSR5 136 0.000243 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai mhd4800a VHCC 136 0.087964 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai mhd4800a CSR 204 0.002618 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai mhd4800a COO 204 0.001404 0.002039 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai mhd4800a CSC 204 0.002686 0.000234 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai mhd4800a DIA 204 0.022711 0.000574 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai mhd4800a IE 204 0.000878 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 208 out of 4801 # was wrong
+ Performance Bai mhd4800a BSR 204 0.020406 0.000134 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai mhd4800a ESB-d 204 0.002616 0.000077 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai mhd4800a ESB-s 204 0.002782 0.000028 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bai mhd4800a CVR 204 0.000101 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai mhd4800a CSR5 204 0.000284 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai mhd4800a VHCC 204 0.122966 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai mhd4800a CSR 272 0.003562 0.000050 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai mhd4800a COO 272 0.000605 0.002429 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai mhd4800a CSC 272 0.002850 0.000266 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai mhd4800a DIA 272 0.024048 0.000581 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai mhd4800a IE 272 0.001129 0.000036 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 3404 out of 4801 # was wrong
+ Performance Bai mhd4800a BSR 272 0.023153 0.000104 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai mhd4800a ESB-d 272 0.003058 0.000091 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai mhd4800a ESB-s 272 0.003260 0.000034 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bai mhd4800a CVR 272 0.000251 0.000019 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai mhd4800a CSR5 272 0.000380 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai mhd4800a VHCC 272 0.143973 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

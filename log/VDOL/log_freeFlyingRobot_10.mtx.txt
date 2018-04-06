@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/VDOL/freeFlyingRobot_10.mtx
+Reading matrix completed
+Basic informations
+        numRows = 5219
+        numCols = 3129
+            nnz = 43216
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1585 out of 5219 # was wrong
+ Performance VDOL freeFlyingRobot_10 CSR 68 0.004639 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 65 out of 5219 # was wrong
+ Performance VDOL freeFlyingRobot_10 COO 68 0.000820 0.000395 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL freeFlyingRobot_10 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL freeFlyingRobot_10 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL freeFlyingRobot_10 IE 68 0.001234 0.000088 
+WARNING! # 65 out of 5219 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL freeFlyingRobot_10 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL freeFlyingRobot_10 ESB-d 68 0.001503 0.000124 
+WARNING! # 1444 out of 5219 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL freeFlyingRobot_10 ESB-s 68 0.001472 0.000100 
+WARNING! # 1834 out of 5219 # was wrong
+**************
+      CVR      
+**************
+ Performance VDOL freeFlyingRobot_10 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL freeFlyingRobot_10 CSR5 68 0.000753 0.000016 
+WARNING! # 1899 out of 5219 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL freeFlyingRobot_10 VHCC 68 0.025585 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1230 out of 5219 # was wrong
+ Performance VDOL freeFlyingRobot_10 CSR 136 0.001052 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 105 out of 5219 # was wrong
+ Performance VDOL freeFlyingRobot_10 COO 136 0.000348 0.000534 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL freeFlyingRobot_10 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL freeFlyingRobot_10 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL freeFlyingRobot_10 IE 136 0.000125 0.000026 
+WARNING! # 105 out of 5219 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL freeFlyingRobot_10 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL freeFlyingRobot_10 ESB-d 136 0.001035 0.000145 
+WARNING! # 1340 out of 5219 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL freeFlyingRobot_10 ESB-s 136 0.001270 0.000112 
+WARNING! # 1512 out of 5219 # was wrong
+**************
+      CVR      
+**************
+ Performance VDOL freeFlyingRobot_10 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL freeFlyingRobot_10 CSR5 136 0.000212 0.000024 
+WARNING! # 1308 out of 5219 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL freeFlyingRobot_10 VHCC 136 0.043625 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 24 out of 5219 # was wrong
+ Performance VDOL freeFlyingRobot_10 CSR 204 0.001503 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 24 out of 5219 # was wrong
+ Performance VDOL freeFlyingRobot_10 COO 204 0.000378 0.000723 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL freeFlyingRobot_10 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL freeFlyingRobot_10 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL freeFlyingRobot_10 IE 204 0.000157 0.000021 
+WARNING! # 28 out of 5219 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL freeFlyingRobot_10 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL freeFlyingRobot_10 ESB-d 204 0.001423 0.000180 
+WARNING! # 28 out of 5219 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL freeFlyingRobot_10 ESB-s 204 0.001585 0.000139 
+WARNING! # 28 out of 5219 # was wrong
+**************
+      CVR      
+**************
+ Performance VDOL freeFlyingRobot_10 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL freeFlyingRobot_10 CSR5 204 0.000222 0.000032 
+WARNING! # 26 out of 5219 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL freeFlyingRobot_10 VHCC 204 0.064242 0.000034 
+WARNING! # 114 out of 5219 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 24 out of 5219 # was wrong
+ Performance VDOL freeFlyingRobot_10 CSR 272 0.001710 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 24 out of 5219 # was wrong
+ Performance VDOL freeFlyingRobot_10 COO 272 0.000404 0.000835 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL freeFlyingRobot_10 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL freeFlyingRobot_10 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL freeFlyingRobot_10 IE 272 0.000182 0.000029 
+WARNING! # 72 out of 5219 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL freeFlyingRobot_10 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL freeFlyingRobot_10 ESB-d 272 0.001648 0.000207 
+WARNING! # 72 out of 5219 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL freeFlyingRobot_10 ESB-s 272 0.001771 0.000155 
+WARNING! # 72 out of 5219 # was wrong
+**************
+      CVR      
+**************
+ Performance VDOL freeFlyingRobot_10 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL freeFlyingRobot_10 CSR5 272 0.000297 0.000041 
+WARNING! # 62 out of 5219 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL freeFlyingRobot_10 VHCC 272 0.077987 0.000039 
+WARNING! # 111 out of 5219 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

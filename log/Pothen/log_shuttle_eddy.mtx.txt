@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Pothen/shuttle_eddy.mtx
+Reading matrix completed
+Basic informations
+        numRows = 10430
+        numCols = 10430
+            nnz = 114032
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen shuttle_eddy CSR 68 0.006737 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen shuttle_eddy COO 68 0.001906 0.001148 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen shuttle_eddy CSC 68 0.003055 0.000337 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 10430 # was wrong
+ Performance Pothen shuttle_eddy DIA 68 0.077919 0.015583 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen shuttle_eddy IE 68 0.001589 0.000128 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 10430 # was wrong
+ Performance Pothen shuttle_eddy BSR 68 0.020390 0.000036 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen shuttle_eddy ESB-d 68 0.002017 0.000479 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen shuttle_eddy ESB-s 68 0.001924 0.000429 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen shuttle_eddy CVR 68 0.000217 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen shuttle_eddy CSR5 68 0.000903 0.000019 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen shuttle_eddy VHCC 68 0.061767 0.000033 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen shuttle_eddy CSR 136 0.002552 0.000039 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen shuttle_eddy COO 136 0.000652 0.001503 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen shuttle_eddy CSC 136 0.002646 0.000403 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 10430 # was wrong
+ Performance Pothen shuttle_eddy DIA 136 0.107228 0.016638 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen shuttle_eddy IE 136 0.000872 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 5267 out of 10430 # was wrong
+ Performance Pothen shuttle_eddy BSR 136 0.020549 0.000041 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen shuttle_eddy ESB-d 136 0.002788 0.000866 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen shuttle_eddy ESB-s 136 0.002564 0.000785 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen shuttle_eddy CVR 136 0.000109 0.000016 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen shuttle_eddy CSR5 136 0.000263 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen shuttle_eddy VHCC 136 0.103669 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen shuttle_eddy CSR 204 0.004694 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen shuttle_eddy COO 204 0.003271 0.002018 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen shuttle_eddy CSC 204 0.003458 0.000494 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 10430 # was wrong
+ Performance Pothen shuttle_eddy DIA 204 0.143723 0.016256 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen shuttle_eddy IE 204 0.001052 0.000030 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4888 out of 10430 # was wrong
+ Performance Pothen shuttle_eddy BSR 204 0.033689 0.000141 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen shuttle_eddy ESB-d 204 0.003573 0.001276 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen shuttle_eddy ESB-s 204 0.003667 0.001185 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen shuttle_eddy CVR 204 0.000112 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen shuttle_eddy CSR5 204 0.000313 0.000036 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen shuttle_eddy VHCC 204 0.144440 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen shuttle_eddy CSR 272 0.005779 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen shuttle_eddy COO 272 0.003777 0.002355 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen shuttle_eddy CSC 272 0.003861 0.000535 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 10430 # was wrong
+ Performance Pothen shuttle_eddy DIA 272 0.163598 0.015545 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen shuttle_eddy IE 272 0.001095 0.000055 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 10424 out of 10430 # was wrong
+ Performance Pothen shuttle_eddy BSR 272 0.037150 0.000151 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen shuttle_eddy ESB-d 272 0.004122 0.001484 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen shuttle_eddy ESB-s 272 0.004231 0.001392 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen shuttle_eddy CVR 272 0.000177 0.000020 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen shuttle_eddy CSR5 272 0.000421 0.000043 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen shuttle_eddy VHCC 272 0.172470 0.000063 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

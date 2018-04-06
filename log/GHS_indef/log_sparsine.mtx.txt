@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/sparsine.mtx
+Reading matrix completed
+Basic informations
+        numRows = 50001
+        numCols = 50001
+            nnz = 1598992
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef sparsine CSR 68 0.072390 0.000210 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef sparsine COO 68 0.011919 0.022315 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_indef sparsine CSC 68 0.100492 0.002879 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_indef sparsine DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef sparsine IE 68 0.002119 0.000289 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 50001 # was wrong
+ Performance GHS_indef sparsine BSR 68 0.370022 0.000968 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef sparsine ESB-d 68 0.030582 0.001546 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef sparsine ESB-s 68 0.027164 0.001282 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef sparsine CVR 68 0.000281 0.000162 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef sparsine CSR5 68 0.001831 0.000143 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef sparsine VHCC 68 1.011868 0.000482 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef sparsine CSR 136 0.066166 0.000229 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef sparsine COO 136 0.005644 0.026110 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_indef sparsine CSC 136 0.096240 0.004001 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_indef sparsine DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef sparsine IE 136 0.000855 0.000149 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 37 out of 50001 # was wrong
+ Performance GHS_indef sparsine BSR 136 0.420801 0.001211 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef sparsine ESB-d 136 0.027753 0.002295 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef sparsine ESB-s 136 0.030464 0.002025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef sparsine CVR 136 0.000203 0.000122 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef sparsine CSR5 136 0.001056 0.000142 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef sparsine VHCC 136 1.152621 0.000309 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef sparsine CSR 204 0.096757 0.000261 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef sparsine COO 204 0.007342 0.028817 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_indef sparsine CSC 204 0.099621 0.005178 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_indef sparsine DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef sparsine IE 204 0.001057 0.000181 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 50001 # was wrong
+ Performance GHS_indef sparsine BSR 204 0.450998 0.001050 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef sparsine ESB-d 204 0.038158 0.003214 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef sparsine ESB-s 204 0.043877 0.002927 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef sparsine CVR 204 0.000188 0.000122 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef sparsine CSR5 204 0.000877 0.000161 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef sparsine VHCC 204 1.188241 0.000278 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef sparsine CSR 272 0.127708 0.000344 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef sparsine COO 272 0.030870 0.028235 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_indef sparsine CSC 272 0.095183 0.005502 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_indef sparsine DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef sparsine IE 272 0.001259 0.000215 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 34338 out of 50001 # was wrong
+ Performance GHS_indef sparsine BSR 272 0.458023 0.002682 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef sparsine ESB-d 272 0.059388 0.003687 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef sparsine ESB-s 272 0.048909 0.003320 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef sparsine CVR 272 0.000304 0.000143 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef sparsine CSR5 272 0.000801 0.000229 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef sparsine VHCC 272 1.241035 0.000256 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

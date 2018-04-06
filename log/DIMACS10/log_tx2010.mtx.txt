@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/tx2010.mtx
+Reading matrix completed
+Basic informations
+        numRows = 914232
+        numCols = 914232
+            nnz = 4456272
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 tx2010 CSR 68 0.153092 0.001179 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 tx2010 COO 68 0.034875 0.049738 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 tx2010 CSC 68 0.204168 0.014400 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 tx2010 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 tx2010 IE 68 0.002944 0.001295 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 tx2010 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 tx2010 ESB-d 68 0.110971 0.007281 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 tx2010 ESB-s 68 0.113416 0.001315 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 tx2010 CVR 68 0.002614 0.000791 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 tx2010 CSR5 68 0.003943 0.000805 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 tx2010 VHCC 68 3.120655 0.002012 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 tx2010 CSR 136 0.143723 0.001094 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 tx2010 COO 136 0.037325 0.064941 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 tx2010 CSC 136 0.235334 0.016206 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 tx2010 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 tx2010 IE 136 0.001493 0.001011 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 tx2010 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 tx2010 ESB-d 136 0.151609 0.007344 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 tx2010 ESB-s 136 0.129482 0.000953 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 tx2010 CVR 136 0.000875 0.000501 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 tx2010 CSR5 136 0.002761 0.000655 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 tx2010 VHCC 136 3.235947 0.001306 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 tx2010 CSR 204 0.191740 0.000947 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 tx2010 COO 204 0.050950 0.084647 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 tx2010 CSC 204 0.247360 0.019698 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 tx2010 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 tx2010 IE 204 0.001580 0.000879 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 tx2010 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 tx2010 ESB-d 204 0.173538 0.007561 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 tx2010 ESB-s 204 0.178978 0.000959 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 tx2010 CVR 204 0.000715 0.000447 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 tx2010 CSR5 204 0.002695 0.000698 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 tx2010 VHCC 204 3.179888 0.001205 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 tx2010 CSR 272 0.205988 0.000854 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 tx2010 COO 272 0.129048 0.091165 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 tx2010 CSC 272 0.247051 0.020967 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 tx2010 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 tx2010 IE 272 0.001822 0.000859 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 tx2010 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 tx2010 ESB-d 272 0.210130 0.007989 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 tx2010 ESB-s 272 0.195255 0.000892 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 tx2010 CVR 272 0.000796 0.000450 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 tx2010 CSR5 272 0.002424 0.000684 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 tx2010 VHCC 272 3.316819 0.001051 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

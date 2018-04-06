@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_psdef/cvxbqp1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 50001
+        numCols = 50001
+            nnz = 399968
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 CSR 68 0.016279 0.000127 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 COO 68 0.006324 0.003799 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 CSC 68 0.014301 0.001376 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_psdef cvxbqp1 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef cvxbqp1 IE 68 0.001544 0.000186 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 50001 # was wrong
+ Performance GHS_psdef cvxbqp1 BSR 68 0.118377 0.000173 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef cvxbqp1 ESB-d 68 0.009543 0.001464 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef cvxbqp1 ESB-s 68 0.008148 0.001132 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef cvxbqp1 CVR 68 0.000281 0.000044 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef cvxbqp1 CSR5 68 0.000942 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef cvxbqp1 VHCC 68 0.235791 0.000121 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 CSR 136 0.009735 0.000117 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 COO 136 0.002384 0.005079 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 CSC 136 0.013947 0.001658 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_psdef cvxbqp1 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef cvxbqp1 IE 136 0.000705 0.000109 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 50001 # was wrong
+ Performance GHS_psdef cvxbqp1 BSR 136 0.191707 0.000223 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef cvxbqp1 ESB-d 136 0.009308 0.002350 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef cvxbqp1 ESB-s 136 0.010272 0.001794 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef cvxbqp1 CVR 136 0.000227 0.000037 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef cvxbqp1 CSR5 136 0.000486 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef cvxbqp1 VHCC 136 0.355481 0.000097 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 CSR 204 0.013753 0.000152 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 COO 204 0.003322 0.006867 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 CSC 204 0.017467 0.002009 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_psdef cvxbqp1 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef cvxbqp1 IE 204 0.000958 0.000140 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 48954 out of 50001 # was wrong
+ Performance GHS_psdef cvxbqp1 BSR 204 0.203506 0.000194 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef cvxbqp1 ESB-d 204 0.013406 0.003136 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef cvxbqp1 ESB-s 204 0.014421 0.002755 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef cvxbqp1 CVR 204 0.000239 0.000038 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef cvxbqp1 CSR5 204 0.000462 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef cvxbqp1 VHCC 204 0.435652 0.000099 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 CSR 272 0.017661 0.000191 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 COO 272 0.003759 0.008157 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef cvxbqp1 CSC 272 0.019228 0.002165 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_psdef cvxbqp1 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef cvxbqp1 IE 272 0.001239 0.000154 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 24991 out of 50001 # was wrong
+ Performance GHS_psdef cvxbqp1 BSR 272 0.206605 0.000451 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef cvxbqp1 ESB-d 272 0.015667 0.003639 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef cvxbqp1 ESB-s 272 0.016531 0.003322 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef cvxbqp1 CVR 272 0.000350 0.000039 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef cvxbqp1 CSR5 272 0.000556 0.000056 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef cvxbqp1 VHCC 272 0.476716 0.000098 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

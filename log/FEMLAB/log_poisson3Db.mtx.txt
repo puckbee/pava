@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/FEMLAB/poisson3Db.mtx
+Reading matrix completed
+Basic informations
+        numRows = 85624
+        numCols = 85624
+            nnz = 2374960
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Db CSR 68 0.223863 0.000554 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB poisson3Db COO 68 0.014886 0.042052 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB poisson3Db CSC 68 0.212919 0.008447 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FEMLAB poisson3Db DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB poisson3Db IE 68 0.002082 0.000372 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Db BSR 68 0.629409 0.003188 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB poisson3Db ESB-d 68 0.037366 0.000756 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB poisson3Db ESB-s 68 0.035143 0.000876 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB poisson3Db CVR 68 0.000470 0.000291 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB poisson3Db CSR5 68 0.002156 0.000334 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB poisson3Db VHCC 68 1.382681 0.000987 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Db CSR 136 0.218072 0.000431 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB poisson3Db COO 136 0.009034 0.046188 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB poisson3Db CSC 136 0.210250 0.011976 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FEMLAB poisson3Db DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB poisson3Db IE 136 0.000845 0.000357 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Db BSR 136 0.670940 0.002234 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB poisson3Db ESB-d 136 0.039088 0.000756 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB poisson3Db ESB-s 136 0.043130 0.000594 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB poisson3Db CVR 136 0.000309 0.000223 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB poisson3Db CSR5 136 0.001439 0.000304 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB poisson3Db VHCC 136 1.566169 0.000619 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Db CSR 204 0.237836 0.000484 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB poisson3Db COO 204 0.011588 0.047221 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB poisson3Db CSC 204 0.225266 0.015436 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FEMLAB poisson3Db DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB poisson3Db IE 204 0.001186 0.000313 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Db BSR 204 0.706489 0.002109 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB poisson3Db ESB-d 204 0.054292 0.000786 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB poisson3Db ESB-s 204 0.059871 0.000583 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB poisson3Db CVR 204 0.000334 0.000217 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB poisson3Db CSR5 204 0.001245 0.000328 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB poisson3Db VHCC 204 1.614909 0.000516 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Db CSR 272 0.292375 0.000439 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB poisson3Db COO 272 0.045910 0.044919 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB poisson3Db CSC 272 0.216244 0.015682 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FEMLAB poisson3Db DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB poisson3Db IE 272 0.001249 0.000301 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 42903 out of 85624 # was wrong
+ Performance FEMLAB poisson3Db BSR 272 0.704820 0.001862 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB poisson3Db ESB-d 272 0.063553 0.001157 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB poisson3Db ESB-s 272 0.068467 0.000704 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB poisson3Db CVR 272 0.000287 0.000240 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB poisson3Db CSR5 272 0.001124 0.000338 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB poisson3Db VHCC 272 1.592740 0.000672 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Schenk_AFE/af_shell10.mtx
+Reading matrix completed
+Basic informations
+        numRows = 1508066
+        numCols = 1508066
+            nnz = 54180400
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 CSR 68 1.207012 0.004738 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 COO 68 0.269197 0.698275 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 CSC 68 0.877786 0.053864 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Schenk_AFE af_shell10 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_AFE af_shell10 IE 68 0.011751 0.003129 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Schenk_AFE af_shell10 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_AFE af_shell10 ESB-d 68 0.855883 0.049121 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_AFE af_shell10 ESB-s 68 0.836643 0.041277 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_AFE af_shell10 CVR 68 0.010647 0.004616 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_AFE af_shell10 CSR5 68 0.044551 0.004010 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_AFE af_shell10 VHCC 68 31.993156 0.007417 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 CSR 136 1.120830 0.004769 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 COO 136 0.191007 0.722502 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 CSC 136 0.797259 0.059574 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Schenk_AFE af_shell10 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_AFE af_shell10 IE 136 0.006133 0.003766 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Schenk_AFE af_shell10 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_AFE af_shell10 ESB-d 136 0.708247 0.085007 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_AFE af_shell10 ESB-s 136 0.696046 0.074536 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_AFE af_shell10 CVR 136 0.005781 0.002963 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_AFE af_shell10 CSR5 136 0.025833 0.002846 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_AFE af_shell10 VHCC 136 31.960269 0.004399 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 CSR 204 1.175996 0.005608 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 COO 204 0.211002 0.756196 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 CSC 204 0.826477 0.061112 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Schenk_AFE af_shell10 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_AFE af_shell10 IE 204 0.006430 0.004726 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Schenk_AFE af_shell10 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_AFE af_shell10 ESB-d 204 0.750011 0.121827 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_AFE af_shell10 ESB-s 204 0.711910 0.111250 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_AFE af_shell10 CVR 204 0.005890 0.002566 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_AFE af_shell10 CSR5 204 0.023458 0.002534 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_AFE af_shell10 VHCC 204 30.855061 0.003696 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 CSR 272 1.163814 0.006008 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 COO 272 0.505235 0.773517 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_AFE af_shell10 CSC 272 0.790122 0.061632 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Schenk_AFE af_shell10 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_AFE af_shell10 IE 272 0.006765 0.005329 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Schenk_AFE af_shell10 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_AFE af_shell10 ESB-d 272 0.757954 0.139891 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_AFE af_shell10 ESB-s 272 0.701610 0.128301 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_AFE af_shell10 CVR 272 0.006585 0.002491 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_AFE af_shell10 CSR5 272 0.021044 0.002495 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_AFE af_shell10 VHCC 272 31.109823 0.003490 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

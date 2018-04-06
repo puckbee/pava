@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Dziekonski/dielFilterV2clx.mtx
+Reading matrix completed
+Basic informations
+        numRows = 607233
+        numCols = 607233
+            nnz = 25916512
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx CSR 68 0.663696 0.002129 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx COO 68 0.131237 0.369452 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx CSC 68 0.559455 0.029255 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Dziekonski dielFilterV2clx DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Dziekonski dielFilterV2clx IE 68 0.006822 0.001651 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Dziekonski dielFilterV2clx BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Dziekonski dielFilterV2clx ESB-d 68 0.441453 0.018139 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Dziekonski dielFilterV2clx ESB-s 68 0.446807 0.015000 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Dziekonski dielFilterV2clx CVR 68 0.005825 0.002370 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Dziekonski dielFilterV2clx CSR5 68 0.022407 0.002308 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Dziekonski dielFilterV2clx VHCC 68 16.335586 0.005173 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx CSR 136 0.636595 0.002076 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx COO 136 0.087513 0.395000 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx CSC 136 0.542523 0.033514 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Dziekonski dielFilterV2clx DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Dziekonski dielFilterV2clx IE 136 0.003546 0.001483 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Dziekonski dielFilterV2clx BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Dziekonski dielFilterV2clx ESB-d 136 0.443782 0.027937 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Dziekonski dielFilterV2clx ESB-s 136 0.369276 0.023915 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Dziekonski dielFilterV2clx CVR 136 0.002719 0.001557 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Dziekonski dielFilterV2clx CSR5 136 0.012628 0.001661 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Dziekonski dielFilterV2clx VHCC 136 16.602595 0.003044 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx CSR 204 0.670199 0.002423 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx COO 204 0.108625 0.430663 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx CSC 204 0.530162 0.036633 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Dziekonski dielFilterV2clx DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Dziekonski dielFilterV2clx IE 204 0.003629 0.001886 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Dziekonski dielFilterV2clx BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Dziekonski dielFilterV2clx ESB-d 204 0.424174 0.038151 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Dziekonski dielFilterV2clx ESB-s 204 0.402043 0.034129 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Dziekonski dielFilterV2clx CVR 204 0.002914 0.001344 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Dziekonski dielFilterV2clx CSR5 204 0.012579 0.001516 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Dziekonski dielFilterV2clx VHCC 204 15.912120 0.002647 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx CSR 272 0.891134 0.002901 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx COO 272 0.214994 0.427867 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Dziekonski dielFilterV2clx CSC 272 0.513833 0.037461 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Dziekonski dielFilterV2clx DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Dziekonski dielFilterV2clx IE 272 0.003874 0.002226 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Dziekonski dielFilterV2clx BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Dziekonski dielFilterV2clx ESB-d 272 0.477630 0.042421 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Dziekonski dielFilterV2clx ESB-s 272 0.409846 0.037961 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Dziekonski dielFilterV2clx CVR 272 0.003062 0.001539 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Dziekonski dielFilterV2clx CSR5 272 0.010459 0.001491 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Dziekonski dielFilterV2clx VHCC 272 15.908037 0.002663 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

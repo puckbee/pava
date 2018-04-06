@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/PARSEC/Si34H36.mtx
+Reading matrix completed
+Basic informations
+        numRows = 97570
+        numCols = 97570
+            nnz = 5253952
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC Si34H36 CSR 68 0.138462 0.000399 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC Si34H36 COO 68 0.027896 0.072411 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC Si34H36 CSC 68 0.133217 0.005697 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance PARSEC Si34H36 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC Si34H36 IE 68 0.003653 0.000437 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance PARSEC Si34H36 BSR 68 0.824059 0.001005 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC Si34H36 ESB-d 68 0.092877 0.003482 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC Si34H36 ESB-s 68 0.095145 0.002737 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC Si34H36 CVR 68 0.001840 0.000522 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC Si34H36 CSR5 68 0.003555 0.000479 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC Si34H36 VHCC 68 3.111587 0.000826 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC Si34H36 CSR 136 0.186440 0.000395 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC Si34H36 COO 136 0.034426 0.074366 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC Si34H36 CSC 136 0.130144 0.006671 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance PARSEC Si34H36 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC Si34H36 IE 136 0.001200 0.000290 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 12748 out of 97570 # was wrong
+ Performance PARSEC Si34H36 BSR 136 0.890203 0.000927 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC Si34H36 ESB-d 136 0.083949 0.005595 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC Si34H36 ESB-s 136 0.088259 0.004669 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC Si34H36 CVR 136 0.000640 0.000352 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC Si34H36 CSR5 136 0.002540 0.000362 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC Si34H36 VHCC 136 3.172191 0.000543 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC Si34H36 CSR 204 0.192712 0.000437 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC Si34H36 COO 204 0.022022 0.075700 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC Si34H36 CSC 204 0.138609 0.008933 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance PARSEC Si34H36 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC Si34H36 IE 204 0.001716 0.000380 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance PARSEC Si34H36 BSR 204 0.998475 0.000793 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC Si34H36 ESB-d 204 0.116904 0.008010 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC Si34H36 ESB-s 204 0.123153 0.007288 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC Si34H36 CVR 204 0.000588 0.000305 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC Si34H36 CSR5 204 0.002451 0.000355 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC Si34H36 VHCC 204 3.246600 0.000543 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC Si34H36 CSR 272 0.215627 0.000507 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC Si34H36 COO 272 0.099336 0.072982 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC Si34H36 CSC 272 0.138585 0.009908 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance PARSEC Si34H36 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC Si34H36 IE 272 0.001690 0.000425 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 92689 out of 97570 # was wrong
+ Performance PARSEC Si34H36 BSR 272 0.871917 0.000873 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC Si34H36 ESB-d 272 0.186880 0.009426 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC Si34H36 ESB-s 272 0.140673 0.008551 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC Si34H36 CVR 272 0.000748 0.000279 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC Si34H36 CSR5 272 0.002078 0.000410 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC Si34H36 VHCC 272 3.247918 0.000498 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

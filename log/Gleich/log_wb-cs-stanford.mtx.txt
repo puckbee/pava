@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Gleich/wb-cs-stanford.mtx
+Reading matrix completed
+Basic informations
+        numRows = 9915
+        numCols = 9915
+            nnz = 36864
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford CSR 68 0.004834 0.000020 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford COO 68 0.000798 0.000389 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford CSC 68 0.001441 0.000155 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 9915 # was wrong
+ Performance Gleich wb-cs-stanford DIA 68 0.129772 0.043969 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gleich wb-cs-stanford IE 68 0.001550 0.000177 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 9915 # was wrong
+ Performance Gleich wb-cs-stanford BSR 68 0.013647 0.000030 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gleich wb-cs-stanford ESB-d 68 0.001127 0.000095 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gleich wb-cs-stanford ESB-s 68 0.001030 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gleich wb-cs-stanford CVR 68 0.000097 0.000011 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gleich wb-cs-stanford CSR5 68 0.000773 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gleich wb-cs-stanford VHCC 68 0.019422 0.000019 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford CSR 136 0.000947 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford COO 136 0.000440 0.000525 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford CSC 136 0.001353 0.000190 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 9915 # was wrong
+ Performance Gleich wb-cs-stanford DIA 136 0.179663 0.043957 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gleich wb-cs-stanford IE 136 0.000903 0.000020 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 9915 # was wrong
+ Performance Gleich wb-cs-stanford BSR 136 0.015842 0.000040 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gleich wb-cs-stanford ESB-d 136 0.001258 0.000108 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gleich wb-cs-stanford ESB-s 136 0.001460 0.000035 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gleich wb-cs-stanford CVR 136 0.000067 0.000013 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gleich wb-cs-stanford CSR5 136 0.000260 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gleich wb-cs-stanford VHCC 136 0.032178 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford CSR 204 0.001225 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford COO 204 0.001197 0.000669 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford CSC 204 0.001808 0.000250 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 9915 # was wrong
+ Performance Gleich wb-cs-stanford DIA 204 0.208809 0.044270 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gleich wb-cs-stanford IE 204 0.001003 0.000024 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 6425 out of 9915 # was wrong
+ Performance Gleich wb-cs-stanford BSR 204 0.020835 0.000045 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gleich wb-cs-stanford ESB-d 204 0.001764 0.000121 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gleich wb-cs-stanford ESB-s 204 0.001906 0.000042 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gleich wb-cs-stanford CVR 204 0.000085 0.000015 
+WARNING! # 3 out of 9915 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gleich wb-cs-stanford CSR5 204 0.000275 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gleich wb-cs-stanford VHCC 204 0.046456 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford CSR 272 0.001570 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford COO 272 0.001372 0.000762 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gleich wb-cs-stanford CSC 272 0.001983 0.000276 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 9915 # was wrong
+ Performance Gleich wb-cs-stanford DIA 272 0.212804 0.044287 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gleich wb-cs-stanford IE 272 0.001256 0.000049 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 9915 # was wrong
+ Performance Gleich wb-cs-stanford BSR 272 0.022678 0.000052 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gleich wb-cs-stanford ESB-d 272 0.001958 0.000139 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gleich wb-cs-stanford ESB-s 272 0.002142 0.000048 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gleich wb-cs-stanford CVR 272 0.000110 0.000018 
+WARNING! # 6 out of 9915 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gleich wb-cs-stanford CSR5 272 0.000393 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gleich wb-cs-stanford VHCC 272 0.055345 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

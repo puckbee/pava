@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/JGD_G5/IG5-18.mtx
+Reading matrix completed
+Basic informations
+        numRows = 47895
+        numCols = 41551
+            nnz = 1790496
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_G5 IG5-18 CSR 68 0.100136 0.000114 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_G5 IG5-18 COO 68 0.013264 0.024362 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance JGD_G5 IG5-18 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance JGD_G5 IG5-18 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_G5 IG5-18 IE 68 0.002862 0.000196 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance JGD_G5 IG5-18 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_G5 IG5-18 ESB-d 68 0.032774 0.000488 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_G5 IG5-18 ESB-s 68 0.033017 0.000341 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_G5 IG5-18 CVR 68 0.000467 0.000162 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_G5 IG5-18 CSR5 68 0.001931 0.000128 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_G5 IG5-18 VHCC 68 0.945844 0.000353 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_G5 IG5-18 CSR 136 0.089668 0.000103 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_G5 IG5-18 COO 136 0.006222 0.028035 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance JGD_G5 IG5-18 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance JGD_G5 IG5-18 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_G5 IG5-18 IE 136 0.001073 0.000122 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance JGD_G5 IG5-18 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_G5 IG5-18 ESB-d 136 0.032233 0.000456 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_G5 IG5-18 ESB-s 136 0.034743 0.000229 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_G5 IG5-18 CVR 136 0.000374 0.000117 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_G5 IG5-18 CSR5 136 0.001133 0.000118 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_G5 IG5-18 VHCC 136 1.103730 0.000248 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_G5 IG5-18 CSR 204 0.152382 0.000114 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_G5 IG5-18 COO 204 0.039114 0.028852 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance JGD_G5 IG5-18 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance JGD_G5 IG5-18 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_G5 IG5-18 IE 204 0.001319 0.000116 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance JGD_G5 IG5-18 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_G5 IG5-18 ESB-d 204 0.082229 0.000475 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_G5 IG5-18 ESB-s 204 0.047988 0.000221 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_G5 IG5-18 CVR 204 0.000421 0.000107 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_G5 IG5-18 CSR5 204 0.001150 0.000127 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_G5 IG5-18 VHCC 204 1.161249 0.000217 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_G5 IG5-18 CSR 272 0.192950 0.000113 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_G5 IG5-18 COO 272 0.014219 0.030746 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance JGD_G5 IG5-18 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance JGD_G5 IG5-18 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_G5 IG5-18 IE 272 0.001578 0.000128 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance JGD_G5 IG5-18 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_G5 IG5-18 ESB-d 272 0.050756 0.000502 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_G5 IG5-18 ESB-s 272 0.054978 0.000204 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_G5 IG5-18 CVR 272 0.000520 0.000105 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_G5 IG5-18 CSR5 272 0.001062 0.000125 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_G5 IG5-18 VHCC 272 1.182269 0.000204 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

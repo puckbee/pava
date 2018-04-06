@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/mario001.mtx
+Reading matrix completed
+Basic informations
+        numRows = 38435
+        numCols = 23131
+            nnz = 229296
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 2801 out of 38435 # was wrong
+ Performance GHS_indef mario001 CSR 68 0.011975 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 2801 out of 38435 # was wrong
+ Performance GHS_indef mario001 COO 68 0.004413 0.002245 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef mario001 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef mario001 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef mario001 IE 68 0.002393 0.000124 
+WARNING! # 2801 out of 38435 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef mario001 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef mario001 ESB-d 68 0.007440 0.000913 
+WARNING! # 2801 out of 38435 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef mario001 ESB-s 68 0.005566 0.000786 
+WARNING! # 2801 out of 38435 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef mario001 CVR 68 0.000212 0.000029 
+WARNING! # 2801 out of 38435 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef mario001 CSR5 68 0.000987 0.000025 
+WARNING! # 2743 out of 38435 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef mario001 VHCC 68 0.140910 0.000091 
+WARNING! # 2745 out of 38435 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 4186 out of 38435 # was wrong
+ Performance GHS_indef mario001 CSR 136 0.007931 0.000066 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 17627 out of 38435 # was wrong
+ Performance GHS_indef mario001 COO 136 0.001614 0.003132 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef mario001 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef mario001 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef mario001 IE 136 0.000588 0.000075 
+WARNING! # 22771 out of 38435 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef mario001 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef mario001 ESB-d 136 0.005978 0.001045 
+WARNING! # 15718 out of 38435 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef mario001 ESB-s 136 0.006215 0.000830 
+WARNING! # 4368 out of 38435 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef mario001 CVR 136 0.000164 0.000028 
+WARNING! # 4377 out of 38435 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef mario001 CSR5 136 0.000427 0.000034 
+WARNING! # 4081 out of 38435 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef mario001 VHCC 136 0.231918 0.000065 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef mario001 CSR 204 0.009827 0.000081 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef mario001 COO 204 0.002450 0.004482 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef mario001 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef mario001 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef mario001 IE 204 0.000887 0.000080 
+WARNING! # 21350 out of 38435 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef mario001 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef mario001 ESB-d 204 0.008462 0.001249 
+WARNING! # 21350 out of 38435 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef mario001 ESB-s 204 0.008783 0.001014 
+WARNING! # 21350 out of 38435 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef mario001 CVR 204 0.000175 0.000031 
+WARNING! # 21350 out of 38435 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef mario001 CSR5 204 0.000422 0.000045 
+WARNING! # 21684 out of 38435 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef mario001 VHCC 204 0.302787 0.000067 
+WARNING! # 21546 out of 38435 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef mario001 CSR 272 0.012155 0.000091 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef mario001 COO 272 0.002687 0.004966 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef mario001 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef mario001 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef mario001 IE 272 0.001117 0.000098 
+WARNING! # 2411 out of 38435 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef mario001 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef mario001 ESB-d 272 0.009871 0.001415 
+WARNING! # 10345 out of 38435 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef mario001 ESB-s 272 0.010247 0.001180 
+WARNING! # 10345 out of 38435 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef mario001 CVR 272 0.000192 0.000034 
+WARNING! # 11056 out of 38435 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef mario001 CSR5 272 0.000515 0.000053 
+WARNING! # 12838 out of 38435 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef mario001 VHCC 272 0.337820 0.000064 
+WARNING! # 20268 out of 38435 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

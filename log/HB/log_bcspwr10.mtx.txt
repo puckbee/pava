@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/bcspwr10.mtx
+Reading matrix completed
+Basic informations
+        numRows = 5301
+        numCols = 5301
+            nnz = 27152
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB bcspwr10 CSR 68 0.004196 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB bcspwr10 COO 68 0.000590 0.000238 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB bcspwr10 CSC 68 0.001021 0.000167 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5301 # was wrong
+ Performance HB bcspwr10 DIA 68 0.170141 0.029392 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB bcspwr10 IE 68 0.001402 0.000096 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 5301 # was wrong
+ Performance HB bcspwr10 BSR 68 0.009105 0.000039 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB bcspwr10 ESB-d 68 0.001422 0.000227 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB bcspwr10 ESB-s 68 0.000636 0.000190 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB bcspwr10 CVR 68 0.000132 0.000011 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB bcspwr10 CSR5 68 0.000745 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB bcspwr10 VHCC 68 0.019992 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB bcspwr10 CSR 136 0.000703 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB bcspwr10 COO 136 0.000289 0.000295 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB bcspwr10 CSC 136 0.001195 0.000192 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5301 # was wrong
+ Performance HB bcspwr10 DIA 136 0.227481 0.029494 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB bcspwr10 IE 136 0.000859 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 5301 # was wrong
+ Performance HB bcspwr10 BSR 136 0.007431 0.000096 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB bcspwr10 ESB-d 136 0.000849 0.000372 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB bcspwr10 ESB-s 136 0.000926 0.000322 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB bcspwr10 CVR 136 0.000062 0.000014 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB bcspwr10 CSR5 136 0.000184 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB bcspwr10 VHCC 136 0.031824 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB bcspwr10 CSR 204 0.001051 0.000050 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB bcspwr10 COO 204 0.000338 0.000431 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB bcspwr10 CSC 204 0.001446 0.000234 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5301 # was wrong
+ Performance HB bcspwr10 DIA 204 0.250029 0.030472 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB bcspwr10 IE 204 0.000872 0.000025 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 5301 # was wrong
+ Performance HB bcspwr10 BSR 204 0.009138 0.000111 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB bcspwr10 ESB-d 204 0.001130 0.000531 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB bcspwr10 ESB-s 204 0.001232 0.000484 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB bcspwr10 CVR 204 0.000061 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB bcspwr10 CSR5 204 0.000197 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB bcspwr10 VHCC 204 0.048275 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB bcspwr10 CSR 272 0.001276 0.000049 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB bcspwr10 COO 272 0.000402 0.000475 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB bcspwr10 CSC 272 0.001594 0.000255 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5301 # was wrong
+ Performance HB bcspwr10 DIA 272 0.256225 0.029603 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB bcspwr10 IE 272 0.002162 0.000054 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 5301 # was wrong
+ Performance HB bcspwr10 BSR 272 0.009524 0.000302 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB bcspwr10 ESB-d 272 0.001228 0.000625 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB bcspwr10 ESB-s 272 0.001401 0.000577 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB bcspwr10 CVR 272 0.000168 0.000028 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB bcspwr10 CSR5 272 0.000284 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB bcspwr10 VHCC 272 0.060217 0.000040 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

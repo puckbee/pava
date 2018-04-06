@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/LPnetlib/lp_maros_r7.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3137
+        numCols = 9409
+            nnz = 144848
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LPnetlib lp_maros_r7 CSR 68 0.007283 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LPnetlib lp_maros_r7 COO 68 0.002199 0.002022 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance LPnetlib lp_maros_r7 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance LPnetlib lp_maros_r7 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LPnetlib lp_maros_r7 IE 68 0.001578 0.000084 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance LPnetlib lp_maros_r7 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LPnetlib lp_maros_r7 ESB-d 68 0.002297 0.000039 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LPnetlib lp_maros_r7 ESB-s 68 0.002224 0.000021 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance LPnetlib lp_maros_r7 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LPnetlib lp_maros_r7 CSR5 68 0.000816 0.000020 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LPnetlib lp_maros_r7 VHCC 68 0.075608 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LPnetlib lp_maros_r7 CSR 136 0.002863 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LPnetlib lp_maros_r7 COO 136 0.000525 0.002394 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance LPnetlib lp_maros_r7 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance LPnetlib lp_maros_r7 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LPnetlib lp_maros_r7 IE 136 0.000146 0.000018 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance LPnetlib lp_maros_r7 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LPnetlib lp_maros_r7 ESB-d 136 0.002543 0.000051 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LPnetlib lp_maros_r7 ESB-s 136 0.002505 0.000024 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance LPnetlib lp_maros_r7 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LPnetlib lp_maros_r7 CSR5 136 0.000310 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LPnetlib lp_maros_r7 VHCC 136 0.126069 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LPnetlib lp_maros_r7 CSR 204 0.004247 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LPnetlib lp_maros_r7 COO 204 0.003829 0.003204 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance LPnetlib lp_maros_r7 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance LPnetlib lp_maros_r7 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LPnetlib lp_maros_r7 IE 204 0.000146 0.000019 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance LPnetlib lp_maros_r7 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LPnetlib lp_maros_r7 ESB-d 204 0.003629 0.000065 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LPnetlib lp_maros_r7 ESB-s 204 0.003339 0.000027 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance LPnetlib lp_maros_r7 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LPnetlib lp_maros_r7 CSR5 204 0.000332 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LPnetlib lp_maros_r7 VHCC 204 0.178802 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LPnetlib lp_maros_r7 CSR 272 0.005447 0.000045 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LPnetlib lp_maros_r7 COO 272 0.004199 0.003811 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance LPnetlib lp_maros_r7 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance LPnetlib lp_maros_r7 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LPnetlib lp_maros_r7 IE 272 0.000192 0.000027 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance LPnetlib lp_maros_r7 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LPnetlib lp_maros_r7 ESB-d 272 0.004153 0.000079 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LPnetlib lp_maros_r7 ESB-s 272 0.003879 0.000035 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance LPnetlib lp_maros_r7 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LPnetlib lp_maros_r7 CSR5 272 0.000368 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LPnetlib lp_maros_r7 VHCC 272 0.203027 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

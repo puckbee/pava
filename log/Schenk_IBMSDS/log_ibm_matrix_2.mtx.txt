@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Schenk_IBMSDS/ibm_matrix_2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 51449
+        numCols = 51449
+            nnz = 1056624
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 CSR 68 0.027185 0.000059 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 COO 68 0.009533 0.013445 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 CSC 68 0.021456 0.001307 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS ibm_matrix_2 DIA 68 1.855669 0.417564 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS ibm_matrix_2 IE 68 0.002383 0.000168 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS ibm_matrix_2 BSR 68 0.180296 0.000279 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS ibm_matrix_2 ESB-d 68 0.014971 0.000631 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS ibm_matrix_2 ESB-s 68 0.015893 0.000352 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS ibm_matrix_2 CVR 68 0.000593 0.000096 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS ibm_matrix_2 CSR5 68 0.001598 0.000057 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS ibm_matrix_2 VHCC 68 0.556714 0.000167 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 CSR 136 0.020609 0.000073 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 COO 136 0.004596 0.015918 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 CSC 136 0.019105 0.001625 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS ibm_matrix_2 DIA 136 1.847135 0.418557 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS ibm_matrix_2 IE 136 0.001279 0.000110 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS ibm_matrix_2 BSR 136 0.211307 0.000336 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS ibm_matrix_2 ESB-d 136 0.019172 0.000685 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS ibm_matrix_2 ESB-s 136 0.019866 0.000385 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS ibm_matrix_2 CVR 136 0.000487 0.000068 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS ibm_matrix_2 CSR5 136 0.000977 0.000052 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS ibm_matrix_2 VHCC 136 0.700209 0.000114 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 CSR 204 0.038324 0.000129 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 COO 204 0.024509 0.018655 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 CSC 204 0.016455 0.002127 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS ibm_matrix_2 DIA 204 1.870910 0.417254 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS ibm_matrix_2 IE 204 0.002153 0.000076 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 204 out of 51449 # was wrong
+ Performance Schenk_IBMSDS ibm_matrix_2 BSR 204 0.254124 0.000390 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS ibm_matrix_2 ESB-d 204 0.026247 0.000772 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS ibm_matrix_2 ESB-s 204 0.027638 0.000457 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS ibm_matrix_2 CVR 204 0.000508 0.000061 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS ibm_matrix_2 CSR5 204 0.000928 0.000063 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS ibm_matrix_2 VHCC 204 0.771654 0.000112 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 CSR 272 0.050683 0.000112 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 COO 272 0.028046 0.019677 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS ibm_matrix_2 CSC 272 0.016388 0.002346 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS ibm_matrix_2 DIA 272 1.886046 0.417578 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS ibm_matrix_2 IE 272 0.001343 0.000106 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2054 out of 51449 # was wrong
+ Performance Schenk_IBMSDS ibm_matrix_2 BSR 272 0.262290 0.000457 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS ibm_matrix_2 ESB-d 272 0.030183 0.000823 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS ibm_matrix_2 ESB-s 272 0.031549 0.000524 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS ibm_matrix_2 CVR 272 0.000480 0.000117 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS ibm_matrix_2 CSR5 272 0.000946 0.000070 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS ibm_matrix_2 VHCC 272 0.786446 0.000106 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

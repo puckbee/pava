@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_psdef/bmwcra_1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 148771
+        numCols = 148771
+            nnz = 10792784
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 CSR 68 0.247013 0.000771 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 COO 68 0.054935 0.148897 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 CSC 68 0.179787 0.009021 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_psdef bmwcra_1 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef bmwcra_1 IE 68 0.004463 0.000622 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 BSR 68 1.627190 0.000918 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef bmwcra_1 ESB-d 68 0.167051 0.005694 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef bmwcra_1 ESB-s 68 0.169385 0.005062 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef bmwcra_1 CVR 68 0.003805 0.000928 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef bmwcra_1 CSR5 68 0.010900 0.000854 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef bmwcra_1 VHCC 68 6.450363 0.001539 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 CSR 136 0.230833 0.000769 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 COO 136 0.035615 0.149794 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 CSC 136 0.161417 0.010299 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_psdef bmwcra_1 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef bmwcra_1 IE 136 0.001945 0.000489 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 65263 out of 148771 # was wrong
+ Performance GHS_psdef bmwcra_1 BSR 136 1.579510 0.000822 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef bmwcra_1 ESB-d 136 0.163649 0.009394 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef bmwcra_1 ESB-s 136 0.166611 0.008557 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef bmwcra_1 CVR 136 0.001520 0.000618 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef bmwcra_1 CSR5 136 0.005450 0.000602 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef bmwcra_1 VHCC 136 6.612993 0.000892 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 CSR 204 0.275793 0.000833 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 COO 204 0.043833 0.150186 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 CSC 204 0.160087 0.013083 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_psdef bmwcra_1 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef bmwcra_1 IE 204 0.002069 0.000594 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 53743 out of 148771 # was wrong
+ Performance GHS_psdef bmwcra_1 BSR 204 1.605535 0.000876 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef bmwcra_1 ESB-d 204 0.211466 0.013697 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef bmwcra_1 ESB-s 204 0.209491 0.012761 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef bmwcra_1 CVR 204 0.001468 0.000504 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef bmwcra_1 CSR5 204 0.004984 0.000542 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef bmwcra_1 VHCC 204 6.571609 0.000800 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 CSR 272 0.337304 0.001181 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 COO 272 0.046944 0.149323 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef bmwcra_1 CSC 272 0.160531 0.014430 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance GHS_psdef bmwcra_1 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef bmwcra_1 IE 272 0.002380 0.000699 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 96670 out of 148771 # was wrong
+ Performance GHS_psdef bmwcra_1 BSR 272 1.620221 0.001216 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef bmwcra_1 ESB-d 272 0.226174 0.015998 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef bmwcra_1 ESB-s 272 0.221180 0.015001 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef bmwcra_1 CVR 272 0.001349 0.000473 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef bmwcra_1 CSR5 272 0.004376 0.000554 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef bmwcra_1 VHCC 272 6.476555 0.000901 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

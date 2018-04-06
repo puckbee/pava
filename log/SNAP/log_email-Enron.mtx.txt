@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/SNAP/email-Enron.mtx
+Reading matrix completed
+Basic informations
+        numRows = 36693
+        numCols = 36693
+            nnz = 367664
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP email-Enron CSR 68 0.019395 0.000174 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP email-Enron COO 68 0.005988 0.005154 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP email-Enron CSC 68 0.016027 0.001876 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP email-Enron DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP email-Enron IE 68 0.002014 0.000178 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 36693 # was wrong
+ Performance SNAP email-Enron BSR 68 0.093643 0.001097 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP email-Enron ESB-d 68 0.012054 0.000346 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP email-Enron ESB-s 68 0.007582 0.000938 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP email-Enron CVR 68 0.000345 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP email-Enron CSR5 68 0.001104 0.000036 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP email-Enron VHCC 68 0.219327 0.000132 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP email-Enron CSR 136 0.013000 0.000142 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP email-Enron COO 136 0.002003 0.006435 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP email-Enron CSC 136 0.018137 0.002292 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP email-Enron DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP email-Enron IE 136 0.000650 0.000063 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 36693 # was wrong
+ Performance SNAP email-Enron BSR 136 0.132261 0.000854 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP email-Enron ESB-d 136 0.008850 0.000347 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP email-Enron ESB-s 136 0.010301 0.000651 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP email-Enron CVR 136 0.000156 0.000045 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP email-Enron CSR5 136 0.000521 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP email-Enron VHCC 136 0.340736 0.000091 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP email-Enron CSR 204 0.017823 0.000115 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP email-Enron COO 204 0.009142 0.008630 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP email-Enron CSC 204 0.023346 0.002896 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP email-Enron DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP email-Enron IE 204 0.000882 0.000058 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 36693 # was wrong
+ Performance SNAP email-Enron BSR 204 0.190537 0.000779 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP email-Enron ESB-d 204 0.012061 0.000360 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP email-Enron ESB-s 204 0.014001 0.000568 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP email-Enron CVR 204 0.000193 0.000047 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP email-Enron CSR5 204 0.000586 0.000051 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP email-Enron VHCC 204 0.416516 0.000084 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP email-Enron CSR 272 0.022683 0.000100 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP email-Enron COO 272 0.010494 0.009862 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP email-Enron CSC 272 0.024691 0.003107 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP email-Enron DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP email-Enron IE 272 0.001162 0.000067 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 32008 out of 36693 # was wrong
+ Performance SNAP email-Enron BSR 272 0.197095 0.000658 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP email-Enron ESB-d 272 0.013974 0.000382 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP email-Enron ESB-s 272 0.015659 0.000482 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP email-Enron CVR 272 0.000201 0.000049 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP email-Enron CSR5 272 0.000593 0.000058 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP email-Enron VHCC 272 0.459662 0.000082 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/bloweya.mtx
+Reading matrix completed
+Basic informations
+        numRows = 30005
+        numCols = 20003
+            nnz = 160016
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef bloweya CSR 68 0.008677 0.000050 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef bloweya COO 68 0.002811 0.001278 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef bloweya CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef bloweya DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef bloweya IE 68 0.002069 0.000105 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef bloweya BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef bloweya ESB-d 68 0.005124 0.000471 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef bloweya ESB-s 68 0.004190 0.000340 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef bloweya CVR 68 0.000166 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef bloweya CSR5 68 0.000804 0.000022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef bloweya VHCC 68 0.092567 0.000049 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef bloweya CSR 136 0.004145 0.000056 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef bloweya COO 136 0.001275 0.001881 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef bloweya CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef bloweya DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef bloweya IE 136 0.000583 0.000043 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef bloweya BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef bloweya ESB-d 136 0.004597 0.000563 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef bloweya ESB-s 136 0.004342 0.000396 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef bloweya CVR 136 0.000154 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef bloweya CSR5 136 0.000343 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef bloweya VHCC 136 0.153248 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 4 out of 30005 # was wrong
+ Performance GHS_indef bloweya CSR 204 0.004819 0.000083 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 4 out of 30005 # was wrong
+ Performance GHS_indef bloweya COO 204 0.005240 0.002450 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef bloweya CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef bloweya DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef bloweya IE 204 0.000882 0.000052 
+WARNING! # 4 out of 30005 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef bloweya BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef bloweya ESB-d 204 0.007719 0.000654 
+WARNING! # 4 out of 30005 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef bloweya ESB-s 204 0.006450 0.000453 
+WARNING! # 4 out of 30005 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef bloweya CVR 204 0.000141 0.000024 
+WARNING! # 4 out of 30005 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef bloweya CSR5 204 0.000347 0.000039 
+WARNING! # 4 out of 30005 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef bloweya VHCC 204 0.216969 0.000053 
+WARNING! # 2555 out of 30005 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 4 out of 30005 # was wrong
+ Performance GHS_indef bloweya CSR 272 0.007637 0.000160 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 4 out of 30005 # was wrong
+ Performance GHS_indef bloweya COO 272 0.006244 0.002892 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef bloweya CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef bloweya DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef bloweya IE 272 0.007084 0.000058 
+WARNING! # 2588 out of 30005 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef bloweya BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef bloweya ESB-d 272 0.008818 0.000764 
+WARNING! # 2588 out of 30005 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef bloweya ESB-s 272 0.007408 0.000521 
+WARNING! # 2588 out of 30005 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef bloweya CVR 272 0.000147 0.000027 
+WARNING! # 2588 out of 30005 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef bloweya CSR5 272 0.000433 0.000047 
+WARNING! # 2588 out of 30005 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef bloweya VHCC 272 0.253569 0.000056 
+WARNING! # 2588 out of 30005 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

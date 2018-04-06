@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/SNAP/cit-Patents.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3774769
+        numCols = 3757432
+            nnz = 16518960
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP cit-Patents CSR 68 3.166570 0.016383 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP cit-Patents COO 68 0.117010 0.523902 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP cit-Patents CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP cit-Patents DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP cit-Patents IE 68 0.006001 0.009255 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP cit-Patents BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP cit-Patents ESB-d 68 0.418007 0.030471 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP cit-Patents ESB-s 68 0.409684 0.025483 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP cit-Patents CVR 68 0.007015 0.005027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP cit-Patents CSR5 68 0.019543 0.006488 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP cit-Patents VHCC 68 12.001075 0.015009 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP cit-Patents CSR 136 4.650550 0.016534 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP cit-Patents COO 136 0.116650 0.647709 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP cit-Patents CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP cit-Patents DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP cit-Patents IE 136 0.003076 0.010653 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP cit-Patents BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP cit-Patents ESB-d 136 0.404695 0.030023 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP cit-Patents ESB-s 136 0.368575 0.020461 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP cit-Patents CVR 136 0.003248 0.005382 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP cit-Patents CSR5 136 0.012152 0.006766 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP cit-Patents VHCC 136 11.789886 0.011396 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP cit-Patents CSR 204 4.814833 0.015035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP cit-Patents COO 204 0.156420 0.709030 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP cit-Patents CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP cit-Patents DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP cit-Patents IE 204 0.003393 0.008730 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP cit-Patents BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP cit-Patents ESB-d 204 0.392653 0.031017 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP cit-Patents ESB-s 204 0.404045 0.021708 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP cit-Patents CVR 204 0.002660 0.006466 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP cit-Patents CSR5 204 0.011471 0.007876 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP cit-Patents VHCC 204 11.722225 0.009999 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP cit-Patents CSR 272 4.554807 0.013396 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP cit-Patents COO 272 0.180498 0.718091 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP cit-Patents CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP cit-Patents DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP cit-Patents IE 272 0.003861 0.009862 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP cit-Patents BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP cit-Patents ESB-d 272 0.403555 0.032437 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP cit-Patents ESB-s 272 0.404830 0.017958 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP cit-Patents CVR 272 0.002816 0.005641 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP cit-Patents CSR5 272 0.010791 0.006501 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP cit-Patents VHCC 272 11.785118 0.009139 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

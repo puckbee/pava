@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/JGD_GL7d/GL7d19.mtx
+Reading matrix completed
+Basic informations
+        numRows = 1911131
+        numCols = 1955310
+            nnz = 37322736
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_GL7d GL7d19 CSR 68 7.062574 0.017413 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_GL7d GL7d19 COO 68 0.207129 1.296907 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance JGD_GL7d GL7d19 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance JGD_GL7d GL7d19 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_GL7d GL7d19 IE 68 0.009308 0.013317 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance JGD_GL7d GL7d19 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_GL7d GL7d19 ESB-d 68 0.553275 0.016799 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_GL7d GL7d19 ESB-s 68 0.582942 0.018247 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_GL7d GL7d19 CVR 68 0.008745 0.011504 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_GL7d GL7d19 CSR5 68 0.031395 0.013440 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_GL7d GL7d19 VHCC 68 25.397684 0.020934 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_GL7d GL7d19 CSR 136 10.245012 0.019395 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_GL7d GL7d19 COO 136 0.168011 1.339355 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance JGD_GL7d GL7d19 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance JGD_GL7d GL7d19 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_GL7d GL7d19 IE 136 0.004571 0.013795 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance JGD_GL7d GL7d19 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_GL7d GL7d19 ESB-d 136 0.507774 0.016428 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_GL7d GL7d19 ESB-s 136 0.532339 0.022279 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_GL7d GL7d19 CVR 136 0.004647 0.012037 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_GL7d GL7d19 CSR5 136 0.017824 0.013986 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_GL7d GL7d19 VHCC 136 24.798883 0.014906 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_GL7d GL7d19 CSR 204 9.226246 0.026568 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_GL7d GL7d19 COO 204 0.202680 1.439573 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance JGD_GL7d GL7d19 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance JGD_GL7d GL7d19 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_GL7d GL7d19 IE 204 0.004553 0.015043 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance JGD_GL7d GL7d19 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_GL7d GL7d19 ESB-d 204 0.558205 0.017623 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_GL7d GL7d19 ESB-s 204 0.552951 0.028973 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_GL7d GL7d19 CVR 204 0.004439 0.012843 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_GL7d GL7d19 CSR5 204 0.017150 0.014936 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_GL7d GL7d19 VHCC 204 24.414419 0.013707 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_GL7d GL7d19 CSR 272 9.695288 0.026754 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_GL7d GL7d19 COO 272 0.359035 1.489516 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance JGD_GL7d GL7d19 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance JGD_GL7d GL7d19 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_GL7d GL7d19 IE 272 0.004904 0.015378 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance JGD_GL7d GL7d19 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_GL7d GL7d19 ESB-d 272 0.568121 0.018233 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_GL7d GL7d19 ESB-s 272 0.567901 0.027669 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_GL7d GL7d19 CVR 272 0.004409 0.013269 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_GL7d GL7d19 CSR5 272 0.015569 0.016798 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_GL7d GL7d19 VHCC 272 24.757851 0.014299 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

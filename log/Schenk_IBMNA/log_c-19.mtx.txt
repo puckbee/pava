@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Schenk_IBMNA/c-19.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2328
+        numCols = 2328
+            nnz = 24144
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 CSR 68 0.004417 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 COO 68 0.000516 0.000259 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 CSC 68 0.000657 0.000099 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 DIA 68 0.043150 0.002649 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMNA c-19 IE 68 0.001038 0.000088 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 BSR 68 0.004872 0.000032 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMNA c-19 ESB-d 68 0.000861 0.000119 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMNA c-19 ESB-s 68 0.000494 0.000105 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Schenk_IBMNA c-19 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMNA c-19 CSR5 68 0.000812 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMNA c-19 VHCC 68 0.014852 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 CSR 136 0.000596 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 COO 136 0.000176 0.000356 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 CSC 136 0.000719 0.000119 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 DIA 136 0.071811 0.003375 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMNA c-19 IE 136 0.000638 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 643 out of 2328 # was wrong
+ Performance Schenk_IBMNA c-19 BSR 136 0.004412 0.000043 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMNA c-19 ESB-d 136 0.000657 0.000200 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMNA c-19 ESB-s 136 0.000664 0.000181 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Schenk_IBMNA c-19 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMNA c-19 CSR5 136 0.000176 0.000022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMNA c-19 VHCC 136 0.025700 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 CSR 204 0.000809 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 COO 204 0.000201 0.000443 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 CSC 204 0.000839 0.000151 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 DIA 204 0.111267 0.004336 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMNA c-19 IE 204 0.000880 0.000018 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 720 out of 2328 # was wrong
+ Performance Schenk_IBMNA c-19 BSR 204 0.005634 0.000192 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMNA c-19 ESB-d 204 0.000803 0.000282 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMNA c-19 ESB-s 204 0.000850 0.000254 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Schenk_IBMNA c-19 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMNA c-19 CSR5 204 0.000198 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMNA c-19 VHCC 204 0.036251 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 CSR 272 0.001003 0.000050 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 COO 272 0.000213 0.000512 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 CSC 272 0.000894 0.000164 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 DIA 272 0.127278 0.004484 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMNA c-19 IE 272 0.001106 0.000026 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Schenk_IBMNA c-19 BSR 272 0.006378 0.000077 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMNA c-19 ESB-d 272 0.000908 0.000334 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMNA c-19 ESB-s 272 0.000934 0.000298 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Schenk_IBMNA c-19 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMNA c-19 CSR5 272 0.000267 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMNA c-19 VHCC 272 0.044919 0.000039 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

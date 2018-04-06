@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/olesnik0.mtx
+Reading matrix completed
+Basic informations
+        numRows = 88264
+        numCols = 61031
+            nnz = 805248
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef olesnik0 CSR 68 0.025685 0.000150 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef olesnik0 COO 68 0.009820 0.007913 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef olesnik0 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef olesnik0 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef olesnik0 IE 68 0.002631 0.000296 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef olesnik0 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef olesnik0 ESB-d 68 0.017866 0.002373 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef olesnik0 ESB-s 68 0.014879 0.001979 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef olesnik0 CVR 68 0.000431 0.000100 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef olesnik0 CSR5 68 0.001505 0.000055 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef olesnik0 VHCC 68 0.469212 0.000195 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 21125 out of 88264 # was wrong
+ Performance GHS_indef olesnik0 CSR 136 0.018397 0.000178 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 60900 out of 88264 # was wrong
+ Performance GHS_indef olesnik0 COO 136 0.004555 0.009928 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef olesnik0 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef olesnik0 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef olesnik0 IE 136 0.000727 0.000178 
+WARNING! # 61000 out of 88264 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef olesnik0 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef olesnik0 ESB-d 136 0.018151 0.002575 
+WARNING! # 60858 out of 88264 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef olesnik0 ESB-s 136 0.018113 0.002042 
+WARNING! # 20233 out of 88264 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef olesnik0 CVR 136 0.000429 0.000073 
+WARNING! # 21723 out of 88264 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef olesnik0 CSR5 136 0.000976 0.000054 
+WARNING! # 22039 out of 88264 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef olesnik0 VHCC 136 0.640216 0.000133 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 21379 out of 88264 # was wrong
+ Performance GHS_indef olesnik0 CSR 204 0.031849 0.000217 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 60900 out of 88264 # was wrong
+ Performance GHS_indef olesnik0 COO 204 0.025027 0.013438 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef olesnik0 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef olesnik0 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef olesnik0 IE 204 0.000928 0.000187 
+WARNING! # 61001 out of 88264 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef olesnik0 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef olesnik0 ESB-d 204 0.030813 0.003248 
+WARNING! # 60782 out of 88264 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef olesnik0 ESB-s 204 0.026467 0.002640 
+WARNING! # 21160 out of 88264 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef olesnik0 CVR 204 0.000424 0.000069 
+WARNING! # 22271 out of 88264 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef olesnik0 CSR5 204 0.000855 0.000066 
+WARNING! # 22797 out of 88264 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef olesnik0 VHCC 204 0.723155 0.000123 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef olesnik0 CSR 272 0.041130 0.000228 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef olesnik0 COO 272 0.028089 0.015176 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef olesnik0 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef olesnik0 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef olesnik0 IE 272 0.001120 0.000236 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef olesnik0 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef olesnik0 ESB-d 272 0.035586 0.003704 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef olesnik0 ESB-s 272 0.030564 0.003050 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef olesnik0 CVR 272 0.000490 0.000068 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef olesnik0 CSR5 272 0.000835 0.000073 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef olesnik0 VHCC 272 0.734802 0.000119 
+WARNING! # 52865 out of 88264 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

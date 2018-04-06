@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Nasa/nasa2146.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2147
+        numCols = 2147
+            nnz = 74400
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa nasa2146 CSR 68 0.005528 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa nasa2146 COO 68 0.001274 0.000989 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa nasa2146 CSC 68 0.001837 0.000101 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2147 # was wrong
+ Performance Nasa nasa2146 DIA 68 0.005230 0.000129 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa nasa2146 IE 68 0.001194 0.000098 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1632 out of 2147 # was wrong
+ Performance Nasa nasa2146 BSR 68 0.008031 0.000036 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa nasa2146 ESB-d 68 0.002014 0.000083 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa nasa2146 ESB-s 68 0.001280 0.000061 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Nasa nasa2146 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa nasa2146 CSR5 68 0.000823 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa nasa2146 VHCC 68 0.041961 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa nasa2146 CSR 136 0.001976 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa nasa2146 COO 136 0.000344 0.001215 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa nasa2146 CSC 136 0.001471 0.000131 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2147 # was wrong
+ Performance Nasa nasa2146 DIA 136 0.009029 0.000165 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa nasa2146 IE 136 0.000642 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2147 # was wrong
+ Performance Nasa nasa2146 BSR 136 0.010225 0.000065 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa nasa2146 ESB-d 136 0.001466 0.000149 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa nasa2146 ESB-s 136 0.001434 0.000122 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Nasa nasa2146 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa nasa2146 CSR5 136 0.000225 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa nasa2146 VHCC 136 0.068953 0.000024 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa nasa2146 CSR 204 0.002156 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa nasa2146 COO 204 0.000353 0.001575 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa nasa2146 CSC 204 0.001784 0.000163 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2147 # was wrong
+ Performance Nasa nasa2146 DIA 204 0.012384 0.000203 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa nasa2146 IE 204 0.000876 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2147 # was wrong
+ Performance Nasa nasa2146 BSR 204 0.013516 0.000099 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa nasa2146 ESB-d 204 0.001772 0.000216 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa nasa2146 ESB-s 204 0.001852 0.000183 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Nasa nasa2146 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa nasa2146 CSR5 204 0.000247 0.000029 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa nasa2146 VHCC 204 0.095471 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa nasa2146 CSR 272 0.003325 0.000067 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa nasa2146 COO 272 0.000795 0.001887 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa nasa2146 CSC 272 0.001905 0.000182 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2147 # was wrong
+ Performance Nasa nasa2146 DIA 272 0.015306 0.000195 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa nasa2146 IE 272 0.001149 0.000048 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 5 out of 2147 # was wrong
+ Performance Nasa nasa2146 BSR 272 0.015360 0.000271 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa nasa2146 ESB-d 272 0.002035 0.000382 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa nasa2146 ESB-s 272 0.002141 0.000294 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Nasa nasa2146 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa nasa2146 CSR5 272 0.000294 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa nasa2146 VHCC 272 0.112964 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/stokes64s.mtx
+Reading matrix completed
+Basic informations
+        numRows = 12547
+        numCols = 8451
+            nnz = 148496
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 52 out of 12547 # was wrong
+ Performance GHS_indef stokes64s CSR 68 0.008122 0.000028 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 60 out of 12547 # was wrong
+ Performance GHS_indef stokes64s COO 68 0.002446 0.001572 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef stokes64s CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef stokes64s DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef stokes64s IE 68 0.001604 0.000099 
+WARNING! # 60 out of 12547 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef stokes64s BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef stokes64s ESB-d 68 0.003990 0.000329 
+WARNING! # 13 out of 12547 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef stokes64s ESB-s 68 0.002889 0.000262 
+WARNING! # 45 out of 12547 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef stokes64s CVR 68 0.000175 0.000020 
+WARNING! # 42 out of 12547 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef stokes64s CSR5 68 0.000837 0.000020 
+WARNING! # 50 out of 12547 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef stokes64s VHCC 68 0.090066 0.000037 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 39 out of 12547 # was wrong
+ Performance GHS_indef stokes64s CSR 136 0.003329 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 60 out of 12547 # was wrong
+ Performance GHS_indef stokes64s COO 136 0.000790 0.002015 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef stokes64s CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef stokes64s DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef stokes64s IE 136 0.000655 0.000026 
+WARNING! # 60 out of 12547 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef stokes64s BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef stokes64s ESB-d 136 0.003383 0.000376 
+WARNING! # 17 out of 12547 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef stokes64s ESB-s 136 0.003425 0.000290 
+WARNING! # 45 out of 12547 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef stokes64s CVR 136 0.000119 0.000018 
+WARNING! # 34 out of 12547 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef stokes64s CSR5 136 0.000292 0.000028 
+WARNING! # 38 out of 12547 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef stokes64s VHCC 136 0.138486 0.000036 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 48 out of 12547 # was wrong
+ Performance GHS_indef stokes64s CSR 204 0.005886 0.000042 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 48 out of 12547 # was wrong
+ Performance GHS_indef stokes64s COO 204 0.004333 0.002668 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef stokes64s CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef stokes64s DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef stokes64s IE 204 0.000902 0.000038 
+WARNING! # 48 out of 12547 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef stokes64s BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef stokes64s ESB-d 204 0.004855 0.000463 
+WARNING! # 48 out of 12547 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef stokes64s ESB-s 204 0.004568 0.000367 
+WARNING! # 48 out of 12547 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef stokes64s CVR 204 0.000120 0.000021 
+WARNING! # 48 out of 12547 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef stokes64s CSR5 204 0.000296 0.000038 
+WARNING! # 48 out of 12547 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef stokes64s VHCC 204 0.203112 0.000039 
+WARNING! # 48 out of 12547 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 48 out of 12547 # was wrong
+ Performance GHS_indef stokes64s CSR 272 0.007492 0.000046 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 48 out of 12547 # was wrong
+ Performance GHS_indef stokes64s COO 272 0.004913 0.003115 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef stokes64s CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef stokes64s DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef stokes64s IE 272 0.001204 0.000040 
+WARNING! # 48 out of 12547 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef stokes64s BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef stokes64s ESB-d 272 0.005514 0.000617 
+WARNING! # 48 out of 12547 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef stokes64s ESB-s 272 0.005226 0.000411 
+WARNING! # 48 out of 12547 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef stokes64s CVR 272 0.000268 0.000022 
+WARNING! # 48 out of 12547 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef stokes64s CSR5 272 0.000381 0.000047 
+WARNING! # 48 out of 12547 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef stokes64s VHCC 272 0.236185 0.000040 
+WARNING! # 48 out of 12547 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/QY/case39.mtx
+Reading matrix completed
+Basic informations
+        numRows = 40217
+        numCols = 20119
+            nnz = 1052288
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance QY case39 CSR 68 0.034415 0.000507 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance QY case39 COO 68 0.009018 0.013548 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance QY case39 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance QY case39 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance QY case39 IE 68 0.002679 0.000240 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance QY case39 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance QY case39 ESB-d 68 0.019343 0.000675 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance QY case39 ESB-s 68 0.016652 0.001435 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance QY case39 CVR 68 0.000403 0.000107 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance QY case39 CSR5 68 0.001596 0.000061 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance QY case39 VHCC 68 0.584536 0.000235 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 14077 out of 40217 # was wrong
+ Performance QY case39 CSR 136 0.026318 0.000633 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 82 out of 40217 # was wrong
+ Performance QY case39 COO 136 0.003942 0.015918 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance QY case39 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance QY case39 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance QY case39 IE 136 0.000641 0.000112 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance QY case39 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance QY case39 ESB-d 136 0.019289 0.000862 
+WARNING! # 10129 out of 40217 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance QY case39 ESB-s 136 0.019841 0.001593 
+WARNING! # 10926 out of 40217 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance QY case39 CVR 136 0.000533 0.000086 
+WARNING! # 13310 out of 40217 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance QY case39 CSR5 136 0.001073 0.000058 
+WARNING! # 13627 out of 40217 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance QY case39 VHCC 136 0.745585 0.000190 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 11183 out of 40217 # was wrong
+ Performance QY case39 CSR 204 0.054767 0.000724 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 82 out of 40217 # was wrong
+ Performance QY case39 COO 204 0.007370 0.019633 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance QY case39 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance QY case39 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance QY case39 IE 204 0.001018 0.000121 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance QY case39 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance QY case39 ESB-d 204 0.026494 0.001065 
+WARNING! # 11126 out of 40217 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance QY case39 ESB-s 204 0.026421 0.001842 
+WARNING! # 12395 out of 40217 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance QY case39 CVR 204 0.000480 0.000086 
+WARNING! # 14596 out of 40217 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance QY case39 CSR5 204 0.000991 0.000067 
+WARNING! # 14917 out of 40217 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance QY case39 VHCC 204 0.792399 0.000191 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance QY case39 CSR 272 0.054361 0.000744 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance QY case39 COO 272 0.005413 0.021165 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance QY case39 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance QY case39 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance QY case39 IE 272 0.001136 0.000134 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance QY case39 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance QY case39 ESB-d 272 0.030253 0.001201 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance QY case39 ESB-s 272 0.030549 0.002075 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance QY case39 CVR 272 0.000483 0.000083 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance QY case39 CSR5 272 0.001013 0.000067 
+WARNING! # 16514 out of 40217 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance QY case39 VHCC 272 0.812581 0.000180 
+WARNING! # 16793 out of 40217 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

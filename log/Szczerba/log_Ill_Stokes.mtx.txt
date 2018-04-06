@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Szczerba/Ill_Stokes.mtx
+Reading matrix completed
+Basic informations
+        numRows = 20897
+        numCols = 20897
+            nnz = 191376
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes CSR 68 0.011860 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes COO 68 0.003118 0.001986 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes CSC 68 0.008266 0.000460 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes DIA 68 5.598481 0.550988 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Szczerba Ill_Stokes IE 68 0.002270 0.000158 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1070 out of 20897 # was wrong
+ Performance Szczerba Ill_Stokes BSR 68 0.050293 0.000192 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Szczerba Ill_Stokes ESB-d 68 0.003749 0.000179 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Szczerba Ill_Stokes ESB-s 68 0.003326 0.000029 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Szczerba Ill_Stokes CVR 68 0.000185 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Szczerba Ill_Stokes CSR5 68 0.000865 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Szczerba Ill_Stokes VHCC 68 0.104805 0.000067 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes CSR 136 0.007717 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes COO 136 0.001158 0.002789 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes CSC 136 0.009939 0.000608 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes DIA 136 5.679570 0.550171 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Szczerba Ill_Stokes IE 136 0.001175 0.000070 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 545 out of 20897 # was wrong
+ Performance Szczerba Ill_Stokes BSR 136 0.064975 0.000215 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Szczerba Ill_Stokes ESB-d 136 0.004356 0.000198 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Szczerba Ill_Stokes ESB-s 136 0.004527 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Szczerba Ill_Stokes CVR 136 0.000165 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Szczerba Ill_Stokes CSR5 136 0.000349 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Szczerba Ill_Stokes VHCC 136 0.171624 0.000056 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes CSR 204 0.012605 0.000046 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes COO 204 0.005950 0.003775 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes CSC 204 0.013704 0.000803 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes DIA 204 5.671135 0.547851 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Szczerba Ill_Stokes IE 204 0.001044 0.000124 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes BSR 204 0.071771 0.000470 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Szczerba Ill_Stokes ESB-d 204 0.005848 0.000213 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Szczerba Ill_Stokes ESB-s 204 0.006199 0.000035 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Szczerba Ill_Stokes CVR 204 0.000137 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Szczerba Ill_Stokes CSR5 204 0.000327 0.000044 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Szczerba Ill_Stokes VHCC 204 0.253130 0.000051 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes CSR 272 0.017264 0.000062 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes COO 272 0.006645 0.004307 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes CSC 272 0.014149 0.000877 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes DIA 272 5.724329 0.545610 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Szczerba Ill_Stokes IE 272 0.001062 0.000105 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Szczerba Ill_Stokes BSR 272 0.081017 0.000282 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Szczerba Ill_Stokes ESB-d 272 0.006751 0.000237 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Szczerba Ill_Stokes ESB-s 272 0.007361 0.000043 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Szczerba Ill_Stokes CVR 272 0.000254 0.000038 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Szczerba Ill_Stokes CSR5 272 0.001896 0.000093 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Szczerba Ill_Stokes VHCC 272 0.280840 0.000055 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

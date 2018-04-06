@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/rgg_n_2_18_s0.mtx
+Reading matrix completed
+Basic informations
+        numRows = 262145
+        numCols = 262145
+            nnz = 3094576
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 CSR 68 0.079581 0.000270 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 COO 68 0.021699 0.034006 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 CSC 68 0.063155 0.003882 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 262145 # was wrong
+ Performance DIMACS10 rgg_n_2_18_s0 DIA 68 5.426022 0.782403 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 rgg_n_2_18_s0 IE 68 0.002843 0.000438 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 rgg_n_2_18_s0 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 rgg_n_2_18_s0 ESB-d 68 0.057791 0.002082 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 rgg_n_2_18_s0 ESB-s 68 0.059469 0.000387 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 rgg_n_2_18_s0 CVR 68 0.000662 0.000383 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 rgg_n_2_18_s0 CSR5 68 0.002972 0.000306 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 rgg_n_2_18_s0 VHCC 68 1.936859 0.000639 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 CSR 136 0.071376 0.000228 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 COO 136 0.014721 0.036727 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 CSC 136 0.054376 0.004868 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 262145 # was wrong
+ Performance DIMACS10 rgg_n_2_18_s0 DIA 136 5.455826 0.782577 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 rgg_n_2_18_s0 IE 136 0.001837 0.000222 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 rgg_n_2_18_s0 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 rgg_n_2_18_s0 ESB-d 136 0.065442 0.002050 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 rgg_n_2_18_s0 ESB-s 136 0.067051 0.000274 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 rgg_n_2_18_s0 CVR 136 0.000458 0.000247 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 rgg_n_2_18_s0 CSR5 136 0.001997 0.000228 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 rgg_n_2_18_s0 VHCC 136 2.157629 0.000418 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 CSR 204 0.100827 0.000224 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 COO 204 0.019634 0.038720 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 CSC 204 0.054452 0.005806 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 262145 # was wrong
+ Performance DIMACS10 rgg_n_2_18_s0 DIA 204 5.456145 0.782586 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 rgg_n_2_18_s0 IE 204 0.002164 0.000209 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 rgg_n_2_18_s0 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 rgg_n_2_18_s0 ESB-d 204 0.087798 0.002116 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 rgg_n_2_18_s0 ESB-s 204 0.092044 0.000249 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 rgg_n_2_18_s0 CVR 204 0.000376 0.000217 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 rgg_n_2_18_s0 CSR5 204 0.001813 0.000231 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 rgg_n_2_18_s0 VHCC 204 2.116364 0.000391 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 CSR 272 0.160702 0.000322 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 COO 272 0.111958 0.035180 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 rgg_n_2_18_s0 CSC 272 0.054688 0.006565 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 262145 # was wrong
+ Performance DIMACS10 rgg_n_2_18_s0 DIA 272 5.456816 0.783521 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 rgg_n_2_18_s0 IE 272 0.002567 0.000243 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 rgg_n_2_18_s0 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 rgg_n_2_18_s0 ESB-d 272 0.110161 0.002211 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 rgg_n_2_18_s0 ESB-s 272 0.105545 0.000240 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 rgg_n_2_18_s0 CVR 272 0.000502 0.000213 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 rgg_n_2_18_s0 CSR5 272 0.001742 0.000229 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 rgg_n_2_18_s0 VHCC 272 2.294173 0.000366 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

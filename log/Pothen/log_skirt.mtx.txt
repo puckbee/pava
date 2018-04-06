@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Pothen/skirt.mtx
+Reading matrix completed
+Basic informations
+        numRows = 12599
+        numCols = 12599
+            nnz = 209120
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen skirt CSR 68 0.009594 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen skirt COO 68 0.003289 0.002586 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen skirt CSC 68 0.005427 0.000433 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12599 # was wrong
+ Performance Pothen skirt DIA 68 0.189198 0.025362 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen skirt IE 68 0.001705 0.000158 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 12599 # was wrong
+ Performance Pothen skirt BSR 68 0.035790 0.000043 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen skirt ESB-d 68 0.003517 0.000688 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen skirt ESB-s 68 0.003922 0.000606 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen skirt CVR 68 0.000273 0.000026 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen skirt CSR5 68 0.000830 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen skirt VHCC 68 0.113200 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen skirt CSR 136 0.005658 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen skirt COO 136 0.001141 0.003050 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen skirt CSC 136 0.004613 0.000509 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12599 # was wrong
+ Performance Pothen skirt DIA 136 0.254667 0.025507 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen skirt IE 136 0.000817 0.000045 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 6346 out of 12599 # was wrong
+ Performance Pothen skirt BSR 136 0.036555 0.000042 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen skirt ESB-d 136 0.004258 0.001103 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen skirt ESB-s 136 0.004305 0.000997 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen skirt CVR 136 0.000147 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen skirt CSR5 136 0.000340 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen skirt VHCC 136 0.189590 0.000038 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen skirt CSR 204 0.008354 0.000061 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen skirt COO 204 0.005844 0.004055 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen skirt CSC 204 0.005835 0.000610 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12599 # was wrong
+ Performance Pothen skirt DIA 204 0.282791 0.025539 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen skirt IE 204 0.001001 0.000036 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 12595 out of 12599 # was wrong
+ Performance Pothen skirt BSR 204 0.056073 0.000089 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen skirt ESB-d 204 0.005895 0.001652 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen skirt ESB-s 204 0.006205 0.001556 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen skirt CVR 204 0.000157 0.000024 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen skirt CSR5 204 0.000343 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen skirt VHCC 204 0.266633 0.000041 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen skirt CSR 272 0.010384 0.000124 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen skirt COO 272 0.006670 0.005027 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen skirt CSC 272 0.006401 0.000675 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12599 # was wrong
+ Performance Pothen skirt DIA 272 0.290028 0.025529 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen skirt IE 272 0.001301 0.000066 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 711 out of 12599 # was wrong
+ Performance Pothen skirt BSR 272 0.057723 0.000164 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen skirt ESB-d 272 0.006796 0.001947 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen skirt ESB-s 272 0.007074 0.001848 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen skirt CVR 272 0.000212 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen skirt CSR5 272 0.000446 0.000046 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen skirt VHCC 272 0.300612 0.000044 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

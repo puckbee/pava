@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/SNAP/Oregon-1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 11484
+        numCols = 10989
+            nnz = 46832
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 105 out of 11484 # was wrong
+ Performance SNAP Oregon-1 CSR 68 0.004935 0.000026 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 218 out of 11484 # was wrong
+ Performance SNAP Oregon-1 COO 68 0.000987 0.000536 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP Oregon-1 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP Oregon-1 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP Oregon-1 IE 68 0.001388 0.000088 
+WARNING! # 226 out of 11484 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP Oregon-1 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP Oregon-1 ESB-d 68 0.003630 0.000108 
+WARNING! # 210 out of 11484 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP Oregon-1 ESB-s 68 0.003077 0.000135 
+WARNING! # 88 out of 11484 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP Oregon-1 CVR 68 0.000109 0.000014 
+WARNING! # 139 out of 11484 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP Oregon-1 CSR5 68 0.000863 0.000021 
+WARNING! # 138 out of 11484 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP Oregon-1 VHCC 68 0.027670 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 115 out of 11484 # was wrong
+ Performance SNAP Oregon-1 CSR 136 0.001412 0.000031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 218 out of 11484 # was wrong
+ Performance SNAP Oregon-1 COO 136 0.000582 0.000726 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP Oregon-1 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP Oregon-1 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP Oregon-1 IE 136 0.000634 0.000023 
+WARNING! # 226 out of 11484 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP Oregon-1 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP Oregon-1 ESB-d 136 0.001813 0.000137 
+WARNING! # 210 out of 11484 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP Oregon-1 ESB-s 136 0.001862 0.000096 
+WARNING! # 66 out of 11484 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP Oregon-1 CVR 136 0.000074 0.000014 
+WARNING! # 135 out of 11484 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP Oregon-1 CSR5 136 0.000302 0.000031 
+WARNING! # 107 out of 11484 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP Oregon-1 VHCC 136 0.047757 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 159 out of 11484 # was wrong
+ Performance SNAP Oregon-1 CSR 204 0.002169 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 218 out of 11484 # was wrong
+ Performance SNAP Oregon-1 COO 204 0.001761 0.000957 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP Oregon-1 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP Oregon-1 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP Oregon-1 IE 204 0.000881 0.000028 
+WARNING! # 226 out of 11484 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP Oregon-1 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP Oregon-1 ESB-d 204 0.005063 0.000178 
+WARNING! # 210 out of 11484 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP Oregon-1 ESB-s 204 0.002613 0.000124 
+WARNING! # 49 out of 11484 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP Oregon-1 CVR 204 0.000075 0.000017 
+WARNING! # 121 out of 11484 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP Oregon-1 CSR5 204 0.000277 0.000041 
+WARNING! # 104 out of 11484 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP Oregon-1 VHCC 204 0.067020 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 148 out of 11484 # was wrong
+ Performance SNAP Oregon-1 CSR 272 0.002310 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 218 out of 11484 # was wrong
+ Performance SNAP Oregon-1 COO 272 0.000780 0.001092 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP Oregon-1 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP Oregon-1 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP Oregon-1 IE 272 0.001125 0.000031 
+WARNING! # 226 out of 11484 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP Oregon-1 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP Oregon-1 ESB-d 272 0.002443 0.000205 
+WARNING! # 207 out of 11484 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP Oregon-1 ESB-s 272 0.002878 0.000135 
+WARNING! # 70 out of 11484 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP Oregon-1 CVR 272 0.000156 0.000022 
+WARNING! # 126 out of 11484 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP Oregon-1 CSR5 272 0.000401 0.000050 
+WARNING! # 107 out of 11484 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP Oregon-1 VHCC 272 0.076494 0.000036 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

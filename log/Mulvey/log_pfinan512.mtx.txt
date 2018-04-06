@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Mulvey/pfinan512.mtx
+Reading matrix completed
+Basic informations
+        numRows = 74753
+        numCols = 74753
+            nnz = 671744
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mulvey pfinan512 CSR 68 0.022758 0.000192 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mulvey pfinan512 COO 68 0.009152 0.006947 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mulvey pfinan512 CSC 68 0.018267 0.002104 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Mulvey pfinan512 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mulvey pfinan512 IE 68 0.001742 0.000283 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 74753 # was wrong
+ Performance Mulvey pfinan512 BSR 68 0.196739 0.000264 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mulvey pfinan512 ESB-d 68 0.017188 0.002173 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mulvey pfinan512 ESB-s 68 0.014951 0.001656 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mulvey pfinan512 CVR 68 0.000417 0.000075 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mulvey pfinan512 CSR5 68 0.001129 0.000047 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mulvey pfinan512 VHCC 68 0.383727 0.000148 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mulvey pfinan512 CSR 136 0.015909 0.000200 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mulvey pfinan512 COO 136 0.003651 0.008390 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mulvey pfinan512 CSC 136 0.018380 0.002416 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Mulvey pfinan512 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mulvey pfinan512 IE 136 0.000714 0.000174 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 74753 # was wrong
+ Performance Mulvey pfinan512 BSR 136 0.263816 0.000219 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mulvey pfinan512 ESB-d 136 0.015407 0.003342 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mulvey pfinan512 ESB-s 136 0.017252 0.002831 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mulvey pfinan512 CVR 136 0.000212 0.000056 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mulvey pfinan512 CSR5 136 0.000657 0.000047 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mulvey pfinan512 VHCC 136 0.529530 0.000106 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mulvey pfinan512 CSR 204 0.021265 0.000240 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mulvey pfinan512 COO 204 0.005214 0.011109 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mulvey pfinan512 CSC 204 0.023762 0.002871 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Mulvey pfinan512 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mulvey pfinan512 IE 204 0.000982 0.000219 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 35421 out of 74753 # was wrong
+ Performance Mulvey pfinan512 BSR 204 0.274420 0.000336 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mulvey pfinan512 ESB-d 204 0.021574 0.004692 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mulvey pfinan512 ESB-s 204 0.023978 0.004127 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mulvey pfinan512 CVR 204 0.000318 0.000052 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mulvey pfinan512 CSR5 204 0.000615 0.000059 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mulvey pfinan512 VHCC 204 0.588907 0.000106 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mulvey pfinan512 CSR 272 0.027488 0.000271 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mulvey pfinan512 COO 272 0.005909 0.013022 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mulvey pfinan512 CSC 272 0.026489 0.003041 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Mulvey pfinan512 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mulvey pfinan512 IE 272 0.001805 0.000246 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 74752 out of 74753 # was wrong
+ Performance Mulvey pfinan512 BSR 272 0.273308 0.000427 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mulvey pfinan512 ESB-d 272 0.025263 0.005265 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mulvey pfinan512 ESB-s 272 0.027564 0.004716 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mulvey pfinan512 CVR 272 0.000349 0.000052 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mulvey pfinan512 CSR5 272 0.000636 0.000064 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mulvey pfinan512 VHCC 272 0.623784 0.000103 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

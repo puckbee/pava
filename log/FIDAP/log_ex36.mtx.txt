@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/FIDAP/ex36.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3080
+        numCols = 3080
+            nnz = 53856
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FIDAP ex36 CSR 68 0.005235 0.000016 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FIDAP ex36 COO 68 0.001219 0.000656 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FIDAP ex36 CSC 68 0.001596 0.000089 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3080 # was wrong
+ Performance FIDAP ex36 DIA 68 0.011941 0.001177 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FIDAP ex36 IE 68 0.001181 0.000109 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3080 # was wrong
+ Performance FIDAP ex36 BSR 68 0.008497 0.000024 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FIDAP ex36 ESB-d 68 0.001168 0.000039 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FIDAP ex36 ESB-s 68 0.000940 0.000018 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance FIDAP ex36 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FIDAP ex36 CSR5 68 0.000867 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FIDAP ex36 VHCC 68 0.027727 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FIDAP ex36 CSR 136 0.001250 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FIDAP ex36 COO 136 0.000348 0.000798 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FIDAP ex36 CSC 136 0.001145 0.000121 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3080 # was wrong
+ Performance FIDAP ex36 DIA 136 0.017169 0.001515 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FIDAP ex36 IE 136 0.000602 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3080 # was wrong
+ Performance FIDAP ex36 BSR 136 0.009047 0.000057 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FIDAP ex36 ESB-d 136 0.001157 0.000051 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FIDAP ex36 ESB-s 136 0.001390 0.000022 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance FIDAP ex36 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FIDAP ex36 CSR5 136 0.000234 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FIDAP ex36 VHCC 136 0.045653 0.000024 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FIDAP ex36 CSR 204 0.001418 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FIDAP ex36 COO 204 0.000624 0.001032 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FIDAP ex36 CSC 204 0.001453 0.000146 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3080 # was wrong
+ Performance FIDAP ex36 DIA 204 0.025131 0.001786 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FIDAP ex36 IE 204 0.000862 0.000018 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 167 out of 3080 # was wrong
+ Performance FIDAP ex36 BSR 204 0.012912 0.000160 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FIDAP ex36 ESB-d 204 0.001547 0.000061 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FIDAP ex36 ESB-s 204 0.001562 0.000026 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance FIDAP ex36 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FIDAP ex36 CSR5 204 0.000213 0.000029 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FIDAP ex36 VHCC 204 0.063731 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FIDAP ex36 CSR 272 0.001884 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FIDAP ex36 COO 272 0.000351 0.001244 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FIDAP ex36 CSC 272 0.001604 0.000171 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3080 # was wrong
+ Performance FIDAP ex36 DIA 272 0.031672 0.001838 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FIDAP ex36 IE 272 0.001104 0.000026 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 65 out of 3080 # was wrong
+ Performance FIDAP ex36 BSR 272 0.013494 0.000269 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FIDAP ex36 ESB-d 272 0.001692 0.000077 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FIDAP ex36 ESB-s 272 0.001814 0.000035 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance FIDAP ex36 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FIDAP ex36 CSR5 272 0.000344 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FIDAP ex36 VHCC 272 0.077094 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

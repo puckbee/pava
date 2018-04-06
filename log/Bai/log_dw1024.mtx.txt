@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Bai/dw1024.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2049
+        numCols = 2049
+            nnz = 10128
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai dw1024 CSR 68 0.003920 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai dw1024 COO 68 0.000275 0.000072 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai dw1024 CSC 68 0.000325 0.000043 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2049 # was wrong
+ Performance Bai dw1024 DIA 68 0.000779 0.000037 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai dw1024 IE 68 0.001116 0.000073 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2049 # was wrong
+ Performance Bai dw1024 BSR 68 0.002237 0.000020 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai dw1024 ESB-d 68 0.000381 0.000030 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai dw1024 ESB-s 68 0.000251 0.000013 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai dw1024 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai dw1024 CSR5 68 0.000741 0.000014 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai dw1024 VHCC 68 0.006784 0.000014 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai dw1024 CSR 136 0.000238 0.000020 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai dw1024 COO 136 0.000120 0.000095 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai dw1024 CSC 136 0.000427 0.000061 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2049 # was wrong
+ Performance Bai dw1024 DIA 136 0.000794 0.000026 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai dw1024 IE 136 0.000549 0.000014 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2049 # was wrong
+ Performance Bai dw1024 BSR 136 0.001854 0.000042 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai dw1024 ESB-d 136 0.000350 0.000041 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai dw1024 ESB-s 136 0.000401 0.000019 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai dw1024 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai dw1024 CSR5 136 0.000167 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai dw1024 VHCC 136 0.012844 0.000018 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai dw1024 CSR 204 0.000368 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai dw1024 COO 204 0.000138 0.000121 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai dw1024 CSC 204 0.000496 0.000084 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2049 # was wrong
+ Performance Bai dw1024 DIA 204 0.001070 0.000028 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai dw1024 IE 204 0.000815 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2049 # was wrong
+ Performance Bai dw1024 BSR 204 0.002503 0.000062 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai dw1024 ESB-d 204 0.000458 0.000054 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai dw1024 ESB-s 204 0.000464 0.000023 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai dw1024 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai dw1024 CSR5 204 0.000144 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai dw1024 VHCC 204 0.018006 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai dw1024 CSR 272 0.000409 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai dw1024 COO 272 0.000139 0.000139 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai dw1024 CSC 272 0.000485 0.000096 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2049 # was wrong
+ Performance Bai dw1024 DIA 272 0.001205 0.000038 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai dw1024 IE 272 0.001106 0.000047 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2049 # was wrong
+ Performance Bai dw1024 BSR 272 0.002863 0.000143 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai dw1024 ESB-d 272 0.000470 0.000068 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai dw1024 ESB-s 272 0.000536 0.000029 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai dw1024 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai dw1024 CSR5 272 0.000378 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai dw1024 VHCC 272 0.023733 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

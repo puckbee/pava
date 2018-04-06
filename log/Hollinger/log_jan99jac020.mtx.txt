@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Hollinger/jan99jac020.mtx
+Reading matrix completed
+Basic informations
+        numRows = 6775
+        numCols = 6775
+            nnz = 38704
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hollinger jan99jac020 CSR 68 0.004515 0.000018 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hollinger jan99jac020 COO 68 0.000753 0.000356 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hollinger jan99jac020 CSC 68 0.001386 0.000118 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hollinger jan99jac020 DIA 68 0.076442 0.019272 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hollinger jan99jac020 IE 68 0.001541 0.000163 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hollinger jan99jac020 BSR 68 0.011648 0.000033 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hollinger jan99jac020 ESB-d 68 0.000947 0.000066 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hollinger jan99jac020 ESB-s 68 0.000889 0.000021 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hollinger jan99jac020 CVR 68 0.000202 0.000012 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hollinger jan99jac020 CSR5 68 0.000681 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hollinger jan99jac020 VHCC 68 0.022325 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hollinger jan99jac020 CSR 136 0.000951 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hollinger jan99jac020 COO 136 0.000371 0.000486 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hollinger jan99jac020 CSC 136 0.001294 0.000171 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hollinger jan99jac020 DIA 136 0.116244 0.020098 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hollinger jan99jac020 IE 136 0.000837 0.000035 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hollinger jan99jac020 BSR 136 0.011237 0.000047 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hollinger jan99jac020 ESB-d 136 0.001046 0.000080 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hollinger jan99jac020 ESB-s 136 0.001234 0.000025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hollinger jan99jac020 CVR 136 0.000069 0.000013 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hollinger jan99jac020 CSR5 136 0.000226 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hollinger jan99jac020 VHCC 136 0.041153 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hollinger jan99jac020 CSR 204 0.001249 0.000026 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hollinger jan99jac020 COO 204 0.000460 0.000603 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hollinger jan99jac020 CSC 204 0.001678 0.000197 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hollinger jan99jac020 DIA 204 0.157652 0.019013 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hollinger jan99jac020 IE 204 0.001199 0.000020 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4135 out of 6775 # was wrong
+ Performance Hollinger jan99jac020 BSR 204 0.011936 0.000057 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hollinger jan99jac020 ESB-d 204 0.001643 0.000092 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hollinger jan99jac020 ESB-s 204 0.001715 0.000029 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hollinger jan99jac020 CVR 204 0.000071 0.000015 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hollinger jan99jac020 CSR5 204 0.000206 0.000036 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hollinger jan99jac020 VHCC 204 0.060174 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hollinger jan99jac020 CSR 272 0.001609 0.000049 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hollinger jan99jac020 COO 272 0.000468 0.000720 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hollinger jan99jac020 CSC 272 0.001897 0.000226 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hollinger jan99jac020 DIA 272 0.184392 0.018911 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hollinger jan99jac020 IE 272 0.001239 0.000049 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 731 out of 6775 # was wrong
+ Performance Hollinger jan99jac020 BSR 272 0.012798 0.000070 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hollinger jan99jac020 ESB-d 272 0.001803 0.000111 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hollinger jan99jac020 ESB-s 272 0.001949 0.000035 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hollinger jan99jac020 CVR 272 0.000189 0.000018 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hollinger jan99jac020 CSR5 272 0.000313 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hollinger jan99jac020 VHCC 272 0.075579 0.000035 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/IPSO/OPF_3754.mtx
+Reading matrix completed
+Basic informations
+        numRows = 15436
+        numCols = 15436
+            nnz = 173712
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IPSO OPF_3754 CSR 68 0.008922 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IPSO OPF_3754 COO 68 0.002739 0.001978 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IPSO OPF_3754 CSC 68 0.005308 0.000584 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IPSO OPF_3754 DIA 68 1.937960 0.248804 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IPSO OPF_3754 IE 68 0.001543 0.000129 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance IPSO OPF_3754 BSR 68 0.031907 0.000049 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IPSO OPF_3754 ESB-d 68 0.003080 0.000598 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IPSO OPF_3754 ESB-s 68 0.003057 0.000566 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IPSO OPF_3754 CVR 68 0.000176 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IPSO OPF_3754 CSR5 68 0.000936 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IPSO OPF_3754 VHCC 68 0.099589 0.000050 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IPSO OPF_3754 CSR 136 0.004282 0.000051 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IPSO OPF_3754 COO 136 0.000943 0.002481 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IPSO OPF_3754 CSC 136 0.005215 0.000676 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IPSO OPF_3754 DIA 136 1.999374 0.251174 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IPSO OPF_3754 IE 136 0.000873 0.000042 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 5161 out of 15436 # was wrong
+ Performance IPSO OPF_3754 BSR 136 0.041610 0.000063 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IPSO OPF_3754 ESB-d 136 0.004067 0.000909 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IPSO OPF_3754 ESB-s 136 0.004228 0.000863 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IPSO OPF_3754 CVR 136 0.000146 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IPSO OPF_3754 CSR5 136 0.000361 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IPSO OPF_3754 VHCC 136 0.161191 0.000044 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IPSO OPF_3754 CSR 204 0.009177 0.000075 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IPSO OPF_3754 COO 204 0.005006 0.003330 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IPSO OPF_3754 CSC 204 0.006420 0.000853 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IPSO OPF_3754 DIA 204 2.067021 0.252190 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IPSO OPF_3754 IE 204 0.001028 0.000119 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 14200 out of 15436 # was wrong
+ Performance IPSO OPF_3754 BSR 204 0.044439 0.000227 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IPSO OPF_3754 ESB-d 204 0.005518 0.001253 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IPSO OPF_3754 ESB-s 204 0.005816 0.001164 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IPSO OPF_3754 CVR 204 0.000169 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IPSO OPF_3754 CSR5 204 0.000375 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IPSO OPF_3754 VHCC 204 0.236965 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IPSO OPF_3754 CSR 272 0.009387 0.000094 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IPSO OPF_3754 COO 272 0.005627 0.004143 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IPSO OPF_3754 CSC 272 0.007033 0.000929 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IPSO OPF_3754 DIA 272 2.052431 0.250617 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IPSO OPF_3754 IE 272 0.001457 0.000073 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 14945 out of 15436 # was wrong
+ Performance IPSO OPF_3754 BSR 272 0.051801 0.000099 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IPSO OPF_3754 ESB-d 272 0.006304 0.001414 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IPSO OPF_3754 ESB-s 272 0.006596 0.001303 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IPSO OPF_3754 CVR 272 0.000225 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IPSO OPF_3754 CSR5 272 0.000486 0.000047 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IPSO OPF_3754 VHCC 272 0.278630 0.000048 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

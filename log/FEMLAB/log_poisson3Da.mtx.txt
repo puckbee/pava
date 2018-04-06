@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/FEMLAB/poisson3Da.mtx
+Reading matrix completed
+Basic informations
+        numRows = 13515
+        numCols = 13515
+            nnz = 352768
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Da CSR 68 0.021453 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB poisson3Da COO 68 0.005262 0.004698 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB poisson3Da CSC 68 0.016556 0.000841 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance FEMLAB poisson3Da DIA 68 6.634463 0.240314 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB poisson3Da IE 68 0.002174 0.000124 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Da BSR 68 0.071213 0.000339 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB poisson3Da ESB-d 68 0.005756 0.000123 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB poisson3Da ESB-s 68 0.005512 0.000072 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB poisson3Da CVR 68 0.000306 0.000042 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB poisson3Da CSR5 68 0.001017 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB poisson3Da VHCC 68 0.199869 0.000073 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Da CSR 136 0.015644 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB poisson3Da COO 136 0.001376 0.006012 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB poisson3Da CSC 136 0.019870 0.001035 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance FEMLAB poisson3Da DIA 136 6.706304 0.242740 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB poisson3Da IE 136 0.000957 0.000080 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 9 out of 13515 # was wrong
+ Performance FEMLAB poisson3Da BSR 136 0.090762 0.000464 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB poisson3Da ESB-d 136 0.006326 0.000137 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB poisson3Da ESB-s 136 0.006743 0.000055 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB poisson3Da CVR 136 0.000191 0.000030 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB poisson3Da CSR5 136 0.000468 0.000036 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB poisson3Da VHCC 136 0.303959 0.000054 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Da CSR 204 0.025226 0.000047 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB poisson3Da COO 204 0.007655 0.008109 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB poisson3Da CSC 204 0.025360 0.001340 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance FEMLAB poisson3Da DIA 204 6.722196 0.242626 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB poisson3Da IE 204 0.001372 0.000091 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Da BSR 204 0.119457 0.000631 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB poisson3Da ESB-d 204 0.008430 0.000151 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB poisson3Da ESB-s 204 0.010694 0.000059 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB poisson3Da CVR 204 0.000201 0.000033 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB poisson3Da CSR5 204 0.000470 0.000051 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB poisson3Da VHCC 204 0.357006 0.000055 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Da CSR 272 0.033589 0.000067 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB poisson3Da COO 272 0.008505 0.009468 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB poisson3Da CSC 272 0.026126 0.001398 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance FEMLAB poisson3Da DIA 272 6.762005 0.239499 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB poisson3Da IE 272 0.001087 0.000091 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB poisson3Da BSR 272 0.131227 0.000664 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB poisson3Da ESB-d 272 0.009780 0.000170 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB poisson3Da ESB-s 272 0.010545 0.000060 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB poisson3Da CVR 272 0.000299 0.000033 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB poisson3Da CSR5 272 0.000515 0.000054 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB poisson3Da VHCC 272 0.397633 0.000068 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

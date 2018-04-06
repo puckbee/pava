@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/NYPA/Maragal_6.mtx
+Reading matrix completed
+Basic informations
+        numRows = 21256
+        numCols = 10153
+            nnz = 537696
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance NYPA Maragal_6 CSR 68 0.020026 0.000195 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance NYPA Maragal_6 COO 68 0.006555 0.007330 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance NYPA Maragal_6 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance NYPA Maragal_6 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance NYPA Maragal_6 IE 68 0.003108 0.000159 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance NYPA Maragal_6 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance NYPA Maragal_6 ESB-d 68 0.013189 0.000324 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance NYPA Maragal_6 ESB-s 68 0.011839 0.000675 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance NYPA Maragal_6 CVR 68 0.000449 0.000072 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance NYPA Maragal_6 CSR5 68 0.001200 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance NYPA Maragal_6 VHCC 68 0.276147 0.000138 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance NYPA Maragal_6 CSR 136 0.013452 0.000200 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance NYPA Maragal_6 COO 136 0.002153 0.008902 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance NYPA Maragal_6 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance NYPA Maragal_6 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance NYPA Maragal_6 IE 136 0.000608 0.000062 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance NYPA Maragal_6 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance NYPA Maragal_6 ESB-d 136 0.010249 0.000346 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance NYPA Maragal_6 ESB-s 136 0.010818 0.000586 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance NYPA Maragal_6 CVR 136 0.000333 0.000054 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance NYPA Maragal_6 CSR5 136 0.000654 0.000042 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance NYPA Maragal_6 VHCC 136 0.400646 0.000097 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance NYPA Maragal_6 CSR 204 0.027002 0.000271 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance NYPA Maragal_6 COO 204 0.014715 0.012073 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance NYPA Maragal_6 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance NYPA Maragal_6 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance NYPA Maragal_6 IE 204 0.000894 0.000066 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance NYPA Maragal_6 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance NYPA Maragal_6 ESB-d 204 0.023678 0.000413 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance NYPA Maragal_6 ESB-s 204 0.016290 0.000710 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance NYPA Maragal_6 CVR 204 0.000335 0.000054 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance NYPA Maragal_6 CSR5 204 0.000668 0.000051 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance NYPA Maragal_6 VHCC 204 0.477242 0.000094 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance NYPA Maragal_6 CSR 272 0.034617 0.000281 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance NYPA Maragal_6 COO 272 0.013828 0.014409 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance NYPA Maragal_6 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance NYPA Maragal_6 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance NYPA Maragal_6 IE 272 0.001178 0.000079 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance NYPA Maragal_6 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance NYPA Maragal_6 ESB-d 272 0.016520 0.000474 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance NYPA Maragal_6 ESB-s 272 0.018204 0.000865 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance NYPA Maragal_6 CVR 272 0.000336 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance NYPA Maragal_6 CSR5 272 0.000734 0.000055 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance NYPA Maragal_6 VHCC 272 0.517360 0.000093 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

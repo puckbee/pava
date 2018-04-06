@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/ND/nd24k.mtx
+Reading matrix completed
+Basic informations
+        numRows = 72001
+        numCols = 72001
+            nnz = 28787648
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ND nd24k CSR 68 0.645727 0.001222 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ND nd24k COO 68 0.145300 0.412779 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ND nd24k CSC 68 0.542738 0.020720 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance ND nd24k DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ND nd24k IE 68 0.007060 0.001365 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance ND nd24k BSR 68 3.098748 0.001566 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ND nd24k ESB-d 68 0.423777 0.003627 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ND nd24k ESB-s 68 0.425615 0.003002 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ND nd24k CVR 68 0.006699 0.002226 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ND nd24k CSR5 68 0.013900 0.001634 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ND nd24k VHCC 68 17.895541 0.003272 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ND nd24k CSR 136 0.683131 0.001105 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ND nd24k COO 136 0.093906 0.411401 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ND nd24k CSC 136 0.717795 0.024107 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance ND nd24k DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ND nd24k IE 136 0.003641 0.001040 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4695 out of 72001 # was wrong
+ Performance ND nd24k BSR 136 2.981780 0.001283 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ND nd24k ESB-d 136 0.389065 0.004063 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ND nd24k ESB-s 136 0.400058 0.003554 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ND nd24k CVR 136 0.004522 0.001418 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ND nd24k CSR5 136 0.005861 0.001300 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ND nd24k VHCC 136 17.728213 0.001836 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ND nd24k CSR 204 0.723454 0.001301 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ND nd24k COO 204 0.110190 0.412643 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ND nd24k CSC 204 0.676775 0.027387 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance ND nd24k DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ND nd24k IE 204 0.004036 0.001092 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4661 out of 72001 # was wrong
+ Performance ND nd24k BSR 204 3.084742 0.001247 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ND nd24k ESB-d 204 0.416984 0.005150 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ND nd24k ESB-s 204 0.419499 0.004833 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ND nd24k CVR 204 0.003497 0.001234 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ND nd24k CSR5 204 0.006027 0.001245 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ND nd24k VHCC 204 17.291335 0.001571 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ND nd24k CSR 272 0.762375 0.001432 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ND nd24k COO 272 0.114156 0.410898 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ND nd24k CSC 272 0.698039 0.028856 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance ND nd24k DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ND nd24k IE 272 0.004186 0.001127 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4008 out of 72001 # was wrong
+ Performance ND nd24k BSR 272 3.079748 0.001276 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ND nd24k ESB-d 272 0.426192 0.005759 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ND nd24k ESB-s 272 0.424893 0.005446 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ND nd24k CVR 272 0.003260 0.001462 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ND nd24k CSR5 272 0.028645 0.001393 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ND nd24k VHCC 272 17.288867 0.001445 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

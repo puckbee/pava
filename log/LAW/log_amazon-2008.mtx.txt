@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/LAW/amazon-2008.mtx
+Reading matrix completed
+Basic informations
+        numRows = 735324
+        numCols = 735324
+            nnz = 5158400
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LAW amazon-2008 CSR 68 0.272021 0.001186 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LAW amazon-2008 COO 68 0.037121 0.084960 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LAW amazon-2008 CSC 68 0.269394 0.016758 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance LAW amazon-2008 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LAW amazon-2008 IE 68 0.002755 0.001303 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance LAW amazon-2008 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LAW amazon-2008 ESB-d 68 0.104777 0.005864 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LAW amazon-2008 ESB-s 68 0.099498 0.001068 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LAW amazon-2008 CVR 68 0.002144 0.000802 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LAW amazon-2008 CSR5 68 0.005946 0.000947 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LAW amazon-2008 VHCC 68 3.062996 0.002056 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LAW amazon-2008 CSR 136 0.315138 0.000935 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LAW amazon-2008 COO 136 0.032414 0.108231 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LAW amazon-2008 CSC 136 0.325791 0.019330 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance LAW amazon-2008 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LAW amazon-2008 IE 136 0.001532 0.000879 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance LAW amazon-2008 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LAW amazon-2008 ESB-d 136 0.114463 0.005956 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LAW amazon-2008 ESB-s 136 0.120553 0.000816 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LAW amazon-2008 CVR 136 0.000846 0.000529 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LAW amazon-2008 CSR5 136 0.004356 0.000760 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LAW amazon-2008 VHCC 136 3.303561 0.001288 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LAW amazon-2008 CSR 204 0.335597 0.000846 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LAW amazon-2008 COO 204 0.043356 0.145298 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LAW amazon-2008 CSC 204 0.321890 0.022269 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance LAW amazon-2008 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LAW amazon-2008 IE 204 0.001629 0.000780 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance LAW amazon-2008 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LAW amazon-2008 ESB-d 204 0.159841 0.006183 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LAW amazon-2008 ESB-s 204 0.165604 0.000771 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LAW amazon-2008 CVR 204 0.000741 0.000463 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LAW amazon-2008 CSR5 204 0.004210 0.000730 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LAW amazon-2008 VHCC 204 3.230006 0.001101 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LAW amazon-2008 CSR 272 0.371515 0.000701 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LAW amazon-2008 COO 272 0.120708 0.144818 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LAW amazon-2008 CSC 272 0.301052 0.023421 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance LAW amazon-2008 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LAW amazon-2008 IE 272 0.001747 0.000692 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance LAW amazon-2008 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LAW amazon-2008 ESB-d 272 0.187690 0.006508 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LAW amazon-2008 ESB-s 272 0.190659 0.000665 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LAW amazon-2008 CVR 272 0.000801 0.000424 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LAW amazon-2008 CSR5 272 0.004119 0.000662 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LAW amazon-2008 VHCC 272 3.327659 0.000985 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

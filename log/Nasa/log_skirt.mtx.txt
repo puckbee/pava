@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Nasa/skirt.mtx
+Reading matrix completed
+Basic informations
+        numRows = 12599
+        numCols = 12599
+            nnz = 209120
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa skirt CSR 68 0.010004 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa skirt COO 68 0.003309 0.002584 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa skirt CSC 68 0.005401 0.000434 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12599 # was wrong
+ Performance Nasa skirt DIA 68 0.188431 0.025388 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa skirt IE 68 0.002036 0.000134 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 12599 # was wrong
+ Performance Nasa skirt BSR 68 0.033551 0.000037 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa skirt ESB-d 68 0.003515 0.000688 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa skirt ESB-s 68 0.003681 0.000609 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nasa skirt CVR 68 0.000187 0.000026 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa skirt CSR5 68 0.000862 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa skirt VHCC 68 0.113673 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa skirt CSR 136 0.004800 0.000042 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa skirt COO 136 0.001069 0.003078 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa skirt CSC 136 0.004358 0.000499 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12599 # was wrong
+ Performance Nasa skirt DIA 136 0.256879 0.025314 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa skirt IE 136 0.000881 0.000028 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 6346 out of 12599 # was wrong
+ Performance Nasa skirt BSR 136 0.037425 0.000045 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa skirt ESB-d 136 0.004467 0.001093 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa skirt ESB-s 136 0.004488 0.000999 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nasa skirt CVR 136 0.000146 0.000022 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa skirt CSR5 136 0.000335 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa skirt VHCC 136 0.192981 0.000039 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa skirt CSR 204 0.008326 0.000061 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa skirt COO 204 0.005952 0.004052 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa skirt CSC 204 0.005707 0.000608 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12599 # was wrong
+ Performance Nasa skirt DIA 204 0.292587 0.025315 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa skirt IE 204 0.001024 0.000056 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 12595 out of 12599 # was wrong
+ Performance Nasa skirt BSR 204 0.056064 0.000094 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa skirt ESB-d 204 0.005917 0.001654 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa skirt ESB-s 204 0.006174 0.001558 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nasa skirt CVR 204 0.000155 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa skirt CSR5 204 0.000370 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa skirt VHCC 204 0.267660 0.000042 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa skirt CSR 272 0.010555 0.000061 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa skirt COO 272 0.006725 0.004826 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa skirt CSC 272 0.006435 0.000670 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 12599 # was wrong
+ Performance Nasa skirt DIA 272 0.295511 0.025274 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa skirt IE 272 0.001102 0.000086 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 711 out of 12599 # was wrong
+ Performance Nasa skirt BSR 272 0.057852 0.000165 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa skirt ESB-d 272 0.006815 0.001946 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa skirt ESB-s 272 0.007059 0.002062 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nasa skirt CVR 272 0.000275 0.000029 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa skirt CSR5 272 0.000407 0.000047 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa skirt VHCC 272 0.302998 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Watson/Baumann.mtx
+Reading matrix completed
+Basic informations
+        numRows = 112212
+        numCols = 112212
+            nnz = 760640
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Watson Baumann CSR 68 0.022506 0.000069 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Watson Baumann COO 68 0.010789 0.005155 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Watson Baumann CSC 68 0.017260 0.001098 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 112212 # was wrong
+ Performance Watson Baumann DIA 68 0.034898 0.001241 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Watson Baumann IE 68 0.000850 0.000144 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 112212 # was wrong
+ Performance Watson Baumann BSR 68 0.338190 0.000271 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Watson Baumann ESB-d 68 0.011711 0.000894 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Watson Baumann ESB-s 68 0.012388 0.000075 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Watson Baumann CVR 68 0.000424 0.000090 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Watson Baumann CSR5 68 0.001323 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Watson Baumann VHCC 68 0.385688 0.000165 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Watson Baumann CSR 136 0.015960 0.000068 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Watson Baumann COO 136 0.005191 0.007448 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Watson Baumann CSC 136 0.019520 0.001494 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 112212 # was wrong
+ Performance Watson Baumann DIA 136 0.052806 0.001498 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Watson Baumann IE 136 0.000704 0.000073 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 31005 out of 112212 # was wrong
+ Performance Watson Baumann BSR 136 0.364355 0.000222 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Watson Baumann ESB-d 136 0.018860 0.000926 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Watson Baumann ESB-s 136 0.018315 0.000063 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Watson Baumann CVR 136 0.000358 0.000064 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Watson Baumann CSR5 136 0.000785 0.000051 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Watson Baumann VHCC 136 0.534197 0.000120 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Watson Baumann CSR 204 0.027445 0.000068 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Watson Baumann COO 204 0.024975 0.010287 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Watson Baumann CSC 204 0.027453 0.001955 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 112212 # was wrong
+ Performance Watson Baumann DIA 204 0.072200 0.001894 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Watson Baumann IE 204 0.000959 0.000068 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 43 out of 112212 # was wrong
+ Performance Watson Baumann BSR 204 0.413311 0.000263 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Watson Baumann ESB-d 204 0.025314 0.000960 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Watson Baumann ESB-s 204 0.027733 0.000064 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Watson Baumann CVR 204 0.000305 0.000060 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Watson Baumann CSR5 204 0.000673 0.000063 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Watson Baumann VHCC 204 0.616421 0.000112 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Watson Baumann CSR 272 0.027298 0.000073 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Watson Baumann COO 272 0.027217 0.011941 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Watson Baumann CSC 272 0.030981 0.002210 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 112212 # was wrong
+ Performance Watson Baumann DIA 272 0.083757 0.001895 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Watson Baumann IE 272 0.001200 0.000074 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 33 out of 112212 # was wrong
+ Performance Watson Baumann BSR 272 0.421949 0.000228 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Watson Baumann ESB-d 272 0.030012 0.001026 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Watson Baumann ESB-s 272 0.030929 0.000067 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Watson Baumann CVR 272 0.000392 0.000060 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Watson Baumann CSR5 272 0.000703 0.000072 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Watson Baumann VHCC 272 0.642267 0.000107 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

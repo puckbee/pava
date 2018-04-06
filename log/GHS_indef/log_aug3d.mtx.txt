@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/aug3d.mtx
+Reading matrix completed
+Basic informations
+        numRows = 24301
+        numCols = 18469
+            nnz = 69984
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef aug3d CSR 68 0.005757 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef aug3d COO 68 0.001476 0.000398 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef aug3d CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef aug3d DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef aug3d IE 68 0.001421 0.000092 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef aug3d BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef aug3d ESB-d 68 0.001558 0.000200 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef aug3d ESB-s 68 0.001546 0.000024 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef aug3d CVR 68 0.000243 0.000020 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef aug3d CSR5 68 0.000795 0.000019 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef aug3d VHCC 68 0.042338 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 10 out of 24301 # was wrong
+ Performance GHS_indef aug3d CSR 136 0.001761 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 10 out of 24301 # was wrong
+ Performance GHS_indef aug3d COO 136 0.000940 0.000607 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef aug3d CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef aug3d DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef aug3d IE 136 0.000607 0.000024 
+WARNING! # 10 out of 24301 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef aug3d BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef aug3d ESB-d 136 0.002437 0.000217 
+WARNING! # 10 out of 24301 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef aug3d ESB-s 136 0.002553 0.000027 
+WARNING! # 10 out of 24301 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef aug3d CVR 136 0.000106 0.000019 
+WARNING! # 10 out of 24301 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef aug3d CSR5 136 0.000281 0.000027 
+WARNING! # 10 out of 24301 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef aug3d VHCC 136 0.069106 0.000027 
+WARNING! # 10 out of 24301 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 6 out of 24301 # was wrong
+ Performance GHS_indef aug3d CSR 204 0.002224 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 6 out of 24301 # was wrong
+ Performance GHS_indef aug3d COO 204 0.001369 0.000821 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef aug3d CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef aug3d DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef aug3d IE 204 0.000886 0.000023 
+WARNING! # 6 out of 24301 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef aug3d BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef aug3d ESB-d 204 0.003239 0.000233 
+WARNING! # 6 out of 24301 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef aug3d ESB-s 204 0.003495 0.000031 
+WARNING! # 6 out of 24301 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef aug3d CVR 204 0.000097 0.000019 
+WARNING! # 6 out of 24301 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef aug3d CSR5 204 0.000293 0.000037 
+WARNING! # 6 out of 24301 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef aug3d VHCC 204 0.093942 0.000031 
+WARNING! # 6 out of 24301 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 6 out of 24301 # was wrong
+ Performance GHS_indef aug3d CSR 272 0.002907 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 6 out of 24301 # was wrong
+ Performance GHS_indef aug3d COO 272 0.003475 0.000908 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef aug3d CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef aug3d DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef aug3d IE 272 0.001137 0.000036 
+WARNING! # 6 out of 24301 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef aug3d BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef aug3d ESB-d 272 0.003811 0.000259 
+WARNING! # 6 out of 24301 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef aug3d ESB-s 272 0.005619 0.000036 
+WARNING! # 6 out of 24301 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef aug3d CVR 272 0.000121 0.000021 
+WARNING! # 6 out of 24301 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef aug3d CSR5 272 0.000324 0.000044 
+WARNING! # 6 out of 24301 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef aug3d VHCC 272 0.117823 0.000033 
+WARNING! # 6 out of 24301 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

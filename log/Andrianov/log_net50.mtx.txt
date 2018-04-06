@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Andrianov/net50.mtx
+Reading matrix completed
+Basic informations
+        numRows = 16321
+        numCols = 16321
+            nnz = 961520
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Andrianov net50 CSR 68 0.031076 0.000048 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Andrianov net50 COO 68 0.011083 0.013405 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Andrianov net50 CSC 68 0.028307 0.001041 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Andrianov net50 DIA 68 6.428822 0.200789 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Andrianov net50 IE 68 0.002328 0.000221 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Andrianov net50 BSR 68 0.129315 0.000205 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Andrianov net50 ESB-d 68 0.013862 0.000535 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Andrianov net50 ESB-s 68 0.013320 0.000366 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Andrianov net50 CVR 68 0.000378 0.000096 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Andrianov net50 CSR5 68 0.001683 0.000055 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Andrianov net50 VHCC 68 0.530254 0.000196 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Andrianov net50 CSR 136 0.024522 0.000047 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Andrianov net50 COO 136 0.003046 0.015947 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Andrianov net50 CSC 136 0.025714 0.001294 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Andrianov net50 DIA 136 6.550262 0.199124 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Andrianov net50 IE 136 0.000955 0.000125 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 12171 out of 16321 # was wrong
+ Performance Andrianov net50 BSR 136 0.150237 0.000187 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Andrianov net50 ESB-d 136 0.015469 0.000784 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Andrianov net50 ESB-s 136 0.016377 0.000609 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Andrianov net50 CVR 136 0.000488 0.000070 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Andrianov net50 CSR5 136 0.001056 0.000053 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Andrianov net50 VHCC 136 0.696013 0.000148 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Andrianov net50 CSR 204 0.047250 0.000057 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Andrianov net50 COO 204 0.010906 0.019342 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Andrianov net50 CSC 204 0.023357 0.001681 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Andrianov net50 DIA 204 6.525108 0.198231 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Andrianov net50 IE 204 0.000992 0.000159 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Andrianov net50 BSR 204 0.197006 0.000180 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Andrianov net50 ESB-d 204 0.020422 0.001086 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Andrianov net50 ESB-s 204 0.022825 0.000935 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Andrianov net50 CVR 204 0.000396 0.000067 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Andrianov net50 CSR5 204 0.000963 0.000064 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Andrianov net50 VHCC 204 0.747997 0.000161 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Andrianov net50 CSR 272 0.058370 0.000068 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Andrianov net50 COO 272 0.005917 0.021135 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Andrianov net50 CSC 272 0.022083 0.001768 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Andrianov net50 DIA 272 6.522793 0.199804 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Andrianov net50 IE 272 0.001191 0.000162 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Andrianov net50 BSR 272 0.209678 0.000217 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Andrianov net50 ESB-d 272 0.023879 0.001220 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Andrianov net50 ESB-s 272 0.026082 0.001330 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Andrianov net50 CVR 272 0.000446 0.000067 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Andrianov net50 CSR5 272 0.000979 0.000071 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Andrianov net50 VHCC 272 0.772334 0.000148 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

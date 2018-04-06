@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Graham/graham1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 9036
+        numCols = 9036
+            nnz = 335504
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Graham graham1 CSR 68 0.012403 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Graham graham1 COO 68 0.005072 0.004568 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Graham graham1 CSC 68 0.007976 0.000536 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Graham graham1 DIA 68 0.851260 0.062804 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Graham graham1 IE 68 0.002142 0.000251 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Graham graham1 BSR 68 0.046636 0.000045 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Graham graham1 ESB-d 68 0.006910 0.000097 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Graham graham1 ESB-s 68 0.005222 0.000053 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Graham graham1 CVR 68 0.000218 0.000035 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Graham graham1 CSR5 68 0.000993 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Graham graham1 VHCC 68 0.170007 0.000057 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Graham graham1 CSR 136 0.006906 0.000028 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Graham graham1 COO 136 0.001182 0.005379 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Graham graham1 CSC 136 0.006318 0.000628 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Graham graham1 DIA 136 0.888780 0.062977 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Graham graham1 IE 136 0.000887 0.000026 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4737 out of 9036 # was wrong
+ Performance Graham graham1 BSR 136 0.051878 0.000062 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Graham graham1 ESB-d 136 0.006442 0.000109 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Graham graham1 ESB-s 136 0.006816 0.000044 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Graham graham1 CVR 136 0.000218 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Graham graham1 CSR5 136 0.000464 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Graham graham1 VHCC 136 0.284056 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Graham graham1 CSR 204 0.012757 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Graham graham1 COO 204 0.007827 0.007254 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Graham graham1 CSC 204 0.007983 0.000823 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Graham graham1 DIA 204 0.947619 0.063078 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Graham graham1 IE 204 0.001048 0.000034 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 19 out of 9036 # was wrong
+ Performance Graham graham1 BSR 204 0.067503 0.000049 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Graham graham1 ESB-d 204 0.008522 0.000123 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Graham graham1 ESB-s 204 0.008909 0.000050 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Graham graham1 CVR 204 0.000224 0.000028 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Graham graham1 CSR5 204 0.000458 0.000042 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Graham graham1 VHCC 204 0.339325 0.000044 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Graham graham1 CSR 272 0.015854 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Graham graham1 COO 272 0.002917 0.008678 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Graham graham1 CSC 272 0.008703 0.000916 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Graham graham1 DIA 272 0.945504 0.063974 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Graham graham1 IE 272 0.001114 0.000046 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 213 out of 9036 # was wrong
+ Performance Graham graham1 BSR 272 0.074857 0.000096 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Graham graham1 ESB-d 272 0.010019 0.000137 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Graham graham1 ESB-s 272 0.010128 0.000053 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Graham graham1 CVR 272 0.000226 0.000029 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Graham graham1 CSR5 272 0.000546 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Graham graham1 VHCC 272 0.372726 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

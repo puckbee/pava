@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Rajat/rajat08.mtx
+Reading matrix completed
+Basic informations
+        numRows = 19363
+        numCols = 19282
+            nnz = 102736
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rajat rajat08 CSR 68 0.006860 0.000041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rajat rajat08 COO 68 0.001844 0.000795 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Rajat rajat08 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Rajat rajat08 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat08 IE 68 0.001699 0.000050 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Rajat rajat08 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat08 ESB-d 68 0.003900 0.000758 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat08 ESB-s 68 0.003474 0.000632 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat08 CVR 68 0.000246 0.000018 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat08 CSR5 68 0.000770 0.000019 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat08 VHCC 68 0.057941 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 2 out of 19363 # was wrong
+ Performance Rajat rajat08 CSR 136 0.002525 0.000048 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 2 out of 19363 # was wrong
+ Performance Rajat rajat08 COO 136 0.000856 0.001098 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Rajat rajat08 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Rajat rajat08 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat08 IE 136 0.000631 0.000042 
+WARNING! # 2 out of 19363 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Rajat rajat08 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat08 ESB-d 136 0.003206 0.000826 
+WARNING! # 2 out of 19363 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat08 ESB-s 136 0.003175 0.000683 
+WARNING! # 2 out of 19363 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat08 CVR 136 0.000111 0.000018 
+WARNING! # 2 out of 19363 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat08 CSR5 136 0.000281 0.000027 
+WARNING! # 2 out of 19363 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat08 VHCC 136 0.099123 0.000033 
+WARNING! # 2 out of 19363 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1 out of 19363 # was wrong
+ Performance Rajat rajat08 CSR 204 0.003673 0.000073 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1 out of 19363 # was wrong
+ Performance Rajat rajat08 COO 204 0.002507 0.001484 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Rajat rajat08 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Rajat rajat08 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat08 IE 204 0.000884 0.000052 
+WARNING! # 1 out of 19363 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Rajat rajat08 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat08 ESB-d 204 0.006154 0.001001 
+WARNING! # 1 out of 19363 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat08 ESB-s 204 0.004514 0.000858 
+WARNING! # 1 out of 19363 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat08 CVR 204 0.000097 0.000022 
+WARNING! # 1 out of 19363 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat08 CSR5 204 0.000267 0.000038 
+WARNING! # 1 out of 19363 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat08 VHCC 204 0.140574 0.000040 
+WARNING! # 1 out of 19363 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1 out of 19363 # was wrong
+ Performance Rajat rajat08 CSR 272 0.004537 0.000070 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1 out of 19363 # was wrong
+ Performance Rajat rajat08 COO 272 0.002822 0.001696 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Rajat rajat08 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Rajat rajat08 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat08 IE 272 0.001142 0.000065 
+WARNING! # 1 out of 19363 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Rajat rajat08 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat08 ESB-d 272 0.006896 0.001115 
+WARNING! # 1 out of 19363 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat08 ESB-s 272 0.005041 0.000955 
+WARNING! # 1 out of 19363 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat08 CVR 272 0.000177 0.000028 
+WARNING! # 1 out of 19363 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat08 CSR5 272 0.000383 0.000046 
+WARNING! # 1 out of 19363 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat08 VHCC 272 0.163089 0.000043 
+WARNING! # 1 out of 19363 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/IBM_EDA/dc3.mtx
+Reading matrix completed
+Basic informations
+        numRows = 116836
+        numCols = 116836
+            nnz = 766400
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA dc3 CSR 68 0.024745 0.000702 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA dc3 COO 68 0.011244 0.008183 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA dc3 CSC 68 0.021553 0.002008 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA dc3 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA dc3 IE 68 0.000876 0.000416 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance IBM_EDA dc3 BSR 68 0.335700 0.001166 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA dc3 ESB-d 68 0.017253 0.003639 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA dc3 ESB-s 68 0.016987 0.003798 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA dc3 CVR 68 0.000538 0.000092 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA dc3 CSR5 68 0.001535 0.000055 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA dc3 VHCC 68 0.386000 0.000222 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA dc3 CSR 136 0.017632 0.000797 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA dc3 COO 136 0.005248 0.010045 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA dc3 CSC 136 0.023647 0.002557 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA dc3 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA dc3 IE 136 0.000642 0.000327 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance IBM_EDA dc3 BSR 136 0.378055 0.001526 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA dc3 ESB-d 136 0.020044 0.004318 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA dc3 ESB-s 136 0.021219 0.004307 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA dc3 CVR 136 0.000303 0.000068 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA dc3 CSR5 136 0.000858 0.000052 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA dc3 VHCC 136 0.529227 0.000167 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA dc3 CSR 204 0.024934 0.000932 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA dc3 COO 204 0.016709 0.013338 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA dc3 CSC 204 0.030082 0.003282 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA dc3 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA dc3 IE 204 0.000918 0.000411 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance IBM_EDA dc3 BSR 204 0.440664 0.001851 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA dc3 ESB-d 204 0.028510 0.005509 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA dc3 ESB-s 204 0.029743 0.005173 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA dc3 CVR 204 0.000289 0.000070 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA dc3 CSR5 204 0.000710 0.000065 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA dc3 VHCC 204 0.615297 0.000161 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA dc3 CSR 272 0.031551 0.000920 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA dc3 COO 272 0.024049 0.015408 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA dc3 CSC 272 0.016380 0.003644 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA dc3 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA dc3 IE 272 0.001653 0.000417 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 35710 out of 116836 # was wrong
+ Performance IBM_EDA dc3 BSR 272 0.442114 0.001948 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA dc3 ESB-d 272 0.032899 0.006118 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA dc3 ESB-s 272 0.034117 0.005594 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA dc3 CVR 272 0.000337 0.000074 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA dc3 CSR5 272 0.000723 0.000073 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA dc3 VHCC 272 0.647532 0.000167 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Simon/appu.mtx
+Reading matrix completed
+Basic informations
+        numRows = 14001
+        numCols = 14001
+            nnz = 1853104
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon appu CSR 68 0.088665 0.000095 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon appu COO 68 0.012541 0.026242 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon appu CSC 68 0.076674 0.001673 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Simon appu DIA 68 34.011686 0.261424 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon appu IE 68 0.003237 0.000244 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Simon appu BSR 68 0.335975 0.001296 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon appu ESB-d 68 0.030865 0.000237 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon appu ESB-s 68 0.026784 0.000190 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Simon appu CVR 68 0.000406 0.000144 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon appu CSR5 68 0.001626 0.000146 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon appu VHCC 68 1.023823 0.000212 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon appu CSR 136 0.082918 0.000133 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon appu COO 136 0.005749 0.030513 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon appu CSC 136 0.070491 0.002082 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Simon appu DIA 136 34.136879 0.261681 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon appu IE 136 0.002324 0.000105 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 7111 out of 14001 # was wrong
+ Performance Simon appu BSR 136 0.374276 0.002573 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon appu ESB-d 136 0.027475 0.000231 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon appu ESB-s 136 0.031296 0.000136 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Simon appu CVR 136 0.000212 0.000109 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon appu CSR5 136 0.001032 0.000116 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon appu VHCC 136 1.147378 0.000139 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon appu CSR 204 0.111310 0.000179 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon appu COO 204 0.019999 0.031740 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon appu CSC 204 0.068964 0.002648 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Simon appu DIA 204 34.198844 0.261693 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon appu IE 204 0.003707 0.000126 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Simon appu BSR 204 0.405356 0.001641 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon appu ESB-d 204 0.038222 0.000239 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon appu ESB-s 204 0.043457 0.000132 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Simon appu CVR 204 0.000193 0.000104 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon appu CSR5 204 0.000936 0.000114 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon appu VHCC 204 1.237030 0.000130 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon appu CSR 272 0.149287 0.000199 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon appu COO 272 0.007390 0.032692 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon appu CSC 272 0.067700 0.005232 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Simon appu DIA 272 34.332014 0.261215 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon appu IE 272 0.003622 0.000148 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 89 out of 14001 # was wrong
+ Performance Simon appu BSR 272 0.419564 0.007263 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon appu ESB-d 272 0.043769 0.000251 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon appu ESB-s 272 0.048838 0.000136 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Simon appu CVR 272 0.000495 0.000103 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon appu CSR5 272 0.000764 0.000121 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon appu VHCC 272 1.225402 0.000119 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

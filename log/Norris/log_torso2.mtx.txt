@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Norris/torso2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 115968
+        numCols = 115968
+            nnz = 1033488
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Norris torso2 CSR 68 0.027173 0.000080 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Norris torso2 COO 68 0.010444 0.008709 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Norris torso2 CSC 68 0.021604 0.001275 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 115968 # was wrong
+ Performance Norris torso2 DIA 68 2.379546 0.553416 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Norris torso2 IE 68 0.002871 0.000235 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 115968 # was wrong
+ Performance Norris torso2 BSR 68 0.349258 0.000215 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Norris torso2 ESB-d 68 0.014656 0.000934 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Norris torso2 ESB-s 68 0.015492 0.000090 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Norris torso2 CVR 68 0.000413 0.000096 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Norris torso2 CSR5 68 0.001647 0.000055 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Norris torso2 VHCC 68 0.544121 0.000205 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Norris torso2 CSR 136 0.021308 0.000091 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Norris torso2 COO 136 0.005832 0.012313 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Norris torso2 CSC 136 0.023962 0.001831 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 115968 # was wrong
+ Performance Norris torso2 DIA 136 2.313942 0.544590 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Norris torso2 IE 136 0.001305 0.000132 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 115968 # was wrong
+ Performance Norris torso2 BSR 136 0.373273 0.000187 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Norris torso2 ESB-d 136 0.021368 0.000965 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Norris torso2 ESB-s 136 0.022793 0.000082 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Norris torso2 CVR 136 0.000421 0.000074 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Norris torso2 CSR5 136 0.000948 0.000058 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Norris torso2 VHCC 136 0.713977 0.000132 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Norris torso2 CSR 204 0.027542 0.000081 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Norris torso2 COO 204 0.025989 0.015798 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Norris torso2 CSC 204 0.016812 0.002283 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 115968 # was wrong
+ Performance Norris torso2 DIA 204 2.388808 0.547691 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Norris torso2 IE 204 0.001975 0.000086 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 115968 # was wrong
+ Performance Norris torso2 BSR 204 0.436468 0.000198 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Norris torso2 ESB-d 204 0.031062 0.001001 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Norris torso2 ESB-s 204 0.032406 0.000072 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Norris torso2 CVR 204 0.000410 0.000067 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Norris torso2 CSR5 204 0.000811 0.000065 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Norris torso2 VHCC 204 0.789685 0.000125 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Norris torso2 CSR 272 0.036591 0.000080 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Norris torso2 COO 272 0.029746 0.016536 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Norris torso2 CSC 272 0.016820 0.002547 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 115968 # was wrong
+ Performance Norris torso2 DIA 272 2.335321 0.546993 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Norris torso2 IE 272 0.002480 0.000100 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 115968 # was wrong
+ Performance Norris torso2 BSR 272 0.446435 0.000259 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Norris torso2 ESB-d 272 0.036415 0.001167 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Norris torso2 ESB-s 272 0.037827 0.000075 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Norris torso2 CVR 272 0.000977 0.000064 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Norris torso2 CSR5 272 0.000732 0.000074 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Norris torso2 VHCC 272 0.808553 0.000121 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/SNAP/cit-HepPh.mtx
+Reading matrix completed
+Basic informations
+        numRows = 34547
+        numCols = 34547
+            nnz = 421584
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP cit-HepPh CSR 68 0.025719 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP cit-HepPh COO 68 0.006697 0.005826 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP cit-HepPh CSC 68 0.020790 0.001124 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP cit-HepPh DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP cit-HepPh IE 68 0.001471 0.000196 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 28163 out of 34547 # was wrong
+ Performance SNAP cit-HepPh BSR 68 0.113569 0.000396 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP cit-HepPh ESB-d 68 0.011556 0.000310 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP cit-HepPh ESB-s 68 0.010238 0.000139 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP cit-HepPh CVR 68 0.000365 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP cit-HepPh CSR5 68 0.001341 0.000046 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP cit-HepPh VHCC 68 0.240551 0.000123 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP cit-HepPh CSR 136 0.022434 0.000054 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP cit-HepPh COO 136 0.002086 0.007378 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP cit-HepPh CSC 136 0.023892 0.001327 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP cit-HepPh DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP cit-HepPh IE 136 0.000682 0.000063 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 16431 out of 34547 # was wrong
+ Performance SNAP cit-HepPh BSR 136 0.151858 0.000393 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP cit-HepPh ESB-d 136 0.009226 0.000320 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP cit-HepPh ESB-s 136 0.011105 0.000094 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP cit-HepPh CVR 136 0.000184 0.000046 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP cit-HepPh CSR5 136 0.000800 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP cit-HepPh VHCC 136 0.346359 0.000090 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP cit-HepPh CSR 204 0.028196 0.000060 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP cit-HepPh COO 204 0.002694 0.009884 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP cit-HepPh CSC 204 0.034128 0.001801 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP cit-HepPh DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP cit-HepPh IE 204 0.000942 0.000062 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance SNAP cit-HepPh BSR 204 0.194551 0.000526 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP cit-HepPh ESB-d 204 0.012548 0.000335 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP cit-HepPh ESB-s 204 0.014756 0.000103 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP cit-HepPh CVR 204 0.000161 0.000046 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP cit-HepPh CSR5 204 0.000769 0.000059 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP cit-HepPh VHCC 204 0.408617 0.000087 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP cit-HepPh CSR 272 0.037491 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP cit-HepPh COO 272 0.003129 0.011473 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP cit-HepPh CSC 272 0.033095 0.001998 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP cit-HepPh DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP cit-HepPh IE 272 0.001146 0.000087 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance SNAP cit-HepPh BSR 272 0.205246 0.001067 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP cit-HepPh ESB-d 272 0.014406 0.000367 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP cit-HepPh ESB-s 272 0.016771 0.000099 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP cit-HepPh CVR 272 0.000236 0.000050 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP cit-HepPh CSR5 272 0.000728 0.000067 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP cit-HepPh VHCC 272 0.448426 0.000084 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

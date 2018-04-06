@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/ncvxqp5.mtx
+Reading matrix completed
+Basic informations
+        numRows = 62501
+        numCols = 50001
+            nnz = 474976
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 2672 out of 62501 # was wrong
+ Performance GHS_indef ncvxqp5 CSR 68 0.018074 0.000115 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 2629 out of 62501 # was wrong
+ Performance GHS_indef ncvxqp5 COO 68 0.007542 0.004809 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef ncvxqp5 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef ncvxqp5 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef ncvxqp5 IE 68 0.002711 0.000215 
+WARNING! # 2672 out of 62501 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef ncvxqp5 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef ncvxqp5 ESB-d 68 0.012670 0.001943 
+WARNING! # 2629 out of 62501 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef ncvxqp5 ESB-s 68 0.011709 0.001602 
+WARNING! # 2629 out of 62501 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef ncvxqp5 CVR 68 0.000380 0.000056 
+WARNING! # 2556 out of 62501 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef ncvxqp5 CSR5 68 0.001343 0.000039 
+WARNING! # 2507 out of 62501 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef ncvxqp5 VHCC 68 0.280974 0.000156 
+WARNING! # 2573 out of 62501 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 18470 out of 62501 # was wrong
+ Performance GHS_indef ncvxqp5 CSR 136 0.012026 0.000134 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 9462 out of 62501 # was wrong
+ Performance GHS_indef ncvxqp5 COO 136 0.002948 0.006053 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef ncvxqp5 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef ncvxqp5 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef ncvxqp5 IE 136 0.000608 0.000135 
+WARNING! # 20 out of 62501 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef ncvxqp5 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef ncvxqp5 ESB-d 136 0.011454 0.002134 
+WARNING! # 19706 out of 62501 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef ncvxqp5 ESB-s 136 0.012074 0.001712 
+WARNING! # 18154 out of 62501 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef ncvxqp5 CVR 136 0.000279 0.000046 
+WARNING! # 19259 out of 62501 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef ncvxqp5 CSR5 136 0.000637 0.000043 
+WARNING! # 19535 out of 62501 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef ncvxqp5 VHCC 136 0.421308 0.000129 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 18511 out of 62501 # was wrong
+ Performance GHS_indef ncvxqp5 CSR 204 0.020993 0.000169 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 9462 out of 62501 # was wrong
+ Performance GHS_indef ncvxqp5 COO 204 0.015100 0.008021 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef ncvxqp5 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef ncvxqp5 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef ncvxqp5 IE 204 0.000866 0.000193 
+WARNING! # 20 out of 62501 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef ncvxqp5 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef ncvxqp5 ESB-d 204 0.024448 0.002607 
+WARNING! # 20591 out of 62501 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef ncvxqp5 ESB-s 204 0.017234 0.002160 
+WARNING! # 18150 out of 62501 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef ncvxqp5 CVR 204 0.000276 0.000047 
+WARNING! # 18946 out of 62501 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef ncvxqp5 CSR5 204 0.000664 0.000055 
+WARNING! # 20131 out of 62501 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef ncvxqp5 VHCC 204 0.512166 0.000112 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 18521 out of 62501 # was wrong
+ Performance GHS_indef ncvxqp5 CSR 272 0.026421 0.000190 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 9802 out of 62501 # was wrong
+ Performance GHS_indef ncvxqp5 COO 272 0.017410 0.009415 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef ncvxqp5 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef ncvxqp5 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef ncvxqp5 IE 272 0.001147 0.000180 
+WARNING! # 21 out of 62501 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef ncvxqp5 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef ncvxqp5 ESB-d 272 0.027808 0.003046 
+WARNING! # 21153 out of 62501 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef ncvxqp5 ESB-s 272 0.019753 0.002522 
+WARNING! # 18332 out of 62501 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef ncvxqp5 CVR 272 0.000287 0.000048 
+WARNING! # 18820 out of 62501 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef ncvxqp5 CSR5 272 0.000626 0.000068 
+WARNING! # 19301 out of 62501 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef ncvxqp5 VHCC 272 0.539165 0.000162 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

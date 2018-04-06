@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/TKK/engine.mtx
+Reading matrix completed
+Basic informations
+        numRows = 143572
+        numCols = 143572
+            nnz = 4849648
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK engine CSR 68 0.126908 0.001016 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK engine COO 68 0.028047 0.069674 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK engine CSC 68 0.114095 0.011673 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance TKK engine DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK engine IE 68 0.003626 0.000510 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance TKK engine BSR 68 0.955948 0.001516 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK engine ESB-d 68 0.082133 0.005506 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK engine ESB-s 68 0.079441 0.005460 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK engine CVR 68 0.001849 0.000476 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK engine CSR5 68 0.004054 0.000496 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK engine VHCC 68 2.960447 0.001136 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK engine CSR 136 0.120837 0.000818 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK engine COO 136 0.058296 0.071297 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK engine CSC 136 0.116873 0.013289 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance TKK engine DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK engine IE 136 0.001581 0.000384 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 43496 out of 143572 # was wrong
+ Performance TKK engine BSR 136 1.027575 0.001269 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK engine ESB-d 136 0.079988 0.008364 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK engine ESB-s 136 0.084077 0.007642 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK engine CVR 136 0.000570 0.000333 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK engine CSR5 136 0.002605 0.000379 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK engine VHCC 136 3.008576 0.000731 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK engine CSR 204 0.165288 0.000927 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK engine COO 204 0.021987 0.072368 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK engine CSC 204 0.115840 0.017566 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance TKK engine DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK engine IE 204 0.001417 0.000448 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 15885 out of 143572 # was wrong
+ Performance TKK engine BSR 204 1.007073 0.001657 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK engine ESB-d 204 0.110239 0.011537 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK engine ESB-s 204 0.114726 0.010900 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK engine CVR 204 0.000624 0.000280 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK engine CSR5 204 0.002335 0.000364 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK engine VHCC 204 3.106173 0.000640 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK engine CSR 272 0.193272 0.001272 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK engine COO 272 0.025029 0.071087 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK engine CSC 272 0.106071 0.018971 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance TKK engine DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK engine IE 272 0.001628 0.000526 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 15724 out of 143572 # was wrong
+ Performance TKK engine BSR 272 1.012812 0.001852 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK engine ESB-d 272 0.127520 0.013156 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK engine ESB-s 272 0.134028 0.012369 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK engine CVR 272 0.000673 0.000254 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK engine CSR5 272 0.002048 0.000353 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK engine VHCC 272 3.136914 0.000845 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

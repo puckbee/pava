@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_psdef/wathen100.mtx
+Reading matrix completed
+Basic informations
+        numRows = 30402
+        numCols = 30402
+            nnz = 502016
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef wathen100 CSR 68 0.017151 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef wathen100 COO 68 0.008995 0.006082 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef wathen100 CSC 68 0.010676 0.001027 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 30402 # was wrong
+ Performance GHS_psdef wathen100 DIA 68 0.084851 0.008715 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef wathen100 IE 68 0.002324 0.000181 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 30402 # was wrong
+ Performance GHS_psdef wathen100 BSR 68 0.083869 0.000054 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef wathen100 ESB-d 68 0.008538 0.001075 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef wathen100 ESB-s 68 0.007736 0.000832 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef wathen100 CVR 68 0.000332 0.000049 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef wathen100 CSR5 68 0.001142 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef wathen100 VHCC 68 0.279219 0.000095 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef wathen100 CSR 136 0.011206 0.000068 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef wathen100 COO 136 0.002349 0.007302 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef wathen100 CSC 136 0.009612 0.001179 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 30402 # was wrong
+ Performance GHS_psdef wathen100 DIA 136 0.148550 0.009032 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef wathen100 IE 136 0.000875 0.000067 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 30402 # was wrong
+ Performance GHS_psdef wathen100 BSR 136 0.096152 0.000086 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef wathen100 ESB-d 136 0.009949 0.001773 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef wathen100 ESB-s 136 0.010522 0.001570 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef wathen100 CVR 136 0.000282 0.000038 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef wathen100 CSR5 136 0.000610 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef wathen100 VHCC 136 0.413338 0.000071 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef wathen100 CSR 204 0.019557 0.000083 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef wathen100 COO 204 0.011583 0.009589 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef wathen100 CSC 204 0.012786 0.001441 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 30402 # was wrong
+ Performance GHS_psdef wathen100 DIA 204 0.193219 0.009106 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef wathen100 IE 204 0.000963 0.000087 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 30402 # was wrong
+ Performance GHS_psdef wathen100 BSR 204 0.139896 0.000074 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef wathen100 ESB-d 204 0.014248 0.002501 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef wathen100 ESB-s 204 0.014660 0.002268 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef wathen100 CVR 204 0.000290 0.000036 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef wathen100 CSR5 204 0.000577 0.000047 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef wathen100 VHCC 204 0.497654 0.000069 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef wathen100 CSR 272 0.024679 0.000129 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef wathen100 COO 272 0.018261 0.011498 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef wathen100 CSC 272 0.014344 0.001568 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 30402 # was wrong
+ Performance GHS_psdef wathen100 DIA 272 0.193206 0.009105 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef wathen100 IE 272 0.001093 0.000103 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 30363 out of 30402 # was wrong
+ Performance GHS_psdef wathen100 BSR 272 0.148494 0.000246 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef wathen100 ESB-d 272 0.016321 0.002997 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef wathen100 ESB-s 272 0.016742 0.002683 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef wathen100 CVR 272 0.000370 0.000037 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef wathen100 CSR5 272 0.000658 0.000057 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef wathen100 VHCC 272 0.519130 0.000068 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

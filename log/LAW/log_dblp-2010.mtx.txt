@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/LAW/dblp-2010.mtx
+Reading matrix completed
+Basic informations
+        numRows = 326184
+        numCols = 326184
+            nnz = 1615408
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LAW dblp-2010 CSR 68 0.062190 0.000446 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LAW dblp-2010 COO 68 0.016090 0.025748 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LAW dblp-2010 CSC 68 0.079523 0.005829 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance LAW dblp-2010 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LAW dblp-2010 IE 68 0.001008 0.000462 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance LAW dblp-2010 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LAW dblp-2010 ESB-d 68 0.039426 0.002675 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LAW dblp-2010 ESB-s 68 0.042541 0.000706 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LAW dblp-2010 CVR 68 0.000608 0.000267 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LAW dblp-2010 CSR5 68 0.003576 0.000257 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LAW dblp-2010 VHCC 68 0.946035 0.000675 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LAW dblp-2010 CSR 136 0.053743 0.000374 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LAW dblp-2010 COO 136 0.012481 0.029896 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LAW dblp-2010 CSC 136 0.085439 0.006788 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance LAW dblp-2010 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LAW dblp-2010 IE 136 0.000781 0.000276 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance LAW dblp-2010 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LAW dblp-2010 ESB-d 136 0.044621 0.002675 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LAW dblp-2010 ESB-s 136 0.048785 0.000532 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LAW dblp-2010 CVR 136 0.000439 0.000199 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LAW dblp-2010 CSR5 136 0.002448 0.000227 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LAW dblp-2010 VHCC 136 1.156470 0.000438 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LAW dblp-2010 CSR 204 0.070418 0.000343 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LAW dblp-2010 COO 204 0.017600 0.032579 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LAW dblp-2010 CSC 204 0.088217 0.008186 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance LAW dblp-2010 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LAW dblp-2010 IE 204 0.001146 0.000242 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance LAW dblp-2010 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LAW dblp-2010 ESB-d 204 0.061050 0.002759 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LAW dblp-2010 ESB-s 204 0.067713 0.000553 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LAW dblp-2010 CVR 204 0.000446 0.000181 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LAW dblp-2010 CSR5 204 0.002283 0.000232 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LAW dblp-2010 VHCC 204 1.161361 0.000378 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LAW dblp-2010 CSR 272 0.086922 0.000348 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LAW dblp-2010 COO 272 0.021143 0.033038 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LAW dblp-2010 CSC 272 0.084055 0.008985 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance LAW dblp-2010 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LAW dblp-2010 IE 272 0.001376 0.000259 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance LAW dblp-2010 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LAW dblp-2010 ESB-d 272 0.072124 0.002893 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LAW dblp-2010 ESB-s 272 0.077483 0.000559 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LAW dblp-2010 CVR 272 0.000362 0.000178 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LAW dblp-2010 CSR5 272 0.002160 0.000211 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LAW dblp-2010 VHCC 272 1.171807 0.000349 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

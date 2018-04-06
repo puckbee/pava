@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/ACUSIM/Pres_Poisson.mtx
+Reading matrix completed
+Basic informations
+        numRows = 14823
+        numCols = 14823
+            nnz = 730640
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson CSR 68 0.022418 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson COO 68 0.009196 0.010309 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson CSC 68 0.013912 0.000813 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson DIA 68 1.052375 0.126593 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ACUSIM Pres_Poisson IE 68 0.002217 0.000166 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson BSR 68 0.092797 0.000065 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ACUSIM Pres_Poisson ESB-d 68 0.010882 0.000846 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ACUSIM Pres_Poisson ESB-s 68 0.010807 0.000762 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ACUSIM Pres_Poisson CVR 68 0.000307 0.000060 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ACUSIM Pres_Poisson CSR5 68 0.001267 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ACUSIM Pres_Poisson VHCC 68 0.406065 0.000090 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson CSR 136 0.015809 0.000059 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson COO 136 0.002310 0.011610 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson CSC 136 0.014587 0.000960 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson DIA 136 1.175895 0.126379 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ACUSIM Pres_Poisson IE 136 0.001185 0.000055 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1022 out of 14823 # was wrong
+ Performance ACUSIM Pres_Poisson BSR 136 0.109532 0.000073 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ACUSIM Pres_Poisson ESB-d 136 0.012436 0.001330 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ACUSIM Pres_Poisson ESB-s 136 0.012557 0.001192 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ACUSIM Pres_Poisson CVR 136 0.000368 0.000043 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ACUSIM Pres_Poisson CSR5 136 0.000720 0.000043 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ACUSIM Pres_Poisson VHCC 136 0.566743 0.000062 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson CSR 204 0.029015 0.000079 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson COO 204 0.011453 0.015775 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson CSC 204 0.014287 0.001203 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson DIA 204 1.128933 0.127146 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ACUSIM Pres_Poisson IE 204 0.001224 0.000051 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1968 out of 14823 # was wrong
+ Performance ACUSIM Pres_Poisson BSR 204 0.144963 0.000075 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ACUSIM Pres_Poisson ESB-d 204 0.016777 0.001987 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ACUSIM Pres_Poisson ESB-s 204 0.017377 0.001877 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ACUSIM Pres_Poisson CVR 204 0.000368 0.000042 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ACUSIM Pres_Poisson CSR5 204 0.000709 0.000052 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ACUSIM Pres_Poisson VHCC 204 0.623478 0.000062 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson CSR 272 0.034454 0.000089 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson COO 272 0.003268 0.018070 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson CSC 272 0.011110 0.001319 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson DIA 272 1.166532 0.127463 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ACUSIM Pres_Poisson IE 272 0.001188 0.001349 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance ACUSIM Pres_Poisson BSR 272 0.163083 0.000327 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ACUSIM Pres_Poisson ESB-d 272 0.019441 0.002645 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ACUSIM Pres_Poisson ESB-s 272 0.019800 0.002357 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ACUSIM Pres_Poisson CVR 272 0.001118 0.000079 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ACUSIM Pres_Poisson CSR5 272 0.005822 0.000126 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ACUSIM Pres_Poisson VHCC 272 0.655961 0.000060 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Bai/rdb2048_noL.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2049
+        numCols = 2049
+            nnz = 12032
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai rdb2048_noL CSR 68 0.003649 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai rdb2048_noL COO 68 0.000317 0.000066 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai rdb2048_noL CSC 68 0.000307 0.000047 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai rdb2048_noL DIA 68 0.000691 0.000023 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai rdb2048_noL IE 68 0.001061 0.000086 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bai rdb2048_noL BSR 68 0.002516 0.000024 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai rdb2048_noL ESB-d 68 0.000396 0.000029 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai rdb2048_noL ESB-s 68 0.000273 0.000013 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai rdb2048_noL CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai rdb2048_noL CSR5 68 0.000835 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai rdb2048_noL VHCC 68 0.007968 0.000015 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai rdb2048_noL CSR 136 0.000358 0.000020 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai rdb2048_noL COO 136 0.000126 0.000115 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai rdb2048_noL CSC 136 0.000415 0.000074 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai rdb2048_noL DIA 136 0.000952 0.000023 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai rdb2048_noL IE 136 0.000599 0.000014 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bai rdb2048_noL BSR 136 0.002312 0.000039 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai rdb2048_noL ESB-d 136 0.000420 0.000041 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai rdb2048_noL ESB-s 136 0.000469 0.000019 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai rdb2048_noL CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai rdb2048_noL CSR5 136 0.000145 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai rdb2048_noL VHCC 136 0.014015 0.000018 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai rdb2048_noL CSR 204 0.000424 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai rdb2048_noL COO 204 0.000145 0.000149 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai rdb2048_noL CSC 204 0.000489 0.000080 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai rdb2048_noL DIA 204 0.001243 0.000025 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai rdb2048_noL IE 204 0.000854 0.000015 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bai rdb2048_noL BSR 204 0.002802 0.000058 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai rdb2048_noL ESB-d 204 0.000477 0.000054 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai rdb2048_noL ESB-s 204 0.000548 0.000023 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai rdb2048_noL CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai rdb2048_noL CSR5 204 0.000142 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai rdb2048_noL VHCC 204 0.020344 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai rdb2048_noL CSR 272 0.000466 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai rdb2048_noL COO 272 0.000146 0.000177 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai rdb2048_noL CSC 272 0.000553 0.000094 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai rdb2048_noL DIA 272 0.001399 0.000026 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai rdb2048_noL IE 272 0.001122 0.000043 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bai rdb2048_noL BSR 272 0.003184 0.000139 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai rdb2048_noL ESB-d 272 0.000479 0.000068 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai rdb2048_noL ESB-s 272 0.000530 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai rdb2048_noL CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai rdb2048_noL CSR5 272 0.000422 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai rdb2048_noL VHCC 272 0.025827 0.000053 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

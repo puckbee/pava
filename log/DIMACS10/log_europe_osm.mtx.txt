@@ -1,0 +1,292 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/europe_osm.mtx
+Reading matrix completed
+Basic informations
+        numRows = 50912019
+        numCols = 50912019
+            nnz = 108109328
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 europe_osm CSR 68 3.912313 0.049635 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 europe_osm COO 68 1.210391 0.974528 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 europe_osm CSC 68 6.993450 2.262135 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 europe_osm DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Performance DIMACS10 europe_osm IE 68 -1.000000 -1.000000 
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 europe_osm BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 europe_osm ESB-d 68 2.599842 0.385404 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 europe_osm ESB-s 68 2.597239 0.037950 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 europe_osm CVR 68 0.044248 0.019631 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 europe_osm CSR5 68 0.114148 0.018863 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance DIMACS10 europe_osm VHCC 68 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 europe_osm CSR 136 3.797300 0.039909 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 europe_osm COO 136 1.301335 1.021230 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 europe_osm CSC 136 6.881780 2.250477 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 europe_osm DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Performance DIMACS10 europe_osm IE 136 -1.000000 -1.000000 
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 europe_osm BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 europe_osm ESB-d 136 2.611901 0.389191 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 europe_osm ESB-s 136 2.542615 0.025504 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 europe_osm CVR 136 0.034240 0.013834 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 europe_osm CSR5 136 0.084183 0.014516 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance DIMACS10 europe_osm VHCC 136 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 europe_osm CSR 204 3.824527 0.033041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 europe_osm COO 204 1.300887 1.058756 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 europe_osm CSC 204 6.877229 2.250427 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 europe_osm DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Performance DIMACS10 europe_osm IE 204 -1.000000 -1.000000 
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 europe_osm BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 europe_osm ESB-d 204 2.598722 0.397139 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 europe_osm ESB-s 204 2.570437 0.024014 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 europe_osm CVR 204 0.036447 0.012826 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 europe_osm CSR5 204 0.080317 0.014929 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance DIMACS10 europe_osm VHCC 204 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 europe_osm CSR 272 3.803376 0.027610 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 europe_osm COO 272 1.247297 1.057069 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 europe_osm CSC 272 6.843228 2.247152 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 europe_osm DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Performance DIMACS10 europe_osm IE 272 -1.000000 -1.000000 
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance DIMACS10 europe_osm BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 europe_osm ESB-d 272 2.586802 0.420229 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 europe_osm ESB-s 272 2.543989 0.020942 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 europe_osm CVR 272 0.035727 0.012448 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 europe_osm CSR5 272 0.070811 0.013423 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance DIMACS10 europe_osm VHCC 272 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

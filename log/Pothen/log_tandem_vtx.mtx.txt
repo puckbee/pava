@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Pothen/tandem_vtx.mtx
+Reading matrix completed
+Basic informations
+        numRows = 18455
+        numCols = 18455
+            nnz = 271808
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen tandem_vtx CSR 68 0.012488 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen tandem_vtx COO 68 0.004280 0.003541 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen tandem_vtx CSC 68 0.009004 0.000690 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 18455 # was wrong
+ Performance Pothen tandem_vtx DIA 68 3.644830 0.415491 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen tandem_vtx IE 68 0.001445 0.000096 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 18455 # was wrong
+ Performance Pothen tandem_vtx BSR 68 0.050294 0.000073 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen tandem_vtx ESB-d 68 0.004620 0.001018 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen tandem_vtx ESB-s 68 0.004660 0.000913 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen tandem_vtx CVR 68 0.000215 0.000036 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen tandem_vtx CSR5 68 0.001033 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen tandem_vtx VHCC 68 0.156235 0.000072 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen tandem_vtx CSR 136 0.006889 0.000054 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen tandem_vtx COO 136 0.001202 0.004272 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen tandem_vtx CSC 136 0.008080 0.000766 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 18455 # was wrong
+ Performance Pothen tandem_vtx DIA 136 3.741550 0.417042 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen tandem_vtx IE 136 0.001028 0.000093 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 18455 # was wrong
+ Performance Pothen tandem_vtx BSR 136 0.066856 0.000192 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen tandem_vtx ESB-d 136 0.006015 0.001648 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen tandem_vtx ESB-s 136 0.005909 0.001550 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen tandem_vtx CVR 136 0.000178 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen tandem_vtx CSR5 136 0.000404 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen tandem_vtx VHCC 136 0.264788 0.000055 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen tandem_vtx CSR 204 0.012238 0.000070 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen tandem_vtx COO 204 0.007738 0.005712 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen tandem_vtx CSC 204 0.010265 0.000963 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 18455 # was wrong
+ Performance Pothen tandem_vtx DIA 204 3.761346 0.417078 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen tandem_vtx IE 204 0.001099 0.000105 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 18455 # was wrong
+ Performance Pothen tandem_vtx BSR 204 0.086213 0.000232 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen tandem_vtx ESB-d 204 0.008004 0.002437 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen tandem_vtx ESB-s 204 0.008355 0.002314 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen tandem_vtx CVR 204 0.000192 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen tandem_vtx CSR5 204 0.000442 0.000043 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen tandem_vtx VHCC 204 0.339924 0.000055 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen tandem_vtx CSR 272 0.015430 0.000095 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen tandem_vtx COO 272 0.007217 0.006830 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen tandem_vtx CSC 272 0.011130 0.001031 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 18455 # was wrong
+ Performance Pothen tandem_vtx DIA 272 3.736487 0.414499 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen tandem_vtx IE 272 0.001112 0.000142 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 18455 # was wrong
+ Performance Pothen tandem_vtx BSR 272 0.091877 0.000548 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen tandem_vtx ESB-d 272 0.009128 0.002846 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen tandem_vtx ESB-s 272 0.009555 0.002757 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen tandem_vtx CVR 272 0.000218 0.000028 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen tandem_vtx CSR5 272 0.000456 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen tandem_vtx VHCC 272 0.373077 0.000055 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

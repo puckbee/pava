@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/TKK/cbuckle.mtx
+Reading matrix completed
+Basic informations
+        numRows = 13682
+        numCols = 13682
+            nnz = 690208
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK cbuckle CSR 68 0.020690 0.000041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK cbuckle COO 68 0.008536 0.009412 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK cbuckle CSC 68 0.013792 0.000806 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13682 # was wrong
+ Performance TKK cbuckle DIA 68 0.103854 0.011654 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK cbuckle IE 68 0.001980 0.000165 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 13682 # was wrong
+ Performance TKK cbuckle BSR 68 0.084130 0.000040 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK cbuckle ESB-d 68 0.009578 0.000536 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK cbuckle ESB-s 68 0.009767 0.000463 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK cbuckle CVR 68 0.000304 0.000060 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK cbuckle CSR5 68 0.001250 0.000043 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK cbuckle VHCC 68 0.384344 0.000088 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK cbuckle CSR 136 0.014730 0.000055 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK cbuckle COO 136 0.002382 0.011171 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK cbuckle CSC 136 0.013162 0.000918 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13682 # was wrong
+ Performance TKK cbuckle DIA 136 0.160476 0.011749 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK cbuckle IE 136 0.000982 0.000035 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 3718 out of 13682 # was wrong
+ Performance TKK cbuckle BSR 136 0.097174 0.000056 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK cbuckle ESB-d 136 0.011548 0.000848 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK cbuckle ESB-s 136 0.012255 0.000779 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK cbuckle CVR 136 0.000399 0.000041 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK cbuckle CSR5 136 0.000810 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK cbuckle VHCC 136 0.545772 0.000062 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK cbuckle CSR 204 0.025970 0.000060 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK cbuckle COO 204 0.010431 0.014836 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK cbuckle CSC 204 0.016465 0.001169 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13682 # was wrong
+ Performance TKK cbuckle DIA 204 0.194815 0.011692 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK cbuckle IE 204 0.001106 0.000045 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2139 out of 13682 # was wrong
+ Performance TKK cbuckle BSR 204 0.130503 0.000196 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK cbuckle ESB-d 204 0.015653 0.001197 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK cbuckle ESB-s 204 0.016627 0.001106 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK cbuckle CVR 204 0.000373 0.000039 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK cbuckle CSR5 204 0.000715 0.000051 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK cbuckle VHCC 204 0.591013 0.000060 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK cbuckle CSR 272 0.031500 0.000078 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK cbuckle COO 272 0.003034 0.017514 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK cbuckle CSC 272 0.010130 0.001268 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13682 # was wrong
+ Performance TKK cbuckle DIA 272 0.202573 0.011689 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK cbuckle IE 272 0.001202 0.000336 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 705 out of 13682 # was wrong
+ Performance TKK cbuckle BSR 272 0.147605 0.000230 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK cbuckle ESB-d 272 0.018730 0.001626 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK cbuckle ESB-s 272 0.018995 0.001403 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK cbuckle CVR 272 0.000395 0.000060 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK cbuckle CSR5 272 0.003407 0.000121 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK cbuckle VHCC 272 0.635471 0.000059 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

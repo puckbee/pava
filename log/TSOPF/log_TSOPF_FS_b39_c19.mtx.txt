@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/TSOPF/TSOPF_FS_b39_c19.mtx
+Reading matrix completed
+Basic informations
+        numRows = 76217
+        numCols = 38119
+            nnz = 1996720
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TSOPF TSOPF_FS_b39_c19 CSR 68 0.058969 0.000980 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TSOPF TSOPF_FS_b39_c19 COO 68 0.013731 0.025682 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TSOPF TSOPF_FS_b39_c19 IE 68 0.003058 0.000276 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TSOPF TSOPF_FS_b39_c19 ESB-d 68 0.032591 0.001242 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TSOPF TSOPF_FS_b39_c19 ESB-s 68 0.029751 0.002645 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TSOPF TSOPF_FS_b39_c19 CVR 68 0.000711 0.000297 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TSOPF TSOPF_FS_b39_c19 CSR5 68 0.002344 0.000138 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TSOPF TSOPF_FS_b39_c19 VHCC 68 1.143929 0.000473 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 32348 out of 76217 # was wrong
+ Performance TSOPF TSOPF_FS_b39_c19 CSR 136 0.051166 0.001236 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 77 out of 76217 # was wrong
+ Performance TSOPF TSOPF_FS_b39_c19 COO 136 0.007204 0.028094 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TSOPF TSOPF_FS_b39_c19 IE 136 0.001094 0.000213 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TSOPF TSOPF_FS_b39_c19 ESB-d 136 0.035719 0.001593 
+WARNING! # 19410 out of 76217 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TSOPF TSOPF_FS_b39_c19 ESB-s 136 0.036788 0.002990 
+WARNING! # 21075 out of 76217 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TSOPF TSOPF_FS_b39_c19 CVR 136 0.000595 0.000185 
+WARNING! # 21612 out of 76217 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TSOPF TSOPF_FS_b39_c19 CSR5 136 0.001534 0.000137 
+WARNING! # 21324 out of 76217 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TSOPF TSOPF_FS_b39_c19 VHCC 136 1.281594 0.000364 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 29346 out of 76217 # was wrong
+ Performance TSOPF TSOPF_FS_b39_c19 CSR 204 0.084145 0.001429 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 77 out of 76217 # was wrong
+ Performance TSOPF TSOPF_FS_b39_c19 COO 204 0.034053 0.030262 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TSOPF TSOPF_FS_b39_c19 IE 204 0.001286 0.000223 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TSOPF TSOPF_FS_b39_c19 ESB-d 204 0.054218 0.002040 
+WARNING! # 21345 out of 76217 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TSOPF TSOPF_FS_b39_c19 ESB-s 204 0.050354 0.003572 
+WARNING! # 24759 out of 76217 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TSOPF TSOPF_FS_b39_c19 CVR 204 0.000514 0.000176 
+WARNING! # 23708 out of 76217 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TSOPF TSOPF_FS_b39_c19 CSR5 204 0.001505 0.000150 
+WARNING! # 23115 out of 76217 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TSOPF TSOPF_FS_b39_c19 VHCC 204 1.372387 0.000372 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 24037 out of 76217 # was wrong
+ Performance TSOPF TSOPF_FS_b39_c19 CSR 272 0.100940 0.001532 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 22670 out of 76217 # was wrong
+ Performance TSOPF TSOPF_FS_b39_c19 COO 272 0.039007 0.030526 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TSOPF TSOPF_FS_b39_c19 IE 272 0.001530 0.000215 
+WARNING! # 23459 out of 76217 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance TSOPF TSOPF_FS_b39_c19 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TSOPF TSOPF_FS_b39_c19 ESB-d 272 0.060845 0.002408 
+WARNING! # 22670 out of 76217 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TSOPF TSOPF_FS_b39_c19 ESB-s 272 0.058256 0.003990 
+WARNING! # 22670 out of 76217 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TSOPF TSOPF_FS_b39_c19 CVR 272 0.000437 0.000233 
+WARNING! # 22674 out of 76217 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TSOPF TSOPF_FS_b39_c19 CSR5 272 0.001290 0.000158 
+WARNING! # 22665 out of 76217 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TSOPF TSOPF_FS_b39_c19 VHCC 272 1.346440 0.000334 
+WARNING! # 22178 out of 76217 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

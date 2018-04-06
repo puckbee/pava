@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Cylshell/s1rmq4m1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 5490
+        numCols = 5490
+            nnz = 286608
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 CSR 68 0.011228 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 COO 68 0.004148 0.003900 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 CSC 68 0.007161 0.000319 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5490 # was wrong
+ Performance Cylshell s1rmq4m1 DIA 68 0.030760 0.001630 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Cylshell s1rmq4m1 IE 68 0.001425 0.000095 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4093 out of 5490 # was wrong
+ Performance Cylshell s1rmq4m1 BSR 68 0.030658 0.000027 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Cylshell s1rmq4m1 ESB-d 68 0.004668 0.000201 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Cylshell s1rmq4m1 ESB-s 68 0.004084 0.000126 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Cylshell s1rmq4m1 CVR 68 0.000247 0.000028 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Cylshell s1rmq4m1 CSR5 68 0.000989 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Cylshell s1rmq4m1 VHCC 68 0.151560 0.000052 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 CSR 136 0.006967 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 COO 136 0.003779 0.004618 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 CSC 136 0.005772 0.000386 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5490 # was wrong
+ Performance Cylshell s1rmq4m1 DIA 136 0.045546 0.002048 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Cylshell s1rmq4m1 IE 136 0.000653 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 450 out of 5490 # was wrong
+ Performance Cylshell s1rmq4m1 BSR 136 0.038415 0.000032 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Cylshell s1rmq4m1 ESB-d 136 0.004784 0.000329 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Cylshell s1rmq4m1 ESB-s 136 0.005292 0.000266 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Cylshell s1rmq4m1 CVR 136 0.000208 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Cylshell s1rmq4m1 CSR5 136 0.000439 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Cylshell s1rmq4m1 VHCC 136 0.262357 0.000043 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 CSR 204 0.008899 0.000061 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 COO 204 0.004070 0.006000 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 CSC 204 0.007046 0.000483 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5490 # was wrong
+ Performance Cylshell s1rmq4m1 DIA 204 0.072744 0.002483 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Cylshell s1rmq4m1 IE 204 0.000942 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 160 out of 5490 # was wrong
+ Performance Cylshell s1rmq4m1 BSR 204 0.052878 0.000156 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Cylshell s1rmq4m1 ESB-d 204 0.006436 0.000474 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Cylshell s1rmq4m1 ESB-s 204 0.006836 0.000400 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Cylshell s1rmq4m1 CVR 204 0.000201 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Cylshell s1rmq4m1 CSR5 204 0.000406 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Cylshell s1rmq4m1 VHCC 204 0.332085 0.000044 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 CSR 272 0.011740 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 COO 272 0.001322 0.007422 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Cylshell s1rmq4m1 CSC 272 0.007609 0.000523 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5490 # was wrong
+ Performance Cylshell s1rmq4m1 DIA 272 0.086365 0.002539 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Cylshell s1rmq4m1 IE 272 0.001207 0.000033 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2169 out of 5490 # was wrong
+ Performance Cylshell s1rmq4m1 BSR 272 0.058879 0.000069 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Cylshell s1rmq4m1 ESB-d 272 0.007383 0.000558 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Cylshell s1rmq4m1 ESB-s 272 0.007795 0.000489 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Cylshell s1rmq4m1 CVR 272 0.000203 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Cylshell s1rmq4m1 CSR5 272 0.000473 0.000042 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Cylshell s1rmq4m1 VHCC 272 0.361292 0.000048 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

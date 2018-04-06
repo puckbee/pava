@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Nasa/barth4.mtx
+Reading matrix completed
+Basic informations
+        numRows = 6020
+        numCols = 6020
+            nnz = 23504
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa barth4 CSR 68 0.004022 0.000016 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa barth4 COO 68 0.000554 0.000125 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa barth4 CSC 68 0.000851 0.000097 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6020 # was wrong
+ Performance Nasa barth4 DIA 68 0.036373 0.012402 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa barth4 IE 68 0.001101 0.000086 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 6020 # was wrong
+ Performance Nasa barth4 BSR 68 0.007686 0.000024 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa barth4 ESB-d 68 0.000643 0.000059 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa barth4 ESB-s 68 0.000555 0.000015 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nasa barth4 CVR 68 0.000170 0.000010 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa barth4 CSR5 68 0.000757 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa barth4 VHCC 68 0.013748 0.000019 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa barth4 CSR 136 0.000563 0.000021 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa barth4 COO 136 0.000324 0.000248 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa barth4 CSC 136 0.000957 0.000123 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6020 # was wrong
+ Performance Nasa barth4 DIA 136 0.047411 0.014452 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa barth4 IE 136 0.000951 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2400 out of 6020 # was wrong
+ Performance Nasa barth4 BSR 136 0.008454 0.000029 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa barth4 ESB-d 136 0.000803 0.000075 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa barth4 ESB-s 136 0.000834 0.000021 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nasa barth4 CVR 136 0.000062 0.000011 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa barth4 CSR5 136 0.000199 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa barth4 VHCC 136 0.025289 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa barth4 CSR 204 0.000798 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa barth4 COO 204 0.000358 0.000269 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa barth4 CSC 204 0.001239 0.000166 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6020 # was wrong
+ Performance Nasa barth4 DIA 204 0.063264 0.016276 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa barth4 IE 204 0.001058 0.000020 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1920 out of 6020 # was wrong
+ Performance Nasa barth4 BSR 204 0.007522 0.000055 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa barth4 ESB-d 204 0.001078 0.000085 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa barth4 ESB-s 204 0.001145 0.000025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nasa barth4 CVR 204 0.000063 0.000014 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa barth4 CSR5 204 0.000194 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa barth4 VHCC 204 0.038617 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Nasa barth4 CSR 272 0.000980 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Nasa barth4 COO 272 0.000388 0.000301 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Nasa barth4 CSC 272 0.001423 0.000180 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6020 # was wrong
+ Performance Nasa barth4 DIA 272 0.071944 0.015672 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Nasa barth4 IE 272 0.001040 0.000042 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1591 out of 6020 # was wrong
+ Performance Nasa barth4 BSR 272 0.008092 0.000150 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Nasa barth4 ESB-d 272 0.001200 0.000113 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Nasa barth4 ESB-s 272 0.001279 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Nasa barth4 CVR 272 0.000103 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Nasa barth4 CSR5 272 0.000291 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Nasa barth4 VHCC 272 0.048417 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

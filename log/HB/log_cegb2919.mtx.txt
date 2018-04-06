@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/cegb2919.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2920
+        numCols = 2920
+            nnz = 324416
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb2919 CSR 68 0.012578 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb2919 COO 68 0.004844 0.004572 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb2919 CSC 68 0.007553 0.000291 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb2919 DIA 68 0.223171 0.008913 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb2919 IE 68 0.002704 0.000113 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1909 out of 2920 # was wrong
+ Performance HB cegb2919 BSR 68 0.034086 0.000051 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb2919 ESB-d 68 0.007648 0.000173 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb2919 ESB-s 68 0.005064 0.000137 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb2919 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb2919 CSR5 68 0.001021 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb2919 VHCC 68 0.175016 0.000053 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb2919 CSR 136 0.008172 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb2919 COO 136 0.001193 0.005342 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb2919 CSC 136 0.005857 0.000337 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb2919 DIA 136 0.298988 0.008876 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb2919 IE 136 0.001343 0.000020 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB cegb2919 BSR 136 0.044312 0.000072 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb2919 ESB-d 136 0.005723 0.000265 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb2919 ESB-s 136 0.005563 0.000230 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb2919 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb2919 CSR5 136 0.000519 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb2919 VHCC 136 0.297747 0.000041 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb2919 CSR 204 0.010181 0.000041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb2919 COO 204 0.001298 0.007233 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb2919 CSC 204 0.007511 0.000445 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb2919 DIA 204 0.327145 0.008824 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb2919 IE 204 0.001175 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB cegb2919 BSR 204 0.057762 0.000197 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb2919 ESB-d 204 0.007187 0.000365 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb2919 ESB-s 204 0.007732 0.000314 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb2919 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb2919 CSR5 204 0.000495 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb2919 VHCC 204 0.367686 0.000045 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb2919 CSR 272 0.013166 0.000089 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb2919 COO 272 0.001291 0.008625 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb2919 CSC 272 0.008081 0.000490 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb2919 DIA 272 0.334264 0.008816 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb2919 IE 272 0.001312 0.000053 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2638 out of 2920 # was wrong
+ Performance HB cegb2919 BSR 272 0.066137 0.000407 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb2919 ESB-d 272 0.008721 0.000425 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb2919 ESB-s 272 0.008761 0.000372 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb2919 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb2919 CSR5 272 0.000554 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb2919 VHCC 272 0.400244 0.000048 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

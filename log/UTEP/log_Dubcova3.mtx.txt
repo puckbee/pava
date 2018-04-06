@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/UTEP/Dubcova3.mtx
+Reading matrix completed
+Basic informations
+        numRows = 146690
+        numCols = 146690
+            nnz = 3783344
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance UTEP Dubcova3 CSR 68 0.104361 0.000686 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance UTEP Dubcova3 COO 68 0.023514 0.049135 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance UTEP Dubcova3 CSC 68 0.081513 0.006351 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance UTEP Dubcova3 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance UTEP Dubcova3 IE 68 0.002381 0.000512 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance UTEP Dubcova3 BSR 68 0.880458 0.001831 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance UTEP Dubcova3 ESB-d 68 0.059556 0.004914 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance UTEP Dubcova3 ESB-s 68 0.061185 0.003913 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance UTEP Dubcova3 CVR 68 0.000622 0.000408 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance UTEP Dubcova3 CSR5 68 0.003281 0.000497 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance UTEP Dubcova3 VHCC 68 2.286649 0.000956 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance UTEP Dubcova3 CSR 136 0.099098 0.000618 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance UTEP Dubcova3 COO 136 0.043994 0.051137 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance UTEP Dubcova3 CSC 136 0.073998 0.008548 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance UTEP Dubcova3 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance UTEP Dubcova3 IE 136 0.001085 0.000435 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance UTEP Dubcova3 BSR 136 0.953636 0.001500 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance UTEP Dubcova3 ESB-d 136 0.062601 0.008459 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance UTEP Dubcova3 ESB-s 136 0.066550 0.007272 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance UTEP Dubcova3 CVR 136 0.000473 0.000325 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance UTEP Dubcova3 CSR5 136 0.002132 0.000467 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance UTEP Dubcova3 VHCC 136 2.309873 0.000664 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance UTEP Dubcova3 CSR 204 0.141094 0.000677 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance UTEP Dubcova3 COO 204 0.018025 0.053091 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance UTEP Dubcova3 CSC 204 0.074036 0.010689 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance UTEP Dubcova3 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance UTEP Dubcova3 IE 204 0.001383 0.000461 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 12482 out of 146690 # was wrong
+ Performance UTEP Dubcova3 BSR 204 0.893030 0.001325 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance UTEP Dubcova3 ESB-d 204 0.086325 0.011760 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance UTEP Dubcova3 ESB-s 204 0.092711 0.010625 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance UTEP Dubcova3 CVR 204 0.000421 0.000286 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance UTEP Dubcova3 CSR5 204 0.001879 0.000486 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance UTEP Dubcova3 VHCC 204 2.413871 0.000579 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance UTEP Dubcova3 CSR 272 0.181590 0.000580 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance UTEP Dubcova3 COO 272 0.073713 0.050317 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance UTEP Dubcova3 CSC 272 0.073742 0.011479 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance UTEP Dubcova3 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance UTEP Dubcova3 IE 272 0.001668 0.000533 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 7037 out of 146690 # was wrong
+ Performance UTEP Dubcova3 BSR 272 0.968798 0.001139 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance UTEP Dubcova3 ESB-d 272 0.103232 0.013959 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance UTEP Dubcova3 ESB-s 272 0.106909 0.012710 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance UTEP Dubcova3 CVR 272 0.000490 0.000255 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance UTEP Dubcova3 CSR5 272 0.001666 0.000449 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance UTEP Dubcova3 VHCC 272 2.449062 0.000514 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

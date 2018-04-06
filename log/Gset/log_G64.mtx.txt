@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Gset/G64.mtx
+Reading matrix completed
+Basic informations
+        numRows = 7001
+        numCols = 6975
+            nnz = 82928
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 42 out of 7001 # was wrong
+ Performance Gset G64 CSR 68 0.006310 0.000028 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 46 out of 7001 # was wrong
+ Performance Gset G64 COO 68 0.001482 0.000928 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Gset G64 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Gset G64 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gset G64 IE 68 0.001269 0.000237 
+WARNING! # 47 out of 7001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Gset G64 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gset G64 ESB-d 68 0.002461 0.000071 
+WARNING! # 18 out of 7001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gset G64 ESB-s 68 0.001963 0.000074 
+WARNING! # 6 out of 7001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gset G64 CVR 68 0.000268 0.000016 
+WARNING! # 15 out of 7001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gset G64 CSR5 68 0.000723 0.000019 
+WARNING! # 28 out of 7001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gset G64 VHCC 68 0.059514 0.000065 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 7 out of 7001 # was wrong
+ Performance Gset G64 CSR 136 0.002431 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 46 out of 7001 # was wrong
+ Performance Gset G64 COO 136 0.000528 0.001199 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Gset G64 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Gset G64 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gset G64 IE 136 0.000134 0.000024 
+WARNING! # 47 out of 7001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Gset G64 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gset G64 ESB-d 136 0.001789 0.000084 
+WARNING! # 13 out of 7001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gset G64 ESB-s 136 0.002089 0.000067 
+WARNING! # 3 out of 7001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gset G64 CVR 136 0.000104 0.000015 
+WARNING! # 23 out of 7001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gset G64 CSR5 136 0.000235 0.000026 
+WARNING! # 30 out of 7001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gset G64 VHCC 136 0.098042 0.000062 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 16 out of 7001 # was wrong
+ Performance Gset G64 CSR 204 0.003751 0.000042 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 46 out of 7001 # was wrong
+ Performance Gset G64 COO 204 0.002007 0.001582 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Gset G64 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Gset G64 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gset G64 IE 204 0.000180 0.000022 
+WARNING! # 47 out of 7001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Gset G64 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gset G64 ESB-d 204 0.003258 0.000097 
+WARNING! # 3 out of 7001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gset G64 ESB-s 204 0.002699 0.000076 
+WARNING! # 3 out of 7001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gset G64 CVR 204 0.000101 0.000018 
+WARNING! # 43 out of 7001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gset G64 CSR5 204 0.000272 0.000036 
+WARNING! # 36 out of 7001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gset G64 VHCC 204 0.139494 0.000063 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 8 out of 7001 # was wrong
+ Performance Gset G64 CSR 272 0.005036 0.000047 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 46 out of 7001 # was wrong
+ Performance Gset G64 COO 272 0.001754 0.001871 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Gset G64 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Gset G64 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gset G64 IE 272 0.000183 0.000030 
+WARNING! # 47 out of 7001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Gset G64 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gset G64 ESB-d 272 0.003306 0.000114 
+WARNING! # 10 out of 7001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gset G64 ESB-s 272 0.003032 0.000077 
+WARNING! # 3 out of 7001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gset G64 CVR 272 0.000238 0.000021 
+WARNING! # 28 out of 7001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gset G64 CSR5 272 0.000417 0.000041 
+WARNING! # 29 out of 7001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gset G64 VHCC 272 0.170505 0.000062 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

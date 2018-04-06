@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Barabasi/NotreDame_yeast.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2115
+        numCols = 2115
+            nnz = 4560
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast CSR 68 0.003725 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast COO 68 0.000187 0.000041 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast CSC 68 0.000343 0.000048 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2115 # was wrong
+ Performance Barabasi NotreDame_yeast DIA 68 0.020325 0.004264 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Barabasi NotreDame_yeast IE 68 0.001046 0.000078 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 708 out of 2115 # was wrong
+ Performance Barabasi NotreDame_yeast BSR 68 0.002041 0.000022 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Barabasi NotreDame_yeast ESB-d 68 0.000517 0.000030 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Barabasi NotreDame_yeast ESB-s 68 0.000200 0.000014 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Barabasi NotreDame_yeast CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Barabasi NotreDame_yeast CSR5 68 0.000684 0.000014 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Barabasi NotreDame_yeast VHCC 68 0.005044 0.000014 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast CSR 136 0.000189 0.000020 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast COO 136 0.000105 0.000045 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast CSC 136 0.000350 0.000057 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2115 # was wrong
+ Performance Barabasi NotreDame_yeast DIA 136 0.031813 0.005193 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Barabasi NotreDame_yeast IE 136 0.000607 0.000015 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2115 # was wrong
+ Performance Barabasi NotreDame_yeast BSR 136 0.002002 0.000048 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Barabasi NotreDame_yeast ESB-d 136 0.000260 0.000042 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Barabasi NotreDame_yeast ESB-s 136 0.000296 0.000020 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Barabasi NotreDame_yeast CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Barabasi NotreDame_yeast CSR5 136 0.000153 0.000020 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Barabasi NotreDame_yeast VHCC 136 0.009871 0.000017 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast CSR 204 0.000242 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast COO 204 0.000118 0.000067 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast CSC 204 0.000371 0.000079 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2115 # was wrong
+ Performance Barabasi NotreDame_yeast DIA 204 0.042301 0.006653 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Barabasi NotreDame_yeast IE 204 0.000891 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1785 out of 2115 # was wrong
+ Performance Barabasi NotreDame_yeast BSR 204 0.001917 0.000072 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Barabasi NotreDame_yeast ESB-d 204 0.000349 0.000055 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Barabasi NotreDame_yeast ESB-s 204 0.000366 0.000024 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Barabasi NotreDame_yeast CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Barabasi NotreDame_yeast CSR5 204 0.000161 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Barabasi NotreDame_yeast VHCC 204 0.014303 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast CSR 272 0.000253 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast COO 272 0.000124 0.000076 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Barabasi NotreDame_yeast CSC 272 0.000384 0.000094 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2115 # was wrong
+ Performance Barabasi NotreDame_yeast DIA 272 0.050907 0.006852 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Barabasi NotreDame_yeast IE 272 0.001132 0.000026 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1793 out of 2115 # was wrong
+ Performance Barabasi NotreDame_yeast BSR 272 0.002051 0.000158 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Barabasi NotreDame_yeast ESB-d 272 0.000325 0.000069 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Barabasi NotreDame_yeast ESB-s 272 0.000362 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Barabasi NotreDame_yeast CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Barabasi NotreDame_yeast CSR5 272 0.000248 0.000029 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Barabasi NotreDame_yeast VHCC 272 0.019729 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

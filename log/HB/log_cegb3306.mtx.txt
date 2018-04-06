@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/cegb3306.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3307
+        numCols = 3307
+            nnz = 78144
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb3306 CSR 68 0.006142 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb3306 COO 68 0.001315 0.001049 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb3306 CSC 68 0.001987 0.000148 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb3306 DIA 68 0.040745 0.003753 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb3306 IE 68 0.001156 0.000075 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB cegb3306 BSR 68 0.009672 0.000023 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb3306 ESB-d 68 0.001308 0.000122 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb3306 ESB-s 68 0.001244 0.000093 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb3306 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb3306 CSR5 68 0.000899 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb3306 VHCC 68 0.043164 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb3306 CSR 136 0.002100 0.000026 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb3306 COO 136 0.001212 0.001226 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb3306 CSC 136 0.001670 0.000167 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb3306 DIA 136 0.075394 0.004611 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb3306 IE 136 0.000614 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB cegb3306 BSR 136 0.011908 0.000032 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb3306 ESB-d 136 0.001503 0.000218 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb3306 ESB-s 136 0.001645 0.000183 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb3306 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb3306 CSR5 136 0.000258 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb3306 VHCC 136 0.070535 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb3306 CSR 204 0.002755 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb3306 COO 204 0.000451 0.001591 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb3306 CSC 204 0.002078 0.000214 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb3306 DIA 204 0.100472 0.005702 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb3306 IE 204 0.000903 0.000019 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 187 out of 3307 # was wrong
+ Performance HB cegb3306 BSR 204 0.015263 0.000032 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb3306 ESB-d 204 0.002016 0.000312 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb3306 ESB-s 204 0.002112 0.000280 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb3306 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb3306 CSR5 204 0.000299 0.000029 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb3306 VHCC 204 0.097058 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb3306 CSR 272 0.003090 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb3306 COO 272 0.000504 0.001903 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb3306 CSC 272 0.002210 0.000236 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb3306 DIA 272 0.117673 0.005874 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb3306 IE 272 0.001135 0.000031 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1431 out of 3307 # was wrong
+ Performance HB cegb3306 BSR 272 0.017234 0.000048 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb3306 ESB-d 272 0.002341 0.000377 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb3306 ESB-s 272 0.002439 0.000326 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb3306 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb3306 CSR5 272 0.000379 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb3306 VHCC 272 0.118986 0.000033 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

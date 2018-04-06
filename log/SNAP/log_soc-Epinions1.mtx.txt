@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/SNAP/soc-Epinions1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 75889
+        numCols = 75889
+            nnz = 508848
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 CSR 68 0.031314 0.000306 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 COO 68 0.007200 0.007963 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 CSC 68 0.029133 0.003666 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP soc-Epinions1 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP soc-Epinions1 IE 68 0.000876 0.000220 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 17301 out of 75889 # was wrong
+ Performance SNAP soc-Epinions1 BSR 68 0.202021 0.001943 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP soc-Epinions1 ESB-d 68 0.015480 0.000690 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP soc-Epinions1 ESB-s 68 0.014427 0.001297 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP soc-Epinions1 CVR 68 0.000358 0.000088 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP soc-Epinions1 CSR5 68 0.001972 0.000059 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP soc-Epinions1 VHCC 68 0.279961 0.000192 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 CSR 136 0.025336 0.000245 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 COO 136 0.003253 0.009890 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 CSC 136 0.029315 0.004462 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP soc-Epinions1 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP soc-Epinions1 IE 136 0.000587 0.000092 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 BSR 136 0.260454 0.001435 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP soc-Epinions1 ESB-d 136 0.012517 0.000698 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP soc-Epinions1 ESB-s 136 0.014505 0.000869 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP soc-Epinions1 CVR 136 0.000269 0.000067 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP soc-Epinions1 CSR5 136 0.001169 0.000053 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP soc-Epinions1 VHCC 136 0.382474 0.000130 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 CSR 204 0.038535 0.000256 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 COO 204 0.016284 0.013080 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 CSC 204 0.038326 0.005815 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP soc-Epinions1 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP soc-Epinions1 IE 204 0.000873 0.000086 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 75889 # was wrong
+ Performance SNAP soc-Epinions1 BSR 204 0.304565 0.001444 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP soc-Epinions1 ESB-d 204 0.017407 0.000728 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP soc-Epinions1 ESB-s 204 0.020275 0.000835 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP soc-Epinions1 CVR 204 0.000259 0.000070 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP soc-Epinions1 CSR5 204 0.001177 0.000070 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP soc-Epinions1 VHCC 204 0.472306 0.000123 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 CSR 272 0.044572 0.000213 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 COO 272 0.005264 0.014676 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 CSC 272 0.036812 0.006193 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance SNAP soc-Epinions1 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP soc-Epinions1 IE 272 0.001148 0.000090 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance SNAP soc-Epinions1 BSR 272 0.280051 0.001316 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP soc-Epinions1 ESB-d 272 0.019997 0.000769 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP soc-Epinions1 ESB-s 272 0.024500 0.000871 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP soc-Epinions1 CVR 272 0.000228 0.000070 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP soc-Epinions1 CSR5 272 0.001134 0.000081 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP soc-Epinions1 VHCC 272 0.512020 0.000114 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

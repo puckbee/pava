@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Bai/cryg10000.mtx
+Reading matrix completed
+Basic informations
+        numRows = 10001
+        numCols = 10001
+            nnz = 49712
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai cryg10000 CSR 68 0.004711 0.000018 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai cryg10000 COO 68 0.000976 0.000297 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai cryg10000 CSC 68 0.001675 0.000150 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai cryg10000 DIA 68 0.002239 0.000099 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai cryg10000 IE 68 0.000837 0.000106 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bai cryg10000 BSR 68 0.011458 0.000029 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai cryg10000 ESB-d 68 0.001014 0.000090 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai cryg10000 ESB-s 68 0.000947 0.000017 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bai cryg10000 CVR 68 0.000108 0.000012 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai cryg10000 CSR5 68 0.000810 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai cryg10000 VHCC 68 0.025315 0.000021 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai cryg10000 CSR 136 0.001074 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai cryg10000 COO 136 0.000499 0.000469 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai cryg10000 CSC 136 0.001701 0.000226 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai cryg10000 DIA 136 0.003629 0.000130 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai cryg10000 IE 136 0.000579 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bai cryg10000 BSR 136 0.014965 0.000034 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai cryg10000 ESB-d 136 0.001616 0.000104 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai cryg10000 ESB-s 136 0.001784 0.000022 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bai cryg10000 CVR 136 0.000076 0.000013 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai cryg10000 CSR5 136 0.000188 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai cryg10000 VHCC 136 0.043089 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai cryg10000 CSR 204 0.001681 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai cryg10000 COO 204 0.001221 0.000638 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai cryg10000 CSC 204 0.002150 0.000262 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai cryg10000 DIA 204 0.005277 0.000142 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai cryg10000 IE 204 0.000855 0.000022 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bai cryg10000 BSR 204 0.022556 0.000046 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai cryg10000 ESB-d 204 0.001928 0.000118 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai cryg10000 ESB-s 204 0.002098 0.000027 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bai cryg10000 CVR 204 0.000074 0.000016 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai cryg10000 CSR5 204 0.000206 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai cryg10000 VHCC 204 0.062733 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai cryg10000 CSR 272 0.001890 0.000045 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai cryg10000 COO 272 0.001657 0.000701 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai cryg10000 CSC 272 0.002439 0.000297 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bai cryg10000 DIA 272 0.005802 0.000148 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai cryg10000 IE 272 0.001130 0.000027 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 9781 out of 10001 # was wrong
+ Performance Bai cryg10000 BSR 272 0.025195 0.000059 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai cryg10000 ESB-d 272 0.002284 0.000136 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai cryg10000 ESB-s 272 0.002539 0.000033 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bai cryg10000 CVR 272 0.000199 0.000018 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai cryg10000 CSR5 272 0.000349 0.000046 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai cryg10000 VHCC 272 0.070544 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

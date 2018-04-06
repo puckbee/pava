@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Mallya/lhr34.mtx
+Reading matrix completed
+Basic informations
+        numRows = 35153
+        numCols = 35153
+            nnz = 764016
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mallya lhr34 CSR 68 0.021794 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mallya lhr34 COO 68 0.010029 0.009967 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mallya lhr34 CSC 68 0.015803 0.001108 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 35153 # was wrong
+ Performance Mallya lhr34 DIA 68 4.877328 0.487139 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mallya lhr34 IE 68 0.002418 0.000150 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 35153 # was wrong
+ Performance Mallya lhr34 BSR 68 0.116934 0.000077 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mallya lhr34 ESB-d 68 0.013960 0.000311 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mallya lhr34 ESB-s 68 0.012368 0.000107 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mallya lhr34 CVR 68 0.000467 0.000071 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mallya lhr34 CSR5 68 0.001394 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mallya lhr34 VHCC 68 0.372205 0.000108 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mallya lhr34 CSR 136 0.014974 0.000042 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mallya lhr34 COO 136 0.003157 0.011780 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mallya lhr34 CSC 136 0.014688 0.001394 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 35153 # was wrong
+ Performance Mallya lhr34 DIA 136 4.967543 0.486125 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mallya lhr34 IE 136 0.001255 0.000152 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1317 out of 35153 # was wrong
+ Performance Mallya lhr34 BSR 136 0.145849 0.000097 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mallya lhr34 ESB-d 136 0.015206 0.000321 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mallya lhr34 ESB-s 136 0.016146 0.000078 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mallya lhr34 CVR 136 0.000456 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mallya lhr34 CSR5 136 0.000902 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mallya lhr34 VHCC 136 0.535173 0.000083 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mallya lhr34 CSR 204 0.028444 0.000046 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mallya lhr34 COO 204 0.017477 0.015701 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mallya lhr34 CSC 204 0.012136 0.001832 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 35153 # was wrong
+ Performance Mallya lhr34 DIA 204 4.971604 0.488720 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mallya lhr34 IE 204 0.001412 0.000132 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1040 out of 35153 # was wrong
+ Performance Mallya lhr34 BSR 204 0.201752 0.000081 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mallya lhr34 ESB-d 204 0.024202 0.000345 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mallya lhr34 ESB-s 204 0.022262 0.000079 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mallya lhr34 CVR 204 0.000460 0.000056 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mallya lhr34 CSR5 204 0.000871 0.000057 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mallya lhr34 VHCC 204 0.602769 0.000082 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mallya lhr34 CSR 272 0.037129 0.000047 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mallya lhr34 COO 272 0.019984 0.017147 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mallya lhr34 CSC 272 0.011056 0.002024 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 35153 # was wrong
+ Performance Mallya lhr34 DIA 272 4.980128 0.487443 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mallya lhr34 IE 272 0.001157 0.000175 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 13470 out of 35153 # was wrong
+ Performance Mallya lhr34 BSR 272 0.193969 0.000153 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mallya lhr34 ESB-d 272 0.023834 0.000556 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mallya lhr34 ESB-s 272 0.025194 0.000081 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mallya lhr34 CVR 272 0.000468 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mallya lhr34 CSR5 272 0.000846 0.000065 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mallya lhr34 VHCC 272 0.618776 0.000083 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

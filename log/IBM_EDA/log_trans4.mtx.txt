@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/IBM_EDA/trans4.mtx
+Reading matrix completed
+Basic informations
+        numRows = 116836
+        numCols = 116836
+            nnz = 766400
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA trans4 CSR 68 0.024900 0.000708 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA trans4 COO 68 0.011088 0.008180 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA trans4 CSC 68 0.020312 0.001968 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA trans4 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA trans4 IE 68 0.000862 0.000415 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance IBM_EDA trans4 BSR 68 0.335483 0.001177 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA trans4 ESB-d 68 0.018739 0.003627 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA trans4 ESB-s 68 0.018543 0.003795 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA trans4 CVR 68 0.000327 0.000091 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA trans4 CSR5 68 0.001339 0.000056 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA trans4 VHCC 68 0.393421 0.000222 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA trans4 CSR 136 0.017698 0.000799 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA trans4 COO 136 0.005151 0.010049 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA trans4 CSC 136 0.023757 0.002563 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA trans4 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA trans4 IE 136 0.000604 0.000331 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance IBM_EDA trans4 BSR 136 0.375012 0.001516 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA trans4 ESB-d 136 0.019910 0.004325 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA trans4 ESB-s 136 0.021202 0.004287 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA trans4 CVR 136 0.000296 0.000069 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA trans4 CSR5 136 0.000850 0.000055 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA trans4 VHCC 136 0.550404 0.000167 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA trans4 CSR 204 0.024559 0.000925 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA trans4 COO 204 0.016904 0.013432 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA trans4 CSC 204 0.030428 0.003272 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA trans4 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA trans4 IE 204 0.000909 0.000410 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance IBM_EDA trans4 BSR 204 0.437097 0.001844 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA trans4 ESB-d 204 0.028466 0.005511 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA trans4 ESB-s 204 0.029877 0.005180 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA trans4 CVR 204 0.000305 0.000069 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA trans4 CSR5 204 0.000684 0.000064 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA trans4 VHCC 204 0.618701 0.000162 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA trans4 CSR 272 0.031619 0.000909 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA trans4 COO 272 0.024181 0.015465 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA trans4 CSC 272 0.016352 0.003646 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA trans4 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA trans4 IE 272 0.001179 0.000416 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 11545 out of 116836 # was wrong
+ Performance IBM_EDA trans4 BSR 272 0.443121 0.001958 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA trans4 ESB-d 272 0.032912 0.006116 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA trans4 ESB-s 272 0.034278 0.005600 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA trans4 CVR 272 0.000313 0.000073 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA trans4 CSR5 272 0.000707 0.000072 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA trans4 VHCC 272 0.649343 0.000170 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

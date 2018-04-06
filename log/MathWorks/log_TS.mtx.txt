@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/MathWorks/TS.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2143
+        numCols = 2143
+            nnz = 45264
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks TS CSR 68 0.004884 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks TS COO 68 0.000822 0.000560 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks TS CSC 68 0.001128 0.000063 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance MathWorks TS DIA 68 0.005461 0.000244 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks TS IE 68 0.001029 0.000094 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance MathWorks TS BSR 68 0.005484 0.000027 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks TS ESB-d 68 0.000816 0.000031 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks TS ESB-s 68 0.000721 0.000015 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance MathWorks TS CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks TS CSR5 68 0.000843 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks TS VHCC 68 0.022110 0.000017 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks TS CSR 136 0.001033 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks TS COO 136 0.000657 0.000701 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks TS CSC 136 0.000882 0.000087 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance MathWorks TS DIA 136 0.007593 0.000329 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks TS IE 136 0.000619 0.000019 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance MathWorks TS BSR 136 0.006351 0.000060 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks TS ESB-d 136 0.000865 0.000043 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks TS ESB-s 136 0.000961 0.000021 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance MathWorks TS CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks TS CSR5 136 0.000187 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks TS VHCC 136 0.037910 0.000020 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks TS CSR 204 0.001166 0.000031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks TS COO 204 0.000272 0.000923 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks TS CSC 204 0.001111 0.000117 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance MathWorks TS DIA 204 0.010598 0.000370 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks TS IE 204 0.000868 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance MathWorks TS BSR 204 0.008731 0.000100 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks TS ESB-d 204 0.001173 0.000053 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks TS ESB-s 204 0.001237 0.000025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance MathWorks TS CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks TS CSR5 204 0.000195 0.000031 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks TS VHCC 204 0.054437 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks TS CSR 272 0.001483 0.000055 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks TS COO 272 0.000286 0.001088 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks TS CSC 272 0.001190 0.000139 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance MathWorks TS DIA 272 0.012686 0.000369 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks TS IE 272 0.001094 0.000031 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 825 out of 2143 # was wrong
+ Performance MathWorks TS BSR 272 0.009898 0.000209 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks TS ESB-d 272 0.001375 0.000080 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks TS ESB-s 272 0.001360 0.000084 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance MathWorks TS CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks TS CSR5 272 0.010973 0.000092 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks TS VHCC 272 0.067896 0.000055 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

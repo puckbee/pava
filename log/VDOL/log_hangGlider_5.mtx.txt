@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/VDOL/hangGlider_5.mtx
+Reading matrix completed
+Basic informations
+        numRows = 16012
+        numCols = 8895
+            nnz = 164144
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 2370 out of 16012 # was wrong
+ Performance VDOL hangGlider_5 CSR 68 0.008504 0.000050 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 165 out of 16012 # was wrong
+ Performance VDOL hangGlider_5 COO 68 0.002706 0.001647 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL hangGlider_5 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL hangGlider_5 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL hangGlider_5 IE 68 0.001654 0.000103 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL hangGlider_5 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL hangGlider_5 ESB-d 68 0.004963 0.000525 
+WARNING! # 658 out of 16012 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL hangGlider_5 ESB-s 68 0.003917 0.000469 
+WARNING! # 4344 out of 16012 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance VDOL hangGlider_5 CVR 68 0.000189 0.000024 
+WARNING! # 5583 out of 16012 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL hangGlider_5 CSR5 68 0.000807 0.000022 
+WARNING! # 4539 out of 16012 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL hangGlider_5 VHCC 68 0.095850 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 4423 out of 16012 # was wrong
+ Performance VDOL hangGlider_5 CSR 136 0.003848 0.000059 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 165 out of 16012 # was wrong
+ Performance VDOL hangGlider_5 COO 136 0.000965 0.002132 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL hangGlider_5 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL hangGlider_5 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL hangGlider_5 IE 136 0.000618 0.000038 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL hangGlider_5 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL hangGlider_5 ESB-d 136 0.004019 0.000600 
+WARNING! # 858 out of 16012 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL hangGlider_5 ESB-s 136 0.003902 0.000512 
+WARNING! # 4363 out of 16012 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance VDOL hangGlider_5 CVR 136 0.000134 0.000021 
+WARNING! # 4164 out of 16012 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL hangGlider_5 CSR5 136 0.000307 0.000030 
+WARNING! # 4372 out of 16012 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL hangGlider_5 VHCC 136 0.158739 0.000045 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance VDOL hangGlider_5 CSR 204 0.006749 0.000070 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance VDOL hangGlider_5 COO 204 0.004879 0.002844 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL hangGlider_5 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL hangGlider_5 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL hangGlider_5 IE 204 0.000897 0.000047 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL hangGlider_5 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL hangGlider_5 ESB-d 204 0.006657 0.000738 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL hangGlider_5 ESB-s 204 0.005352 0.000637 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance VDOL hangGlider_5 CVR 204 0.000132 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL hangGlider_5 CSR5 204 0.000307 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL hangGlider_5 VHCC 204 0.228133 0.000050 
+WARNING! # 7017 out of 16012 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance VDOL hangGlider_5 CSR 272 0.008504 0.000082 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance VDOL hangGlider_5 COO 272 0.005555 0.003345 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL hangGlider_5 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL hangGlider_5 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL hangGlider_5 IE 272 0.001146 0.000077 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL hangGlider_5 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL hangGlider_5 ESB-d 272 0.007433 0.000825 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL hangGlider_5 ESB-s 272 0.006146 0.000713 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance VDOL hangGlider_5 CVR 272 0.000289 0.000033 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL hangGlider_5 CSR5 272 0.000419 0.000047 
+WARNING! # 3875 out of 16012 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL hangGlider_5 VHCC 272 0.264349 0.000059 
+WARNING! # 5497 out of 16012 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

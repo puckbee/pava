@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DNVS/trdheim.mtx
+Reading matrix completed
+Basic informations
+        numRows = 22099
+        numCols = 22099
+            nnz = 1957424
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DNVS trdheim CSR 68 0.053434 0.000088 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DNVS trdheim COO 68 0.014735 0.027904 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DNVS trdheim CSC 68 0.034510 0.001691 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance DNVS trdheim DIA 68 0.938286 0.030447 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DNVS trdheim IE 68 0.002730 0.000212 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 18229 out of 22099 # was wrong
+ Performance DNVS trdheim BSR 68 0.218010 0.000076 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DNVS trdheim ESB-d 68 0.027947 0.000959 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DNVS trdheim ESB-s 68 0.026749 0.000775 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DNVS trdheim CVR 68 0.000426 0.000145 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DNVS trdheim CSR5 68 0.001992 0.000091 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DNVS trdheim VHCC 68 1.048097 0.000210 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DNVS trdheim CSR 136 0.040867 0.000111 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DNVS trdheim COO 136 0.005876 0.029671 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DNVS trdheim CSC 136 0.027929 0.001952 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance DNVS trdheim DIA 136 0.991747 0.030378 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DNVS trdheim IE 136 0.001768 0.000083 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance DNVS trdheim BSR 136 0.252543 0.000157 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DNVS trdheim ESB-d 136 0.030773 0.001526 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DNVS trdheim ESB-s 136 0.033023 0.001350 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DNVS trdheim CVR 136 0.000538 0.000108 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DNVS trdheim CSR5 136 0.001328 0.000079 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DNVS trdheim VHCC 136 1.239918 0.000134 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DNVS trdheim CSR 204 0.063514 0.000139 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DNVS trdheim COO 204 0.041425 0.031559 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DNVS trdheim CSC 204 0.027983 0.002452 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance DNVS trdheim DIA 204 1.015759 0.030370 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DNVS trdheim IE 204 0.001929 0.000083 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4369 out of 22099 # was wrong
+ Performance DNVS trdheim BSR 204 0.284861 0.000095 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DNVS trdheim ESB-d 204 0.043433 0.002119 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DNVS trdheim ESB-s 204 0.045794 0.001943 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DNVS trdheim CVR 204 0.000612 0.000087 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DNVS trdheim CSR5 204 0.001222 0.000088 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DNVS trdheim VHCC 204 1.307960 0.000122 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DNVS trdheim CSR 272 0.080094 0.000143 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DNVS trdheim COO 272 0.008100 0.033789 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DNVS trdheim CSC 272 0.027862 0.002756 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance DNVS trdheim DIA 272 1.020268 0.030321 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DNVS trdheim IE 272 0.002037 0.000114 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 9114 out of 22099 # was wrong
+ Performance DNVS trdheim BSR 272 0.288928 0.000203 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DNVS trdheim ESB-d 272 0.049383 0.002614 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DNVS trdheim ESB-s 272 0.052117 0.002618 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DNVS trdheim CVR 272 0.000717 0.000084 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DNVS trdheim CSR5 272 0.001156 0.000093 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DNVS trdheim VHCC 272 1.268250 0.000116 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

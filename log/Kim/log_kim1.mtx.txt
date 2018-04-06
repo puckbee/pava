@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Kim/kim1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 38416
+        numCols = 38416
+            nnz = 933200
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Kim kim1 CSR 68 0.023498 0.000041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Kim kim1 COO 68 0.010768 0.011976 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Kim kim1 CSC 68 0.017372 0.001027 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Kim kim1 DIA 68 0.053653 0.001396 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Kim kim1 IE 68 0.001900 0.000201 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Kim kim1 BSR 68 0.140961 0.000062 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Kim kim1 ESB-d 68 0.012716 0.000329 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Kim kim1 ESB-s 68 0.012879 0.000069 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Kim kim1 CVR 68 0.000392 0.000078 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Kim kim1 CSR5 68 0.001504 0.000053 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Kim kim1 VHCC 68 0.474469 0.000138 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Kim kim1 CSR 136 0.016580 0.000045 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Kim kim1 COO 136 0.003616 0.014294 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Kim kim1 CSC 136 0.016297 0.001300 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Kim kim1 DIA 136 0.092388 0.001693 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Kim kim1 IE 136 0.000768 0.000057 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Kim kim1 BSR 136 0.171027 0.000083 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Kim kim1 ESB-d 136 0.016756 0.000350 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Kim kim1 ESB-s 136 0.016971 0.000055 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Kim kim1 CVR 136 0.000507 0.000056 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Kim kim1 CSR5 136 0.000926 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Kim kim1 VHCC 136 0.631636 0.000102 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Kim kim1 CSR 204 0.032531 0.000047 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Kim kim1 COO 204 0.021148 0.017497 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Kim kim1 CSC 204 0.012518 0.001686 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Kim kim1 DIA 204 0.128174 0.002146 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Kim kim1 IE 204 0.001014 0.000055 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 7929 out of 38416 # was wrong
+ Performance Kim kim1 BSR 204 0.215636 0.000095 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Kim kim1 ESB-d 204 0.022450 0.000353 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Kim kim1 ESB-s 204 0.023563 0.000056 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Kim kim1 CVR 204 0.000524 0.000054 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Kim kim1 CSR5 204 0.000930 0.000059 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Kim kim1 VHCC 204 0.701900 0.000098 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Kim kim1 CSR 272 0.042239 0.000052 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Kim kim1 COO 272 0.024154 0.018804 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Kim kim1 CSC 272 0.012392 0.001872 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Kim kim1 DIA 272 0.152401 0.002040 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Kim kim1 IE 272 0.001453 0.000084 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 38348 out of 38416 # was wrong
+ Performance Kim kim1 BSR 272 0.224138 0.000135 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Kim kim1 ESB-d 272 0.026318 0.000377 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Kim kim1 ESB-s 272 0.027252 0.000059 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Kim kim1 CVR 272 0.000426 0.000054 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Kim kim1 CSR5 272 0.000885 0.000067 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Kim kim1 VHCC 272 0.720038 0.000098 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

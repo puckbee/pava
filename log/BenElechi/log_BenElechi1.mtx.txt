@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/BenElechi/BenElechi1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 245875
+        numCols = 245875
+            nnz = 13396384
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance BenElechi BenElechi1 CSR 68 0.300495 0.000937 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance BenElechi BenElechi1 COO 68 0.070034 0.186259 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance BenElechi BenElechi1 CSC 68 0.214430 0.011470 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance BenElechi BenElechi1 DIA 68 7.006449 0.349199 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance BenElechi BenElechi1 IE 68 0.004617 0.000747 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance BenElechi BenElechi1 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance BenElechi BenElechi1 ESB-d 68 0.206737 0.008989 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance BenElechi BenElechi1 ESB-s 68 0.209517 0.007862 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance BenElechi BenElechi1 CVR 68 0.003681 0.001130 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance BenElechi BenElechi1 CSR5 68 0.012337 0.000986 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance BenElechi BenElechi1 VHCC 68 7.639552 0.001569 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance BenElechi BenElechi1 CSR 136 0.292819 0.000983 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance BenElechi BenElechi1 COO 136 0.045340 0.185287 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance BenElechi BenElechi1 CSC 136 0.191744 0.013892 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance BenElechi BenElechi1 DIA 136 7.041094 0.350527 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance BenElechi BenElechi1 IE 136 0.002333 0.000688 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance BenElechi BenElechi1 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance BenElechi BenElechi1 ESB-d 136 0.204033 0.015466 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance BenElechi BenElechi1 ESB-s 136 0.203682 0.013726 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance BenElechi BenElechi1 CVR 136 0.001784 0.000719 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance BenElechi BenElechi1 CSR5 136 0.006717 0.000692 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance BenElechi BenElechi1 VHCC 136 7.892672 0.000953 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance BenElechi BenElechi1 CSR 204 0.324874 0.001105 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance BenElechi BenElechi1 COO 204 0.056224 0.186994 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance BenElechi BenElechi1 CSC 204 0.187898 0.017479 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance BenElechi BenElechi1 DIA 204 7.104809 0.349622 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance BenElechi BenElechi1 IE 204 0.002898 0.000868 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance BenElechi BenElechi1 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance BenElechi BenElechi1 ESB-d 204 0.247696 0.022297 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance BenElechi BenElechi1 ESB-s 204 0.244430 0.020564 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance BenElechi BenElechi1 CVR 204 0.001774 0.000616 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance BenElechi BenElechi1 CSR5 204 0.006032 0.000655 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance BenElechi BenElechi1 VHCC 204 7.805722 0.000869 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance BenElechi BenElechi1 CSR 272 0.347354 0.001215 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance BenElechi BenElechi1 COO 272 0.204079 0.186771 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance BenElechi BenElechi1 CSC 272 0.227031 0.019456 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance BenElechi BenElechi1 DIA 272 7.077268 0.349857 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance BenElechi BenElechi1 IE 272 0.003180 0.000996 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance BenElechi BenElechi1 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance BenElechi BenElechi1 ESB-d 272 0.278576 0.026175 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance BenElechi BenElechi1 ESB-s 272 0.252398 0.024441 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance BenElechi BenElechi1 CVR 272 0.001616 0.000579 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance BenElechi BenElechi1 CSR5 272 0.005403 0.000671 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance BenElechi BenElechi1 VHCC 272 7.575165 0.000791 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

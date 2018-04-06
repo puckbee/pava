@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Chen/pkustk01.mtx
+Reading matrix completed
+Basic informations
+        numRows = 22045
+        numCols = 22045
+            nnz = 1001424
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Chen pkustk01 CSR 68 0.038310 0.000076 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Chen pkustk01 COO 68 0.011422 0.013741 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Chen pkustk01 CSC 68 0.021059 0.001252 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Chen pkustk01 DIA 68 2.969520 0.350774 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Chen pkustk01 IE 68 0.002241 0.000268 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Chen pkustk01 BSR 68 0.124998 0.000075 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Chen pkustk01 ESB-d 68 0.013778 0.001000 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Chen pkustk01 ESB-s 68 0.014218 0.000938 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Chen pkustk01 CVR 68 0.000397 0.000081 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Chen pkustk01 CSR5 68 0.001543 0.000053 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Chen pkustk01 VHCC 68 0.554543 0.000125 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Chen pkustk01 CSR 136 0.021671 0.000081 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Chen pkustk01 COO 136 0.003205 0.016250 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Chen pkustk01 CSC 136 0.018287 0.001419 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Chen pkustk01 DIA 136 3.141879 0.351146 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Chen pkustk01 IE 136 0.001444 0.000071 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Chen pkustk01 BSR 136 0.148099 0.000194 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Chen pkustk01 ESB-d 136 0.017210 0.001575 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Chen pkustk01 ESB-s 136 0.017505 0.001446 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Chen pkustk01 CVR 136 0.000472 0.000059 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Chen pkustk01 CSR5 136 0.000950 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Chen pkustk01 VHCC 136 0.722299 0.000090 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Chen pkustk01 CSR 204 0.040288 0.000098 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Chen pkustk01 COO 204 0.019415 0.019342 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Chen pkustk01 CSC 204 0.015374 0.001812 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Chen pkustk01 DIA 204 3.140957 0.352467 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Chen pkustk01 IE 204 0.001669 0.000093 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 9928 out of 22045 # was wrong
+ Performance Chen pkustk01 BSR 204 0.193904 0.000099 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Chen pkustk01 ESB-d 204 0.023657 0.002233 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Chen pkustk01 ESB-s 204 0.024591 0.002099 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Chen pkustk01 CVR 204 0.000480 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Chen pkustk01 CSR5 204 0.000892 0.000059 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Chen pkustk01 VHCC 204 0.772211 0.000092 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Chen pkustk01 CSR 272 0.050337 0.000101 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Chen pkustk01 COO 272 0.004582 0.021349 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Chen pkustk01 CSC 272 0.015205 0.001987 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Chen pkustk01 DIA 272 3.130294 0.350727 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Chen pkustk01 IE 272 0.001560 0.000091 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Chen pkustk01 BSR 272 0.205708 0.000311 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Chen pkustk01 ESB-d 272 0.026234 0.002567 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Chen pkustk01 ESB-s 272 0.027808 0.002416 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Chen pkustk01 CVR 272 0.000555 0.000053 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Chen pkustk01 CSR5 272 0.000926 0.000066 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Chen pkustk01 VHCC 272 0.802901 0.000093 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Hamrle/Hamrle2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 5953
+        numCols = 5953
+            nnz = 22176
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hamrle Hamrle2 CSR 68 0.004029 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hamrle Hamrle2 COO 68 0.000577 0.000105 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hamrle Hamrle2 CSC 68 0.000794 0.000095 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hamrle Hamrle2 DIA 68 0.133733 0.023656 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hamrle Hamrle2 IE 68 0.002295 0.000093 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hamrle Hamrle2 BSR 68 0.007507 0.000027 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hamrle Hamrle2 ESB-d 68 0.000609 0.000059 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hamrle Hamrle2 ESB-s 68 0.000497 0.000015 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hamrle Hamrle2 CVR 68 0.000184 0.000009 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hamrle Hamrle2 CSR5 68 0.000817 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hamrle Hamrle2 VHCC 68 0.013986 0.000019 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hamrle Hamrle2 CSR 136 0.000489 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hamrle Hamrle2 COO 136 0.000333 0.000177 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hamrle Hamrle2 CSC 136 0.001077 0.000119 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hamrle Hamrle2 DIA 136 0.203243 0.023876 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hamrle Hamrle2 IE 136 0.000881 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1491 out of 5953 # was wrong
+ Performance Hamrle Hamrle2 BSR 136 0.008821 0.000054 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hamrle Hamrle2 ESB-d 136 0.000756 0.000071 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hamrle Hamrle2 ESB-s 136 0.000869 0.000021 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hamrle Hamrle2 CVR 136 0.000060 0.000012 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hamrle Hamrle2 CSR5 136 0.000217 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hamrle Hamrle2 VHCC 136 0.024581 0.000021 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hamrle Hamrle2 CSR 204 0.000684 0.000026 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hamrle Hamrle2 COO 204 0.000351 0.000256 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hamrle Hamrle2 CSC 204 0.001207 0.000158 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hamrle Hamrle2 DIA 204 0.230729 0.023396 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hamrle Hamrle2 IE 204 0.000989 0.000019 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 753 out of 5953 # was wrong
+ Performance Hamrle Hamrle2 BSR 204 0.007521 0.000048 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hamrle Hamrle2 ESB-d 204 0.000995 0.000085 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hamrle Hamrle2 ESB-s 204 0.001083 0.000025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hamrle Hamrle2 CVR 204 0.000058 0.000014 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hamrle Hamrle2 CSR5 204 0.000221 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hamrle Hamrle2 VHCC 204 0.035929 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hamrle Hamrle2 CSR 272 0.000889 0.000046 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hamrle Hamrle2 COO 272 0.000424 0.000284 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hamrle Hamrle2 CSC 272 0.001331 0.000184 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hamrle Hamrle2 DIA 272 0.237207 0.023350 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hamrle Hamrle2 IE 272 0.001242 0.000052 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hamrle Hamrle2 BSR 272 0.007779 0.000091 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hamrle Hamrle2 ESB-d 272 0.001155 0.000100 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hamrle Hamrle2 ESB-s 272 0.001220 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hamrle Hamrle2 CVR 272 0.000166 0.000016 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hamrle Hamrle2 CSR5 272 0.000336 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hamrle Hamrle2 VHCC 272 0.046525 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

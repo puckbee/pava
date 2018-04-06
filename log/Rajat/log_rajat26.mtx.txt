@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Rajat/rajat26.mtx
+Reading matrix completed
+Basic informations
+        numRows = 51033
+        numCols = 51033
+            nnz = 249312
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rajat rajat26 CSR 68 0.011286 0.000049 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rajat rajat26 COO 68 0.004293 0.002248 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rajat rajat26 CSC 68 0.008508 0.000843 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51033 # was wrong
+ Performance Rajat rajat26 DIA 68 6.297502 1.002408 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat26 IE 68 0.001485 0.000108 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 51033 # was wrong
+ Performance Rajat rajat26 BSR 68 0.088567 0.000075 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat26 ESB-d 68 0.006650 0.000415 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat26 ESB-s 68 0.005308 0.000136 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat26 CVR 68 0.000250 0.000037 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat26 CSR5 68 0.001365 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat26 VHCC 68 0.135933 0.000075 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rajat rajat26 CSR 136 0.005878 0.000050 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rajat rajat26 COO 136 0.002021 0.002830 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rajat rajat26 CSC 136 0.009028 0.000987 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51033 # was wrong
+ Performance Rajat rajat26 DIA 136 5.929637 0.994010 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat26 IE 136 0.001307 0.000087 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4 out of 51033 # was wrong
+ Performance Rajat rajat26 BSR 136 0.109340 0.000103 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat26 ESB-d 136 0.007542 0.000473 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat26 ESB-s 136 0.007983 0.000141 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat26 CVR 136 0.000204 0.000036 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat26 CSR5 136 0.000511 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat26 VHCC 136 0.230049 0.000063 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rajat rajat26 CSR 204 0.008190 0.000059 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rajat rajat26 COO 204 0.005997 0.003772 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rajat rajat26 CSC 204 0.011954 0.001266 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51033 # was wrong
+ Performance Rajat rajat26 DIA 204 4.875301 0.996096 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat26 IE 204 0.001166 0.000152 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 51033 # was wrong
+ Performance Rajat rajat26 BSR 204 0.158512 0.000115 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat26 ESB-d 204 0.010534 0.000504 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat26 ESB-s 204 0.010929 0.000175 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat26 CVR 204 0.000193 0.000039 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat26 CSR5 204 0.000532 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat26 VHCC 204 0.299784 0.000062 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rajat rajat26 CSR 272 0.010266 0.000060 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rajat rajat26 COO 272 0.007085 0.004304 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rajat rajat26 CSC 272 0.013323 0.001381 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51033 # was wrong
+ Performance Rajat rajat26 DIA 272 5.176342 1.002894 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rajat rajat26 IE 272 0.001685 0.000093 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 51033 # was wrong
+ Performance Rajat rajat26 BSR 272 0.175055 0.000201 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rajat rajat26 ESB-d 272 0.012174 0.000558 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rajat rajat26 ESB-s 272 0.012566 0.000191 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rajat rajat26 CVR 272 0.000250 0.000039 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rajat rajat26 CSR5 272 0.000572 0.000057 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rajat rajat26 VHCC 272 0.322072 0.000061 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

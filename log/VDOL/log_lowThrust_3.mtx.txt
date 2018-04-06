@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/VDOL/lowThrust_3.mtx
+Reading matrix completed
+Basic informations
+        numRows = 7065
+        numCols = 3924
+            nnz = 84576
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 2108 out of 7065 # was wrong
+ Performance VDOL lowThrust_3 CSR 68 0.006034 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 207 out of 7065 # was wrong
+ Performance VDOL lowThrust_3 COO 68 0.001464 0.000910 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL lowThrust_3 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL lowThrust_3 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL lowThrust_3 IE 68 0.001426 0.000041 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL lowThrust_3 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL lowThrust_3 ESB-d 68 0.002327 0.000153 
+WARNING! # 3 out of 7065 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL lowThrust_3 ESB-s 68 0.001925 0.000128 
+WARNING! # 948 out of 7065 # was wrong
+**************
+      CVR      
+**************
+ Performance VDOL lowThrust_3 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL lowThrust_3 CSR5 68 0.000821 0.000019 
+WARNING! # 2154 out of 7065 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL lowThrust_3 VHCC 68 0.051256 0.000043 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 19 out of 7065 # was wrong
+ Performance VDOL lowThrust_3 CSR 136 0.002056 0.000047 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 207 out of 7065 # was wrong
+ Performance VDOL lowThrust_3 COO 136 0.000567 0.001163 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL lowThrust_3 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL lowThrust_3 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL lowThrust_3 IE 136 0.000131 0.000029 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL lowThrust_3 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL lowThrust_3 ESB-d 136 0.001853 0.000184 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL lowThrust_3 ESB-s 136 0.002168 0.000140 
+WARNING! # 163 out of 7065 # was wrong
+**************
+      CVR      
+**************
+ Performance VDOL lowThrust_3 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL lowThrust_3 CSR5 136 0.000239 0.000027 
+WARNING! # 50 out of 7065 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL lowThrust_3 VHCC 136 0.086127 0.000043 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 143 out of 7065 # was wrong
+ Performance VDOL lowThrust_3 CSR 204 0.002812 0.000055 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 73 out of 7065 # was wrong
+ Performance VDOL lowThrust_3 COO 204 0.000569 0.001553 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL lowThrust_3 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL lowThrust_3 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL lowThrust_3 IE 204 0.000136 0.000035 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL lowThrust_3 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL lowThrust_3 ESB-d 204 0.002558 0.000228 
+WARNING! # 88 out of 7065 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL lowThrust_3 ESB-s 204 0.002539 0.000174 
+WARNING! # 876 out of 7065 # was wrong
+**************
+      CVR      
+**************
+ Performance VDOL lowThrust_3 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL lowThrust_3 CSR5 204 0.000275 0.000037 
+WARNING! # 643 out of 7065 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL lowThrust_3 VHCC 204 0.120585 0.000049 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance VDOL lowThrust_3 CSR 272 0.003398 0.000049 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 16 out of 7065 # was wrong
+ Performance VDOL lowThrust_3 COO 272 0.001778 0.001837 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL lowThrust_3 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL lowThrust_3 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL lowThrust_3 IE 272 0.000215 0.000031 
+WARNING! # 243 out of 7065 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL lowThrust_3 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL lowThrust_3 ESB-d 272 0.002968 0.000259 
+WARNING! # 253 out of 7065 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL lowThrust_3 ESB-s 272 0.002894 0.000199 
+WARNING! # 253 out of 7065 # was wrong
+**************
+      CVR      
+**************
+ Performance VDOL lowThrust_3 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL lowThrust_3 CSR5 272 0.000305 0.000044 
+WARNING! # 226 out of 7065 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL lowThrust_3 VHCC 272 0.147248 0.000050 
+WARNING! # 767 out of 7065 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

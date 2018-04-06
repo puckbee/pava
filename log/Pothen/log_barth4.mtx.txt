@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Pothen/barth4.mtx
+Reading matrix completed
+Basic informations
+        numRows = 6020
+        numCols = 6020
+            nnz = 46992
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen barth4 CSR 68 0.004711 0.000020 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen barth4 COO 68 0.000860 0.000366 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen barth4 CSC 68 0.001475 0.000171 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6020 # was wrong
+ Performance Pothen barth4 DIA 68 0.057498 0.017646 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen barth4 IE 68 0.001322 0.000129 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 6020 # was wrong
+ Performance Pothen barth4 BSR 68 0.010320 0.000025 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen barth4 ESB-d 68 0.001048 0.000221 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen barth4 ESB-s 68 0.000908 0.000180 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen barth4 CVR 68 0.000134 0.000012 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen barth4 CSR5 68 0.000911 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen barth4 VHCC 68 0.027254 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen barth4 CSR 136 0.001333 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen barth4 COO 136 0.000400 0.000554 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen barth4 CSC 136 0.001398 0.000201 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6020 # was wrong
+ Performance Pothen barth4 DIA 136 0.084306 0.019589 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen barth4 IE 136 0.000878 0.000018 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 6020 # was wrong
+ Performance Pothen barth4 BSR 136 0.011194 0.000029 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen barth4 ESB-d 136 0.001612 0.000350 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen barth4 ESB-s 136 0.001338 0.000298 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen barth4 CVR 136 0.000073 0.000013 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen barth4 CSR5 136 0.000190 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen barth4 VHCC 136 0.048262 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen barth4 CSR 204 0.001661 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen barth4 COO 204 0.000427 0.000741 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen barth4 CSC 204 0.001709 0.000255 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6020 # was wrong
+ Performance Pothen barth4 DIA 204 0.113350 0.019022 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen barth4 IE 204 0.001199 0.000022 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 6020 # was wrong
+ Performance Pothen barth4 BSR 204 0.011421 0.000096 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen barth4 ESB-d 204 0.001706 0.000491 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen barth4 ESB-s 204 0.001738 0.000428 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen barth4 CVR 204 0.000068 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen barth4 CSR5 204 0.000232 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen barth4 VHCC 204 0.068214 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Pothen barth4 CSR 272 0.001915 0.000039 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Pothen barth4 COO 272 0.000457 0.000849 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Pothen barth4 CSC 272 0.001906 0.000278 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6020 # was wrong
+ Performance Pothen barth4 DIA 272 0.131202 0.018438 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Pothen barth4 IE 272 0.001144 0.000045 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 6020 # was wrong
+ Performance Pothen barth4 BSR 272 0.012757 0.000114 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Pothen barth4 ESB-d 272 0.001967 0.000640 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Pothen barth4 ESB-s 272 0.002000 0.000532 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Pothen barth4 CVR 272 0.000176 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Pothen barth4 CSR5 272 0.000321 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Pothen barth4 VHCC 272 0.083510 0.000035 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Shen/shermanACd.mtx
+Reading matrix completed
+Basic informations
+        numRows = 6137
+        numCols = 6137
+            nnz = 53344
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Shen shermanACd CSR 68 0.004969 0.000021 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Shen shermanACd COO 68 0.001035 0.000560 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Shen shermanACd CSC 68 0.001864 0.000169 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6137 # was wrong
+ Performance Shen shermanACd DIA 68 0.419004 0.045328 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Shen shermanACd IE 68 0.001743 0.000156 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 6137 # was wrong
+ Performance Shen shermanACd BSR 68 0.014694 0.000046 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Shen shermanACd ESB-d 68 0.002036 0.000165 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Shen shermanACd ESB-s 68 0.001205 0.000155 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Shen shermanACd CVR 68 0.000105 0.000013 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Shen shermanACd CSR5 68 0.000864 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Shen shermanACd VHCC 68 0.030792 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Shen shermanACd CSR 136 0.001802 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Shen shermanACd COO 136 0.000446 0.000714 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Shen shermanACd CSC 136 0.001753 0.000199 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6137 # was wrong
+ Performance Shen shermanACd DIA 136 0.459242 0.046001 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Shen shermanACd IE 136 0.000739 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 6137 # was wrong
+ Performance Shen shermanACd BSR 136 0.013425 0.000057 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Shen shermanACd ESB-d 136 0.001784 0.000212 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Shen shermanACd ESB-s 136 0.001688 0.000184 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Shen shermanACd CVR 136 0.000071 0.000015 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Shen shermanACd CSR5 136 0.000198 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Shen shermanACd VHCC 136 0.053403 0.000038 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Shen shermanACd CSR 204 0.002190 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Shen shermanACd COO 204 0.000484 0.000952 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Shen shermanACd CSC 204 0.002273 0.000269 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6137 # was wrong
+ Performance Shen shermanACd DIA 204 0.490843 0.045490 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Shen shermanACd IE 204 0.001035 0.000138 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 14 out of 6137 # was wrong
+ Performance Shen shermanACd BSR 204 0.015135 0.000145 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Shen shermanACd ESB-d 204 0.002097 0.000267 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Shen shermanACd ESB-s 204 0.002132 0.000232 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Shen shermanACd CVR 204 0.000072 0.000024 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Shen shermanACd CSR5 204 0.000212 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Shen shermanACd VHCC 204 0.077673 0.000044 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Shen shermanACd CSR 272 0.002587 0.000049 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Shen shermanACd COO 272 0.000528 0.001095 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Shen shermanACd CSC 272 0.002411 0.000299 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6137 # was wrong
+ Performance Shen shermanACd DIA 272 0.504556 0.045510 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Shen shermanACd IE 272 0.001038 0.000078 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 18 out of 6137 # was wrong
+ Performance Shen shermanACd BSR 272 0.016804 0.000252 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Shen shermanACd ESB-d 272 0.002294 0.000307 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Shen shermanACd ESB-s 272 0.002391 0.000260 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Shen shermanACd CVR 272 0.000176 0.000033 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Shen shermanACd CSR5 272 0.000333 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Shen shermanACd VHCC 272 0.092897 0.000052 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/PARSEC/Si10H16.mtx
+Reading matrix completed
+Basic informations
+        numRows = 17078
+        numCols = 17078
+            nnz = 893008
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC Si10H16 CSR 68 0.027835 0.000052 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC Si10H16 COO 68 0.009865 0.012461 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC Si10H16 CSC 68 0.023603 0.001057 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 17078 # was wrong
+ Performance PARSEC Si10H16 DIA 68 2.920588 0.186138 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC Si10H16 IE 68 0.002250 0.000133 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 17078 # was wrong
+ Performance PARSEC Si10H16 BSR 68 0.123202 0.000189 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC Si10H16 ESB-d 68 0.015445 0.000859 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC Si10H16 ESB-s 68 0.013494 0.000699 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC Si10H16 CVR 68 0.000313 0.000078 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC Si10H16 CSR5 68 0.001279 0.000054 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC Si10H16 VHCC 68 0.481159 0.000132 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC Si10H16 CSR 136 0.020682 0.000057 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC Si10H16 COO 136 0.003033 0.014956 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC Si10H16 CSC 136 0.025702 0.001237 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 17078 # was wrong
+ Performance PARSEC Si10H16 DIA 136 2.992834 0.186061 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC Si10H16 IE 136 0.001054 0.000082 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 17078 # was wrong
+ Performance PARSEC Si10H16 BSR 136 0.143761 0.000176 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC Si10H16 ESB-d 136 0.015697 0.001454 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC Si10H16 ESB-s 136 0.016623 0.001272 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC Si10H16 CVR 136 0.000378 0.000056 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC Si10H16 CSR5 136 0.000742 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC Si10H16 VHCC 136 0.649038 0.000087 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC Si10H16 CSR 204 0.040195 0.000079 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC Si10H16 COO 204 0.014040 0.018577 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC Si10H16 CSC 204 0.019340 0.001632 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 17078 # was wrong
+ Performance PARSEC Si10H16 DIA 204 2.989282 0.188206 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC Si10H16 IE 204 0.001592 0.000062 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1984 out of 17078 # was wrong
+ Performance PARSEC Si10H16 BSR 204 0.186946 0.000499 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC Si10H16 ESB-d 204 0.021624 0.002149 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC Si10H16 ESB-s 204 0.023490 0.001980 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC Si10H16 CVR 204 0.000389 0.000051 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC Si10H16 CSR5 204 0.000765 0.000059 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC Si10H16 VHCC 204 0.707972 0.000085 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC Si10H16 CSR 272 0.045735 0.000114 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC Si10H16 COO 272 0.004070 0.020327 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC Si10H16 CSC 272 0.019444 0.001821 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 17078 # was wrong
+ Performance PARSEC Si10H16 DIA 272 3.052558 0.186850 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC Si10H16 IE 272 0.001241 0.000129 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 17078 # was wrong
+ Performance PARSEC Si10H16 BSR 272 0.203180 0.000509 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC Si10H16 ESB-d 272 0.023206 0.002470 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC Si10H16 ESB-s 272 0.026291 0.002509 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC Si10H16 CVR 272 0.000548 0.000050 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC Si10H16 CSR5 272 0.000725 0.000066 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC Si10H16 VHCC 272 0.740195 0.000116 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

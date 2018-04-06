@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/MathWorks/Pd_rhs.mtx
+Reading matrix completed
+Basic informations
+        numRows = 8082
+        numCols = 12407
+            nnz = 6336
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Pd_rhs CSR 68 0.003661 0.000018 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Pd_rhs COO 68 0.000311 0.000038 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance MathWorks Pd_rhs CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance MathWorks Pd_rhs DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Pd_rhs IE 68 0.000637 0.000124 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance MathWorks Pd_rhs BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Pd_rhs ESB-d 68 0.000570 0.000075 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Pd_rhs ESB-s 68 0.000436 0.000011 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance MathWorks Pd_rhs CVR 68 0.000179 0.000009 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Pd_rhs CSR5 68 0.000864 0.000019 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance MathWorks Pd_rhs VHCC 68 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Pd_rhs CSR 136 0.000313 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Pd_rhs COO 136 0.000401 0.000078 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance MathWorks Pd_rhs CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance MathWorks Pd_rhs DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Pd_rhs IE 136 0.000185 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance MathWorks Pd_rhs BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Pd_rhs ESB-d 136 0.000790 0.000088 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Pd_rhs ESB-s 136 0.000699 0.000015 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance MathWorks Pd_rhs CVR 136 0.000216 0.000011 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Pd_rhs CSR5 136 0.000444 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance MathWorks Pd_rhs VHCC 136 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Pd_rhs CSR 204 0.000319 0.000031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Pd_rhs COO 204 0.000441 0.000087 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance MathWorks Pd_rhs CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance MathWorks Pd_rhs DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Pd_rhs IE 204 0.000208 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance MathWorks Pd_rhs BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Pd_rhs ESB-d 204 0.000814 0.000106 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Pd_rhs ESB-s 204 0.000872 0.000018 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance MathWorks Pd_rhs CVR 204 0.000496 0.000014 
+WARNING! # 11 out of 8082 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Pd_rhs CSR5 204 0.000936 0.000033 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance MathWorks Pd_rhs VHCC 204 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Pd_rhs CSR 272 0.000410 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Pd_rhs COO 272 0.000475 0.000085 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance MathWorks Pd_rhs CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance MathWorks Pd_rhs DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Pd_rhs IE 272 0.000442 0.000033 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance MathWorks Pd_rhs BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Pd_rhs ESB-d 272 0.000841 0.000119 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Pd_rhs ESB-s 272 0.000789 0.000021 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance MathWorks Pd_rhs CVR 272 0.000312 0.000020 
+WARNING! # 69 out of 8082 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Pd_rhs CSR5 272 0.001353 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance MathWorks Pd_rhs VHCC 272 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

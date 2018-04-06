@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/bcsstk29.mtx
+Reading matrix completed
+Basic informations
+        numRows = 13993
+        numCols = 13993
+            nnz = 633488
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB bcsstk29 CSR 68 0.019627 0.000041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB bcsstk29 COO 68 0.007886 0.008614 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB bcsstk29 CSC 68 0.014621 0.000744 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB bcsstk29 DIA 68 0.707639 0.040930 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB bcsstk29 IE 68 0.001929 0.000124 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB bcsstk29 BSR 68 0.079163 0.000054 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB bcsstk29 ESB-d 68 0.008973 0.000434 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB bcsstk29 ESB-s 68 0.009069 0.000347 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB bcsstk29 CVR 68 0.000336 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB bcsstk29 CSR5 68 0.001289 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB bcsstk29 VHCC 68 0.342136 0.000087 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB bcsstk29 CSR 136 0.013794 0.000054 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB bcsstk29 COO 136 0.002117 0.010089 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB bcsstk29 CSC 136 0.012723 0.000870 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB bcsstk29 DIA 136 0.794783 0.040746 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB bcsstk29 IE 136 0.001037 0.000056 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 7047 out of 13993 # was wrong
+ Performance HB bcsstk29 BSR 136 0.093648 0.000097 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB bcsstk29 ESB-d 136 0.011056 0.000627 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB bcsstk29 ESB-s 136 0.011189 0.000526 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB bcsstk29 CVR 136 0.000292 0.000044 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB bcsstk29 CSR5 136 0.000641 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB bcsstk29 VHCC 136 0.501040 0.000061 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB bcsstk29 CSR 204 0.025688 0.000070 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB bcsstk29 COO 204 0.011499 0.013686 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB bcsstk29 CSC 204 0.016495 0.001075 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB bcsstk29 DIA 204 0.805325 0.041506 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB bcsstk29 IE 204 0.001315 0.000044 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 7932 out of 13993 # was wrong
+ Performance HB bcsstk29 BSR 204 0.123652 0.000057 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB bcsstk29 ESB-d 204 0.014875 0.000924 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB bcsstk29 ESB-s 204 0.015492 0.000809 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB bcsstk29 CVR 204 0.000375 0.000040 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB bcsstk29 CSR5 204 0.000693 0.000050 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB bcsstk29 VHCC 204 0.555895 0.000063 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB bcsstk29 CSR 272 0.031669 0.000080 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB bcsstk29 COO 272 0.002831 0.016578 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB bcsstk29 CSC 272 0.011872 0.001191 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB bcsstk29 DIA 272 0.792872 0.040692 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB bcsstk29 IE 272 0.001623 0.000073 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB bcsstk29 BSR 272 0.139008 0.000339 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB bcsstk29 ESB-d 272 0.017325 0.001005 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB bcsstk29 ESB-s 272 0.017612 0.000899 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB bcsstk29 CVR 272 0.000520 0.000041 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB bcsstk29 CSR5 272 0.000730 0.000058 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB bcsstk29 VHCC 272 0.580883 0.000066 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

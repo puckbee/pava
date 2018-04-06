@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/IBM_Austin/coupled.mtx
+Reading matrix completed
+Basic informations
+        numRows = 11342
+        numCols = 11342
+            nnz = 98528
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_Austin coupled CSR 68 0.006964 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_Austin coupled COO 68 0.001728 0.001150 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_Austin coupled CSC 68 0.004488 0.000267 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IBM_Austin coupled DIA 68 1.439864 0.163290 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_Austin coupled IE 68 0.001508 0.000128 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 67 out of 11342 # was wrong
+ Performance IBM_Austin coupled BSR 68 0.029471 0.000098 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_Austin coupled ESB-d 68 0.003420 0.000181 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_Austin coupled ESB-s 68 0.002127 0.000118 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_Austin coupled CVR 68 0.000128 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_Austin coupled CSR5 68 0.000760 0.000019 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_Austin coupled VHCC 68 0.057501 0.000036 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_Austin coupled CSR 136 0.003015 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_Austin coupled COO 136 0.000654 0.001501 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_Austin coupled CSC 136 0.005068 0.000329 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IBM_Austin coupled DIA 136 1.506541 0.163847 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_Austin coupled IE 136 0.000850 0.000027 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 424 out of 11342 # was wrong
+ Performance IBM_Austin coupled BSR 136 0.026957 0.000132 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_Austin coupled ESB-d 136 0.002675 0.000199 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_Austin coupled ESB-s 136 0.002910 0.000117 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_Austin coupled CVR 136 0.000101 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_Austin coupled CSR5 136 0.000256 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_Austin coupled VHCC 136 0.087314 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_Austin coupled CSR 204 0.005956 0.000039 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_Austin coupled COO 204 0.003057 0.001932 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_Austin coupled CSC 204 0.005799 0.000410 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IBM_Austin coupled DIA 204 1.552466 0.163484 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_Austin coupled IE 204 0.001365 0.000028 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 410 out of 11342 # was wrong
+ Performance IBM_Austin coupled BSR 204 0.044960 0.000356 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_Austin coupled ESB-d 204 0.003305 0.000240 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_Austin coupled ESB-s 204 0.003919 0.000145 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_Austin coupled CVR 204 0.000098 0.000019 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_Austin coupled CSR5 204 0.000262 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_Austin coupled VHCC 204 0.122932 0.000036 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_Austin coupled CSR 272 0.006241 0.000052 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_Austin coupled COO 272 0.000932 0.002215 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_Austin coupled CSC 272 0.006207 0.000450 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IBM_Austin coupled DIA 272 1.573301 0.163007 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_Austin coupled IE 272 0.001262 0.000080 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 138 out of 11342 # was wrong
+ Performance IBM_Austin coupled BSR 272 0.039107 0.000211 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_Austin coupled ESB-d 272 0.003822 0.000271 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_Austin coupled ESB-s 272 0.004331 0.000166 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_Austin coupled CVR 272 0.000196 0.000022 
+WARNING! # 2 out of 11342 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_Austin coupled CSR5 272 0.000365 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_Austin coupled VHCC 272 0.144997 0.000039 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Gaertner/nopoly.mtx
+Reading matrix completed
+Basic informations
+        numRows = 10775
+        numCols = 10775
+            nnz = 81616
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gaertner nopoly CSR 68 0.006426 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gaertner nopoly COO 68 0.001475 0.000734 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gaertner nopoly CSC 68 0.002928 0.000302 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 10775 # was wrong
+ Performance Gaertner nopoly DIA 68 0.703569 0.121147 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gaertner nopoly IE 68 0.001671 0.000143 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 10775 # was wrong
+ Performance Gaertner nopoly BSR 68 0.019609 0.000047 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gaertner nopoly ESB-d 68 0.001687 0.000593 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gaertner nopoly ESB-s 68 0.001876 0.000514 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gaertner nopoly CVR 68 0.000129 0.000016 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gaertner nopoly CSR5 68 0.000828 0.000018 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gaertner nopoly VHCC 68 0.045075 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gaertner nopoly CSR 136 0.002253 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gaertner nopoly COO 136 0.000657 0.001045 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gaertner nopoly CSC 136 0.003091 0.000349 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 10775 # was wrong
+ Performance Gaertner nopoly DIA 136 0.765856 0.121477 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gaertner nopoly IE 136 0.000903 0.000032 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 10775 # was wrong
+ Performance Gaertner nopoly BSR 136 0.022913 0.000083 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gaertner nopoly ESB-d 136 0.002158 0.000954 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gaertner nopoly ESB-s 136 0.002168 0.000905 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gaertner nopoly CVR 136 0.000092 0.000016 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gaertner nopoly CSR5 136 0.000234 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gaertner nopoly VHCC 136 0.077148 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gaertner nopoly CSR 204 0.003580 0.000055 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gaertner nopoly COO 204 0.002119 0.001408 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gaertner nopoly CSC 204 0.003654 0.000430 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 10775 # was wrong
+ Performance Gaertner nopoly DIA 204 0.805244 0.121207 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gaertner nopoly IE 204 0.000965 0.000034 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 10775 # was wrong
+ Performance Gaertner nopoly BSR 204 0.034137 0.000056 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gaertner nopoly ESB-d 204 0.002999 0.001422 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gaertner nopoly ESB-s 204 0.003085 0.001350 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gaertner nopoly CVR 204 0.000097 0.000018 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gaertner nopoly CSR5 204 0.000255 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gaertner nopoly VHCC 204 0.107948 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gaertner nopoly CSR 272 0.004658 0.000063 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gaertner nopoly COO 272 0.002811 0.001612 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gaertner nopoly CSC 272 0.003918 0.000472 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 10775 # was wrong
+ Performance Gaertner nopoly DIA 272 0.834367 0.122254 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gaertner nopoly IE 272 0.001369 0.000084 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 5175 out of 10775 # was wrong
+ Performance Gaertner nopoly BSR 272 0.037096 0.000175 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gaertner nopoly ESB-d 272 0.003472 0.001749 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gaertner nopoly ESB-s 272 0.003501 0.001578 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gaertner nopoly CVR 272 0.000234 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gaertner nopoly CSR5 272 0.000393 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gaertner nopoly VHCC 272 0.127745 0.000038 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

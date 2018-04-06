@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/sstmodel.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3346
+        numCols = 3346
+            nnz = 26096
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB sstmodel CSR 68 0.004144 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB sstmodel COO 68 0.000536 0.000270 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB sstmodel CSC 68 0.000795 0.000101 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB sstmodel DIA 68 0.007968 0.001287 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB sstmodel IE 68 0.001061 0.000078 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB sstmodel BSR 68 0.004998 0.000025 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB sstmodel ESB-d 68 0.000703 0.000108 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB sstmodel ESB-s 68 0.000612 0.000079 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB sstmodel CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB sstmodel CSR5 68 0.000788 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB sstmodel VHCC 68 0.014973 0.000019 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB sstmodel CSR 136 0.000634 0.000026 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB sstmodel COO 136 0.000215 0.000321 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB sstmodel CSC 136 0.000777 0.000126 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB sstmodel DIA 136 0.010483 0.001583 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB sstmodel IE 136 0.000564 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1520 out of 3346 # was wrong
+ Performance HB sstmodel BSR 136 0.004732 0.000028 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB sstmodel ESB-d 136 0.000721 0.000197 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB sstmodel ESB-s 136 0.000816 0.000157 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB sstmodel CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB sstmodel CSR5 136 0.000190 0.000022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB sstmodel VHCC 136 0.025188 0.000021 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB sstmodel CSR 204 0.000852 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB sstmodel COO 204 0.000243 0.000429 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB sstmodel CSC 204 0.000950 0.000157 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB sstmodel DIA 204 0.014885 0.001969 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB sstmodel IE 204 0.000895 0.000018 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1348 out of 3346 # was wrong
+ Performance HB sstmodel BSR 204 0.006422 0.000032 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB sstmodel ESB-d 204 0.001038 0.000284 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB sstmodel ESB-s 204 0.001020 0.000245 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB sstmodel CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB sstmodel CSR5 204 0.000211 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB sstmodel VHCC 204 0.035678 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB sstmodel CSR 272 0.001075 0.000039 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB sstmodel COO 272 0.000305 0.000514 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB sstmodel CSC 272 0.001053 0.000170 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB sstmodel DIA 272 0.013647 0.002007 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB sstmodel IE 272 0.001166 0.000027 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1177 out of 3346 # was wrong
+ Performance HB sstmodel BSR 272 0.007348 0.000045 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB sstmodel ESB-d 272 0.001119 0.000342 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB sstmodel ESB-s 272 0.001151 0.000296 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB sstmodel CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB sstmodel CSR5 272 0.000287 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB sstmodel VHCC 272 0.044452 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Bova/rma10.mtx
+Reading matrix completed
+Basic informations
+        numRows = 46836
+        numCols = 46836
+            nnz = 2374016
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bova rma10 CSR 68 0.052191 0.000145 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bova rma10 COO 68 0.014257 0.032051 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bova rma10 CSC 68 0.042308 0.002886 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 46836 # was wrong
+ Performance Bova rma10 DIA 68 8.593959 0.721683 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bova rma10 IE 68 0.002637 0.000290 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 46836 # was wrong
+ Performance Bova rma10 BSR 68 0.305021 0.000244 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bova rma10 ESB-d 68 0.035903 0.000470 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bova rma10 ESB-s 68 0.034630 0.000326 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bova rma10 CVR 68 0.000442 0.000207 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bova rma10 CSR5 68 0.002272 0.000164 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bova rma10 VHCC 68 1.246964 0.000321 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bova rma10 CSR 136 0.044555 0.000125 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bova rma10 COO 136 0.007803 0.034320 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bova rma10 CSC 136 0.034710 0.003344 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 46836 # was wrong
+ Performance Bova rma10 DIA 136 8.525377 0.721280 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bova rma10 IE 136 0.001573 0.000159 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 46836 # was wrong
+ Performance Bova rma10 BSR 136 0.331020 0.000215 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bova rma10 ESB-d 136 0.038232 0.000440 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bova rma10 ESB-s 136 0.039800 0.000217 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bova rma10 CVR 136 0.000591 0.000142 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bova rma10 CSR5 136 0.001486 0.000129 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bova rma10 VHCC 136 1.429892 0.000211 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bova rma10 CSR 204 0.063097 0.000120 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bova rma10 COO 204 0.009574 0.037069 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bova rma10 CSC 204 0.036727 0.004408 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 46836 # was wrong
+ Performance Bova rma10 DIA 204 8.552067 0.719458 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bova rma10 IE 204 0.001334 0.000214 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 15750 out of 46836 # was wrong
+ Performance Bova rma10 BSR 204 0.418254 0.000395 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bova rma10 ESB-d 204 0.054212 0.000484 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bova rma10 ESB-s 204 0.057721 0.000192 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bova rma10 CVR 204 0.000506 0.000132 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bova rma10 CSR5 204 0.001457 0.000137 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bova rma10 VHCC 204 1.402668 0.000206 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bova rma10 CSR 272 0.100960 0.000100 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bova rma10 COO 272 0.010475 0.037739 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bova rma10 CSC 272 0.034607 0.004916 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 46836 # was wrong
+ Performance Bova rma10 DIA 272 8.526491 0.721900 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bova rma10 IE 272 0.002705 0.000136 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 46836 # was wrong
+ Performance Bova rma10 BSR 272 0.350053 0.000216 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bova rma10 ESB-d 272 0.061393 0.000501 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bova rma10 ESB-s 272 0.065170 0.000179 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bova rma10 CVR 272 0.000594 0.000132 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bova rma10 CSR5 272 0.001259 0.000150 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bova rma10 VHCC 272 1.402263 0.000202 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

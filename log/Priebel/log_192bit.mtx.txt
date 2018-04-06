@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Priebel/192bit.mtx
+Reading matrix completed
+Basic informations
+        numRows = 13692
+        numCols = 13692
+            nnz = 154304
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Priebel 192bit CSR 68 0.010167 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Priebel 192bit COO 68 0.002462 0.001786 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Priebel 192bit CSC 68 0.006052 0.000859 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13692 # was wrong
+ Performance Priebel 192bit DIA 68 2.851594 0.221153 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Priebel 192bit IE 68 0.001780 0.000162 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 13692 # was wrong
+ Performance Priebel 192bit BSR 68 0.039342 0.000115 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Priebel 192bit ESB-d 68 0.002911 0.000120 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Priebel 192bit ESB-s 68 0.002733 0.000026 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Priebel 192bit CVR 68 0.000156 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Priebel 192bit CSR5 68 0.001314 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Priebel 192bit VHCC 68 0.088854 0.000041 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Priebel 192bit CSR 136 0.006361 0.000031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Priebel 192bit COO 136 0.000953 0.002159 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Priebel 192bit CSC 136 0.006591 0.000967 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13692 # was wrong
+ Performance Priebel 192bit DIA 136 2.952029 0.222674 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Priebel 192bit IE 136 0.001185 0.000027 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2547 out of 13692 # was wrong
+ Performance Priebel 192bit BSR 136 0.050740 0.000102 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Priebel 192bit ESB-d 136 0.003612 0.000135 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Priebel 192bit ESB-s 136 0.003728 0.000028 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Priebel 192bit CVR 136 0.000128 0.000020 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Priebel 192bit CSR5 136 0.000286 0.000029 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Priebel 192bit VHCC 136 0.138872 0.000036 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Priebel 192bit CSR 204 0.009886 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Priebel 192bit COO 204 0.004673 0.003128 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Priebel 192bit CSC 204 0.008622 0.001351 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13692 # was wrong
+ Performance Priebel 192bit DIA 204 2.958471 0.220951 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Priebel 192bit IE 204 0.000979 0.000090 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 13691 out of 13692 # was wrong
+ Performance Priebel 192bit BSR 204 0.064475 0.000429 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Priebel 192bit ESB-d 204 0.004288 0.000149 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Priebel 192bit ESB-s 204 0.004800 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Priebel 192bit CVR 204 0.000124 0.000022 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Priebel 192bit CSR5 204 0.000303 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Priebel 192bit VHCC 204 0.188484 0.000039 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Priebel 192bit CSR 272 0.013472 0.000045 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Priebel 192bit COO 272 0.005098 0.003546 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Priebel 192bit CSC 272 0.009138 0.001427 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13692 # was wrong
+ Performance Priebel 192bit DIA 272 2.943519 0.222760 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Priebel 192bit IE 272 0.001093 0.000088 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 7048 out of 13692 # was wrong
+ Performance Priebel 192bit BSR 272 0.057070 0.000485 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Priebel 192bit ESB-d 272 0.005396 0.000171 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Priebel 192bit ESB-s 272 0.005496 0.000038 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Priebel 192bit CVR 272 0.000175 0.000024 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Priebel 192bit CSR5 272 0.000422 0.000102 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Priebel 192bit VHCC 272 0.240980 0.000042 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

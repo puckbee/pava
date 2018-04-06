@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/AG-Monien/big_dual.mtx
+Reading matrix completed
+Basic informations
+        numRows = 30270
+        numCols = 30270
+            nnz = 89872
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien big_dual CSR 68 0.006566 0.000028 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien big_dual COO 68 0.001875 0.000725 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien big_dual CSC 68 0.003871 0.000407 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance AG-Monien big_dual DIA 68 0.200788 0.087926 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien big_dual IE 68 0.001056 0.000123 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 20350 out of 30270 # was wrong
+ Performance AG-Monien big_dual BSR 68 0.035819 0.000061 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien big_dual ESB-d 68 0.002035 0.000247 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien big_dual ESB-s 68 0.001910 0.000023 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance AG-Monien big_dual CVR 68 0.000224 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien big_dual CSR5 68 0.001054 0.000018 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien big_dual VHCC 68 0.055922 0.000033 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien big_dual CSR 136 0.002892 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien big_dual COO 136 0.001416 0.001012 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien big_dual CSC 136 0.004917 0.000539 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance AG-Monien big_dual DIA 136 0.236770 0.087094 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien big_dual IE 136 0.000893 0.000028 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance AG-Monien big_dual BSR 136 0.051934 0.000078 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien big_dual ESB-d 136 0.003141 0.000264 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien big_dual ESB-s 136 0.003182 0.000028 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance AG-Monien big_dual CVR 136 0.000111 0.000018 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien big_dual CSR5 136 0.000255 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien big_dual VHCC 136 0.088395 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien big_dual CSR 204 0.003417 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien big_dual COO 204 0.001573 0.001324 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien big_dual CSC 204 0.005880 0.000687 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance AG-Monien big_dual DIA 204 0.272974 0.088028 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien big_dual IE 204 0.001008 0.000027 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance AG-Monien big_dual BSR 204 0.065486 0.000063 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien big_dual ESB-d 204 0.004635 0.000282 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien big_dual ESB-s 204 0.004600 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance AG-Monien big_dual CVR 204 0.000132 0.000020 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien big_dual CSR5 204 0.000276 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien big_dual VHCC 204 0.127365 0.000035 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien big_dual CSR 272 0.004992 0.000078 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien big_dual COO 272 0.001849 0.003039 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien big_dual CSC 272 0.006617 0.001636 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance AG-Monien big_dual DIA 272 0.288597 0.086879 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien big_dual IE 272 0.001320 0.000054 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 7 out of 30270 # was wrong
+ Performance AG-Monien big_dual BSR 272 0.064504 0.000258 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien big_dual ESB-d 272 0.005417 0.000309 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien big_dual ESB-s 272 0.005381 0.000038 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance AG-Monien big_dual CVR 272 0.000155 0.000022 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien big_dual CSR5 272 0.000412 0.000045 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien big_dual VHCC 272 0.146063 0.000038 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

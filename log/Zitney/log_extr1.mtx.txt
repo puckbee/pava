@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Zitney/extr1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2838
+        numCols = 2838
+            nnz = 11408
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Zitney extr1 CSR 68 0.003936 0.000016 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Zitney extr1 COO 68 0.000311 0.000098 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Zitney extr1 CSC 68 0.000412 0.000057 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2838 # was wrong
+ Performance Zitney extr1 DIA 68 0.065726 0.009278 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Zitney extr1 IE 68 0.000945 0.000089 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2838 # was wrong
+ Performance Zitney extr1 BSR 68 0.003334 0.000037 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Zitney extr1 ESB-d 68 0.000572 0.000036 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Zitney extr1 ESB-s 68 0.000327 0.000014 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Zitney extr1 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Zitney extr1 CSR5 68 0.000810 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Zitney extr1 VHCC 68 0.008169 0.000016 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Zitney extr1 CSR 136 0.000326 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Zitney extr1 COO 136 0.000150 0.000117 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Zitney extr1 CSC 136 0.000530 0.000097 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2838 # was wrong
+ Performance Zitney extr1 DIA 136 0.102728 0.010837 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Zitney extr1 IE 136 0.000828 0.000029 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 605 out of 2838 # was wrong
+ Performance Zitney extr1 BSR 136 0.002431 0.000028 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Zitney extr1 ESB-d 136 0.000445 0.000048 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Zitney extr1 ESB-s 136 0.000476 0.000019 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Zitney extr1 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Zitney extr1 CSR5 136 0.000163 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Zitney extr1 VHCC 136 0.013916 0.000018 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Zitney extr1 CSR 204 0.000454 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Zitney extr1 COO 204 0.000180 0.000144 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Zitney extr1 CSC 204 0.000635 0.000113 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2838 # was wrong
+ Performance Zitney extr1 DIA 204 0.149769 0.010111 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Zitney extr1 IE 204 0.001203 0.000018 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2838 # was wrong
+ Performance Zitney extr1 BSR 204 0.003281 0.000064 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Zitney extr1 ESB-d 204 0.000525 0.000062 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Zitney extr1 ESB-s 204 0.000595 0.000023 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Zitney extr1 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Zitney extr1 CSR5 204 0.000181 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Zitney extr1 VHCC 204 0.021451 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Zitney extr1 CSR 272 0.000469 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Zitney extr1 COO 272 0.000190 0.000169 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Zitney extr1 CSC 272 0.000645 0.000127 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2838 # was wrong
+ Performance Zitney extr1 DIA 272 0.180500 0.009083 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Zitney extr1 IE 272 0.000997 0.000139 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2838 # was wrong
+ Performance Zitney extr1 BSR 272 0.003732 0.000119 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Zitney extr1 ESB-d 272 0.000619 0.000077 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Zitney extr1 ESB-s 272 0.000622 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Zitney extr1 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Zitney extr1 CSR5 272 0.000295 0.000033 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Zitney extr1 VHCC 272 0.027289 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

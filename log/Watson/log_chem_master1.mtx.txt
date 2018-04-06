@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Watson/chem_master1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 40402
+        numCols = 40402
+            nnz = 201216
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Watson chem_master1 CSR 68 0.009008 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Watson chem_master1 COO 68 0.003498 0.001132 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Watson chem_master1 CSC 68 0.006482 0.000579 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Watson chem_master1 DIA 68 0.008282 0.000363 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Watson chem_master1 IE 68 0.000800 0.000096 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Watson chem_master1 BSR 68 0.063147 0.000049 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Watson chem_master1 ESB-d 68 0.003709 0.000319 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Watson chem_master1 ESB-s 68 0.003641 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Watson chem_master1 CVR 68 0.000225 0.000031 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Watson chem_master1 CSR5 68 0.000873 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Watson chem_master1 VHCC 68 0.104878 0.000051 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Watson chem_master1 CSR 136 0.004053 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Watson chem_master1 COO 136 0.001595 0.001698 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Watson chem_master1 CSC 136 0.006430 0.000743 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Watson chem_master1 DIA 136 0.013763 0.000474 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Watson chem_master1 IE 136 0.000600 0.000035 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 14510 out of 40402 # was wrong
+ Performance Watson chem_master1 BSR 136 0.075310 0.000059 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Watson chem_master1 ESB-d 136 0.005600 0.000338 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Watson chem_master1 ESB-s 136 0.005443 0.000034 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Watson chem_master1 CVR 136 0.000166 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Watson chem_master1 CSR5 136 0.000372 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Watson chem_master1 VHCC 136 0.178492 0.000043 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Watson chem_master1 CSR 204 0.005813 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Watson chem_master1 COO 204 0.004798 0.002388 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Watson chem_master1 CSC 204 0.008618 0.000960 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Watson chem_master1 DIA 204 0.019520 0.000533 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Watson chem_master1 IE 204 0.000898 0.000031 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Watson chem_master1 BSR 204 0.114195 0.000091 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Watson chem_master1 ESB-d 204 0.007870 0.000357 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Watson chem_master1 ESB-s 204 0.008127 0.000036 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Watson chem_master1 CVR 204 0.000150 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Watson chem_master1 CSR5 204 0.000392 0.000043 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Watson chem_master1 VHCC 204 0.247232 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Watson chem_master1 CSR 272 0.007619 0.000048 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Watson chem_master1 COO 272 0.005611 0.002709 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Watson chem_master1 CSC 272 0.009865 0.001044 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Watson chem_master1 DIA 272 0.022509 0.000534 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Watson chem_master1 IE 272 0.001135 0.000043 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4 out of 40402 # was wrong
+ Performance Watson chem_master1 BSR 272 0.124994 0.000082 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Watson chem_master1 ESB-d 272 0.009292 0.000387 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Watson chem_master1 ESB-s 272 0.009465 0.000041 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Watson chem_master1 CVR 272 0.000166 0.000029 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Watson chem_master1 CSR5 272 0.000393 0.000053 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Watson chem_master1 VHCC 272 0.274720 0.000049 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/IBM_EDA/ckt11752_dc_1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 49703
+        numCols = 49703
+            nnz = 333040
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 CSR 68 0.013673 0.000049 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 COO 68 0.005504 0.003356 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 CSC 68 0.010772 0.001105 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA ckt11752_dc_1 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA ckt11752_dc_1 IE 68 0.000934 0.000118 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 49703 # was wrong
+ Performance IBM_EDA ckt11752_dc_1 BSR 68 0.096503 0.000239 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA ckt11752_dc_1 ESB-d 68 0.008126 0.000413 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA ckt11752_dc_1 ESB-s 68 0.007448 0.000254 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA ckt11752_dc_1 CVR 68 0.000336 0.000048 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA ckt11752_dc_1 CSR5 68 0.001060 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA ckt11752_dc_1 VHCC 68 0.176051 0.000122 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 CSR 136 0.007981 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 COO 136 0.002146 0.004290 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 CSC 136 0.010687 0.001341 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA ckt11752_dc_1 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA ckt11752_dc_1 IE 136 0.000664 0.000056 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 49703 # was wrong
+ Performance IBM_EDA ckt11752_dc_1 BSR 136 0.120543 0.000219 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA ckt11752_dc_1 ESB-d 136 0.008479 0.000431 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA ckt11752_dc_1 ESB-s 136 0.008868 0.000279 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA ckt11752_dc_1 CVR 136 0.000233 0.000038 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA ckt11752_dc_1 CSR5 136 0.000555 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA ckt11752_dc_1 VHCC 136 0.290932 0.000085 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 CSR 204 0.011657 0.000068 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 COO 204 0.007338 0.005700 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 CSC 204 0.014107 0.001762 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA ckt11752_dc_1 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA ckt11752_dc_1 IE 204 0.000897 0.000048 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 49703 # was wrong
+ Performance IBM_EDA ckt11752_dc_1 BSR 204 0.180996 0.000287 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA ckt11752_dc_1 ESB-d 204 0.011754 0.000454 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA ckt11752_dc_1 ESB-s 204 0.012361 0.000233 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA ckt11752_dc_1 CVR 204 0.000220 0.000039 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA ckt11752_dc_1 CSR5 204 0.000493 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA ckt11752_dc_1 VHCC 204 0.351726 0.000078 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 CSR 272 0.014455 0.000077 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 COO 272 0.010545 0.006603 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IBM_EDA ckt11752_dc_1 CSC 272 0.015718 0.001975 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance IBM_EDA ckt11752_dc_1 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IBM_EDA ckt11752_dc_1 IE 272 0.001168 0.000062 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 49703 # was wrong
+ Performance IBM_EDA ckt11752_dc_1 BSR 272 0.195647 0.000362 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IBM_EDA ckt11752_dc_1 ESB-d 272 0.013708 0.000501 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IBM_EDA ckt11752_dc_1 ESB-s 272 0.014252 0.000251 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IBM_EDA ckt11752_dc_1 CVR 272 0.000242 0.000039 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IBM_EDA ckt11752_dc_1 CSR5 272 0.000538 0.000055 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IBM_EDA ckt11752_dc_1 VHCC 272 0.380061 0.000076 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

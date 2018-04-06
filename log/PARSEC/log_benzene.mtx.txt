@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/PARSEC/benzene.mtx
+Reading matrix completed
+Basic informations
+        numRows = 8220
+        numCols = 8220
+            nnz = 250896
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC benzene CSR 68 0.011330 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC benzene COO 68 0.003787 0.003425 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC benzene CSC 68 0.008136 0.000366 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 8220 # was wrong
+ Performance PARSEC benzene DIA 68 0.374872 0.049658 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC benzene IE 68 0.002135 0.000109 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 8220 # was wrong
+ Performance PARSEC benzene BSR 68 0.039055 0.000040 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC benzene ESB-d 68 0.004497 0.000319 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC benzene ESB-s 68 0.003778 0.000260 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC benzene CVR 68 0.000198 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC benzene CSR5 68 0.000963 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC benzene VHCC 68 0.145761 0.000041 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC benzene CSR 136 0.005854 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC benzene COO 136 0.001023 0.004209 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC benzene CSC 136 0.007108 0.000430 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 8220 # was wrong
+ Performance PARSEC benzene DIA 136 0.422829 0.049525 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC benzene IE 136 0.000928 0.000040 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2942 out of 8220 # was wrong
+ Performance PARSEC benzene BSR 136 0.042883 0.000065 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC benzene ESB-d 136 0.005083 0.000487 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC benzene ESB-s 136 0.004847 0.000427 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC benzene CVR 136 0.000188 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC benzene CSR5 136 0.000391 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC benzene VHCC 136 0.249225 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC benzene CSR 204 0.010623 0.000046 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC benzene COO 204 0.005389 0.005470 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC benzene CSC 204 0.009169 0.000525 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 8220 # was wrong
+ Performance PARSEC benzene DIA 204 0.468566 0.049389 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC benzene IE 204 0.001050 0.000029 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 8220 # was wrong
+ Performance PARSEC benzene BSR 204 0.057682 0.000057 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC benzene ESB-d 204 0.006063 0.000688 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC benzene ESB-s 204 0.006563 0.000612 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC benzene CVR 204 0.000165 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC benzene CSR5 204 0.000372 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC benzene VHCC 204 0.317899 0.000038 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance PARSEC benzene CSR 272 0.013610 0.000051 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance PARSEC benzene COO 272 0.004019 0.006536 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance PARSEC benzene CSC 272 0.009416 0.000568 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 8220 # was wrong
+ Performance PARSEC benzene DIA 272 0.453910 0.049910 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance PARSEC benzene IE 272 0.001137 0.000053 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 689 out of 8220 # was wrong
+ Performance PARSEC benzene BSR 272 0.063012 0.000294 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance PARSEC benzene ESB-d 272 0.006732 0.000924 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance PARSEC benzene ESB-s 272 0.007421 0.000771 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance PARSEC benzene CVR 272 0.000260 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance PARSEC benzene CSR5 272 0.000485 0.000047 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance PARSEC benzene VHCC 272 0.350259 0.000039 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

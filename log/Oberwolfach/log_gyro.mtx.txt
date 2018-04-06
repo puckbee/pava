@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Oberwolfach/gyro.mtx
+Reading matrix completed
+Basic informations
+        numRows = 17362
+        numCols = 17362
+            nnz = 1038528
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Oberwolfach gyro CSR 68 0.029303 0.000048 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Oberwolfach gyro COO 68 0.009823 0.014296 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Oberwolfach gyro CSC 68 0.019619 0.001006 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Oberwolfach gyro DIA 68 1.605358 0.150907 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Oberwolfach gyro IE 68 0.002293 0.000181 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Oberwolfach gyro BSR 68 0.130743 0.000078 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Oberwolfach gyro ESB-d 68 0.016763 0.000718 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Oberwolfach gyro ESB-s 68 0.015141 0.000526 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Oberwolfach gyro CVR 68 0.000375 0.000085 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Oberwolfach gyro CSR5 68 0.001399 0.000055 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Oberwolfach gyro VHCC 68 0.571735 0.000138 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Oberwolfach gyro CSR 136 0.022645 0.000060 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Oberwolfach gyro COO 136 0.003310 0.016769 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Oberwolfach gyro CSC 136 0.017647 0.001172 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Oberwolfach gyro DIA 136 1.672298 0.152529 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Oberwolfach gyro IE 136 0.001356 0.000058 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Oberwolfach gyro BSR 136 0.154296 0.000162 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Oberwolfach gyro ESB-d 136 0.018065 0.001052 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Oberwolfach gyro ESB-s 136 0.019061 0.000888 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Oberwolfach gyro CVR 136 0.000413 0.000060 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Oberwolfach gyro CSR5 136 0.000854 0.000052 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Oberwolfach gyro VHCC 136 0.749061 0.000092 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Oberwolfach gyro CSR 204 0.043080 0.000067 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Oberwolfach gyro COO 204 0.013069 0.020441 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Oberwolfach gyro CSC 204 0.017467 0.001568 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Oberwolfach gyro DIA 204 1.699095 0.152121 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Oberwolfach gyro IE 204 0.001132 0.000073 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 11977 out of 17362 # was wrong
+ Performance Oberwolfach gyro BSR 204 0.199256 0.000134 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Oberwolfach gyro ESB-d 204 0.024207 0.001506 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Oberwolfach gyro ESB-s 204 0.026042 0.001331 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Oberwolfach gyro CVR 204 0.000357 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Oberwolfach gyro CSR5 204 0.000780 0.000061 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Oberwolfach gyro VHCC 204 0.800446 0.000090 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Oberwolfach gyro CSR 272 0.046700 0.000121 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Oberwolfach gyro COO 272 0.004450 0.021986 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Oberwolfach gyro CSC 272 0.016819 0.001715 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Oberwolfach gyro DIA 272 1.748398 0.152198 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Oberwolfach gyro IE 272 0.001635 0.000088 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Oberwolfach gyro BSR 272 0.210833 0.000535 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Oberwolfach gyro ESB-d 272 0.028206 0.001895 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Oberwolfach gyro ESB-s 272 0.029502 0.001733 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Oberwolfach gyro CVR 272 0.000506 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Oberwolfach gyro CSR5 272 0.000759 0.000067 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Oberwolfach gyro VHCC 272 0.808421 0.000086 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

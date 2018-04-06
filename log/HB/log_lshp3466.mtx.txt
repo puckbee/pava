@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/lshp3466.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3467
+        numCols = 3467
+            nnz = 27376
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lshp3466 CSR 68 0.004596 0.000018 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lshp3466 COO 68 0.000574 0.000199 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lshp3466 CSC 68 0.000769 0.000108 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3467 # was wrong
+ Performance HB lshp3466 DIA 68 0.013863 0.003692 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lshp3466 IE 68 0.001040 0.000095 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3467 # was wrong
+ Performance HB lshp3466 BSR 68 0.004454 0.000026 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lshp3466 ESB-d 68 0.000664 0.000122 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lshp3466 ESB-s 68 0.000552 0.000094 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lshp3466 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lshp3466 CSR5 68 0.000550 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lshp3466 VHCC 68 0.015599 0.000020 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lshp3466 CSR 136 0.000689 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lshp3466 COO 136 0.000219 0.000294 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lshp3466 CSC 136 0.000868 0.000134 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3467 # was wrong
+ Performance HB lshp3466 DIA 136 0.019565 0.004709 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lshp3466 IE 136 0.000601 0.000015 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1029 out of 3467 # was wrong
+ Performance HB lshp3466 BSR 136 0.004773 0.000031 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lshp3466 ESB-d 136 0.000958 0.000225 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lshp3466 ESB-s 136 0.000785 0.000196 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lshp3466 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lshp3466 CSR5 136 0.000175 0.000022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lshp3466 VHCC 136 0.026467 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lshp3466 CSR 204 0.000943 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lshp3466 COO 204 0.000258 0.000417 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lshp3466 CSC 204 0.000995 0.000161 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3467 # was wrong
+ Performance HB lshp3466 DIA 204 0.019967 0.005644 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lshp3466 IE 204 0.000843 0.000019 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3467 # was wrong
+ Performance HB lshp3466 BSR 204 0.006401 0.000043 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lshp3466 ESB-d 204 0.001004 0.000327 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lshp3466 ESB-s 204 0.001070 0.000286 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lshp3466 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lshp3466 CSR5 204 0.000220 0.000029 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lshp3466 VHCC 204 0.038320 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lshp3466 CSR 272 0.001131 0.000048 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lshp3466 COO 272 0.000272 0.000477 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lshp3466 CSC 272 0.001108 0.000178 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3467 # was wrong
+ Performance HB lshp3466 DIA 272 0.022677 0.005780 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lshp3466 IE 272 0.001132 0.000031 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3467 # was wrong
+ Performance HB lshp3466 BSR 272 0.007186 0.000060 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lshp3466 ESB-d 272 0.001139 0.000396 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lshp3466 ESB-s 272 0.001198 0.000350 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lshp3466 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lshp3466 CSR5 272 0.000266 0.000033 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lshp3466 VHCC 272 0.047725 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

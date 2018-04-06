@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/SNAP/ca-CondMat.mtx
+Reading matrix completed
+Basic informations
+        numRows = 23134
+        numCols = 23106
+            nnz = 187008
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP ca-CondMat CSR 68 0.011392 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP ca-CondMat COO 68 0.003163 0.002278 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-CondMat CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-CondMat DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-CondMat IE 68 0.002177 0.000090 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-CondMat BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-CondMat ESB-d 68 0.006919 0.000212 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-CondMat ESB-s 68 0.004992 0.000056 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-CondMat CVR 68 0.000190 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-CondMat CSR5 68 0.000947 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-CondMat VHCC 68 0.123446 0.000069 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 15 out of 23134 # was wrong
+ Performance SNAP ca-CondMat CSR 136 0.007183 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 20 out of 23134 # was wrong
+ Performance SNAP ca-CondMat COO 136 0.001155 0.003155 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-CondMat CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-CondMat DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-CondMat IE 136 0.000565 0.000043 
+WARNING! # 20 out of 23134 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-CondMat BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-CondMat ESB-d 136 0.005021 0.000221 
+WARNING! # 20 out of 23134 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-CondMat ESB-s 136 0.005522 0.000050 
+WARNING! # 20 out of 23134 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-CondMat CVR 136 0.000156 0.000025 
+WARNING! # 18 out of 23134 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-CondMat CSR5 136 0.000328 0.000034 
+WARNING! # 18 out of 23134 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-CondMat VHCC 136 0.197605 0.000051 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 20 out of 23134 # was wrong
+ Performance SNAP ca-CondMat CSR 204 0.010041 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 20 out of 23134 # was wrong
+ Performance SNAP ca-CondMat COO 204 0.004741 0.004121 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-CondMat CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-CondMat DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-CondMat IE 204 0.000887 0.000037 
+WARNING! # 20 out of 23134 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-CondMat BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-CondMat ESB-d 204 0.014940 0.000234 
+WARNING! # 20 out of 23134 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-CondMat ESB-s 204 0.007599 0.000055 
+WARNING! # 18 out of 23134 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-CondMat CVR 204 0.000141 0.000027 
+WARNING! # 15 out of 23134 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-CondMat CSR5 204 0.000437 0.000046 
+WARNING! # 17 out of 23134 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-CondMat VHCC 204 0.269215 0.000053 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP ca-CondMat CSR 272 0.013130 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP ca-CondMat COO 272 0.005542 0.004597 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-CondMat CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-CondMat DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-CondMat IE 272 0.001116 0.000050 
+WARNING! # 35 out of 23134 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-CondMat BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-CondMat ESB-d 272 0.016654 0.000252 
+WARNING! # 35 out of 23134 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-CondMat ESB-s 272 0.008586 0.000062 
+WARNING! # 35 out of 23134 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-CondMat CVR 272 0.000226 0.000031 
+WARNING! # 35 out of 23134 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-CondMat CSR5 272 0.000486 0.000056 
+WARNING! # 35 out of 23134 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-CondMat VHCC 272 0.302118 0.000056 
+WARNING! # 118 out of 23134 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

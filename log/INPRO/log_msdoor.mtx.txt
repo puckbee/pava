@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/INPRO/msdoor.mtx
+Reading matrix completed
+Basic informations
+        numRows = 415864
+        numCols = 415864
+            nnz = 20656800
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance INPRO msdoor CSR 68 0.486181 0.001606 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance INPRO msdoor COO 68 0.104067 0.288974 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance INPRO msdoor CSC 68 0.390899 0.018910 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance INPRO msdoor DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance INPRO msdoor IE 68 0.006072 0.001297 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance INPRO msdoor BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance INPRO msdoor ESB-d 68 0.324191 0.021354 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance INPRO msdoor ESB-s 68 0.324396 0.019224 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance INPRO msdoor CVR 68 0.005220 0.001892 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance INPRO msdoor CSR5 68 0.020028 0.001846 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance INPRO msdoor VHCC 68 12.529351 0.003989 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance INPRO msdoor CSR 136 0.482818 0.001584 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance INPRO msdoor COO 136 0.070439 0.310816 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance INPRO msdoor CSC 136 0.392896 0.022083 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance INPRO msdoor DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance INPRO msdoor IE 136 0.002938 0.001120 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance INPRO msdoor BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance INPRO msdoor ESB-d 136 0.293257 0.034596 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance INPRO msdoor ESB-s 136 0.290963 0.033535 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance INPRO msdoor CVR 136 0.002667 0.001260 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance INPRO msdoor CSR5 136 0.009704 0.001313 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance INPRO msdoor VHCC 136 12.892246 0.002637 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance INPRO msdoor CSR 204 0.523485 0.001794 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance INPRO msdoor COO 204 0.085495 0.311313 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance INPRO msdoor CSC 204 0.408684 0.025555 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance INPRO msdoor DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance INPRO msdoor IE 204 0.003067 0.001367 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance INPRO msdoor BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance INPRO msdoor ESB-d 204 0.336759 0.047733 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance INPRO msdoor ESB-s 204 0.321997 0.044871 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance INPRO msdoor CVR 204 0.002730 0.001061 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance INPRO msdoor CSR5 204 0.009193 0.001310 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance INPRO msdoor VHCC 204 12.677499 0.002431 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance INPRO msdoor CSR 272 0.557276 0.001978 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance INPRO msdoor COO 272 0.093575 0.306662 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance INPRO msdoor CSC 272 0.391441 0.026625 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance INPRO msdoor DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance INPRO msdoor IE 272 0.003428 0.001604 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance INPRO msdoor BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance INPRO msdoor ESB-d 272 0.347231 0.054561 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance INPRO msdoor ESB-s 272 0.326436 0.051311 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance INPRO msdoor CVR 272 0.002368 0.000970 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance INPRO msdoor CSR5 272 0.008233 0.001253 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance INPRO msdoor VHCC 272 12.391970 0.002203 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

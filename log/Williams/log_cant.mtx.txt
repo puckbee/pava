@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Williams/cant.mtx
+Reading matrix completed
+Basic informations
+        numRows = 62452
+        numCols = 62452
+            nnz = 4069840
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Williams cant CSR 68 0.101786 0.000270 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Williams cant COO 68 0.022001 0.055510 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Williams cant CSC 68 0.068446 0.003828 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Williams cant DIA 68 0.439670 0.008152 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Williams cant IE 68 0.003177 0.000330 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Williams cant BSR 68 0.515317 0.000331 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Williams cant ESB-d 68 0.060312 0.002495 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Williams cant ESB-s 68 0.062077 0.002089 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Williams cant CVR 68 0.000696 0.000363 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Williams cant CSR5 68 0.003638 0.000345 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Williams cant VHCC 68 2.270269 0.000514 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Williams cant CSR 136 0.110075 0.000274 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Williams cant COO 136 0.028135 0.057084 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Williams cant CSC 136 0.060899 0.004332 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Williams cant DIA 136 0.483319 0.008366 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Williams cant IE 136 0.001979 0.000201 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 33907 out of 62452 # was wrong
+ Performance Williams cant BSR 136 0.530606 0.000327 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Williams cant ESB-d 136 0.063991 0.003696 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Williams cant ESB-s 136 0.067566 0.003195 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Williams cant CVR 136 0.000511 0.000244 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Williams cant CSR5 136 0.002429 0.000267 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Williams cant VHCC 136 2.442924 0.000322 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Williams cant CSR 204 0.125516 0.000312 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Williams cant COO 204 0.015865 0.058723 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Williams cant CSC 204 0.058335 0.005481 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Williams cant DIA 204 0.501616 0.008497 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Williams cant IE 204 0.002004 0.000266 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 13401 out of 62452 # was wrong
+ Performance Williams cant BSR 204 0.583626 0.000346 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Williams cant ESB-d 204 0.087431 0.004999 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Williams cant ESB-s 204 0.091444 0.004538 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Williams cant CVR 204 0.000466 0.000206 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Williams cant CSR5 204 0.002082 0.000246 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Williams cant VHCC 204 2.491364 0.000283 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Williams cant CSR 272 0.164776 0.000414 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Williams cant COO 272 0.017319 0.058508 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Williams cant CSC 272 0.059737 0.006063 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Williams cant DIA 272 0.501048 0.008459 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Williams cant IE 272 0.002248 0.000326 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Williams cant BSR 272 0.598728 0.000376 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Williams cant ESB-d 272 0.100426 0.005731 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Williams cant ESB-s 272 0.105133 0.005237 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Williams cant CVR 272 0.000620 0.000224 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Williams cant CSR5 272 0.001821 0.000268 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Williams cant VHCC 272 2.536723 0.000254 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

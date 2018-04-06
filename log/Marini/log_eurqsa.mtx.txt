@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Marini/eurqsa.mtx
+Reading matrix completed
+Basic informations
+        numRows = 7246
+        numCols = 5125
+            nnz = 51280
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1047 out of 7246 # was wrong
+ Performance Marini eurqsa CSR 68 0.005202 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 267 out of 7246 # was wrong
+ Performance Marini eurqsa COO 68 0.000970 0.000414 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Marini eurqsa CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Marini eurqsa DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Marini eurqsa IE 68 0.001083 0.000087 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Marini eurqsa BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Marini eurqsa ESB-d 68 0.001709 0.000193 
+WARNING! # 790 out of 7246 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Marini eurqsa ESB-s 68 0.001597 0.000156 
+WARNING! # 1827 out of 7246 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Marini eurqsa CVR 68 0.000155 0.000012 
+WARNING! # 2010 out of 7246 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Marini eurqsa CSR5 68 0.000834 0.000017 
+WARNING! # 1808 out of 7246 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Marini eurqsa VHCC 68 0.030599 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 762 out of 7246 # was wrong
+ Performance Marini eurqsa CSR 136 0.001236 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 246 out of 7246 # was wrong
+ Performance Marini eurqsa COO 136 0.000473 0.000591 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Marini eurqsa CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Marini eurqsa DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Marini eurqsa IE 136 0.000134 0.000025 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Marini eurqsa BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Marini eurqsa ESB-d 136 0.001291 0.000229 
+WARNING! # 692 out of 7246 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Marini eurqsa ESB-s 136 0.001423 0.000184 
+WARNING! # 1356 out of 7246 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Marini eurqsa CVR 136 0.000078 0.000013 
+WARNING! # 1836 out of 7246 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Marini eurqsa CSR5 136 0.000197 0.000024 
+WARNING! # 1677 out of 7246 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Marini eurqsa VHCC 136 0.055366 0.000035 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 32 out of 7246 # was wrong
+ Performance Marini eurqsa CSR 204 0.001551 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 32 out of 7246 # was wrong
+ Performance Marini eurqsa COO 204 0.000498 0.000791 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Marini eurqsa CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Marini eurqsa DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Marini eurqsa IE 204 0.000166 0.000024 
+WARNING! # 32 out of 7246 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Marini eurqsa BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Marini eurqsa ESB-d 204 0.001820 0.000281 
+WARNING! # 32 out of 7246 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Marini eurqsa ESB-s 204 0.001977 0.000223 
+WARNING! # 32 out of 7246 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Marini eurqsa CVR 204 0.000079 0.000016 
+WARNING! # 38 out of 7246 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Marini eurqsa CSR5 204 0.000215 0.000033 
+WARNING! # 32 out of 7246 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Marini eurqsa VHCC 204 0.077740 0.000039 
+WARNING! # 36 out of 7246 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 32 out of 7246 # was wrong
+ Performance Marini eurqsa CSR 272 0.002025 0.000041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 32 out of 7246 # was wrong
+ Performance Marini eurqsa COO 272 0.000572 0.000917 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Marini eurqsa CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Marini eurqsa DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Marini eurqsa IE 272 0.000177 0.000035 
+WARNING! # 32 out of 7246 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Marini eurqsa BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Marini eurqsa ESB-d 272 0.002040 0.000312 
+WARNING! # 32 out of 7246 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Marini eurqsa ESB-s 272 0.002159 0.000245 
+WARNING! # 32 out of 7246 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Marini eurqsa CVR 272 0.000179 0.000021 
+WARNING! # 32 out of 7246 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Marini eurqsa CSR5 272 0.000299 0.000042 
+WARNING! # 32 out of 7246 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Marini eurqsa VHCC 272 0.091050 0.000040 
+WARNING! # 36 out of 7246 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

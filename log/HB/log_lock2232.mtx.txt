@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/lock2232.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2233
+        numCols = 2233
+            nnz = 82560
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lock2232 CSR 68 0.005740 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lock2232 COO 68 0.001360 0.001145 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lock2232 CSC 68 0.001877 0.000109 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB lock2232 DIA 68 0.019466 0.000779 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lock2232 IE 68 0.001325 0.000087 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB lock2232 BSR 68 0.009867 0.000021 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lock2232 ESB-d 68 0.001329 0.000063 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lock2232 ESB-s 68 0.001268 0.000041 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lock2232 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lock2232 CSR5 68 0.000696 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lock2232 VHCC 68 0.044705 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lock2232 CSR 136 0.002182 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lock2232 COO 136 0.000993 0.001371 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lock2232 CSC 136 0.001595 0.000146 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB lock2232 DIA 136 0.032388 0.000957 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lock2232 IE 136 0.000634 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB lock2232 BSR 136 0.011961 0.000025 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lock2232 ESB-d 136 0.001649 0.000109 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lock2232 ESB-s 136 0.001674 0.000079 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lock2232 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lock2232 CSR5 136 0.000235 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lock2232 VHCC 136 0.071484 0.000024 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lock2232 CSR 204 0.002587 0.000051 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lock2232 COO 204 0.000410 0.001816 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lock2232 CSC 204 0.001970 0.000186 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB lock2232 DIA 204 0.054750 0.001196 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lock2232 IE 204 0.000886 0.000018 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB lock2232 BSR 204 0.015554 0.000141 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lock2232 ESB-d 204 0.001941 0.000159 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lock2232 ESB-s 204 0.002098 0.000126 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lock2232 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lock2232 CSR5 204 0.000247 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lock2232 VHCC 204 0.101818 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lock2232 CSR 272 0.003281 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lock2232 COO 272 0.000384 0.002180 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lock2232 CSC 272 0.002111 0.000196 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB lock2232 DIA 272 0.060008 0.001224 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lock2232 IE 272 0.001185 0.000028 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1352 out of 2233 # was wrong
+ Performance HB lock2232 BSR 272 0.017647 0.000048 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lock2232 ESB-d 272 0.002307 0.000189 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lock2232 ESB-s 272 0.002362 0.000147 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lock2232 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lock2232 CSR5 272 0.000305 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lock2232 VHCC 272 0.124970 0.000059 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

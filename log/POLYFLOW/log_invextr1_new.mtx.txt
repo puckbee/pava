@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/POLYFLOW/invextr1_new.mtx
+Reading matrix completed
+Basic informations
+        numRows = 30413
+        numCols = 30413
+            nnz = 1793888
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new CSR 68 0.059286 0.000135 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new COO 68 0.012865 0.025047 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new CSC 68 0.040779 0.002207 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance POLYFLOW invextr1_new DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance POLYFLOW invextr1_new IE 68 0.002257 0.000220 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new BSR 68 0.252391 0.000462 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance POLYFLOW invextr1_new ESB-d 68 0.029080 0.000309 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance POLYFLOW invextr1_new ESB-s 68 0.025179 0.000256 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance POLYFLOW invextr1_new CVR 68 0.000504 0.000177 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance POLYFLOW invextr1_new CSR5 68 0.002054 0.000106 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance POLYFLOW invextr1_new VHCC 68 0.912784 0.000316 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new CSR 136 0.041972 0.000124 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new COO 136 0.005746 0.027638 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new CSC 136 0.034942 0.002579 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance POLYFLOW invextr1_new DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance POLYFLOW invextr1_new IE 136 0.000854 0.000105 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1519 out of 30413 # was wrong
+ Performance POLYFLOW invextr1_new BSR 136 0.275461 0.000433 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance POLYFLOW invextr1_new ESB-d 136 0.027395 0.000308 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance POLYFLOW invextr1_new ESB-s 136 0.028974 0.000171 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance POLYFLOW invextr1_new CVR 136 0.000516 0.000120 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance POLYFLOW invextr1_new CSR5 136 0.001296 0.000093 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance POLYFLOW invextr1_new VHCC 136 1.054206 0.000219 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new CSR 204 0.080351 0.000112 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new COO 204 0.047038 0.029075 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new CSC 204 0.039470 0.003490 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance POLYFLOW invextr1_new DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance POLYFLOW invextr1_new IE 204 0.001117 0.000105 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 3247 out of 30413 # was wrong
+ Performance POLYFLOW invextr1_new BSR 204 0.310085 0.000452 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance POLYFLOW invextr1_new ESB-d 204 0.038901 0.000328 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance POLYFLOW invextr1_new ESB-s 204 0.042188 0.000166 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance POLYFLOW invextr1_new CVR 204 0.000425 0.000109 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance POLYFLOW invextr1_new CSR5 204 0.001088 0.000106 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance POLYFLOW invextr1_new VHCC 204 1.107470 0.000209 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new CSR 272 0.093041 0.000129 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new COO 272 0.007878 0.031501 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance POLYFLOW invextr1_new CSC 272 0.036236 0.003880 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance POLYFLOW invextr1_new DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance POLYFLOW invextr1_new IE 272 0.001369 0.000119 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 3960 out of 30413 # was wrong
+ Performance POLYFLOW invextr1_new BSR 272 0.306161 0.000937 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance POLYFLOW invextr1_new ESB-d 272 0.044229 0.000352 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance POLYFLOW invextr1_new ESB-s 272 0.047664 0.000173 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance POLYFLOW invextr1_new CVR 272 0.000451 0.000105 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance POLYFLOW invextr1_new CSR5 272 0.001027 0.000120 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance POLYFLOW invextr1_new VHCC 272 1.129510 0.000191 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

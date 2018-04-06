@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/SNAP/ca-HepTh.mtx
+Reading matrix completed
+Basic informations
+        numRows = 9878
+        numCols = 9848
+            nnz = 52000
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 43 out of 9878 # was wrong
+ Performance SNAP ca-HepTh CSR 68 0.005640 0.000021 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 63 out of 9878 # was wrong
+ Performance SNAP ca-HepTh COO 68 0.001043 0.000569 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-HepTh CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-HepTh DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-HepTh IE 68 0.001425 0.000088 
+WARNING! # 63 out of 9878 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-HepTh BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-HepTh ESB-d 68 0.002663 0.000094 
+WARNING! # 63 out of 9878 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-HepTh ESB-s 68 0.002639 0.000025 
+WARNING! # 63 out of 9878 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-HepTh CVR 68 0.000107 0.000013 
+WARNING! # 61 out of 9878 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-HepTh CSR5 68 0.000747 0.000017 
+WARNING! # 13 out of 9878 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-HepTh VHCC 68 0.034707 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 2 out of 9878 # was wrong
+ Performance SNAP ca-HepTh CSR 136 0.001615 0.000028 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 2 out of 9878 # was wrong
+ Performance SNAP ca-HepTh COO 136 0.000546 0.000790 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-HepTh CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-HepTh DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-HepTh IE 136 0.000628 0.000022 
+WARNING! # 2 out of 9878 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-HepTh BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-HepTh ESB-d 136 0.001570 0.000108 
+WARNING! # 2 out of 9878 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-HepTh ESB-s 136 0.001842 0.000028 
+WARNING! # 2 out of 9878 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-HepTh CVR 136 0.000078 0.000014 
+WARNING! # 2 out of 9878 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-HepTh CSR5 136 0.000216 0.000026 
+WARNING! # 2 out of 9878 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-HepTh VHCC 136 0.054203 0.000025 
+WARNING! # 2 out of 9878 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP ca-HepTh CSR 204 0.002251 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP ca-HepTh COO 204 0.001530 0.001022 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-HepTh CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-HepTh DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-HepTh IE 204 0.000895 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-HepTh BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-HepTh ESB-d 204 0.004320 0.000122 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-HepTh ESB-s 204 0.002591 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-HepTh CVR 204 0.000083 0.000017 
+WARNING! # 1 out of 9878 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-HepTh CSR5 204 0.000253 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-HepTh VHCC 204 0.076475 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP ca-HepTh CSR 272 0.003072 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP ca-HepTh COO 272 0.001709 0.001166 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-HepTh CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-HepTh DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-HepTh IE 272 0.001121 0.000035 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-HepTh BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-HepTh ESB-d 272 0.004845 0.000143 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-HepTh ESB-s 272 0.002900 0.000038 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-HepTh CVR 272 0.000173 0.000020 
+WARNING! # 2 out of 9878 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-HepTh CSR5 272 0.000335 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-HepTh VHCC 272 0.088337 0.000033 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/TKK/t520.mtx
+Reading matrix completed
+Basic informations
+        numRows = 5564
+        numCols = 5564
+            nnz = 291904
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK t520 CSR 68 0.012318 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK t520 COO 68 0.004715 0.004071 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK t520 CSC 68 0.006858 0.000333 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5564 # was wrong
+ Performance TKK t520 DIA 68 0.039934 0.002783 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK t520 IE 68 0.001836 0.000113 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 5564 # was wrong
+ Performance TKK t520 BSR 68 0.033682 0.000029 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK t520 ESB-d 68 0.004063 0.000214 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK t520 ESB-s 68 0.004125 0.000175 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK t520 CVR 68 0.000181 0.000028 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK t520 CSR5 68 0.000912 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK t520 VHCC 68 0.157021 0.000053 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK t520 CSR 136 0.008407 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK t520 COO 136 0.003636 0.004712 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK t520 CSC 136 0.005521 0.000401 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5564 # was wrong
+ Performance TKK t520 DIA 136 0.068645 0.003458 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK t520 IE 136 0.000691 0.000022 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 422 out of 5564 # was wrong
+ Performance TKK t520 BSR 136 0.041066 0.000036 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK t520 ESB-d 136 0.005149 0.000334 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK t520 ESB-s 136 0.005191 0.000282 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK t520 CVR 136 0.000195 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK t520 CSR5 136 0.000435 0.000031 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK t520 VHCC 136 0.260202 0.000045 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK t520 CSR 204 0.008855 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK t520 COO 204 0.001215 0.006291 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK t520 CSC 204 0.006903 0.000497 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5564 # was wrong
+ Performance TKK t520 DIA 204 0.099641 0.004485 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK t520 IE 204 0.000923 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 688 out of 5564 # was wrong
+ Performance TKK t520 BSR 204 0.054372 0.000203 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK t520 ESB-d 204 0.006471 0.000469 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK t520 ESB-s 204 0.007009 0.000404 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK t520 CVR 204 0.000182 0.000023 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK t520 CSR5 204 0.000406 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK t520 VHCC 204 0.331700 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK t520 CSR 272 0.011610 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK t520 COO 272 0.001312 0.007593 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK t520 CSC 272 0.007385 0.000540 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5564 # was wrong
+ Performance TKK t520 DIA 272 0.121390 0.004391 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK t520 IE 272 0.001145 0.000034 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 5564 # was wrong
+ Performance TKK t520 BSR 272 0.061772 0.001359 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK t520 ESB-d 272 0.007846 0.000622 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK t520 ESB-s 272 0.007897 0.000647 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK t520 CVR 272 0.000290 0.000037 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK t520 CSR5 272 0.000468 0.000090 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK t520 VHCC 272 0.362950 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

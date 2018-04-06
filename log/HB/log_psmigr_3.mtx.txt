@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/psmigr_3.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3141
+        numCols = 3141
+            nnz = 543168
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB psmigr_3 CSR 68 0.020947 0.000050 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB psmigr_3 COO 68 0.006405 0.007686 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB psmigr_3 CSC 68 0.012837 0.000598 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3141 # was wrong
+ Performance HB psmigr_3 DIA 68 1.842758 0.013254 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB psmigr_3 IE 68 0.001922 0.000163 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3141 # was wrong
+ Performance HB psmigr_3 BSR 68 0.079683 0.000421 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB psmigr_3 ESB-d 68 0.011882 0.000160 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB psmigr_3 ESB-s 68 0.009163 0.000244 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB psmigr_3 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB psmigr_3 CSR5 68 0.000985 0.000033 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB psmigr_3 VHCC 68 0.284922 0.000142 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB psmigr_3 CSR 136 0.014282 0.000053 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB psmigr_3 COO 136 0.001678 0.009231 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB psmigr_3 CSC 136 0.014544 0.000695 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3141 # was wrong
+ Performance HB psmigr_3 DIA 136 1.925003 0.013264 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB psmigr_3 IE 136 0.001159 0.000041 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3141 # was wrong
+ Performance HB psmigr_3 BSR 136 0.101365 0.001085 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB psmigr_3 ESB-d 136 0.009238 0.000153 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB psmigr_3 ESB-s 136 0.011177 0.000178 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB psmigr_3 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB psmigr_3 CSR5 136 0.000504 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB psmigr_3 VHCC 136 0.394882 0.000107 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB psmigr_3 CSR 204 0.020060 0.000076 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB psmigr_3 COO 204 0.002011 0.012412 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB psmigr_3 CSC 204 0.018209 0.000913 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3141 # was wrong
+ Performance HB psmigr_3 DIA 204 1.940369 0.013282 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB psmigr_3 IE 204 0.001311 0.000042 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3141 # was wrong
+ Performance HB psmigr_3 BSR 204 0.128872 0.002525 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB psmigr_3 ESB-d 204 0.013228 0.000173 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB psmigr_3 ESB-s 204 0.015700 0.000151 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB psmigr_3 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB psmigr_3 CSR5 204 0.000490 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB psmigr_3 VHCC 204 0.470040 0.000104 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB psmigr_3 CSR 272 0.027221 0.000122 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB psmigr_3 COO 272 0.002295 0.014816 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB psmigr_3 CSC 272 0.018822 0.000999 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3141 # was wrong
+ Performance HB psmigr_3 DIA 272 1.940897 0.013261 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB psmigr_3 IE 272 0.001113 0.000172 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2 out of 3141 # was wrong
+ Performance HB psmigr_3 BSR 272 0.141190 0.003688 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB psmigr_3 ESB-d 272 0.014268 0.000307 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB psmigr_3 ESB-s 272 0.017190 0.000177 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB psmigr_3 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB psmigr_3 CSR5 272 0.000462 0.000046 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB psmigr_3 VHCC 272 0.512399 0.000111 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

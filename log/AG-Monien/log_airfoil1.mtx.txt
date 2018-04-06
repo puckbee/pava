@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/AG-Monien/airfoil1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 4254
+        numCols = 4254
+            nnz = 24592
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien airfoil1 CSR 68 0.004057 0.000016 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien airfoil1 COO 68 0.000522 0.000162 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien airfoil1 CSC 68 0.000784 0.000076 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 4254 # was wrong
+ Performance AG-Monien airfoil1 DIA 68 0.013808 0.003885 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien airfoil1 IE 68 0.001158 0.000077 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 4254 # was wrong
+ Performance AG-Monien airfoil1 BSR 68 0.006321 0.000030 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien airfoil1 ESB-d 68 0.000610 0.000046 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien airfoil1 ESB-s 68 0.000513 0.000015 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance AG-Monien airfoil1 CVR 68 0.000231 0.000010 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien airfoil1 CSR5 68 0.000855 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien airfoil1 VHCC 68 0.014854 0.000019 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien airfoil1 CSR 136 0.000620 0.000021 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien airfoil1 COO 136 0.000240 0.000293 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien airfoil1 CSC 136 0.000899 0.000100 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 4254 # was wrong
+ Performance AG-Monien airfoil1 DIA 136 0.019933 0.004815 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien airfoil1 IE 136 0.000637 0.000015 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1762 out of 4254 # was wrong
+ Performance AG-Monien airfoil1 BSR 136 0.007799 0.000068 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien airfoil1 ESB-d 136 0.000801 0.000058 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien airfoil1 ESB-s 136 0.000845 0.000020 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance AG-Monien airfoil1 CVR 136 0.000046 0.000012 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien airfoil1 CSR5 136 0.000136 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien airfoil1 VHCC 136 0.025706 0.000021 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien airfoil1 CSR 204 0.000920 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien airfoil1 COO 204 0.000276 0.000334 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien airfoil1 CSC 204 0.001065 0.000130 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 4254 # was wrong
+ Performance AG-Monien airfoil1 DIA 204 0.023155 0.005981 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien airfoil1 IE 204 0.000869 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 243 out of 4254 # was wrong
+ Performance AG-Monien airfoil1 BSR 204 0.007993 0.000054 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien airfoil1 ESB-d 204 0.000915 0.000072 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien airfoil1 ESB-s 204 0.001009 0.000024 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance AG-Monien airfoil1 CVR 204 0.000072 0.000014 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien airfoil1 CSR5 204 0.000179 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien airfoil1 VHCC 204 0.037853 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien airfoil1 CSR 272 0.001071 0.000065 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien airfoil1 COO 272 0.000338 0.000378 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien airfoil1 CSC 272 0.001133 0.000151 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 4254 # was wrong
+ Performance AG-Monien airfoil1 DIA 272 0.024865 0.006123 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien airfoil1 IE 272 0.008646 0.000031 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 245 out of 4254 # was wrong
+ Performance AG-Monien airfoil1 BSR 272 0.008778 0.000250 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien airfoil1 ESB-d 272 0.001049 0.000133 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien airfoil1 ESB-s 272 0.001108 0.000041 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance AG-Monien airfoil1 CVR 272 0.000164 0.000034 
+WARNING! # 16 out of 4254 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien airfoil1 CSR5 272 0.000342 0.000061 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien airfoil1 VHCC 272 0.051100 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

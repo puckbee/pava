@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Simon/bbmat.mtx
+Reading matrix completed
+Basic informations
+        numRows = 38745
+        numCols = 38745
+            nnz = 1771728
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon bbmat CSR 68 0.050698 0.000072 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon bbmat COO 68 0.012603 0.023786 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon bbmat CSC 68 0.031853 0.001847 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Simon bbmat DIA 68 0.321259 0.015232 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon bbmat IE 68 0.002329 0.000214 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Simon bbmat BSR 68 0.233560 0.000197 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon bbmat ESB-d 68 0.025529 0.000367 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon bbmat ESB-s 68 0.024971 0.000200 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Simon bbmat CVR 68 0.000577 0.000153 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon bbmat CSR5 68 0.001983 0.000091 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon bbmat VHCC 68 0.917633 0.000250 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon bbmat CSR 136 0.037291 0.000065 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon bbmat COO 136 0.029020 0.026661 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon bbmat CSC 136 0.026881 0.002191 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Simon bbmat DIA 136 0.376153 0.015338 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon bbmat IE 136 0.001344 0.000097 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Simon bbmat BSR 136 0.266534 0.000151 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon bbmat ESB-d 136 0.028747 0.000361 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon bbmat ESB-s 136 0.031216 0.000139 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Simon bbmat CVR 136 0.000605 0.000109 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon bbmat CSR5 136 0.001312 0.000078 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon bbmat VHCC 136 1.016889 0.000162 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon bbmat CSR 204 0.068571 0.000082 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon bbmat COO 204 0.035184 0.028853 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon bbmat CSC 204 0.026912 0.002895 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Simon bbmat DIA 204 0.393227 0.015769 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon bbmat IE 204 0.001494 0.000102 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1258 out of 38745 # was wrong
+ Performance Simon bbmat BSR 204 0.294352 0.000284 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon bbmat ESB-d 204 0.041201 0.000397 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon bbmat ESB-s 204 0.043459 0.000130 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Simon bbmat CVR 204 0.000442 0.000097 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon bbmat CSR5 204 0.001130 0.000086 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon bbmat VHCC 204 1.139400 0.000156 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon bbmat CSR 272 0.062274 0.000072 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon bbmat COO 272 0.024336 0.029758 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon bbmat CSC 272 0.025387 0.003179 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Simon bbmat DIA 272 0.404366 0.015202 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon bbmat IE 272 0.001363 0.000137 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1334 out of 38745 # was wrong
+ Performance Simon bbmat BSR 272 0.303368 0.000411 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon bbmat ESB-d 272 0.044357 0.000420 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon bbmat ESB-s 272 0.048842 0.000139 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Simon bbmat CVR 272 0.000648 0.000092 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon bbmat CSR5 272 0.001067 0.000095 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon bbmat VHCC 272 1.109483 0.000151 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

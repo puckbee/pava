@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/CEMW/tmt_sym.mtx
+Reading matrix completed
+Basic informations
+        numRows = 726714
+        numCols = 726714
+            nnz = 5807680
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance CEMW tmt_sym CSR 68 0.141891 0.001887 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance CEMW tmt_sym COO 68 0.039732 0.052666 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance CEMW tmt_sym CSC 68 0.123085 0.015661 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance CEMW tmt_sym DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance CEMW tmt_sym IE 68 0.002873 0.001594 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance CEMW tmt_sym BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance CEMW tmt_sym ESB-d 68 0.125040 0.023973 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance CEMW tmt_sym ESB-s 68 0.127173 0.018827 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance CEMW tmt_sym CVR 68 0.002447 0.000804 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance CEMW tmt_sym CSR5 68 0.004785 0.000595 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance CEMW tmt_sym VHCC 68 3.241579 0.001445 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance CEMW tmt_sym CSR 136 0.135148 0.001828 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance CEMW tmt_sym COO 136 0.056944 0.067990 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance CEMW tmt_sym CSC 136 0.148261 0.017577 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance CEMW tmt_sym DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance CEMW tmt_sym IE 136 0.001281 0.001552 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance CEMW tmt_sym BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance CEMW tmt_sym ESB-d 136 0.181132 0.041751 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance CEMW tmt_sym ESB-s 136 0.139036 0.035520 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance CEMW tmt_sym CVR 136 0.000959 0.000541 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance CEMW tmt_sym CSR5 136 0.003352 0.000442 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance CEMW tmt_sym VHCC 136 3.358557 0.000915 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance CEMW tmt_sym CSR 204 0.178776 0.002173 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance CEMW tmt_sym COO 204 0.047634 0.087917 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance CEMW tmt_sym CSC 204 0.155715 0.020133 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance CEMW tmt_sym DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance CEMW tmt_sym IE 204 0.001621 0.001872 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance CEMW tmt_sym BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance CEMW tmt_sym ESB-d 204 0.186548 0.058612 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance CEMW tmt_sym ESB-s 204 0.164755 0.053249 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance CEMW tmt_sym CVR 204 0.000820 0.000458 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance CEMW tmt_sym CSR5 204 0.003086 0.000425 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance CEMW tmt_sym VHCC 204 3.327960 0.000805 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance CEMW tmt_sym CSR 272 0.195908 0.002272 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance CEMW tmt_sym COO 272 0.055850 0.088068 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance CEMW tmt_sym CSC 272 0.153627 0.021474 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance CEMW tmt_sym DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance CEMW tmt_sym IE 272 0.001765 0.002006 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance CEMW tmt_sym BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance CEMW tmt_sym ESB-d 272 0.199283 0.068575 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance CEMW tmt_sym ESB-s 272 0.166654 0.062262 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance CEMW tmt_sym CVR 272 0.000756 0.000475 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance CEMW tmt_sym CSR5 272 0.002681 0.000429 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance CEMW tmt_sym VHCC 272 3.333451 0.000762 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

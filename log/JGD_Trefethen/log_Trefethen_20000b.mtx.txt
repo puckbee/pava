@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/JGD_Trefethen/Trefethen_20000b.mtx
+Reading matrix completed
+Basic informations
+        numRows = 20000
+        numCols = 20000
+            nnz = 574448
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b CSR 68 0.020510 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b COO 68 0.007087 0.007615 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b CSC 68 0.015696 0.000851 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 20000 # was wrong
+ Performance JGD_Trefethen Trefethen_20000b DIA 68 0.034162 0.000797 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_Trefethen Trefethen_20000b IE 68 0.001585 0.000144 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 20000 # was wrong
+ Performance JGD_Trefethen Trefethen_20000b BSR 68 0.080225 0.000076 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_Trefethen Trefethen_20000b ESB-d 68 0.008389 0.001042 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_Trefethen Trefethen_20000b ESB-s 68 0.008230 0.000921 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_Trefethen Trefethen_20000b CVR 68 0.000356 0.000050 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_Trefethen Trefethen_20000b CSR5 68 0.001230 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_Trefethen Trefethen_20000b VHCC 68 0.330675 0.000091 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b CSR 136 0.014752 0.000052 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b COO 136 0.002216 0.008957 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b CSC 136 0.017726 0.001037 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 20000 # was wrong
+ Performance JGD_Trefethen Trefethen_20000b DIA 136 0.056438 0.000988 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_Trefethen Trefethen_20000b IE 136 0.000657 0.000045 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 20000 # was wrong
+ Performance JGD_Trefethen Trefethen_20000b BSR 136 0.093234 0.000124 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_Trefethen Trefethen_20000b ESB-d 136 0.010082 0.001685 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_Trefethen Trefethen_20000b ESB-s 136 0.010404 0.001525 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_Trefethen Trefethen_20000b CVR 136 0.000224 0.000038 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_Trefethen Trefethen_20000b CSR5 136 0.000574 0.000042 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_Trefethen Trefethen_20000b VHCC 136 0.483257 0.000070 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b CSR 204 0.025225 0.000068 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b COO 204 0.012547 0.012033 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b CSC 204 0.020597 0.001298 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 20000 # was wrong
+ Performance JGD_Trefethen Trefethen_20000b DIA 204 0.082164 0.001240 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_Trefethen Trefethen_20000b IE 204 0.000956 0.000060 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 20000 # was wrong
+ Performance JGD_Trefethen Trefethen_20000b BSR 204 0.131038 0.000190 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_Trefethen Trefethen_20000b ESB-d 204 0.014089 0.002338 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_Trefethen Trefethen_20000b ESB-s 204 0.014583 0.002177 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_Trefethen Trefethen_20000b CVR 204 0.000307 0.000036 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_Trefethen Trefethen_20000b CSR5 204 0.000630 0.000052 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_Trefethen Trefethen_20000b VHCC 204 0.543860 0.000069 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b CSR 272 0.032046 0.000103 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b COO 272 0.010543 0.014483 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance JGD_Trefethen Trefethen_20000b CSC 272 0.022249 0.001402 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 20000 # was wrong
+ Performance JGD_Trefethen Trefethen_20000b DIA 272 0.096574 0.001258 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance JGD_Trefethen Trefethen_20000b IE 272 0.009850 0.000082 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 20000 # was wrong
+ Performance JGD_Trefethen Trefethen_20000b BSR 272 0.137456 0.000203 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance JGD_Trefethen Trefethen_20000b ESB-d 272 0.016066 0.002837 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance JGD_Trefethen Trefethen_20000b ESB-s 272 0.016682 0.002599 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance JGD_Trefethen Trefethen_20000b CVR 272 0.000418 0.000038 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance JGD_Trefethen Trefethen_20000b CSR5 272 0.000638 0.000060 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance JGD_Trefethen Trefethen_20000b VHCC 272 0.573256 0.000069 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

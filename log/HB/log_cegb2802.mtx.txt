@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/cegb2802.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2803
+        numCols = 2803
+            nnz = 280064
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb2802 CSR 68 0.010963 0.000021 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb2802 COO 68 0.004101 0.003932 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb2802 CSC 68 0.006175 0.000248 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb2802 DIA 68 0.062056 0.001716 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb2802 IE 68 0.002104 0.000159 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2092 out of 2803 # was wrong
+ Performance HB cegb2802 BSR 68 0.029105 0.000027 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb2802 ESB-d 68 0.004835 0.000119 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb2802 ESB-s 68 0.004010 0.000080 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb2802 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb2802 CSR5 68 0.001094 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb2802 VHCC 68 0.149315 0.000043 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb2802 CSR 136 0.006880 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb2802 COO 136 0.001248 0.004617 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb2802 CSC 136 0.004779 0.000315 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb2802 DIA 136 0.101480 0.002154 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb2802 IE 136 0.000639 0.000019 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 212 out of 2803 # was wrong
+ Performance HB cegb2802 BSR 136 0.036820 0.000038 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb2802 ESB-d 136 0.004741 0.000196 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb2802 ESB-s 136 0.004650 0.000150 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb2802 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb2802 CSR5 136 0.000484 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb2802 VHCC 136 0.251517 0.000035 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb2802 CSR 204 0.008495 0.000042 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb2802 COO 204 0.003381 0.006168 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb2802 CSC 204 0.006396 0.000386 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb2802 DIA 204 0.163565 0.002451 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb2802 IE 204 0.001248 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB cegb2802 BSR 204 0.049548 0.000117 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb2802 ESB-d 204 0.006451 0.000274 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb2802 ESB-s 204 0.006556 0.000229 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb2802 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb2802 CSR5 204 0.000479 0.000036 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb2802 VHCC 204 0.329451 0.000037 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB cegb2802 CSR 272 0.011265 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB cegb2802 COO 272 0.001168 0.007476 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB cegb2802 CSC 272 0.006802 0.000429 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB cegb2802 DIA 272 0.188945 0.001680 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB cegb2802 IE 272 0.001411 0.000052 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 3 out of 2803 # was wrong
+ Performance HB cegb2802 BSR 272 0.056671 0.000287 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB cegb2802 ESB-d 272 0.007484 0.000330 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB cegb2802 ESB-s 272 0.007569 0.000285 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB cegb2802 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB cegb2802 CSR5 272 0.000562 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB cegb2802 VHCC 272 0.356862 0.000041 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

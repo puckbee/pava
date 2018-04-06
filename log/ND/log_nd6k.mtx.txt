@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/ND/nd6k.mtx
+Reading matrix completed
+Basic informations
+        numRows = 18001
+        numCols = 18001
+            nnz = 6915328
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ND nd6k CSR 68 0.160818 0.000342 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ND nd6k COO 68 0.035318 0.099256 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ND nd6k CSC 68 0.123649 0.005182 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance ND nd6k DIA 68 88.002860 0.429019 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ND nd6k IE 68 0.004127 0.000457 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance ND nd6k BSR 68 0.750866 0.000419 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ND nd6k ESB-d 68 0.101482 0.000908 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ND nd6k ESB-s 68 0.098652 0.000768 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ND nd6k CVR 68 0.002024 0.000557 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ND nd6k CSR5 68 0.002482 0.000445 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ND nd6k VHCC 68 4.125747 0.000754 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ND nd6k CSR 136 0.157437 0.000321 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ND nd6k COO 136 0.022129 0.101628 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ND nd6k CSC 136 0.176488 0.006447 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance ND nd6k DIA 136 87.986950 0.427005 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ND nd6k IE 136 0.008721 0.000281 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance ND nd6k BSR 136 0.730224 0.000354 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ND nd6k ESB-d 136 0.102664 0.001030 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ND nd6k ESB-s 136 0.102042 0.000883 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ND nd6k CVR 136 0.000890 0.000369 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ND nd6k CSR5 136 0.001721 0.000344 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ND nd6k VHCC 136 4.183929 0.000438 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ND nd6k CSR 204 0.221319 0.000335 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ND nd6k COO 204 0.069795 0.100815 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ND nd6k CSC 204 0.184036 0.008020 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance ND nd6k DIA 204 87.888781 0.427309 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ND nd6k IE 204 0.005351 0.000289 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance ND nd6k BSR 204 0.761911 0.000381 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ND nd6k ESB-d 204 0.139786 0.001340 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ND nd6k ESB-s 204 0.141792 0.001244 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ND nd6k CVR 204 0.000728 0.000312 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ND nd6k CSR5 204 0.001638 0.000361 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ND nd6k VHCC 204 4.142363 0.000383 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance ND nd6k CSR 272 0.272448 0.000376 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance ND nd6k COO 272 0.047085 0.100695 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance ND nd6k CSC 272 0.155306 0.008781 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance ND nd6k DIA 272 88.267292 0.428628 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance ND nd6k IE 272 0.005739 0.000335 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance ND nd6k BSR 272 0.779498 0.001122 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance ND nd6k ESB-d 272 0.160558 0.001495 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance ND nd6k ESB-s 272 0.164008 0.001610 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance ND nd6k CVR 272 0.000883 0.000294 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance ND nd6k CSR5 272 0.001463 0.000373 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance ND nd6k VHCC 272 4.062874 0.000346 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

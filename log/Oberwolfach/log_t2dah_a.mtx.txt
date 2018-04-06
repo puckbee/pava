@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Oberwolfach/t2dah_a.mtx
+Reading matrix completed
+Basic informations
+        numRows = 11446
+        numCols = 11446
+            nnz = 187568
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a CSR 68 0.009014 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a COO 68 0.002912 0.002318 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a CSC 68 0.004858 0.000392 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a DIA 68 0.034543 0.006836 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Oberwolfach t2dah_a IE 68 0.001892 0.000053 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a BSR 68 0.030222 0.000032 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Oberwolfach t2dah_a ESB-d 68 0.003180 0.000523 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Oberwolfach t2dah_a ESB-s 68 0.003112 0.000472 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Oberwolfach t2dah_a CVR 68 0.000172 0.000024 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Oberwolfach t2dah_a CSR5 68 0.000900 0.000022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Oberwolfach t2dah_a VHCC 68 0.103118 0.000041 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a CSR 136 0.004170 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a COO 136 0.000888 0.002701 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a CSC 136 0.003930 0.000476 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a DIA 136 0.051675 0.008342 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Oberwolfach t2dah_a IE 136 0.000654 0.000032 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 980 out of 11446 # was wrong
+ Performance Oberwolfach t2dah_a BSR 136 0.030259 0.000043 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Oberwolfach t2dah_a ESB-d 136 0.003964 0.000960 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Oberwolfach t2dah_a ESB-s 136 0.004144 0.000847 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Oberwolfach t2dah_a CVR 136 0.000142 0.000020 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Oberwolfach t2dah_a CSR5 136 0.000321 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Oberwolfach t2dah_a VHCC 136 0.173480 0.000035 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a CSR 204 0.007397 0.000045 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a COO 204 0.005387 0.003601 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a CSC 204 0.004873 0.000575 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a DIA 204 0.076978 0.010157 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Oberwolfach t2dah_a IE 204 0.000981 0.000035 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a BSR 204 0.048730 0.000044 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Oberwolfach t2dah_a ESB-d 204 0.005401 0.001406 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Oberwolfach t2dah_a ESB-s 204 0.005787 0.001330 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Oberwolfach t2dah_a CVR 204 0.000139 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Oberwolfach t2dah_a CSR5 204 0.000345 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Oberwolfach t2dah_a VHCC 204 0.236062 0.000037 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a CSR 272 0.009223 0.000051 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a COO 272 0.005765 0.004248 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a CSC 272 0.005481 0.000634 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Oberwolfach t2dah_a DIA 272 0.087668 0.009859 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Oberwolfach t2dah_a IE 272 0.001068 0.000077 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 583 out of 11446 # was wrong
+ Performance Oberwolfach t2dah_a BSR 272 0.047774 0.000138 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Oberwolfach t2dah_a ESB-d 272 0.006271 0.001764 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Oberwolfach t2dah_a ESB-s 272 0.006492 0.001553 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Oberwolfach t2dah_a CVR 272 0.000264 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Oberwolfach t2dah_a CSR5 272 0.000424 0.000046 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Oberwolfach t2dah_a VHCC 272 0.276287 0.000040 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

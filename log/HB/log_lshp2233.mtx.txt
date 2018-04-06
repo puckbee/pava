@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/lshp2233.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2234
+        numCols = 2234
+            nnz = 17584
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lshp2233 CSR 68 0.003885 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lshp2233 COO 68 0.000406 0.000133 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lshp2233 CSC 68 0.000504 0.000075 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2234 # was wrong
+ Performance HB lshp2233 DIA 68 0.008097 0.001865 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lshp2233 IE 68 0.001100 0.000079 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2234 # was wrong
+ Performance HB lshp2233 BSR 68 0.002869 0.000020 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lshp2233 ESB-d 68 0.000532 0.000075 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lshp2233 ESB-s 68 0.000370 0.000055 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lshp2233 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lshp2233 CSR5 68 0.000755 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lshp2233 VHCC 68 0.010842 0.000015 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lshp2233 CSR 136 0.000442 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lshp2233 COO 136 0.000149 0.000231 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lshp2233 CSC 136 0.000569 0.000094 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2234 # was wrong
+ Performance HB lshp2233 DIA 136 0.012816 0.002246 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lshp2233 IE 136 0.000636 0.000015 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 536 out of 2234 # was wrong
+ Performance HB lshp2233 BSR 136 0.002909 0.000030 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lshp2233 ESB-d 136 0.000462 0.000135 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lshp2233 ESB-s 136 0.000569 0.000111 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lshp2233 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lshp2233 CSR5 136 0.000155 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lshp2233 VHCC 136 0.018030 0.000020 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lshp2233 CSR 204 0.000609 0.000039 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lshp2233 COO 204 0.000171 0.000271 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lshp2233 CSC 204 0.000664 0.000115 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2234 # was wrong
+ Performance HB lshp2233 DIA 204 0.013117 0.002880 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lshp2233 IE 204 0.000883 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2234 # was wrong
+ Performance HB lshp2233 BSR 204 0.003998 0.000095 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lshp2233 ESB-d 204 0.000662 0.000199 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lshp2233 ESB-s 204 0.000661 0.000171 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lshp2233 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lshp2233 CSR5 204 0.000157 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lshp2233 VHCC 204 0.025798 0.000024 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lshp2233 CSR 272 0.000748 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lshp2233 COO 272 0.000168 0.000303 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lshp2233 CSC 272 0.000718 0.000131 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2234 # was wrong
+ Performance HB lshp2233 DIA 272 0.015274 0.002989 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lshp2233 IE 272 0.001114 0.000043 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2234 # was wrong
+ Performance HB lshp2233 BSR 272 0.004581 0.000052 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lshp2233 ESB-d 272 0.000756 0.000239 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lshp2233 ESB-s 272 0.000765 0.000204 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lshp2233 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lshp2233 CSR5 272 0.000236 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lshp2233 VHCC 272 0.032171 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

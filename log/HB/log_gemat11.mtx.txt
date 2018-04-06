@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/gemat11.mtx
+Reading matrix completed
+Basic informations
+        numRows = 4930
+        numCols = 4930
+            nnz = 33200
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB gemat11 CSR 68 0.004332 0.000018 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB gemat11 COO 68 0.000687 0.000284 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB gemat11 CSC 68 0.001091 0.000102 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB gemat11 DIA 68 0.208311 0.025538 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB gemat11 IE 68 0.001544 0.000117 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB gemat11 BSR 68 0.009396 0.000033 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB gemat11 ESB-d 68 0.001277 0.000053 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB gemat11 ESB-s 68 0.000722 0.000013 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB gemat11 CVR 68 0.000108 0.000011 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB gemat11 CSR5 68 0.000865 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance HB gemat11 VHCC 68 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB gemat11 CSR 136 0.000971 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB gemat11 COO 136 0.000811 0.000396 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB gemat11 CSC 136 0.001031 0.000129 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB gemat11 DIA 136 0.273962 0.026468 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB gemat11 IE 136 0.000964 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB gemat11 BSR 136 0.009816 0.000030 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB gemat11 ESB-d 136 0.000909 0.000064 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB gemat11 ESB-s 136 0.000987 0.000016 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB gemat11 CVR 136 0.000064 0.000012 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB gemat11 CSR5 136 0.000190 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance HB gemat11 VHCC 136 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB gemat11 CSR 204 0.001147 0.000026 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB gemat11 COO 204 0.000395 0.000508 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB gemat11 CSC 204 0.001336 0.000161 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB gemat11 DIA 204 0.306487 0.025556 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB gemat11 IE 204 0.001009 0.000025 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB gemat11 BSR 204 0.009796 0.000032 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB gemat11 ESB-d 204 0.001194 0.000077 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB gemat11 ESB-s 204 0.001282 0.000019 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB gemat11 CVR 204 0.000070 0.000015 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB gemat11 CSR5 204 0.000198 0.000033 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance HB gemat11 VHCC 204 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB gemat11 CSR 272 0.001408 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB gemat11 COO 272 0.000359 0.000585 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB gemat11 CSC 272 0.001458 0.000189 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB gemat11 DIA 272 0.304302 0.025461 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB gemat11 IE 272 0.001022 0.000106 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB gemat11 BSR 272 0.011567 0.000128 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB gemat11 ESB-d 272 0.001354 0.000091 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB gemat11 ESB-s 272 0.001477 0.000022 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance HB gemat11 CVR 272 0.000153 0.000017 
+WARNING! # 3 out of 4930 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB gemat11 CSR5 272 0.000300 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance HB gemat11 VHCC 272 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

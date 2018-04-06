@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/CPM/cz2548.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2549
+        numCols = 2549
+            nnz = 25680
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance CPM cz2548 CSR 68 0.004048 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance CPM cz2548 COO 68 0.000539 0.000269 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance CPM cz2548 CSC 68 0.000702 0.000064 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2549 # was wrong
+ Performance CPM cz2548 DIA 68 0.006128 0.001108 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance CPM cz2548 IE 68 0.001052 0.000082 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2549 # was wrong
+ Performance CPM cz2548 BSR 68 0.004321 0.000023 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance CPM cz2548 ESB-d 68 0.000641 0.000034 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance CPM cz2548 ESB-s 68 0.000533 0.000017 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance CPM cz2548 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance CPM cz2548 CSR5 68 0.000766 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance CPM cz2548 VHCC 68 0.013668 0.000016 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance CPM cz2548 CSR 136 0.000537 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance CPM cz2548 COO 136 0.000190 0.000323 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance CPM cz2548 CSC 136 0.000688 0.000101 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2549 # was wrong
+ Performance CPM cz2548 DIA 136 0.011410 0.001380 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance CPM cz2548 IE 136 0.000575 0.000014 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 734 out of 2549 # was wrong
+ Performance CPM cz2548 BSR 136 0.004807 0.000048 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance CPM cz2548 ESB-d 136 0.000689 0.000047 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance CPM cz2548 ESB-s 136 0.000781 0.000021 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance CPM cz2548 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance CPM cz2548 CSR5 136 0.000174 0.000022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance CPM cz2548 VHCC 136 0.023244 0.000019 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance CPM cz2548 CSR 204 0.000770 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance CPM cz2548 COO 204 0.000215 0.000436 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance CPM cz2548 CSC 204 0.000818 0.000108 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2549 # was wrong
+ Performance CPM cz2548 DIA 204 0.012314 0.001693 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance CPM cz2548 IE 204 0.000899 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2549 # was wrong
+ Performance CPM cz2548 BSR 204 0.005867 0.000038 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance CPM cz2548 ESB-d 204 0.000950 0.000056 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance CPM cz2548 ESB-s 204 0.000926 0.000025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance CPM cz2548 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance CPM cz2548 CSR5 204 0.000190 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance CPM cz2548 VHCC 204 0.032649 0.000024 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance CPM cz2548 CSR 272 0.000956 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance CPM cz2548 COO 272 0.000215 0.000522 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance CPM cz2548 CSC 272 0.000921 0.000127 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2549 # was wrong
+ Performance CPM cz2548 DIA 272 0.017669 0.001753 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance CPM cz2548 IE 272 0.001628 0.000042 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2549 # was wrong
+ Performance CPM cz2548 BSR 272 0.006655 0.000097 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance CPM cz2548 ESB-d 272 0.001018 0.000070 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance CPM cz2548 ESB-s 272 0.001082 0.000032 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance CPM cz2548 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance CPM cz2548 CSR5 272 0.000308 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance CPM cz2548 VHCC 272 0.040000 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/AG-Monien/diag.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2560
+        numCols = 2560
+            nnz = 8192
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien diag CSR 68 0.003544 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien diag COO 68 0.000264 0.000044 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien diag CSC 68 0.000307 0.000045 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance AG-Monien diag DIA 68 0.002349 0.000285 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien diag IE 68 0.000730 0.000085 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance AG-Monien diag BSR 68 0.001814 0.000021 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien diag ESB-d 68 0.000373 0.000033 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien diag ESB-s 68 0.000258 0.000013 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance AG-Monien diag CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien diag CSR5 68 0.000694 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien diag VHCC 68 0.006222 0.000014 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien diag CSR 136 0.000233 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien diag COO 136 0.000137 0.000075 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien diag CSC 136 0.000469 0.000065 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance AG-Monien diag DIA 136 0.002917 0.000360 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien diag IE 136 0.000604 0.000014 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 896 out of 2560 # was wrong
+ Performance AG-Monien diag BSR 136 0.001833 0.000041 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien diag ESB-d 136 0.000347 0.000045 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien diag ESB-s 136 0.000421 0.000019 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance AG-Monien diag CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien diag CSR5 136 0.000133 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien diag VHCC 136 0.011405 0.000017 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien diag CSR 204 0.000367 0.000029 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien diag COO 204 0.000166 0.000090 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien diag CSC 204 0.000544 0.000084 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance AG-Monien diag DIA 204 0.001834 0.000422 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien diag IE 204 0.000878 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2 out of 2560 # was wrong
+ Performance AG-Monien diag BSR 204 0.002414 0.000032 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien diag ESB-d 204 0.000490 0.000058 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien diag ESB-s 204 0.000456 0.000023 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance AG-Monien diag CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien diag CSR5 204 0.000161 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien diag VHCC 204 0.017258 0.000021 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien diag CSR 272 0.000396 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien diag COO 272 0.000161 0.000098 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance AG-Monien diag CSC 272 0.000572 0.000099 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance AG-Monien diag DIA 272 0.001904 0.000443 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien diag IE 272 0.001103 0.000041 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 507 out of 2560 # was wrong
+ Performance AG-Monien diag BSR 272 0.002772 0.000080 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien diag ESB-d 272 0.000464 0.000075 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien diag ESB-s 272 0.000523 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance AG-Monien diag CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien diag CSR5 272 0.000388 0.000031 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien diag VHCC 272 0.022291 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

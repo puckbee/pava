@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Rommes/S80PI_n1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 4029
+        numCols = 4029
+            nnz = 9936
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes S80PI_n1 CSR 68 0.003811 0.000016 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes S80PI_n1 COO 68 0.000303 0.000039 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes S80PI_n1 CSC 68 0.000426 0.000060 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 4029 # was wrong
+ Performance Rommes S80PI_n1 DIA 68 0.003751 0.000331 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes S80PI_n1 IE 68 0.000856 0.000088 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 4029 # was wrong
+ Performance Rommes S80PI_n1 BSR 68 0.002557 0.000025 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes S80PI_n1 ESB-d 68 0.000382 0.000045 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes S80PI_n1 ESB-s 68 0.000343 0.000014 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Rommes S80PI_n1 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes S80PI_n1 CSR5 68 0.000577 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes S80PI_n1 VHCC 68 0.006310 0.000015 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes S80PI_n1 CSR 136 0.000229 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes S80PI_n1 COO 136 0.000232 0.000073 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes S80PI_n1 CSC 136 0.000570 0.000084 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 4029 # was wrong
+ Performance Rommes S80PI_n1 DIA 136 0.004013 0.000410 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes S80PI_n1 IE 136 0.000629 0.000015 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 4029 # was wrong
+ Performance Rommes S80PI_n1 BSR 136 0.002400 0.000033 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes S80PI_n1 ESB-d 136 0.000409 0.000057 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes S80PI_n1 ESB-s 136 0.000488 0.000020 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Rommes S80PI_n1 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes S80PI_n1 CSR5 136 0.000148 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes S80PI_n1 VHCC 136 0.012280 0.000018 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes S80PI_n1 CSR 204 0.000355 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes S80PI_n1 COO 204 0.000234 0.000094 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes S80PI_n1 CSC 204 0.000747 0.000116 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 4029 # was wrong
+ Performance Rommes S80PI_n1 DIA 204 0.002876 0.000505 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes S80PI_n1 IE 204 0.000873 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 838 out of 4029 # was wrong
+ Performance Rommes S80PI_n1 BSR 204 0.003004 0.000102 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes S80PI_n1 ESB-d 204 0.000607 0.000071 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes S80PI_n1 ESB-s 204 0.000656 0.000024 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Rommes S80PI_n1 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes S80PI_n1 CSR5 204 0.000168 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes S80PI_n1 VHCC 204 0.019304 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes S80PI_n1 CSR 272 0.000459 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes S80PI_n1 COO 272 0.000269 0.000104 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes S80PI_n1 CSC 272 0.000815 0.000125 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 4029 # was wrong
+ Performance Rommes S80PI_n1 DIA 272 0.006801 0.000520 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes S80PI_n1 IE 272 0.001116 0.000042 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 385 out of 4029 # was wrong
+ Performance Rommes S80PI_n1 BSR 272 0.003453 0.000125 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes S80PI_n1 ESB-d 272 0.000675 0.000085 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes S80PI_n1 ESB-s 272 0.000709 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Rommes S80PI_n1 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes S80PI_n1 CSR5 272 0.000381 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes S80PI_n1 VHCC 272 0.025262 0.000027 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

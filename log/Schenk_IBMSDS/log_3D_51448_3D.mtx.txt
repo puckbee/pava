@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Schenk_IBMSDS/3D_51448_3D.mtx
+Reading matrix completed
+Basic informations
+        numRows = 51449
+        numCols = 51449
+            nnz = 1056624
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D CSR 68 0.031961 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D COO 68 0.009351 0.013313 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D CSC 68 0.021378 0.001273 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS 3D_51448_3D DIA 68 1.781404 0.418023 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS 3D_51448_3D IE 68 0.002581 0.000154 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS 3D_51448_3D BSR 68 0.180125 0.000273 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS 3D_51448_3D ESB-d 68 0.014818 0.000628 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS 3D_51448_3D ESB-s 68 0.017326 0.000349 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS 3D_51448_3D CVR 68 0.000414 0.000097 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS 3D_51448_3D CSR5 68 0.001522 0.000057 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS 3D_51448_3D VHCC 68 0.573965 0.000165 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D CSR 136 0.020138 0.000072 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D COO 136 0.004465 0.015791 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D CSC 136 0.019473 0.001595 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS 3D_51448_3D DIA 136 1.865062 0.416897 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS 3D_51448_3D IE 136 0.001753 0.000068 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS 3D_51448_3D BSR 136 0.214929 0.000326 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS 3D_51448_3D ESB-d 136 0.018781 0.000678 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS 3D_51448_3D ESB-s 136 0.018529 0.000388 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS 3D_51448_3D CVR 136 0.000522 0.000067 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS 3D_51448_3D CSR5 136 0.001024 0.000052 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS 3D_51448_3D VHCC 136 0.704014 0.000118 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D CSR 204 0.039359 0.000115 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D COO 204 0.024544 0.018600 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D CSC 204 0.016408 0.002071 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS 3D_51448_3D DIA 204 1.898587 0.417714 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS 3D_51448_3D IE 204 0.001926 0.000076 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 206 out of 51449 # was wrong
+ Performance Schenk_IBMSDS 3D_51448_3D BSR 204 0.253958 0.000381 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS 3D_51448_3D ESB-d 204 0.026253 0.000762 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS 3D_51448_3D ESB-s 204 0.027488 0.000461 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS 3D_51448_3D CVR 204 0.000489 0.000061 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS 3D_51448_3D CSR5 204 0.000947 0.000064 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS 3D_51448_3D VHCC 204 0.770466 0.000112 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D CSR 272 0.050840 0.000131 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D COO 272 0.027356 0.019763 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS 3D_51448_3D CSC 272 0.016372 0.002312 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 51449 # was wrong
+ Performance Schenk_IBMSDS 3D_51448_3D DIA 272 1.869156 0.417202 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS 3D_51448_3D IE 272 0.001706 0.000100 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2050 out of 51449 # was wrong
+ Performance Schenk_IBMSDS 3D_51448_3D BSR 272 0.262370 0.000484 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS 3D_51448_3D ESB-d 272 0.030426 0.000917 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS 3D_51448_3D ESB-s 272 0.031694 0.000480 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS 3D_51448_3D CVR 272 0.000504 0.000059 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS 3D_51448_3D CSR5 272 0.000922 0.000070 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS 3D_51448_3D VHCC 272 0.786137 0.000104 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

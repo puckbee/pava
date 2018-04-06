@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/SNAP/ca-AstroPh.mtx
+Reading matrix completed
+Basic informations
+        numRows = 18773
+        numCols = 18705
+            nnz = 396224
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP ca-AstroPh CSR 68 0.018313 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP ca-AstroPh COO 68 0.006024 0.005395 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-AstroPh CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-AstroPh DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-AstroPh IE 68 0.003137 0.000141 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-AstroPh BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-AstroPh ESB-d 68 0.016429 0.000203 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-AstroPh ESB-s 68 0.011391 0.000110 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-AstroPh CVR 68 0.000240 0.000044 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-AstroPh CSR5 68 0.001084 0.000036 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-AstroPh VHCC 68 0.254705 0.000089 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 443 out of 18773 # was wrong
+ Performance SNAP ca-AstroPh CSR 136 0.013915 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 700 out of 18773 # was wrong
+ Performance SNAP ca-AstroPh COO 136 0.001687 0.006958 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-AstroPh CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-AstroPh DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-AstroPh IE 136 0.000642 0.000049 
+WARNING! # 700 out of 18773 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-AstroPh BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-AstroPh ESB-d 136 0.009042 0.000201 
+WARNING! # 696 out of 18773 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-AstroPh ESB-s 136 0.010364 0.000085 
+WARNING! # 537 out of 18773 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-AstroPh CVR 136 0.000241 0.000035 
+WARNING! # 627 out of 18773 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-AstroPh CSR5 136 0.000487 0.000041 
+WARNING! # 398 out of 18773 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-AstroPh VHCC 136 0.375048 0.000065 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 434 out of 18773 # was wrong
+ Performance SNAP ca-AstroPh CSR 204 0.025421 0.000046 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 700 out of 18773 # was wrong
+ Performance SNAP ca-AstroPh COO 204 0.008810 0.009440 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-AstroPh CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-AstroPh DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-AstroPh IE 204 0.000910 0.000041 
+WARNING! # 700 out of 18773 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-AstroPh BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-AstroPh ESB-d 204 0.026476 0.000214 
+WARNING! # 695 out of 18773 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-AstroPh ESB-s 204 0.014145 0.000088 
+WARNING! # 593 out of 18773 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-AstroPh CVR 204 0.000241 0.000036 
+WARNING! # 624 out of 18773 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-AstroPh CSR5 204 0.000505 0.000054 
+WARNING! # 383 out of 18773 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-AstroPh VHCC 204 0.445728 0.000064 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP ca-AstroPh CSR 272 0.034039 0.000054 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP ca-AstroPh COO 272 0.012350 0.010824 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP ca-AstroPh CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP ca-AstroPh DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP ca-AstroPh IE 272 0.001148 0.000068 
+WARNING! # 520 out of 18773 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP ca-AstroPh BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP ca-AstroPh ESB-d 272 0.014107 0.000230 
+WARNING! # 520 out of 18773 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP ca-AstroPh ESB-s 272 0.015381 0.000093 
+WARNING! # 520 out of 18773 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP ca-AstroPh CVR 272 0.000323 0.000038 
+WARNING! # 520 out of 18773 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP ca-AstroPh CSR5 272 0.000543 0.000061 
+WARNING! # 520 out of 18773 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP ca-AstroPh VHCC 272 0.485183 0.000065 
+WARNING! # 989 out of 18773 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

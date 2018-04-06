@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/lock3491.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3492
+        numCols = 3492
+            nnz = 163872
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lock3491 CSR 68 0.008078 0.000018 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lock3491 COO 68 0.002502 0.002227 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lock3491 CSC 68 0.003887 0.000199 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3492 # was wrong
+ Performance HB lock3491 DIA 68 0.047494 0.003752 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lock3491 IE 68 0.001698 0.000090 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 3487 out of 3492 # was wrong
+ Performance HB lock3491 BSR 68 0.017686 0.000038 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lock3491 ESB-d 68 0.002875 0.000138 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lock3491 ESB-s 68 0.002402 0.000109 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lock3491 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lock3491 CSR5 68 0.000871 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lock3491 VHCC 68 0.087870 0.000040 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lock3491 CSR 136 0.004214 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lock3491 COO 136 0.002011 0.002659 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lock3491 CSC 136 0.003231 0.000247 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3492 # was wrong
+ Performance HB lock3491 DIA 136 0.095201 0.004591 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lock3491 IE 136 0.000657 0.000018 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3492 # was wrong
+ Performance HB lock3491 BSR 136 0.022710 0.000049 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lock3491 ESB-d 136 0.002910 0.000216 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lock3491 ESB-s 136 0.003206 0.000183 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lock3491 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lock3491 CSR5 136 0.000352 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lock3491 VHCC 136 0.142428 0.000033 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lock3491 CSR 204 0.005267 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lock3491 COO 204 0.000703 0.003533 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lock3491 CSC 204 0.003983 0.000318 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3492 # was wrong
+ Performance HB lock3491 DIA 204 0.119609 0.005790 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lock3491 IE 204 0.000907 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 439 out of 3492 # was wrong
+ Performance HB lock3491 BSR 204 0.029855 0.000064 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lock3491 ESB-d 204 0.004037 0.000304 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lock3491 ESB-s 204 0.003962 0.000259 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lock3491 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lock3491 CSR5 204 0.000357 0.000031 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lock3491 VHCC 204 0.204632 0.000037 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB lock3491 CSR 272 0.006519 0.000078 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB lock3491 COO 272 0.000757 0.004240 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB lock3491 CSC 272 0.004301 0.000356 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3492 # was wrong
+ Performance HB lock3491 DIA 272 0.147563 0.005025 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB lock3491 IE 272 0.001173 0.000049 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 228 out of 3492 # was wrong
+ Performance HB lock3491 BSR 272 0.033934 0.000082 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB lock3491 ESB-d 272 0.004306 0.000350 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB lock3491 ESB-s 272 0.004514 0.000299 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB lock3491 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB lock3491 CSR5 272 0.000416 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB lock3491 VHCC 272 0.240082 0.000041 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

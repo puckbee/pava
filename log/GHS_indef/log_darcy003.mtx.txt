@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/darcy003.mtx
+Reading matrix completed
+Basic informations
+        numRows = 389875
+        numCols = 234129
+            nnz = 2335376
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 2572 out of 389875 # was wrong
+ Performance GHS_indef darcy003 CSR 68 0.088026 0.000946 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 2572 out of 389875 # was wrong
+ Performance GHS_indef darcy003 COO 68 0.020319 0.031555 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef darcy003 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef darcy003 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef darcy003 IE 68 0.003307 0.000890 
+WARNING! # 2572 out of 389875 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef darcy003 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef darcy003 ESB-d 68 0.046781 0.008937 
+WARNING! # 2572 out of 389875 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef darcy003 ESB-s 68 0.042675 0.007570 
+WARNING! # 2572 out of 389875 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef darcy003 CVR 68 0.000749 0.000384 
+WARNING! # 2572 out of 389875 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef darcy003 CSR5 68 0.002625 0.000404 
+WARNING! # 2348 out of 389875 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef darcy003 VHCC 68 1.401365 0.001213 
+WARNING! # 2348 out of 389875 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 46380 out of 389875 # was wrong
+ Performance GHS_indef darcy003 CSR 136 0.081618 0.001005 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 188943 out of 389875 # was wrong
+ Performance GHS_indef darcy003 COO 136 0.017004 0.040597 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef darcy003 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef darcy003 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef darcy003 IE 136 0.000842 0.000630 
+WARNING! # 233033 out of 389875 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef darcy003 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef darcy003 ESB-d 136 0.075879 0.010231 
+WARNING! # 186072 out of 389875 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef darcy003 ESB-s 136 0.059860 0.008102 
+WARNING! # 47903 out of 389875 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef darcy003 CVR 136 0.000531 0.000287 
+WARNING! # 43952 out of 389875 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef darcy003 CSR5 136 0.001822 0.000396 
+WARNING! # 45336 out of 389875 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef darcy003 VHCC 136 1.618254 0.000789 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 45614 out of 389875 # was wrong
+ Performance GHS_indef darcy003 CSR 204 0.112772 0.001031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 194240 out of 389875 # was wrong
+ Performance GHS_indef darcy003 COO 204 0.022711 0.042308 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef darcy003 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef darcy003 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef darcy003 IE 204 0.001087 0.000920 
+WARNING! # 233144 out of 389875 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef darcy003 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef darcy003 ESB-d 204 0.082253 0.012429 
+WARNING! # 173466 out of 389875 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef darcy003 ESB-s 204 0.085968 0.010086 
+WARNING! # 47065 out of 389875 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef darcy003 CVR 204 0.000419 0.000261 
+WARNING! # 46222 out of 389875 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef darcy003 CSR5 204 0.001624 0.000405 
+WARNING! # 47255 out of 389875 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef darcy003 VHCC 204 1.605472 0.000680 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 44851 out of 389875 # was wrong
+ Performance GHS_indef darcy003 CSR 272 0.137792 0.001167 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 188943 out of 389875 # was wrong
+ Performance GHS_indef darcy003 COO 272 0.060586 0.041406 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef darcy003 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef darcy003 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef darcy003 IE 272 0.001400 0.000802 
+WARNING! # 233036 out of 389875 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef darcy003 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef darcy003 ESB-d 272 0.122935 0.013686 
+WARNING! # 172650 out of 389875 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef darcy003 ESB-s 272 0.099306 0.011061 
+WARNING! # 45525 out of 389875 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef darcy003 CVR 272 0.000650 0.000251 
+WARNING! # 45687 out of 389875 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef darcy003 CSR5 272 0.001477 0.000384 
+WARNING! # 44792 out of 389875 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef darcy003 VHCC 272 1.685354 0.000612 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

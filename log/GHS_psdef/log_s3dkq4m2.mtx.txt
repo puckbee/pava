@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_psdef/s3dkq4m2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 90450
+        numCols = 90450
+            nnz = 4911344
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 CSR 68 0.114822 0.000373 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 COO 68 0.026446 0.066284 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 CSC 68 0.081028 0.004746 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 90450 # was wrong
+ Performance GHS_psdef s3dkq4m2 DIA 68 0.572895 0.078440 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef s3dkq4m2 IE 68 0.003709 0.000426 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 90450 # was wrong
+ Performance GHS_psdef s3dkq4m2 BSR 68 0.670962 0.000279 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef s3dkq4m2 ESB-d 68 0.077899 0.003072 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef s3dkq4m2 ESB-s 68 0.073168 0.002591 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef s3dkq4m2 CVR 68 0.001912 0.000433 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef s3dkq4m2 CSR5 68 0.004332 0.000391 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef s3dkq4m2 VHCC 68 2.823106 0.000617 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 CSR 136 0.147322 0.000373 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 COO 136 0.031817 0.067865 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 CSC 136 0.071990 0.005732 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 90450 # was wrong
+ Performance GHS_psdef s3dkq4m2 DIA 136 0.620369 0.079248 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef s3dkq4m2 IE 136 0.016004 0.000279 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 8001 out of 90450 # was wrong
+ Performance GHS_psdef s3dkq4m2 BSR 136 0.701235 0.000274 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef s3dkq4m2 ESB-d 136 0.078178 0.005236 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef s3dkq4m2 ESB-s 136 0.079470 0.004622 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef s3dkq4m2 CVR 136 0.000521 0.000281 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef s3dkq4m2 CSR5 136 0.002637 0.000301 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef s3dkq4m2 VHCC 136 2.895667 0.000390 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 CSR 204 0.168331 0.000443 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 COO 204 0.020432 0.070028 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 CSC 204 0.072519 0.007277 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 90450 # was wrong
+ Performance GHS_psdef s3dkq4m2 DIA 204 0.639511 0.078536 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef s3dkq4m2 IE 204 0.001928 0.000339 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 10862 out of 90450 # was wrong
+ Performance GHS_psdef s3dkq4m2 BSR 204 0.726623 0.000434 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef s3dkq4m2 ESB-d 204 0.104859 0.007440 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef s3dkq4m2 ESB-s 204 0.109716 0.006716 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef s3dkq4m2 CVR 204 0.000513 0.000248 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef s3dkq4m2 CSR5 204 0.002293 0.000285 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef s3dkq4m2 VHCC 204 2.984778 0.000366 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 CSR 272 0.189362 0.000502 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 COO 272 0.021914 0.068390 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance GHS_psdef s3dkq4m2 CSC 272 0.071105 0.008018 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 90450 # was wrong
+ Performance GHS_psdef s3dkq4m2 DIA 272 0.643670 0.078482 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_psdef s3dkq4m2 IE 272 0.002463 0.000410 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 90450 # was wrong
+ Performance GHS_psdef s3dkq4m2 BSR 272 0.739014 0.000300 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_psdef s3dkq4m2 ESB-d 272 0.121562 0.008672 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_psdef s3dkq4m2 ESB-s 272 0.125596 0.007984 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_psdef s3dkq4m2 CVR 272 0.000710 0.000235 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_psdef s3dkq4m2 CSR5 272 0.002051 0.000324 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_psdef s3dkq4m2 VHCC 272 2.941477 0.000360 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

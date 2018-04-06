@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/vsp_befref_fxm_2_4_air02.mtx
+Reading matrix completed
+Basic informations
+        numRows = 14110
+        numCols = 7386
+            nnz = 196448
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1548 out of 14110 # was wrong
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSR 68 0.010711 0.000142 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1717 out of 14110 # was wrong
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 COO 68 0.003069 0.002507 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 IE 68 0.001770 0.000118 
+WARNING! # 2876 out of 14110 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 ESB-d 68 0.005372 0.000127 
+WARNING! # 1700 out of 14110 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 ESB-s 68 0.004125 0.000314 
+WARNING! # 1468 out of 14110 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CVR 68 0.000181 0.000029 
+WARNING! # 1571 out of 14110 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSR5 68 0.000907 0.000025 
+WARNING! # 1535 out of 14110 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 VHCC 68 0.127195 0.000083 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1556 out of 14110 # was wrong
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSR 136 0.006146 0.000167 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1717 out of 14110 # was wrong
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 COO 136 0.001013 0.003139 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 IE 136 0.000606 0.000046 
+WARNING! # 2876 out of 14110 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 ESB-d 136 0.004524 0.000153 
+WARNING! # 1675 out of 14110 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 ESB-s 136 0.004383 0.000298 
+WARNING! # 1452 out of 14110 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CVR 136 0.000151 0.000025 
+WARNING! # 1581 out of 14110 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSR5 136 0.000367 0.000030 
+WARNING! # 1501 out of 14110 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 VHCC 136 0.207967 0.000067 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSR 204 0.010390 0.000237 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 COO 204 0.004512 0.004299 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 IE 204 0.000894 0.000036 
+WARNING! # 16 out of 14110 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 ESB-d 204 0.005883 0.000183 
+WARNING! # 16 out of 14110 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 ESB-s 204 0.005872 0.000362 
+WARNING! # 16 out of 14110 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CVR 204 0.000148 0.000026 
+WARNING! # 16 out of 14110 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSR5 204 0.000339 0.000040 
+WARNING! # 16 out of 14110 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 VHCC 204 0.294052 0.000074 
+WARNING! # 7 out of 14110 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSR 272 0.012217 0.000224 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 COO 272 0.004089 0.004969 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 IE 272 0.001197 0.000039 
+WARNING! # 14 out of 14110 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 ESB-d 272 0.007404 0.000213 
+WARNING! # 14 out of 14110 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 ESB-s 272 0.006670 0.000475 
+WARNING! # 14 out of 14110 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CVR 272 0.000275 0.000028 
+WARNING! # 14 out of 14110 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 CSR5 272 0.000424 0.000047 
+WARNING! # 14 out of 14110 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_befref_fxm_2_4_air02 VHCC 272 0.321565 0.000076 
+WARNING! # 9 out of 14110 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

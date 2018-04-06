@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Rudnyi/water_tank.mtx
+Reading matrix completed
+Basic informations
+        numRows = 60741
+        numCols = 60741
+            nnz = 2035296
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rudnyi water_tank CSR 68 0.046073 0.000079 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rudnyi water_tank COO 68 0.014060 0.026673 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rudnyi water_tank CSC 68 0.037058 0.002135 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 60741 # was wrong
+ Performance Rudnyi water_tank DIA 68 2.767363 0.774352 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rudnyi water_tank IE 68 0.002683 0.000195 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 60741 # was wrong
+ Performance Rudnyi water_tank BSR 68 0.316558 0.000337 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rudnyi water_tank ESB-d 68 0.031393 0.000542 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rudnyi water_tank ESB-s 68 0.029168 0.000200 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rudnyi water_tank CVR 68 0.000466 0.000181 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rudnyi water_tank CSR5 68 0.002190 0.000113 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rudnyi water_tank VHCC 68 1.066266 0.000290 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rudnyi water_tank CSR 136 0.038845 0.000083 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rudnyi water_tank COO 136 0.007029 0.029177 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rudnyi water_tank CSC 136 0.031022 0.002644 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 60741 # was wrong
+ Performance Rudnyi water_tank DIA 136 2.734475 0.776211 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rudnyi water_tank IE 136 0.001444 0.000117 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 60741 # was wrong
+ Performance Rudnyi water_tank BSR 136 0.336006 0.000304 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rudnyi water_tank ESB-d 136 0.033136 0.000534 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rudnyi water_tank ESB-s 136 0.036397 0.000136 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rudnyi water_tank CVR 136 0.000432 0.000121 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rudnyi water_tank CSR5 136 0.001356 0.000102 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rudnyi water_tank VHCC 136 1.210296 0.000202 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rudnyi water_tank CSR 204 0.057856 0.000095 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rudnyi water_tank COO 204 0.055471 0.030743 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rudnyi water_tank CSC 204 0.031508 0.003516 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 60741 # was wrong
+ Performance Rudnyi water_tank DIA 204 2.702312 0.773776 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rudnyi water_tank IE 204 0.003755 0.000107 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 13232 out of 60741 # was wrong
+ Performance Rudnyi water_tank BSR 204 0.393094 0.000387 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rudnyi water_tank ESB-d 204 0.046928 0.000558 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rudnyi water_tank ESB-s 204 0.050452 0.000135 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rudnyi water_tank CVR 204 0.000313 0.000108 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rudnyi water_tank CSR5 204 0.001131 0.000105 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rudnyi water_tank VHCC 204 1.254485 0.000179 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rudnyi water_tank CSR 272 0.074556 0.000087 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rudnyi water_tank COO 272 0.051045 0.030965 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rudnyi water_tank CSC 272 0.031140 0.003892 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 60741 # was wrong
+ Performance Rudnyi water_tank DIA 272 2.720368 0.773991 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rudnyi water_tank IE 272 0.002596 0.000123 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 60741 # was wrong
+ Performance Rudnyi water_tank BSR 272 0.382863 0.000591 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rudnyi water_tank ESB-d 272 0.053281 0.000577 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rudnyi water_tank ESB-s 272 0.057727 0.000141 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rudnyi water_tank CVR 272 0.000296 0.000102 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rudnyi water_tank CSR5 272 0.001031 0.000115 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rudnyi water_tank VHCC 272 1.259789 0.000168 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Andrianov/fxm4_6.mtx
+Reading matrix completed
+Basic informations
+        numRows = 18893
+        numCols = 18893
+            nnz = 516736
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Andrianov fxm4_6 CSR 68 0.018483 0.000053 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Andrianov fxm4_6 COO 68 0.006458 0.006863 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Andrianov fxm4_6 CSC 68 0.013119 0.000866 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 18893 # was wrong
+ Performance Andrianov fxm4_6 DIA 68 0.955950 0.181796 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Andrianov fxm4_6 IE 68 0.002013 0.000156 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 18893 # was wrong
+ Performance Andrianov fxm4_6 BSR 68 0.078950 0.000116 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Andrianov fxm4_6 ESB-d 68 0.008388 0.000864 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Andrianov fxm4_6 ESB-s 68 0.009760 0.000753 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Andrianov fxm4_6 CVR 68 0.000348 0.000055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Andrianov fxm4_6 CSR5 68 0.001125 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Andrianov fxm4_6 VHCC 68 0.285954 0.000090 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Andrianov fxm4_6 CSR 136 0.011743 0.000065 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Andrianov fxm4_6 COO 136 0.001938 0.008082 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Andrianov fxm4_6 CSC 136 0.011436 0.000983 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 18893 # was wrong
+ Performance Andrianov fxm4_6 DIA 136 1.036113 0.179715 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Andrianov fxm4_6 IE 136 0.001036 0.000041 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 18893 # was wrong
+ Performance Andrianov fxm4_6 BSR 136 0.085881 0.000173 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Andrianov fxm4_6 ESB-d 136 0.010582 0.001376 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Andrianov fxm4_6 ESB-s 136 0.011456 0.001225 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Andrianov fxm4_6 CVR 136 0.000266 0.000041 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Andrianov fxm4_6 CSR5 136 0.000554 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Andrianov fxm4_6 VHCC 136 0.444314 0.000074 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Andrianov fxm4_6 CSR 204 0.021972 0.000083 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Andrianov fxm4_6 COO 204 0.011254 0.011313 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Andrianov fxm4_6 CSC 204 0.014761 0.001215 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 18893 # was wrong
+ Performance Andrianov fxm4_6 DIA 204 1.083204 0.180946 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Andrianov fxm4_6 IE 204 0.001270 0.000055 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 10315 out of 18893 # was wrong
+ Performance Andrianov fxm4_6 BSR 204 0.122293 0.000188 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Andrianov fxm4_6 ESB-d 204 0.014635 0.001927 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Andrianov fxm4_6 ESB-s 204 0.015607 0.001812 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Andrianov fxm4_6 CVR 204 0.000280 0.000039 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Andrianov fxm4_6 CSR5 204 0.000590 0.000050 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Andrianov fxm4_6 VHCC 204 0.517363 0.000077 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Andrianov fxm4_6 CSR 272 0.027313 0.000093 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Andrianov fxm4_6 COO 272 0.011614 0.013005 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Andrianov fxm4_6 CSC 272 0.016036 0.001339 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 18893 # was wrong
+ Performance Andrianov fxm4_6 DIA 272 1.099569 0.181345 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Andrianov fxm4_6 IE 272 0.001477 0.000084 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 18893 # was wrong
+ Performance Andrianov fxm4_6 BSR 272 0.127229 0.000243 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Andrianov fxm4_6 ESB-d 272 0.016565 0.002576 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Andrianov fxm4_6 ESB-s 272 0.017443 0.002291 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Andrianov fxm4_6 CVR 272 0.000427 0.000065 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Andrianov fxm4_6 CSR5 272 0.012039 0.000106 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Andrianov fxm4_6 VHCC 272 0.536370 0.000080 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

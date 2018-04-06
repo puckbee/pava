@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/TKK/g3rmt3m3.mtx
+Reading matrix completed
+Basic informations
+        numRows = 5358
+        numCols = 5358
+            nnz = 213056
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK g3rmt3m3 CSR 68 0.009462 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK g3rmt3m3 COO 68 0.003208 0.002897 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK g3rmt3m3 CSC 68 0.005036 0.000262 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5358 # was wrong
+ Performance TKK g3rmt3m3 DIA 68 0.188227 0.020858 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK g3rmt3m3 IE 68 0.001949 0.000156 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 5358 # was wrong
+ Performance TKK g3rmt3m3 BSR 68 0.025748 0.000034 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK g3rmt3m3 ESB-d 68 0.003574 0.000246 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK g3rmt3m3 ESB-s 68 0.003109 0.000201 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK g3rmt3m3 CVR 68 0.000179 0.000024 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK g3rmt3m3 CSR5 68 0.000878 0.000022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK g3rmt3m3 VHCC 68 0.120151 0.000044 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK g3rmt3m3 CSR 136 0.005642 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK g3rmt3m3 COO 136 0.003269 0.003435 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK g3rmt3m3 CSC 136 0.004307 0.000334 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5358 # was wrong
+ Performance TKK g3rmt3m3 DIA 136 0.257462 0.021283 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK g3rmt3m3 IE 136 0.000893 0.000022 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 5358 # was wrong
+ Performance TKK g3rmt3m3 BSR 136 0.032792 0.000067 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK g3rmt3m3 ESB-d 136 0.003954 0.000449 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK g3rmt3m3 ESB-s 136 0.003667 0.000382 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK g3rmt3m3 CVR 136 0.000157 0.000020 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK g3rmt3m3 CSR5 136 0.000356 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK g3rmt3m3 VHCC 136 0.196492 0.000038 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK g3rmt3m3 CSR 204 0.006735 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK g3rmt3m3 COO 204 0.000934 0.004527 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK g3rmt3m3 CSC 204 0.005131 0.000419 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5358 # was wrong
+ Performance TKK g3rmt3m3 DIA 204 0.284109 0.020782 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK g3rmt3m3 IE 204 0.001135 0.000032 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1777 out of 5358 # was wrong
+ Performance TKK g3rmt3m3 BSR 204 0.040239 0.000102 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK g3rmt3m3 ESB-d 204 0.005009 0.000669 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK g3rmt3m3 ESB-s 204 0.005311 0.000608 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK g3rmt3m3 CVR 204 0.000181 0.000022 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK g3rmt3m3 CSR5 204 0.000335 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK g3rmt3m3 VHCC 204 0.272705 0.000040 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TKK g3rmt3m3 CSR 272 0.008618 0.000068 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TKK g3rmt3m3 COO 272 0.003737 0.005465 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TKK g3rmt3m3 CSC 272 0.005617 0.000462 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 5358 # was wrong
+ Performance TKK g3rmt3m3 DIA 272 0.284207 0.021044 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TKK g3rmt3m3 IE 272 0.001065 0.000159 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 311 out of 5358 # was wrong
+ Performance TKK g3rmt3m3 BSR 272 0.045388 0.000265 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TKK g3rmt3m3 ESB-d 272 0.005771 0.000782 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TKK g3rmt3m3 ESB-s 272 0.006274 0.000782 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TKK g3rmt3m3 CVR 272 0.000188 0.000061 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TKK g3rmt3m3 CSR5 272 0.012169 0.000065 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TKK g3rmt3m3 VHCC 272 0.325290 0.000077 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

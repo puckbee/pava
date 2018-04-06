@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/vanHeukelum/cage14.mtx
+Reading matrix completed
+Basic informations
+        numRows = 1505786
+        numCols = 1505786
+            nnz = 27130352
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance vanHeukelum cage14 CSR 68 0.770709 0.002299 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance vanHeukelum cage14 COO 68 0.149098 0.345594 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance vanHeukelum cage14 CSC 68 0.695966 0.033851 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance vanHeukelum cage14 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance vanHeukelum cage14 IE 68 0.007185 0.002306 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance vanHeukelum cage14 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance vanHeukelum cage14 ESB-d 68 0.416035 0.011509 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance vanHeukelum cage14 ESB-s 68 0.414704 0.003355 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance vanHeukelum cage14 CVR 68 0.007187 0.003055 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance vanHeukelum cage14 CSR5 68 0.025698 0.002612 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance vanHeukelum cage14 VHCC 68 15.808947 0.006949 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance vanHeukelum cage14 CSR 136 0.762890 0.001870 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance vanHeukelum cage14 COO 136 0.117903 0.386023 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance vanHeukelum cage14 CSC 136 0.689171 0.037793 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance vanHeukelum cage14 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance vanHeukelum cage14 IE 136 0.003719 0.002418 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance vanHeukelum cage14 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance vanHeukelum cage14 ESB-d 136 0.393226 0.011609 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance vanHeukelum cage14 ESB-s 136 0.395676 0.002241 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance vanHeukelum cage14 CVR 136 0.003036 0.002147 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance vanHeukelum cage14 CSR5 136 0.014682 0.001955 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance vanHeukelum cage14 VHCC 136 15.366065 0.004876 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance vanHeukelum cage14 CSR 204 0.783121 0.001876 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance vanHeukelum cage14 COO 204 0.154700 0.424949 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance vanHeukelum cage14 CSC 204 0.667936 0.041225 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance vanHeukelum cage14 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance vanHeukelum cage14 IE 204 0.003882 0.002361 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance vanHeukelum cage14 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance vanHeukelum cage14 ESB-d 204 0.429950 0.012009 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance vanHeukelum cage14 ESB-s 204 0.433659 0.002189 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance vanHeukelum cage14 CVR 204 0.003014 0.001966 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance vanHeukelum cage14 CSR5 204 0.013699 0.001955 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance vanHeukelum cage14 VHCC 204 15.225146 0.004352 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance vanHeukelum cage14 CSR 272 0.812274 0.001936 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance vanHeukelum cage14 COO 272 0.174683 0.440096 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance vanHeukelum cage14 CSC 272 0.654127 0.042929 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance vanHeukelum cage14 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance vanHeukelum cage14 IE 272 0.004113 0.002302 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance vanHeukelum cage14 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance vanHeukelum cage14 ESB-d 272 0.439342 0.012685 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance vanHeukelum cage14 ESB-s 272 0.444255 0.002084 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance vanHeukelum cage14 CVR 272 0.002890 0.001796 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance vanHeukelum cage14 CSR5 272 0.012548 0.002041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance vanHeukelum cage14 VHCC 272 15.423614 0.003963 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Sinclair/3Dspectralwave.mtx
+Reading matrix completed
+Basic informations
+        numRows = 680944
+        numCols = 680944
+            nnz = 34331536
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave CSR 68 0.894650 0.002624 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave COO 68 0.173443 0.475386 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave CSC 68 0.883089 0.033355 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave DIA 68 6.816168 0.259870 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Sinclair 3Dspectralwave IE 68 0.007821 0.001869 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Sinclair 3Dspectralwave BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Sinclair 3Dspectralwave ESB-d 68 0.560199 0.035838 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Sinclair 3Dspectralwave ESB-s 68 0.564020 0.032448 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Sinclair 3Dspectralwave CVR 68 0.007637 0.002960 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Sinclair 3Dspectralwave CSR5 68 0.029515 0.002814 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Sinclair 3Dspectralwave VHCC 68 21.776335 0.006782 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave CSR 136 0.859489 0.002613 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave COO 136 0.120100 0.505020 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave CSC 136 0.854740 0.036438 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave DIA 136 6.786070 0.293844 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Sinclair 3Dspectralwave IE 136 0.003988 0.001737 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Sinclair 3Dspectralwave BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Sinclair 3Dspectralwave ESB-d 136 0.494309 0.057227 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Sinclair 3Dspectralwave ESB-s 136 0.478244 0.055221 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Sinclair 3Dspectralwave CVR 136 0.003804 0.001929 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Sinclair 3Dspectralwave CSR5 136 0.016367 0.002169 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Sinclair 3Dspectralwave VHCC 136 22.132159 0.004050 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave CSR 204 0.902289 0.002920 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave COO 204 0.145842 0.539729 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave CSC 204 0.864097 0.039740 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave DIA 204 6.860908 0.340365 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Sinclair 3Dspectralwave IE 204 0.004293 0.002030 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Sinclair 3Dspectralwave BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Sinclair 3Dspectralwave ESB-d 204 0.523329 0.078078 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Sinclair 3Dspectralwave ESB-s 204 0.492510 0.074139 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Sinclair 3Dspectralwave CVR 204 0.003814 0.001697 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Sinclair 3Dspectralwave CSR5 204 0.014997 0.002367 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Sinclair 3Dspectralwave VHCC 204 21.209331 0.003521 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave CSR 272 0.901366 0.003218 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave COO 272 0.464540 0.543949 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave CSC 272 0.840772 0.041070 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Sinclair 3Dspectralwave DIA 272 6.680382 0.339839 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Sinclair 3Dspectralwave IE 272 0.004660 0.002365 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Sinclair 3Dspectralwave BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Sinclair 3Dspectralwave ESB-d 272 0.521637 0.089191 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Sinclair 3Dspectralwave ESB-s 272 0.485487 0.084351 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Sinclair 3Dspectralwave CVR 272 0.004334 0.001623 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Sinclair 3Dspectralwave CSR5 272 0.013609 0.002171 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Sinclair 3Dspectralwave VHCC 272 21.119939 0.003289 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/vsp_p0291_seymourl_iiasa.mtx
+Reading matrix completed
+Basic informations
+        numRows = 10499
+        numCols = 7529
+            nnz = 107744
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 923 out of 10499 # was wrong
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSR 68 0.007089 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 728 out of 10499 # was wrong
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa COO 68 0.002092 0.001308 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa IE 68 0.001914 0.000103 
+WARNING! # 1072 out of 10499 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa ESB-d 68 0.003500 0.000100 
+WARNING! # 711 out of 10499 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa ESB-s 68 0.002828 0.000078 
+WARNING! # 896 out of 10499 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CVR 68 0.000159 0.000019 
+WARNING! # 848 out of 10499 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSR5 68 0.000804 0.000019 
+WARNING! # 894 out of 10499 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa VHCC 68 0.073056 0.000065 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 950 out of 10499 # was wrong
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSR 136 0.002917 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 728 out of 10499 # was wrong
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa COO 136 0.000704 0.001672 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa IE 136 0.000576 0.000032 
+WARNING! # 1072 out of 10499 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa ESB-d 136 0.002563 0.000114 
+WARNING! # 716 out of 10499 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa ESB-s 136 0.002874 0.000053 
+WARNING! # 937 out of 10499 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CVR 136 0.000104 0.000018 
+WARNING! # 856 out of 10499 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSR5 136 0.000291 0.000027 
+WARNING! # 842 out of 10499 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa VHCC 136 0.121903 0.000058 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 884 out of 10499 # was wrong
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSR 204 0.005390 0.000041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 728 out of 10499 # was wrong
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa COO 204 0.002409 0.002210 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa IE 204 0.000860 0.000034 
+WARNING! # 1072 out of 10499 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa ESB-d 204 0.003745 0.000128 
+WARNING! # 719 out of 10499 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa ESB-s 204 0.003722 0.000061 
+WARNING! # 884 out of 10499 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CVR 204 0.000111 0.000020 
+WARNING! # 818 out of 10499 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSR5 204 0.000320 0.000036 
+WARNING! # 810 out of 10499 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa VHCC 204 0.170511 0.000057 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 944 out of 10499 # was wrong
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSR 272 0.005467 0.000045 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 728 out of 10499 # was wrong
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa COO 272 0.000923 0.002528 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa IE 272 0.001148 0.000054 
+WARNING! # 1072 out of 10499 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa ESB-d 272 0.003919 0.000151 
+WARNING! # 716 out of 10499 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa ESB-s 272 0.004150 0.000117 
+WARNING! # 857 out of 10499 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CVR 272 0.008495 0.000035 
+WARNING! # 791 out of 10499 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa CSR5 272 0.009251 0.000077 
+WARNING! # 827 out of 10499 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_p0291_seymourl_iiasa VHCC 272 0.211620 0.000060 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

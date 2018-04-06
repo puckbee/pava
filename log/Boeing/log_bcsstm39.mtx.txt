@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Boeing/bcsstm39.mtx
+Reading matrix completed
+Basic informations
+        numRows = 46773
+        numCols = 46773
+            nnz = 93552
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Boeing bcsstm39 CSR 68 0.007263 0.000104 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Boeing bcsstm39 COO 68 0.002130 0.000948 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Boeing bcsstm39 CSC 68 0.005184 0.001087 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Boeing bcsstm39 DIA 68 0.005125 0.000149 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Boeing bcsstm39 IE 68 0.000839 0.000124 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 3230 out of 46773 # was wrong
+ Performance Boeing bcsstm39 BSR 68 0.053184 0.000052 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Boeing bcsstm39 ESB-d 68 0.007329 0.002022 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Boeing bcsstm39 ESB-s 68 0.006140 0.001693 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Boeing bcsstm39 CVR 68 0.000246 0.000022 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Boeing bcsstm39 CSR5 68 0.000799 0.000018 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Boeing bcsstm39 VHCC 68 0.044533 0.000043 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Boeing bcsstm39 CSR 136 0.002341 0.000119 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Boeing bcsstm39 COO 136 0.001655 0.001116 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Boeing bcsstm39 CSC 136 0.005819 0.001206 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Boeing bcsstm39 DIA 136 0.007360 0.000178 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Boeing bcsstm39 IE 136 0.000636 0.000094 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 6157 out of 46773 # was wrong
+ Performance Boeing bcsstm39 BSR 136 0.063606 0.000068 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Boeing bcsstm39 ESB-d 136 0.008599 0.003209 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Boeing bcsstm39 ESB-s 136 0.004142 0.002921 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Boeing bcsstm39 CVR 136 0.000087 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Boeing bcsstm39 CSR5 136 0.000309 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Boeing bcsstm39 VHCC 136 0.074310 0.000041 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Boeing bcsstm39 CSR 204 0.003093 0.000122 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Boeing bcsstm39 COO 204 0.002255 0.001460 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Boeing bcsstm39 CSC 204 0.007714 0.001463 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Boeing bcsstm39 DIA 204 0.010799 0.000207 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Boeing bcsstm39 IE 204 0.000935 0.000103 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Boeing bcsstm39 BSR 204 0.085431 0.000068 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Boeing bcsstm39 ESB-d 204 0.005546 0.004597 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Boeing bcsstm39 ESB-s 204 0.005928 0.004291 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Boeing bcsstm39 CVR 204 0.000104 0.000038 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Boeing bcsstm39 CSR5 204 0.000297 0.000033 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Boeing bcsstm39 VHCC 204 0.108634 0.000048 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Boeing bcsstm39 CSR 272 0.003921 0.000158 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Boeing bcsstm39 COO 272 0.002703 0.001690 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Boeing bcsstm39 CSC 272 0.008498 0.001513 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Boeing bcsstm39 DIA 272 0.012501 0.000208 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Boeing bcsstm39 IE 272 0.001136 0.000124 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4 out of 46773 # was wrong
+ Performance Boeing bcsstm39 BSR 272 0.092037 0.000154 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Boeing bcsstm39 ESB-d 272 0.006058 0.005332 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Boeing bcsstm39 ESB-s 272 0.006614 0.004999 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Boeing bcsstm39 CVR 272 0.000113 0.000047 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Boeing bcsstm39 CSR5 272 0.000337 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Boeing bcsstm39 VHCC 272 0.122784 0.000052 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

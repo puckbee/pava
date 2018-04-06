@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Rommes/mimo8x8_system.mtx
+Reading matrix completed
+Basic informations
+        numRows = 13310
+        numCols = 13310
+            nnz = 48880
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes mimo8x8_system CSR 68 0.004868 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes mimo8x8_system COO 68 0.001030 0.000394 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes mimo8x8_system CSC 68 0.001950 0.000238 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13310 # was wrong
+ Performance Rommes mimo8x8_system DIA 68 0.319521 0.097777 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes mimo8x8_system IE 68 0.001221 0.000152 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 13310 # was wrong
+ Performance Rommes mimo8x8_system BSR 68 0.014623 0.000047 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes mimo8x8_system ESB-d 68 0.001200 0.000115 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes mimo8x8_system ESB-s 68 0.001180 0.000021 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rommes mimo8x8_system CVR 68 0.000124 0.000014 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes mimo8x8_system CSR5 68 0.000977 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes mimo8x8_system VHCC 68 0.025527 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes mimo8x8_system CSR 136 0.001262 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes mimo8x8_system COO 136 0.000585 0.000570 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes mimo8x8_system CSC 136 0.002370 0.000315 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13310 # was wrong
+ Performance Rommes mimo8x8_system DIA 136 0.376320 0.097574 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes mimo8x8_system IE 136 0.000851 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 13310 # was wrong
+ Performance Rommes mimo8x8_system BSR 136 0.024620 0.000052 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes mimo8x8_system ESB-d 136 0.001581 0.000129 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes mimo8x8_system ESB-s 136 0.001646 0.000025 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rommes mimo8x8_system CVR 136 0.000081 0.000014 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes mimo8x8_system CSR5 136 0.000222 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes mimo8x8_system VHCC 136 0.042268 0.000025 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes mimo8x8_system CSR 204 0.001663 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes mimo8x8_system COO 204 0.001590 0.000746 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes mimo8x8_system CSC 204 0.002776 0.000408 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13310 # was wrong
+ Performance Rommes mimo8x8_system DIA 204 0.402461 0.097218 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes mimo8x8_system IE 204 0.001016 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 10183 out of 13310 # was wrong
+ Performance Rommes mimo8x8_system BSR 204 0.033695 0.000068 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes mimo8x8_system ESB-d 204 0.002237 0.000143 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes mimo8x8_system ESB-s 204 0.002402 0.000028 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rommes mimo8x8_system CVR 204 0.000083 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes mimo8x8_system CSR5 204 0.000232 0.000033 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes mimo8x8_system VHCC 204 0.059890 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rommes mimo8x8_system CSR 272 0.002079 0.000059 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rommes mimo8x8_system COO 272 0.001971 0.000828 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rommes mimo8x8_system CSC 272 0.003088 0.000459 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 13310 # was wrong
+ Performance Rommes mimo8x8_system DIA 272 0.421454 0.097240 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rommes mimo8x8_system IE 272 0.001072 0.000072 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 13310 # was wrong
+ Performance Rommes mimo8x8_system BSR 272 0.035724 0.000084 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rommes mimo8x8_system ESB-d 272 0.002575 0.000167 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rommes mimo8x8_system ESB-s 272 0.002811 0.000034 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rommes mimo8x8_system CVR 272 0.000134 0.000019 
+WARNING! # 6 out of 13310 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rommes mimo8x8_system CSR5 272 0.000317 0.000042 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rommes mimo8x8_system VHCC 272 0.070734 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

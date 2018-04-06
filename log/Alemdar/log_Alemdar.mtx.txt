@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Alemdar/Alemdar.mtx
+Reading matrix completed
+Basic informations
+        numRows = 6246
+        numCols = 6246
+            nnz = 48832
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Alemdar Alemdar CSR 68 0.005103 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Alemdar Alemdar COO 68 0.000943 0.000448 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Alemdar Alemdar CSC 68 0.001789 0.000189 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6246 # was wrong
+ Performance Alemdar Alemdar DIA 68 0.119157 0.015555 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Alemdar Alemdar IE 68 0.001339 0.000132 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 6246 # was wrong
+ Performance Alemdar Alemdar BSR 68 0.013991 0.000044 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Alemdar Alemdar ESB-d 68 0.001551 0.000278 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Alemdar Alemdar ESB-s 68 0.000991 0.000239 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Alemdar Alemdar CVR 68 0.000250 0.000012 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Alemdar Alemdar CSR5 68 0.000782 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Alemdar Alemdar VHCC 68 0.031851 0.000036 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Alemdar Alemdar CSR 136 0.001362 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Alemdar Alemdar COO 136 0.000376 0.000642 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Alemdar Alemdar CSC 136 0.001940 0.000219 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6246 # was wrong
+ Performance Alemdar Alemdar DIA 136 0.191093 0.015603 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Alemdar Alemdar IE 136 0.000879 0.000064 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 6246 # was wrong
+ Performance Alemdar Alemdar BSR 136 0.015545 0.000062 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Alemdar Alemdar ESB-d 136 0.001518 0.000519 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Alemdar Alemdar ESB-s 136 0.001488 0.000465 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Alemdar Alemdar CVR 136 0.000074 0.000013 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Alemdar Alemdar CSR5 136 0.000186 0.000024 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Alemdar Alemdar VHCC 136 0.053058 0.000039 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Alemdar Alemdar CSR 204 0.001679 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Alemdar Alemdar COO 204 0.000440 0.000838 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Alemdar Alemdar CSC 204 0.002351 0.000273 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6246 # was wrong
+ Performance Alemdar Alemdar DIA 204 0.219290 0.015486 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Alemdar Alemdar IE 204 0.001014 0.000049 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Alemdar Alemdar BSR 204 0.015512 0.000151 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Alemdar Alemdar ESB-d 204 0.001647 0.000767 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Alemdar Alemdar ESB-s 204 0.001839 0.000702 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Alemdar Alemdar CVR 204 0.000077 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Alemdar Alemdar CSR5 204 0.000218 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Alemdar Alemdar VHCC 204 0.076867 0.000039 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Alemdar Alemdar CSR 272 0.002272 0.000065 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Alemdar Alemdar COO 272 0.000470 0.000972 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Alemdar Alemdar CSC 272 0.002468 0.000300 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 6246 # was wrong
+ Performance Alemdar Alemdar DIA 272 0.228306 0.015627 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Alemdar Alemdar IE 272 0.001101 0.000037 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Alemdar Alemdar BSR 272 0.016878 0.000260 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Alemdar Alemdar ESB-d 272 0.001951 0.001196 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Alemdar Alemdar ESB-s 272 0.002079 0.000845 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Alemdar Alemdar CVR 272 0.000166 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Alemdar Alemdar CSR5 272 0.000326 0.000045 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Alemdar Alemdar VHCC 272 0.095045 0.000044 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

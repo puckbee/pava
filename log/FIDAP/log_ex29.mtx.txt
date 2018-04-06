@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/FIDAP/ex29.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2871
+        numCols = 2871
+            nnz = 23760
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FIDAP ex29 CSR 68 0.003961 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FIDAP ex29 COO 68 0.000499 0.000182 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FIDAP ex29 CSC 68 0.000638 0.000061 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2871 # was wrong
+ Performance FIDAP ex29 DIA 68 0.001209 0.000038 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FIDAP ex29 IE 68 0.001054 0.000080 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2871 # was wrong
+ Performance FIDAP ex29 BSR 68 0.004443 0.000022 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FIDAP ex29 ESB-d 68 0.000582 0.000036 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FIDAP ex29 ESB-s 68 0.000555 0.000015 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance FIDAP ex29 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FIDAP ex29 CSR5 68 0.000707 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FIDAP ex29 VHCC 68 0.013380 0.000017 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FIDAP ex29 CSR 136 0.000488 0.000021 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FIDAP ex29 COO 136 0.000185 0.000251 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FIDAP ex29 CSC 136 0.000619 0.000092 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2871 # was wrong
+ Performance FIDAP ex29 DIA 136 0.002009 0.000043 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FIDAP ex29 IE 136 0.000552 0.000018 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 7 out of 2871 # was wrong
+ Performance FIDAP ex29 BSR 136 0.003844 0.000027 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FIDAP ex29 ESB-d 136 0.000554 0.000047 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FIDAP ex29 ESB-s 136 0.000674 0.000020 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance FIDAP ex29 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FIDAP ex29 CSR5 136 0.000162 0.000022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FIDAP ex29 VHCC 136 0.023887 0.000020 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FIDAP ex29 CSR 204 0.000674 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FIDAP ex29 COO 204 0.000214 0.000378 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FIDAP ex29 CSC 204 0.000796 0.000113 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2871 # was wrong
+ Performance FIDAP ex29 DIA 204 0.002382 0.000047 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FIDAP ex29 IE 204 0.000860 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2871 # was wrong
+ Performance FIDAP ex29 BSR 204 0.005201 0.000063 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FIDAP ex29 ESB-d 204 0.000820 0.000061 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FIDAP ex29 ESB-s 204 0.000868 0.000024 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance FIDAP ex29 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FIDAP ex29 CSR5 204 0.000158 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FIDAP ex29 VHCC 204 0.034107 0.000024 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FIDAP ex29 CSR 272 0.000886 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FIDAP ex29 COO 272 0.000214 0.000429 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FIDAP ex29 CSC 272 0.000860 0.000128 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2871 # was wrong
+ Performance FIDAP ex29 DIA 272 0.002722 0.000043 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FIDAP ex29 IE 272 0.001117 0.000045 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2871 # was wrong
+ Performance FIDAP ex29 BSR 272 0.005985 0.000116 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FIDAP ex29 ESB-d 272 0.000922 0.000076 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FIDAP ex29 ESB-s 272 0.000976 0.000034 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance FIDAP ex29 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FIDAP ex29 CSR5 272 0.000403 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FIDAP ex29 VHCC 272 0.041362 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

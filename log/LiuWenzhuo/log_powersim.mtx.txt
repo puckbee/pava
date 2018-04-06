@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/LiuWenzhuo/powersim.mtx
+Reading matrix completed
+Basic informations
+        numRows = 15839
+        numCols = 15839
+            nnz = 67568
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LiuWenzhuo powersim CSR 68 0.005297 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LiuWenzhuo powersim COO 68 0.001294 0.000505 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LiuWenzhuo powersim CSC 68 0.002390 0.000299 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 15839 # was wrong
+ Performance LiuWenzhuo powersim DIA 68 0.498377 0.145042 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LiuWenzhuo powersim IE 68 0.001154 0.000172 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 15839 # was wrong
+ Performance LiuWenzhuo powersim BSR 68 0.019959 0.000047 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LiuWenzhuo powersim ESB-d 68 0.001463 0.000134 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LiuWenzhuo powersim ESB-s 68 0.001414 0.000023 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LiuWenzhuo powersim CVR 68 0.000118 0.000015 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LiuWenzhuo powersim CSR5 68 0.000776 0.000018 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LiuWenzhuo powersim VHCC 68 0.035197 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LiuWenzhuo powersim CSR 136 0.001638 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LiuWenzhuo powersim COO 136 0.000710 0.000705 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LiuWenzhuo powersim CSC 136 0.002986 0.000368 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 15839 # was wrong
+ Performance LiuWenzhuo powersim DIA 136 0.553037 0.144113 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LiuWenzhuo powersim IE 136 0.000847 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 15839 # was wrong
+ Performance LiuWenzhuo powersim BSR 136 0.033124 0.000051 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LiuWenzhuo powersim ESB-d 136 0.001941 0.000149 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LiuWenzhuo powersim ESB-s 136 0.002305 0.000026 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LiuWenzhuo powersim CVR 136 0.000095 0.000016 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LiuWenzhuo powersim CSR5 136 0.000233 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LiuWenzhuo powersim VHCC 136 0.058649 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LiuWenzhuo powersim CSR 204 0.002524 0.000044 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LiuWenzhuo powersim COO 204 0.002423 0.000957 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LiuWenzhuo powersim CSC 204 0.003473 0.000502 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 15839 # was wrong
+ Performance LiuWenzhuo powersim DIA 204 0.622421 0.144681 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LiuWenzhuo powersim IE 204 0.000947 0.000024 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 15839 # was wrong
+ Performance LiuWenzhuo powersim BSR 204 0.024668 0.000125 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LiuWenzhuo powersim ESB-d 204 0.002748 0.000165 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LiuWenzhuo powersim ESB-s 204 0.003052 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LiuWenzhuo powersim CVR 204 0.000088 0.000018 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LiuWenzhuo powersim CSR5 204 0.000272 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LiuWenzhuo powersim VHCC 204 0.087028 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance LiuWenzhuo powersim CSR 272 0.002775 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance LiuWenzhuo powersim COO 272 0.002623 0.001079 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance LiuWenzhuo powersim CSC 272 0.003836 0.000568 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 15839 # was wrong
+ Performance LiuWenzhuo powersim DIA 272 0.631600 0.144473 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance LiuWenzhuo powersim IE 272 0.001473 0.000053 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 15839 # was wrong
+ Performance LiuWenzhuo powersim BSR 272 0.027274 0.000208 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance LiuWenzhuo powersim ESB-d 272 0.003248 0.000185 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance LiuWenzhuo powersim ESB-s 272 0.003490 0.000036 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance LiuWenzhuo powersim CVR 272 0.000154 0.000020 
+WARNING! # 2 out of 15839 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance LiuWenzhuo powersim CSR5 272 0.000336 0.000042 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance LiuWenzhuo powersim VHCC 272 0.103959 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

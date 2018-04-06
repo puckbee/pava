@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Schenk_IBMSDS/2D_54019_highK.mtx
+Reading matrix completed
+Basic informations
+        numRows = 54020
+        numCols = 54020
+            nnz = 996416
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK CSR 68 0.027164 0.000049 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK COO 68 0.012737 0.012515 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK CSC 68 0.020052 0.001294 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 54020 # was wrong
+ Performance Schenk_IBMSDS 2D_54019_highK DIA 68 1.910469 0.424276 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS 2D_54019_highK IE 68 0.002157 0.000168 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 54020 # was wrong
+ Performance Schenk_IBMSDS 2D_54019_highK BSR 68 0.176010 0.000127 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS 2D_54019_highK ESB-d 68 0.014206 0.000483 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS 2D_54019_highK ESB-s 68 0.014075 0.000106 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS 2D_54019_highK CVR 68 0.000446 0.000090 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS 2D_54019_highK CSR5 68 0.001585 0.000054 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS 2D_54019_highK VHCC 68 0.520940 0.000173 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK CSR 136 0.019403 0.000054 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK COO 136 0.004101 0.014482 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK CSC 136 0.020565 0.001630 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 54020 # was wrong
+ Performance Schenk_IBMSDS 2D_54019_highK DIA 136 1.996427 0.425259 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS 2D_54019_highK IE 136 0.001381 0.000084 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 54020 # was wrong
+ Performance Schenk_IBMSDS 2D_54019_highK BSR 136 0.209534 0.000109 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS 2D_54019_highK ESB-d 136 0.017816 0.000532 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS 2D_54019_highK ESB-s 136 0.018899 0.000122 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS 2D_54019_highK CVR 136 0.000450 0.000064 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS 2D_54019_highK CSR5 136 0.000909 0.000050 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS 2D_54019_highK VHCC 136 0.677025 0.000114 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK CSR 204 0.037642 0.000076 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK COO 204 0.023225 0.017916 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK CSC 204 0.015486 0.002093 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 54020 # was wrong
+ Performance Schenk_IBMSDS 2D_54019_highK DIA 204 2.025794 0.426018 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS 2D_54019_highK IE 204 0.001796 0.000068 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 3726 out of 54020 # was wrong
+ Performance Schenk_IBMSDS 2D_54019_highK BSR 204 0.247878 0.000158 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS 2D_54019_highK ESB-d 204 0.025227 0.000587 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS 2D_54019_highK ESB-s 204 0.026477 0.000153 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS 2D_54019_highK CVR 204 0.000465 0.000059 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS 2D_54019_highK CSR5 204 0.000925 0.000060 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS 2D_54019_highK VHCC 204 0.758118 0.000110 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK CSR 272 0.048869 0.000079 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK COO 272 0.032899 0.018642 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Schenk_IBMSDS 2D_54019_highK CSC 272 0.015415 0.002363 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 54020 # was wrong
+ Performance Schenk_IBMSDS 2D_54019_highK DIA 272 1.991760 0.423781 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Schenk_IBMSDS 2D_54019_highK IE 272 0.001546 0.000079 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 5119 out of 54020 # was wrong
+ Performance Schenk_IBMSDS 2D_54019_highK BSR 272 0.253694 0.000327 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Schenk_IBMSDS 2D_54019_highK ESB-d 272 0.029800 0.000729 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Schenk_IBMSDS 2D_54019_highK ESB-s 272 0.030977 0.000172 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Schenk_IBMSDS 2D_54019_highK CVR 272 0.000558 0.000058 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Schenk_IBMSDS 2D_54019_highK CSR5 272 0.000976 0.000067 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Schenk_IBMSDS 2D_54019_highK VHCC 272 0.763833 0.000105 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Gaertner/pesa.mtx
+Reading matrix completed
+Basic informations
+        numRows = 11739
+        numCols = 11739
+            nnz = 79568
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gaertner pesa CSR 68 0.006001 0.000020 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gaertner pesa COO 68 0.001545 0.000619 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gaertner pesa CSC 68 0.002893 0.000223 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 11739 # was wrong
+ Performance Gaertner pesa DIA 68 0.709891 0.125423 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gaertner pesa IE 68 0.001216 0.000044 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 11739 # was wrong
+ Performance Gaertner pesa BSR 68 0.019325 0.000044 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gaertner pesa ESB-d 68 0.001544 0.000104 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gaertner pesa ESB-s 68 0.001555 0.000020 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gaertner pesa CVR 68 0.000160 0.000015 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gaertner pesa CSR5 68 0.000664 0.000018 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gaertner pesa VHCC 68 0.041732 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gaertner pesa CSR 136 0.002592 0.000026 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gaertner pesa COO 136 0.000674 0.000950 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gaertner pesa CSC 136 0.002834 0.000295 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 11739 # was wrong
+ Performance Gaertner pesa DIA 136 0.769881 0.126648 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gaertner pesa IE 136 0.000907 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 11739 # was wrong
+ Performance Gaertner pesa BSR 136 0.019852 0.000054 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gaertner pesa ESB-d 136 0.002163 0.000119 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gaertner pesa ESB-s 136 0.002252 0.000024 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gaertner pesa CVR 136 0.000098 0.000015 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gaertner pesa CSR5 136 0.000238 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gaertner pesa VHCC 136 0.069075 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gaertner pesa CSR 204 0.003450 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gaertner pesa COO 204 0.002594 0.001264 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gaertner pesa CSC 204 0.003335 0.000372 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 11739 # was wrong
+ Performance Gaertner pesa DIA 204 0.820155 0.125468 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gaertner pesa IE 204 0.001083 0.000022 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 10754 out of 11739 # was wrong
+ Performance Gaertner pesa BSR 204 0.036051 0.000067 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gaertner pesa ESB-d 204 0.002838 0.000133 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gaertner pesa ESB-s 204 0.003017 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gaertner pesa CVR 204 0.000101 0.000017 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gaertner pesa CSR5 204 0.000246 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gaertner pesa VHCC 204 0.098111 0.000034 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gaertner pesa CSR 272 0.004389 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gaertner pesa COO 272 0.002938 0.001428 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gaertner pesa CSC 272 0.003826 0.000417 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 11739 # was wrong
+ Performance Gaertner pesa DIA 272 0.846807 0.125718 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gaertner pesa IE 272 0.001218 0.000073 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 11739 # was wrong
+ Performance Gaertner pesa BSR 272 0.039324 0.000152 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gaertner pesa ESB-d 272 0.003257 0.000157 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gaertner pesa ESB-s 272 0.003499 0.000034 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gaertner pesa CVR 272 0.000172 0.000020 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gaertner pesa CSR5 272 0.000350 0.000044 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gaertner pesa VHCC 272 0.117512 0.000036 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

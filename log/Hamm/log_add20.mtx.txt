@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Hamm/add20.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2396
+        numCols = 2396
+            nnz = 17328
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hamm add20 CSR 68 0.003797 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hamm add20 COO 68 0.000463 0.000170 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hamm add20 CSC 68 0.000579 0.000081 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hamm add20 DIA 68 0.035819 0.005345 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hamm add20 IE 68 0.001103 0.000078 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hamm add20 BSR 68 0.004022 0.000024 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hamm add20 ESB-d 68 0.000759 0.000034 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hamm add20 ESB-s 68 0.000416 0.000023 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Hamm add20 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hamm add20 CSR5 68 0.000786 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hamm add20 VHCC 68 0.010795 0.000018 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hamm add20 CSR 136 0.000409 0.000021 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hamm add20 COO 136 0.000159 0.000211 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hamm add20 CSC 136 0.000566 0.000132 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hamm add20 DIA 136 0.058689 0.006547 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hamm add20 IE 136 0.000623 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hamm add20 BSR 136 0.003628 0.000030 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hamm add20 ESB-d 136 0.000517 0.000046 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hamm add20 ESB-s 136 0.000623 0.000026 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Hamm add20 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hamm add20 CSR5 136 0.000150 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hamm add20 VHCC 136 0.019338 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hamm add20 CSR 204 0.000562 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hamm add20 COO 204 0.000180 0.000306 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hamm add20 CSC 204 0.000716 0.000134 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hamm add20 DIA 204 0.086465 0.008393 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hamm add20 IE 204 0.000881 0.000017 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hamm add20 BSR 204 0.004395 0.000099 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hamm add20 ESB-d 204 0.000694 0.000059 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hamm add20 ESB-s 204 0.000759 0.000029 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Hamm add20 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hamm add20 CSR5 204 0.000157 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hamm add20 VHCC 204 0.027062 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hamm add20 CSR 272 0.000677 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hamm add20 COO 272 0.000237 0.000343 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hamm add20 CSC 272 0.000773 0.000153 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hamm add20 DIA 272 0.096571 0.008573 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hamm add20 IE 272 0.001122 0.000042 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 4 out of 2396 # was wrong
+ Performance Hamm add20 BSR 272 0.004980 0.000061 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hamm add20 ESB-d 272 0.000759 0.000074 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hamm add20 ESB-s 272 0.000847 0.000036 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Hamm add20 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hamm add20 CSR5 272 0.000261 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hamm add20 VHCC 272 0.034109 0.000033 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

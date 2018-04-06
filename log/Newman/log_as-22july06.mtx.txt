@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Newman/as-22july06.mtx
+Reading matrix completed
+Basic informations
+        numRows = 22964
+        numCols = 22964
+            nnz = 96880
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Newman as-22july06 CSR 68 0.007176 0.000101 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Newman as-22july06 COO 68 0.001887 0.001313 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Newman as-22july06 CSC 68 0.004808 0.000669 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 22964 # was wrong
+ Performance Newman as-22july06 DIA 68 5.300693 0.593464 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Newman as-22july06 IE 68 0.000928 0.000161 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 22964 # was wrong
+ Performance Newman as-22july06 BSR 68 0.035838 0.000707 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Newman as-22july06 ESB-d 68 0.002406 0.000203 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Newman as-22july06 ESB-s 68 0.002640 0.000545 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Newman as-22july06 CVR 68 0.000235 0.000021 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Newman as-22july06 CSR5 68 0.000873 0.000020 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Newman as-22july06 VHCC 68 0.055615 0.000044 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Newman as-22july06 CSR 136 0.003285 0.000101 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Newman as-22july06 COO 136 0.001081 0.001554 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Newman as-22july06 CSC 136 0.004898 0.000805 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 22964 # was wrong
+ Performance Newman as-22july06 DIA 136 4.335343 0.594734 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Newman as-22july06 IE 136 0.000766 0.000033 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 5 out of 22964 # was wrong
+ Performance Newman as-22july06 BSR 136 0.043032 0.000893 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Newman as-22july06 ESB-d 136 0.003080 0.000218 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Newman as-22july06 ESB-s 136 0.003493 0.000541 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Newman as-22july06 CVR 136 0.000111 0.000019 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Newman as-22july06 CSR5 136 0.000277 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Newman as-22july06 VHCC 136 0.090119 0.000036 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Newman as-22july06 CSR 204 0.004460 0.000125 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Newman as-22july06 COO 204 0.001327 0.002117 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Newman as-22july06 CSC 204 0.006366 0.001033 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 22964 # was wrong
+ Performance Newman as-22july06 DIA 204 4.354644 0.590373 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Newman as-22july06 IE 204 0.000923 0.000100 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 22888 out of 22964 # was wrong
+ Performance Newman as-22july06 BSR 204 0.048721 0.001051 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Newman as-22july06 ESB-d 204 0.004244 0.000260 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Newman as-22july06 ESB-s 204 0.004738 0.000649 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Newman as-22july06 CVR 204 0.000121 0.000022 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Newman as-22july06 CSR5 204 0.000291 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Newman as-22july06 VHCC 204 0.126491 0.000039 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Newman as-22july06 CSR 272 0.005666 0.000126 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Newman as-22july06 COO 272 0.001530 0.002365 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Newman as-22july06 CSC 272 0.006808 0.001123 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 22964 # was wrong
+ Performance Newman as-22july06 DIA 272 4.282147 0.594536 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Newman as-22july06 IE 272 0.009780 0.000051 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 22964 # was wrong
+ Performance Newman as-22july06 BSR 272 0.054327 0.003984 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Newman as-22july06 ESB-d 272 0.004887 0.000515 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Newman as-22july06 ESB-s 272 0.005374 0.000618 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Newman as-22july06 CVR 272 0.000165 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Newman as-22july06 CSR5 272 0.000408 0.000044 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Newman as-22july06 VHCC 272 0.148350 0.000042 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

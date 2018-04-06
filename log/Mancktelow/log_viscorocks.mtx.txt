@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Mancktelow/viscorocks.mtx
+Reading matrix completed
+Basic informations
+        numRows = 37763
+        numCols = 37763
+            nnz = 1162256
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mancktelow viscorocks CSR 68 0.027975 0.000051 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mancktelow viscorocks COO 68 0.010487 0.015587 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mancktelow viscorocks CSC 68 0.020218 0.001180 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 37763 # was wrong
+ Performance Mancktelow viscorocks DIA 68 0.165645 0.008619 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mancktelow viscorocks IE 68 0.002278 0.000175 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 37763 # was wrong
+ Performance Mancktelow viscorocks BSR 68 0.165705 0.000075 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mancktelow viscorocks ESB-d 68 0.017358 0.000318 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mancktelow viscorocks ESB-s 68 0.016907 0.000092 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mancktelow viscorocks CVR 68 0.000380 0.000095 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mancktelow viscorocks CSR5 68 0.001618 0.000063 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mancktelow viscorocks VHCC 68 0.590270 0.000148 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mancktelow viscorocks CSR 136 0.020726 0.000053 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mancktelow viscorocks COO 136 0.004224 0.017814 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mancktelow viscorocks CSC 136 0.015611 0.001557 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 37763 # was wrong
+ Performance Mancktelow viscorocks DIA 136 0.244561 0.009224 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mancktelow viscorocks IE 136 0.001426 0.000064 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 37763 # was wrong
+ Performance Mancktelow viscorocks BSR 136 0.194282 0.000087 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mancktelow viscorocks ESB-d 136 0.020105 0.000333 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mancktelow viscorocks ESB-s 136 0.022721 0.000071 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mancktelow viscorocks CVR 136 0.000594 0.000066 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mancktelow viscorocks CSR5 136 0.001115 0.000056 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mancktelow viscorocks VHCC 136 0.731573 0.000105 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mancktelow viscorocks CSR 204 0.040183 0.000051 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mancktelow viscorocks COO 204 0.025231 0.020749 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mancktelow viscorocks CSC 204 0.015765 0.001965 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 37763 # was wrong
+ Performance Mancktelow viscorocks DIA 204 0.271682 0.009135 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mancktelow viscorocks IE 204 0.001620 0.000063 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 6776 out of 37763 # was wrong
+ Performance Mancktelow viscorocks BSR 204 0.228598 0.000104 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mancktelow viscorocks ESB-d 204 0.026982 0.000365 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mancktelow viscorocks ESB-s 204 0.028617 0.000069 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mancktelow viscorocks CVR 204 0.000513 0.000062 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mancktelow viscorocks CSR5 204 0.000992 0.000065 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mancktelow viscorocks VHCC 204 0.798158 0.000101 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Mancktelow viscorocks CSR 272 0.051940 0.000082 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Mancktelow viscorocks COO 272 0.019411 0.022040 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Mancktelow viscorocks CSC 272 0.015756 0.002180 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 37763 # was wrong
+ Performance Mancktelow viscorocks DIA 272 0.266192 0.009191 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Mancktelow viscorocks IE 272 0.001748 0.000068 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 37763 # was wrong
+ Performance Mancktelow viscorocks BSR 272 0.238111 0.000242 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Mancktelow viscorocks ESB-d 272 0.031898 0.000390 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Mancktelow viscorocks ESB-s 272 0.033065 0.000073 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Mancktelow viscorocks CVR 272 0.000680 0.000058 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Mancktelow viscorocks CSR5 272 0.001001 0.000072 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Mancktelow viscorocks VHCC 272 0.859690 0.000096 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Norris/heart2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2340
+        numCols = 2340
+            nnz = 682800
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Norris heart2 CSR 68 0.019703 0.000028 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Norris heart2 COO 68 0.008142 0.009761 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Norris heart2 CSC 68 0.014419 0.000538 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Norris heart2 DIA 68 0.854365 0.007425 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Norris heart2 IE 68 0.002068 0.000155 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1326 out of 2340 # was wrong
+ Performance Norris heart2 BSR 68 0.069935 0.000055 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Norris heart2 ESB-d 68 0.013050 0.000077 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Norris heart2 ESB-s 68 0.009766 0.000085 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Norris heart2 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Norris heart2 CSR5 68 0.001259 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Norris heart2 VHCC 68 0.332103 0.000094 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Norris heart2 CSR 136 0.015065 0.000031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Norris heart2 COO 136 0.002039 0.011353 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Norris heart2 CSC 136 0.014365 0.000622 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Norris heart2 DIA 136 0.927795 0.007368 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Norris heart2 IE 136 0.001492 0.000033 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Norris heart2 BSR 136 0.089664 0.000092 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Norris heart2 ESB-d 136 0.011167 0.000081 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Norris heart2 ESB-s 136 0.010459 0.000061 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Norris heart2 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Norris heart2 CSR5 136 0.000658 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Norris heart2 VHCC 136 0.457856 0.000061 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Norris heart2 CSR 204 0.019759 0.000069 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Norris heart2 COO 204 0.002688 0.015288 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Norris heart2 CSC 204 0.017499 0.000809 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Norris heart2 DIA 204 0.957448 0.007187 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Norris heart2 IE 204 0.001238 0.000031 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Norris heart2 BSR 204 0.119727 0.000879 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Norris heart2 ESB-d 204 0.014852 0.000091 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Norris heart2 ESB-s 204 0.015141 0.000062 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Norris heart2 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Norris heart2 CSR5 204 0.000669 0.000040 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Norris heart2 VHCC 204 0.544597 0.000066 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Norris heart2 CSR 272 0.027568 0.000126 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Norris heart2 COO 272 0.002632 0.017730 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Norris heart2 CSC 272 0.009864 0.000904 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Norris heart2 DIA 272 0.994825 0.007256 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Norris heart2 IE 272 0.001143 0.000079 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Norris heart2 BSR 272 0.135728 0.000152 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Norris heart2 ESB-d 272 0.017217 0.000103 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Norris heart2 ESB-s 272 0.017350 0.000070 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Norris heart2 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Norris heart2 CSR5 272 0.000636 0.000047 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Norris heart2 VHCC 272 0.571531 0.000068 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

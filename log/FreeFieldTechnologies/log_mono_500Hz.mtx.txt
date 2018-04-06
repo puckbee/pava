@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/FreeFieldTechnologies/mono_500Hz.mtx
+Reading matrix completed
+Basic informations
+        numRows = 169411
+        numCols = 169411
+            nnz = 5036288
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz CSR 68 0.219284 0.001076 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz COO 68 0.030384 0.079329 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz CSC 68 0.193610 0.012414 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FreeFieldTechnologies mono_500Hz DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FreeFieldTechnologies mono_500Hz IE 68 0.003566 0.000615 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz BSR 68 1.307694 0.003726 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FreeFieldTechnologies mono_500Hz ESB-d 68 0.084911 0.001560 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FreeFieldTechnologies mono_500Hz ESB-s 68 0.080561 0.001663 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FreeFieldTechnologies mono_500Hz CVR 68 0.001673 0.000579 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FreeFieldTechnologies mono_500Hz CSR5 68 0.004214 0.000641 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FreeFieldTechnologies mono_500Hz VHCC 68 2.832007 0.001589 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz CSR 136 0.214343 0.000831 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz COO 136 0.039891 0.081297 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz CSC 136 0.221083 0.016506 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FreeFieldTechnologies mono_500Hz DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FreeFieldTechnologies mono_500Hz IE 136 0.001540 0.000419 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 13539 out of 169411 # was wrong
+ Performance FreeFieldTechnologies mono_500Hz BSR 136 1.400039 0.002613 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FreeFieldTechnologies mono_500Hz ESB-d 136 0.092242 0.001548 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FreeFieldTechnologies mono_500Hz ESB-s 136 0.087775 0.001203 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FreeFieldTechnologies mono_500Hz CVR 136 0.000639 0.000391 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FreeFieldTechnologies mono_500Hz CSR5 136 0.002758 0.000498 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FreeFieldTechnologies mono_500Hz VHCC 136 3.012618 0.001005 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz CSR 204 0.293370 0.000825 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz COO 204 0.024369 0.081603 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz CSC 204 0.205385 0.020231 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FreeFieldTechnologies mono_500Hz DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FreeFieldTechnologies mono_500Hz IE 204 0.001685 0.000446 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 8304 out of 169411 # was wrong
+ Performance FreeFieldTechnologies mono_500Hz BSR 204 1.584893 0.002392 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FreeFieldTechnologies mono_500Hz ESB-d 204 0.114526 0.001616 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FreeFieldTechnologies mono_500Hz ESB-s 204 0.121860 0.001061 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FreeFieldTechnologies mono_500Hz CVR 204 0.000642 0.000361 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FreeFieldTechnologies mono_500Hz CSR5 204 0.002275 0.000546 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FreeFieldTechnologies mono_500Hz VHCC 204 2.968876 0.000866 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz CSR 272 0.306126 0.000803 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz COO 272 0.027103 0.079839 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FreeFieldTechnologies mono_500Hz CSC 272 0.204992 0.020584 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FreeFieldTechnologies mono_500Hz DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FreeFieldTechnologies mono_500Hz IE 272 0.001732 0.000467 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 168477 out of 169411 # was wrong
+ Performance FreeFieldTechnologies mono_500Hz BSR 272 1.386140 0.002085 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FreeFieldTechnologies mono_500Hz ESB-d 272 0.133146 0.001688 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FreeFieldTechnologies mono_500Hz ESB-s 272 0.140887 0.001072 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FreeFieldTechnologies mono_500Hz CVR 272 0.000590 0.000529 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FreeFieldTechnologies mono_500Hz CSR5 272 0.002142 0.000520 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FreeFieldTechnologies mono_500Hz VHCC 272 3.072396 0.000793 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

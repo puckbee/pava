@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/SNAP/Oregon-2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 11806
+        numCols = 11714
+            nnz = 65472
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 58 out of 11806 # was wrong
+ Performance SNAP Oregon-2 CSR 68 0.006078 0.000026 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 74 out of 11806 # was wrong
+ Performance SNAP Oregon-2 COO 68 0.001273 0.000839 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP Oregon-2 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP Oregon-2 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP Oregon-2 IE 68 0.001346 0.000098 
+WARNING! # 74 out of 11806 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP Oregon-2 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP Oregon-2 ESB-d 68 0.004980 0.000114 
+WARNING! # 57 out of 11806 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP Oregon-2 ESB-s 68 0.004240 0.000149 
+WARNING! # 40 out of 11806 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP Oregon-2 CVR 68 0.000153 0.000016 
+WARNING! # 66 out of 11806 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP Oregon-2 CSR5 68 0.000799 0.000022 
+WARNING! # 22 out of 11806 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP Oregon-2 VHCC 68 0.039867 0.000030 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 31 out of 11806 # was wrong
+ Performance SNAP Oregon-2 CSR 136 0.001933 0.000031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 74 out of 11806 # was wrong
+ Performance SNAP Oregon-2 COO 136 0.000607 0.001095 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP Oregon-2 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP Oregon-2 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP Oregon-2 IE 136 0.000605 0.000023 
+WARNING! # 74 out of 11806 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP Oregon-2 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP Oregon-2 ESB-d 136 0.002654 0.000139 
+WARNING! # 58 out of 11806 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP Oregon-2 ESB-s 136 0.002447 0.000104 
+WARNING! # 28 out of 11806 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP Oregon-2 CVR 136 0.000090 0.000016 
+WARNING! # 64 out of 11806 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP Oregon-2 CSR5 136 0.000285 0.000030 
+WARNING! # 60 out of 11806 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP Oregon-2 VHCC 136 0.065269 0.000028 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 30 out of 11806 # was wrong
+ Performance SNAP Oregon-2 CSR 204 0.002667 0.000039 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 73 out of 11806 # was wrong
+ Performance SNAP Oregon-2 COO 204 0.001973 0.001398 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP Oregon-2 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP Oregon-2 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP Oregon-2 IE 204 0.000887 0.000028 
+WARNING! # 73 out of 11806 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP Oregon-2 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP Oregon-2 ESB-d 204 0.007278 0.000180 
+WARNING! # 44 out of 11806 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP Oregon-2 ESB-s 204 0.003303 0.000125 
+WARNING! # 22 out of 11806 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP Oregon-2 CVR 204 0.000091 0.000018 
+WARNING! # 56 out of 11806 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP Oregon-2 CSR5 204 0.000308 0.000042 
+WARNING! # 57 out of 11806 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP Oregon-2 VHCC 204 0.090623 0.000032 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance SNAP Oregon-2 CSR 272 0.003470 0.000043 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance SNAP Oregon-2 COO 272 0.002119 0.001616 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance SNAP Oregon-2 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance SNAP Oregon-2 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance SNAP Oregon-2 IE 272 0.001126 0.000032 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance SNAP Oregon-2 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance SNAP Oregon-2 ESB-d 272 0.008050 0.000213 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance SNAP Oregon-2 ESB-s 272 0.003617 0.000142 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance SNAP Oregon-2 CVR 272 0.000156 0.000022 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance SNAP Oregon-2 CSR5 272 0.000449 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance SNAP Oregon-2 VHCC 272 0.105916 0.000035 
+WARNING! # 1 out of 11806 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

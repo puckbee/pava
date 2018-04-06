@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Rost/RFdevice.mtx
+Reading matrix completed
+Basic informations
+        numRows = 74105
+        numCols = 74105
+            nnz = 365584
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rost RFdevice CSR 68 0.013497 0.000052 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rost RFdevice COO 68 0.006182 0.002105 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rost RFdevice CSC 68 0.010443 0.001055 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 74105 # was wrong
+ Performance Rost RFdevice DIA 68 4.565919 0.504749 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rost RFdevice IE 68 0.001418 0.000183 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 74105 # was wrong
+ Performance Rost RFdevice BSR 68 0.153450 0.000120 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rost RFdevice ESB-d 68 0.006185 0.000586 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rost RFdevice ESB-s 68 0.006276 0.000050 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rost RFdevice CVR 68 0.000633 0.000049 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rost RFdevice CSR5 68 0.001181 0.000031 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rost RFdevice VHCC 68 0.196251 0.000101 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rost RFdevice CSR 136 0.007409 0.000060 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rost RFdevice COO 136 0.002884 0.003172 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rost RFdevice CSC 136 0.012254 0.001300 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 74105 # was wrong
+ Performance Rost RFdevice DIA 136 4.424294 0.504921 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rost RFdevice IE 136 0.000959 0.000087 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 74105 # was wrong
+ Performance Rost RFdevice BSR 136 0.195603 0.000147 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rost RFdevice ESB-d 136 0.009863 0.000613 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rost RFdevice ESB-s 136 0.010133 0.000048 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rost RFdevice CVR 136 0.000267 0.000036 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rost RFdevice CSR5 136 0.000550 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rost RFdevice VHCC 136 0.307847 0.000076 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rost RFdevice CSR 204 0.010317 0.000060 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rost RFdevice COO 204 0.004167 0.004447 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rost RFdevice CSC 204 0.016293 0.001720 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 74105 # was wrong
+ Performance Rost RFdevice DIA 204 4.504410 0.501113 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rost RFdevice IE 204 0.001123 0.000129 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 74105 # was wrong
+ Performance Rost RFdevice BSR 204 0.246783 0.000327 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rost RFdevice ESB-d 204 0.014087 0.000640 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rost RFdevice ESB-s 204 0.014594 0.000055 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rost RFdevice CVR 204 0.000229 0.000037 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rost RFdevice CSR5 204 0.000533 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rost RFdevice VHCC 204 0.371730 0.000074 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rost RFdevice CSR 272 0.013784 0.000066 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rost RFdevice COO 272 0.004906 0.005014 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rost RFdevice CSC 272 0.018484 0.001898 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 74105 # was wrong
+ Performance Rost RFdevice DIA 272 4.278085 0.503640 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rost RFdevice IE 272 0.001148 0.000095 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 74105 # was wrong
+ Performance Rost RFdevice BSR 272 0.231713 0.000193 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rost RFdevice ESB-d 272 0.016619 0.000687 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rost RFdevice ESB-s 272 0.017154 0.000059 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rost RFdevice CVR 272 0.000286 0.000038 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rost RFdevice CSR5 272 0.000593 0.000056 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rost RFdevice VHCC 272 0.402174 0.000074 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

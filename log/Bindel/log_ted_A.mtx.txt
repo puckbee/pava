@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Bindel/ted_A.mtx
+Reading matrix completed
+Basic informations
+        numRows = 10606
+        numCols = 10606
+            nnz = 424592
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bindel ted_A CSR 68 0.013360 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bindel ted_A COO 68 0.006072 0.005848 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bindel ted_A CSC 68 0.008445 0.000597 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bindel ted_A DIA 68 0.919299 0.043529 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bindel ted_A IE 68 0.001964 0.000133 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Bindel ted_A BSR 68 0.056328 0.000037 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bindel ted_A ESB-d 68 0.006192 0.000114 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bindel ted_A ESB-s 68 0.006305 0.000072 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bindel ted_A CVR 68 0.000306 0.000059 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bindel ted_A CSR5 68 0.001299 0.000031 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bindel ted_A VHCC 68 0.206423 0.000110 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bindel ted_A CSR 136 0.008080 0.000045 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bindel ted_A COO 136 0.001581 0.006892 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bindel ted_A CSC 136 0.007627 0.000709 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bindel ted_A DIA 136 0.968091 0.043810 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bindel ted_A IE 136 0.000964 0.000072 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 6255 out of 10606 # was wrong
+ Performance Bindel ted_A BSR 136 0.061748 0.000076 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bindel ted_A ESB-d 136 0.008002 0.000121 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bindel ted_A ESB-s 136 0.008106 0.000053 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bindel ted_A CVR 136 0.000333 0.000063 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bindel ted_A CSR5 136 0.000958 0.000036 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bindel ted_A VHCC 136 0.323696 0.000099 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bindel ted_A CSR 204 0.015315 0.000069 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bindel ted_A COO 204 0.009099 0.009093 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bindel ted_A CSC 204 0.009865 0.000925 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bindel ted_A DIA 204 0.979583 0.043617 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bindel ted_A IE 204 0.001093 0.000074 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 46 out of 10606 # was wrong
+ Performance Bindel ted_A BSR 204 0.081643 0.000045 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bindel ted_A ESB-d 204 0.010275 0.000136 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bindel ted_A ESB-s 204 0.010800 0.000055 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bindel ted_A CVR 204 0.000298 0.000064 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bindel ted_A CSR5 204 0.000836 0.000045 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bindel ted_A VHCC 204 0.392564 0.000094 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bindel ted_A CSR 272 0.019243 0.000093 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bindel ted_A COO 272 0.002499 0.011129 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bindel ted_A CSC 272 0.010728 0.001028 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Bindel ted_A DIA 272 1.020188 0.043955 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bindel ted_A IE 272 0.001339 0.000081 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 144 out of 10606 # was wrong
+ Performance Bindel ted_A BSR 272 0.091095 0.000391 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bindel ted_A ESB-d 272 0.011815 0.000151 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bindel ted_A ESB-s 272 0.012209 0.000056 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Bindel ted_A CVR 272 0.000276 0.000060 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bindel ted_A CSR5 272 0.000850 0.000049 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bindel ted_A VHCC 272 0.424372 0.000086 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

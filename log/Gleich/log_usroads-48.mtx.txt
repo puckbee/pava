@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Gleich/usroads-48.mtx
+Reading matrix completed
+Basic informations
+        numRows = 126147
+        numCols = 126147
+            nnz = 323904
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gleich usroads-48 CSR 68 0.016798 0.000076 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gleich usroads-48 COO 68 0.006501 0.003241 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gleich usroads-48 CSC 68 0.015641 0.001188 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 126147 # was wrong
+ Performance Gleich usroads-48 DIA 68 2.097526 0.867510 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gleich usroads-48 IE 68 0.001342 0.000220 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 108579 out of 126147 # was wrong
+ Performance Gleich usroads-48 BSR 68 0.327581 0.000245 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gleich usroads-48 ESB-d 68 0.011435 0.001003 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gleich usroads-48 ESB-s 68 0.010188 0.000064 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gleich usroads-48 CVR 68 0.000233 0.000051 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gleich usroads-48 CSR5 68 0.001067 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gleich usroads-48 VHCC 68 0.200212 0.000110 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gleich usroads-48 CSR 136 0.009346 0.000077 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gleich usroads-48 COO 136 0.004514 0.004155 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gleich usroads-48 CSC 136 0.018632 0.001334 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 126147 # was wrong
+ Performance Gleich usroads-48 DIA 136 2.108823 0.871402 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gleich usroads-48 IE 136 0.001112 0.000132 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 126147 # was wrong
+ Performance Gleich usroads-48 BSR 136 0.384731 0.000209 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gleich usroads-48 ESB-d 136 0.011865 0.001031 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gleich usroads-48 ESB-s 136 0.012299 0.000056 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gleich usroads-48 CVR 136 0.000207 0.000041 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gleich usroads-48 CSR5 136 0.000558 0.000039 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gleich usroads-48 VHCC 136 0.313450 0.000078 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gleich usroads-48 CSR 204 0.012806 0.000076 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gleich usroads-48 COO 204 0.006263 0.005376 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gleich usroads-48 CSC 204 0.024597 0.001581 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 126147 # was wrong
+ Performance Gleich usroads-48 DIA 204 2.171664 0.871021 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gleich usroads-48 IE 204 0.001135 0.000156 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 108753 out of 126147 # was wrong
+ Performance Gleich usroads-48 BSR 204 0.400237 0.000222 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gleich usroads-48 ESB-d 204 0.016384 0.001062 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gleich usroads-48 ESB-s 204 0.017155 0.000058 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gleich usroads-48 CVR 204 0.000173 0.000041 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gleich usroads-48 CSR5 204 0.000517 0.000054 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gleich usroads-48 VHCC 204 0.379214 0.000075 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gleich usroads-48 CSR 272 0.016597 0.000082 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gleich usroads-48 COO 272 0.014691 0.005965 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gleich usroads-48 CSC 272 0.027292 0.001753 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 126147 # was wrong
+ Performance Gleich usroads-48 DIA 272 2.131967 0.869954 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gleich usroads-48 IE 272 0.001693 0.000088 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 126147 # was wrong
+ Performance Gleich usroads-48 BSR 272 0.436299 0.000329 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gleich usroads-48 ESB-d 272 0.019642 0.001132 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gleich usroads-48 ESB-s 272 0.020259 0.000062 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gleich usroads-48 CVR 272 0.000222 0.000042 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gleich usroads-48 CSR5 272 0.000508 0.000063 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gleich usroads-48 VHCC 272 0.417831 0.000074 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

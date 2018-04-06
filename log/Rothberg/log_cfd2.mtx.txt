@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Rothberg/cfd2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 123441
+        numCols = 123441
+            nnz = 3211344
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rothberg cfd2 CSR 68 0.078496 0.000392 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rothberg cfd2 COO 68 0.019049 0.041162 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rothberg cfd2 CSC 68 0.054413 0.003918 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 123441 # was wrong
+ Performance Rothberg cfd2 DIA 68 9.490531 1.160108 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rothberg cfd2 IE 68 0.002924 0.000353 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 123441 # was wrong
+ Performance Rothberg cfd2 BSR 68 0.658881 0.000517 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rothberg cfd2 ESB-d 68 0.051347 0.003530 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rothberg cfd2 ESB-s 68 0.054378 0.002870 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rothberg cfd2 CVR 68 0.000660 0.000317 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rothberg cfd2 CSR5 68 0.002991 0.000263 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rothberg cfd2 VHCC 68 1.823559 0.000548 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rothberg cfd2 CSR 136 0.070131 0.000399 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rothberg cfd2 COO 136 0.039939 0.043061 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rothberg cfd2 CSC 136 0.048711 0.004801 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 123441 # was wrong
+ Performance Rothberg cfd2 DIA 136 8.910634 1.162261 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rothberg cfd2 IE 136 0.002004 0.000313 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 123441 # was wrong
+ Performance Rothberg cfd2 BSR 136 0.718635 0.000449 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rothberg cfd2 ESB-d 136 0.056240 0.005595 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rothberg cfd2 ESB-s 136 0.058374 0.004882 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rothberg cfd2 CVR 136 0.000387 0.000215 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rothberg cfd2 CSR5 136 0.001797 0.000205 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rothberg cfd2 VHCC 136 1.916420 0.000362 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rothberg cfd2 CSR 204 0.096270 0.000474 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rothberg cfd2 COO 204 0.015746 0.045326 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rothberg cfd2 CSC 204 0.046810 0.005909 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 123441 # was wrong
+ Performance Rothberg cfd2 DIA 204 8.757797 1.164990 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rothberg cfd2 IE 204 0.002333 0.000383 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1710 out of 123441 # was wrong
+ Performance Rothberg cfd2 BSR 204 0.708996 0.000396 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rothberg cfd2 ESB-d 204 0.076571 0.007758 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rothberg cfd2 ESB-s 204 0.080651 0.006925 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rothberg cfd2 CVR 204 0.000340 0.000190 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rothberg cfd2 CSR5 204 0.001632 0.000215 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rothberg cfd2 VHCC 204 2.066240 0.000322 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Rothberg cfd2 CSR 272 0.123827 0.000661 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Rothberg cfd2 COO 272 0.064572 0.043423 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Rothberg cfd2 CSC 272 0.046842 0.006514 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 123441 # was wrong
+ Performance Rothberg cfd2 DIA 272 8.653107 1.160548 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Rothberg cfd2 IE 272 0.002918 0.000443 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 123441 # was wrong
+ Performance Rothberg cfd2 BSR 272 0.752234 0.000509 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Rothberg cfd2 ESB-d 272 0.088163 0.008625 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Rothberg cfd2 ESB-s 272 0.093008 0.007709 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Rothberg cfd2 CVR 272 0.000445 0.000174 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Rothberg cfd2 CSR5 272 0.001514 0.000218 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Rothberg cfd2 VHCC 272 2.009570 0.000307 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

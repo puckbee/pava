@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Botonakis/thermomech_TK.mtx
+Reading matrix completed
+Basic informations
+        numRows = 102159
+        numCols = 102159
+            nnz = 813728
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Botonakis thermomech_TK CSR 68 0.036667 0.000303 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Botonakis thermomech_TK COO 68 0.009987 0.011525 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Botonakis thermomech_TK CSC 68 0.049096 0.002652 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Botonakis thermomech_TK DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Botonakis thermomech_TK IE 68 0.001743 0.000287 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 5464 out of 102159 # was wrong
+ Performance Botonakis thermomech_TK BSR 68 0.370553 0.000499 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Botonakis thermomech_TK ESB-d 68 0.017696 0.005572 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Botonakis thermomech_TK ESB-s 68 0.016493 0.004873 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Botonakis thermomech_TK CVR 68 0.000324 0.000117 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Botonakis thermomech_TK CSR5 68 0.001425 0.000115 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Botonakis thermomech_TK VHCC 68 0.512102 0.000399 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Botonakis thermomech_TK CSR 136 0.030458 0.000350 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Botonakis thermomech_TK COO 136 0.004895 0.016026 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Botonakis thermomech_TK CSC 136 0.048109 0.003592 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Botonakis thermomech_TK DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Botonakis thermomech_TK IE 136 0.000593 0.000269 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 102159 # was wrong
+ Performance Botonakis thermomech_TK BSR 136 0.443664 0.000459 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Botonakis thermomech_TK ESB-d 136 0.020012 0.008691 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Botonakis thermomech_TK ESB-s 136 0.019913 0.008322 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Botonakis thermomech_TK CVR 136 0.000210 0.000086 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Botonakis thermomech_TK CSR5 136 0.000692 0.000104 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Botonakis thermomech_TK VHCC 136 0.635121 0.000252 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Botonakis thermomech_TK CSR 204 0.045875 0.000436 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Botonakis thermomech_TK COO 204 0.006344 0.019222 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Botonakis thermomech_TK CSC 204 0.044398 0.004433 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Botonakis thermomech_TK DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Botonakis thermomech_TK IE 204 0.000952 0.000330 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 102159 # was wrong
+ Performance Botonakis thermomech_TK BSR 204 0.486312 0.000450 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Botonakis thermomech_TK ESB-d 204 0.026041 0.013152 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Botonakis thermomech_TK ESB-s 204 0.028147 0.012390 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Botonakis thermomech_TK CVR 204 0.000241 0.000091 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Botonakis thermomech_TK CSR5 204 0.000669 0.000128 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Botonakis thermomech_TK VHCC 204 0.701886 0.000229 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Botonakis thermomech_TK CSR 272 0.055611 0.000453 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Botonakis thermomech_TK COO 272 0.007596 0.019623 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Botonakis thermomech_TK CSC 272 0.044190 0.004798 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance Botonakis thermomech_TK DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Botonakis thermomech_TK IE 272 0.001193 0.000366 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 79453 out of 102159 # was wrong
+ Performance Botonakis thermomech_TK BSR 272 0.488427 0.000754 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Botonakis thermomech_TK ESB-d 272 0.030581 0.015366 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Botonakis thermomech_TK ESB-s 272 0.032619 0.014528 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Botonakis thermomech_TK CVR 272 0.000214 0.000093 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Botonakis thermomech_TK CSR5 272 0.000561 0.000132 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Botonakis thermomech_TK VHCC 272 0.728634 0.000214 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/vsp_barth5_1Ksep_50in_5Kout.mtx
+Reading matrix completed
+Basic informations
+        numRows = 32213
+        numCols = 32149
+            nnz = 203616
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSR 68 0.012556 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout COO 68 0.003417 0.001798 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout IE 68 0.002431 0.000116 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout ESB-d 68 0.005673 0.000265 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout ESB-s 68 0.004206 0.000035 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CVR 68 0.000186 0.000030 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSR5 68 0.000873 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout VHCC 68 0.142933 0.000086 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 192 out of 32213 # was wrong
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSR 136 0.007799 0.000045 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 276 out of 32213 # was wrong
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout COO 136 0.001395 0.002850 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout IE 136 0.000572 0.000043 
+WARNING! # 276 out of 32213 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout ESB-d 136 0.005723 0.000283 
+WARNING! # 276 out of 32213 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout ESB-s 136 0.005416 0.000036 
+WARNING! # 275 out of 32213 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CVR 136 0.000166 0.000028 
+WARNING! # 185 out of 32213 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSR5 136 0.000379 0.000036 
+WARNING! # 166 out of 32213 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout VHCC 136 0.228391 0.000063 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 246 out of 32213 # was wrong
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSR 204 0.012016 0.000056 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 276 out of 32213 # was wrong
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout COO 204 0.001875 0.003717 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout IE 204 0.000873 0.000041 
+WARNING! # 276 out of 32213 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout ESB-d 204 0.007603 0.000302 
+WARNING! # 274 out of 32213 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout ESB-s 204 0.007477 0.000040 
+WARNING! # 270 out of 32213 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CVR 204 0.000155 0.000030 
+WARNING! # 185 out of 32213 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSR5 204 0.000397 0.000049 
+WARNING! # 177 out of 32213 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout VHCC 204 0.291026 0.000064 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSR 272 0.015751 0.000052 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout COO 272 0.006384 0.004085 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout IE 272 0.001131 0.000051 
+WARNING! # 159 out of 32213 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout ESB-d 272 0.008710 0.000333 
+WARNING! # 159 out of 32213 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout ESB-s 272 0.008568 0.000047 
+WARNING! # 159 out of 32213 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CVR 272 0.000226 0.000035 
+WARNING! # 159 out of 32213 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout CSR5 272 0.000470 0.000059 
+WARNING! # 159 out of 32213 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_barth5_1Ksep_50in_5Kout VHCC 272 0.327947 0.000063 
+WARNING! # 363 out of 32213 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

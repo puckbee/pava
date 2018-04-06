@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Simon/raefsky1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3243
+        numCols = 3243
+            nnz = 294288
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon raefsky1 CSR 68 0.011068 0.000019 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon raefsky1 COO 68 0.004221 0.004133 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon raefsky1 CSC 68 0.005764 0.000269 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3243 # was wrong
+ Performance Simon raefsky1 DIA 68 0.073234 0.002841 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon raefsky1 IE 68 0.002122 0.000185 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3243 # was wrong
+ Performance Simon raefsky1 BSR 68 0.033279 0.000042 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon raefsky1 ESB-d 68 0.004028 0.000047 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon raefsky1 ESB-s 68 0.004302 0.000031 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Simon raefsky1 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon raefsky1 CSR5 68 0.000973 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon raefsky1 VHCC 68 0.145817 0.000058 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon raefsky1 CSR 136 0.006465 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon raefsky1 COO 136 0.001861 0.004807 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon raefsky1 CSC 136 0.005520 0.000315 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3243 # was wrong
+ Performance Simon raefsky1 DIA 136 0.140287 0.003458 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon raefsky1 IE 136 0.000633 0.000024 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 14 out of 3243 # was wrong
+ Performance Simon raefsky1 BSR 136 0.039479 0.000123 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon raefsky1 ESB-d 136 0.004761 0.000058 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon raefsky1 ESB-s 136 0.004925 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Simon raefsky1 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon raefsky1 CSR5 136 0.000463 0.000029 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon raefsky1 VHCC 136 0.239163 0.000045 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon raefsky1 CSR 204 0.008018 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon raefsky1 COO 204 0.001140 0.006493 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon raefsky1 CSC 204 0.006981 0.000421 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3243 # was wrong
+ Performance Simon raefsky1 DIA 204 0.192024 0.002790 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon raefsky1 IE 204 0.001110 0.000022 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 10 out of 3243 # was wrong
+ Performance Simon raefsky1 BSR 204 0.053220 0.000441 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon raefsky1 ESB-d 204 0.006677 0.000071 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon raefsky1 ESB-s 204 0.006573 0.000032 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Simon raefsky1 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon raefsky1 CSR5 204 0.000457 0.000035 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon raefsky1 VHCC 204 0.306327 0.000049 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Simon raefsky1 CSR 272 0.010651 0.000082 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Simon raefsky1 COO 272 0.001188 0.007788 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Simon raefsky1 CSC 272 0.007387 0.000462 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3243 # was wrong
+ Performance Simon raefsky1 DIA 272 0.200085 0.002815 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Simon raefsky1 IE 272 0.001078 0.000046 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 12 out of 3243 # was wrong
+ Performance Simon raefsky1 BSR 272 0.060890 0.000679 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Simon raefsky1 ESB-d 272 0.008039 0.000085 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Simon raefsky1 ESB-s 272 0.007604 0.000041 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Simon raefsky1 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Simon raefsky1 CSR5 272 0.000474 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Simon raefsky1 VHCC 272 0.334004 0.000054 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

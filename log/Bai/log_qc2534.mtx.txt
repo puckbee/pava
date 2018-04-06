@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Bai/qc2534.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2535
+        numCols = 2535
+            nnz = 465904
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai qc2534 CSR 68 0.015680 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai qc2534 COO 68 0.006699 0.006600 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai qc2534 CSC 68 0.010160 0.000385 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2535 # was wrong
+ Performance Bai qc2534 DIA 68 0.131505 0.001345 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai qc2534 IE 68 0.001521 0.000108 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2535 # was wrong
+ Performance Bai qc2534 BSR 68 0.047507 0.000030 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai qc2534 ESB-d 68 0.006572 0.000174 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai qc2534 ESB-s 68 0.006285 0.000138 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai qc2534 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai qc2534 CSR5 68 0.001032 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai qc2534 VHCC 68 0.248542 0.000061 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai qc2534 CSR 136 0.011043 0.000050 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai qc2534 COO 136 0.001672 0.007569 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai qc2534 CSC 136 0.008719 0.000459 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2535 # was wrong
+ Performance Bai qc2534 DIA 136 0.212512 0.001176 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai qc2534 IE 136 0.001039 0.000022 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 89 out of 2535 # was wrong
+ Performance Bai qc2534 BSR 136 0.059769 0.000123 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai qc2534 ESB-d 136 0.008187 0.000261 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai qc2534 ESB-s 136 0.007614 0.000229 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai qc2534 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai qc2534 CSR5 136 0.000540 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai qc2534 VHCC 136 0.387614 0.000045 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai qc2534 CSR 204 0.014499 0.000063 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai qc2534 COO 204 0.001831 0.010332 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai qc2534 CSC 204 0.010876 0.000571 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2535 # was wrong
+ Performance Bai qc2534 DIA 204 0.245422 0.001181 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai qc2534 IE 204 0.001267 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 78 out of 2535 # was wrong
+ Performance Bai qc2534 BSR 204 0.080824 0.000051 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai qc2534 ESB-d 204 0.010521 0.000382 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai qc2534 ESB-s 204 0.010355 0.000336 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai qc2534 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai qc2534 CSR5 204 0.000557 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai qc2534 VHCC 204 0.487158 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bai qc2534 CSR 272 0.018985 0.000104 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bai qc2534 COO 272 0.001769 0.012583 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bai qc2534 CSC 272 0.011659 0.000640 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2535 # was wrong
+ Performance Bai qc2534 DIA 272 0.254439 0.001171 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bai qc2534 IE 272 0.001358 0.000056 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2535 # was wrong
+ Performance Bai qc2534 BSR 272 0.092155 0.000191 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bai qc2534 ESB-d 272 0.011085 0.000448 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bai qc2534 ESB-s 272 0.011850 0.000402 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bai qc2534 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bai qc2534 CSR5 272 0.000573 0.000043 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bai qc2534 VHCC 272 0.503472 0.000048 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

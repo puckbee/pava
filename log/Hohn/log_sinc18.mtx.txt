@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Hohn/sinc18.mtx
+Reading matrix completed
+Basic informations
+        numRows = 16429
+        numCols = 16429
+            nnz = 973840
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hohn sinc18 CSR 68 0.026986 0.000049 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hohn sinc18 COO 68 0.011086 0.013639 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hohn sinc18 CSC 68 0.024325 0.001040 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hohn sinc18 DIA 68 4.556257 0.173185 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hohn sinc18 IE 68 0.002086 0.000174 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hohn sinc18 BSR 68 0.129687 0.000311 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hohn sinc18 ESB-d 68 0.012531 0.000167 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hohn sinc18 ESB-s 68 0.013059 0.000114 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hohn sinc18 CVR 68 0.000316 0.000076 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hohn sinc18 CSR5 68 0.001442 0.000054 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hohn sinc18 VHCC 68 0.494218 0.000113 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hohn sinc18 CSR 136 0.020938 0.000054 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hohn sinc18 COO 136 0.002908 0.015894 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hohn sinc18 CSC 136 0.024665 0.001295 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hohn sinc18 DIA 136 4.638085 0.173290 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hohn sinc18 IE 136 0.001255 0.000060 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hohn sinc18 BSR 136 0.156955 0.000281 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hohn sinc18 ESB-d 136 0.014844 0.000179 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hohn sinc18 ESB-s 136 0.016075 0.000085 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hohn sinc18 CVR 136 0.000449 0.000054 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hohn sinc18 CSR5 136 0.000871 0.000051 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hohn sinc18 VHCC 136 0.650071 0.000074 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hohn sinc18 CSR 204 0.041419 0.000052 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hohn sinc18 COO 204 0.012413 0.019372 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hohn sinc18 CSC 204 0.020517 0.001616 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hohn sinc18 DIA 204 4.664835 0.172908 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hohn sinc18 IE 204 0.001497 0.000083 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1525 out of 16429 # was wrong
+ Performance Hohn sinc18 BSR 204 0.201430 0.000237 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hohn sinc18 ESB-d 204 0.020293 0.000193 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hohn sinc18 ESB-s 204 0.022245 0.000075 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hohn sinc18 CVR 204 0.000367 0.000051 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hohn sinc18 CSR5 204 0.000788 0.000060 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hohn sinc18 VHCC 204 0.716062 0.000073 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Hohn sinc18 CSR 272 0.045921 0.000055 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Hohn sinc18 COO 272 0.004103 0.021209 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Hohn sinc18 CSC 272 0.020369 0.001774 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Hohn sinc18 DIA 272 4.684873 0.172819 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Hohn sinc18 IE 272 0.001563 0.000084 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Hohn sinc18 BSR 272 0.213443 0.000239 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Hohn sinc18 ESB-d 272 0.023582 0.000210 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Hohn sinc18 ESB-s 272 0.025630 0.000078 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Hohn sinc18 CVR 272 0.000493 0.000051 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Hohn sinc18 CSR5 272 0.000808 0.000067 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Hohn sinc18 VHCC 272 0.733945 0.000071 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

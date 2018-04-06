@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/delaunay_n11.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2049
+        numCols = 2049
+            nnz = 12256
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 CSR 68 0.003658 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 COO 68 0.000319 0.000100 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 CSC 68 0.000357 0.000051 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2049 # was wrong
+ Performance DIMACS10 delaunay_n11 DIA 68 0.026267 0.004235 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 delaunay_n11 IE 68 0.001026 0.000080 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2049 # was wrong
+ Performance DIMACS10 delaunay_n11 BSR 68 0.003096 0.000035 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 delaunay_n11 ESB-d 68 0.000498 0.000030 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 delaunay_n11 ESB-s 68 0.000322 0.000014 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance DIMACS10 delaunay_n11 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 delaunay_n11 CSR5 68 0.000789 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 delaunay_n11 VHCC 68 0.009212 0.000015 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 CSR 136 0.000371 0.000019 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 COO 136 0.000146 0.000129 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 CSC 136 0.000524 0.000064 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2049 # was wrong
+ Performance DIMACS10 delaunay_n11 DIA 136 0.044477 0.005225 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 delaunay_n11 IE 136 0.000587 0.000015 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2049 # was wrong
+ Performance DIMACS10 delaunay_n11 BSR 136 0.002397 0.000054 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 delaunay_n11 ESB-d 136 0.000403 0.000042 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 delaunay_n11 ESB-s 136 0.000463 0.000019 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance DIMACS10 delaunay_n11 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 delaunay_n11 CSR5 136 0.000160 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 delaunay_n11 VHCC 136 0.015464 0.000022 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 CSR 204 0.000448 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 COO 204 0.000148 0.000166 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 CSC 204 0.000547 0.000084 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2049 # was wrong
+ Performance DIMACS10 delaunay_n11 DIA 204 0.057489 0.006687 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 delaunay_n11 IE 204 0.000838 0.000020 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2049 # was wrong
+ Performance DIMACS10 delaunay_n11 BSR 204 0.003309 0.000078 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 delaunay_n11 ESB-d 204 0.000517 0.000055 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 delaunay_n11 ESB-s 204 0.000546 0.000023 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance DIMACS10 delaunay_n11 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 delaunay_n11 CSR5 204 0.000149 0.000026 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 delaunay_n11 VHCC 204 0.023037 0.000023 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 CSR 272 0.000546 0.000038 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 COO 272 0.000155 0.000185 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 delaunay_n11 CSC 272 0.000553 0.000098 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2049 # was wrong
+ Performance DIMACS10 delaunay_n11 DIA 272 0.071055 0.006891 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 delaunay_n11 IE 272 0.001137 0.000028 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2049 # was wrong
+ Performance DIMACS10 delaunay_n11 BSR 272 0.003644 0.000172 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 delaunay_n11 ESB-d 272 0.000565 0.000071 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 delaunay_n11 ESB-s 272 0.000568 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance DIMACS10 delaunay_n11 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 delaunay_n11 CSR5 272 0.000292 0.000031 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 delaunay_n11 VHCC 272 0.028196 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

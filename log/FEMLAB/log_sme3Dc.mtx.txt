@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/FEMLAB/sme3Dc.mtx
+Reading matrix completed
+Basic informations
+        numRows = 42931
+        numCols = 42931
+            nnz = 3148656
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB sme3Dc CSR 68 0.219915 0.000367 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB sme3Dc COO 68 0.017697 0.048274 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB sme3Dc CSC 68 0.198732 0.005140 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FEMLAB sme3Dc DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB sme3Dc IE 68 0.002320 0.000447 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB sme3Dc BSR 68 0.606338 0.002962 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB sme3Dc ESB-d 68 0.049026 0.000491 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB sme3Dc ESB-s 68 0.043009 0.000700 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB sme3Dc CVR 68 0.000621 0.000303 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB sme3Dc CSR5 68 0.002783 0.000314 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB sme3Dc VHCC 68 1.750792 0.000758 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB sme3Dc CSR 136 0.218094 0.000311 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB sme3Dc COO 136 0.009910 0.053380 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB sme3Dc CSC 136 0.204437 0.006516 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FEMLAB sme3Dc DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB sme3Dc IE 136 0.001074 0.000201 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance FEMLAB sme3Dc BSR 136 0.639792 0.002395 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB sme3Dc ESB-d 136 0.047468 0.000437 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB sme3Dc ESB-s 136 0.053302 0.000502 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB sme3Dc CVR 136 0.000348 0.000223 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB sme3Dc CSR5 136 0.001770 0.000260 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB sme3Dc VHCC 136 2.004324 0.000452 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB sme3Dc CSR 204 0.247772 0.000442 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB sme3Dc COO 204 0.012272 0.052870 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB sme3Dc CSC 204 0.212261 0.008441 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FEMLAB sme3Dc DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB sme3Dc IE 204 0.001331 0.000294 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 21293 out of 42931 # was wrong
+ Performance FEMLAB sme3Dc BSR 204 0.731679 0.002976 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB sme3Dc ESB-d 204 0.065445 0.000448 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB sme3Dc ESB-s 204 0.072201 0.000512 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB sme3Dc CVR 204 0.000357 0.000213 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB sme3Dc CSR5 204 0.001615 0.000292 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB sme3Dc VHCC 204 1.929591 0.000440 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance FEMLAB sme3Dc CSR 272 0.280651 0.000347 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance FEMLAB sme3Dc COO 272 0.013233 0.052214 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance FEMLAB sme3Dc CSC 272 0.192698 0.008999 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance FEMLAB sme3Dc DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance FEMLAB sme3Dc IE 272 0.001536 0.000250 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 21427 out of 42931 # was wrong
+ Performance FEMLAB sme3Dc BSR 272 0.713328 0.002920 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance FEMLAB sme3Dc ESB-d 272 0.076041 0.000654 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance FEMLAB sme3Dc ESB-s 272 0.082282 0.000429 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance FEMLAB sme3Dc CVR 272 0.000465 0.000229 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance FEMLAB sme3Dc CSR5 272 0.001431 0.000311 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance FEMLAB sme3Dc VHCC 272 1.953886 0.000377 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

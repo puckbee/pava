@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/MathWorks/Kuu.mtx
+Reading matrix completed
+Basic informations
+        numRows = 7103
+        numCols = 7103
+            nnz = 347312
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Kuu CSR 68 0.013199 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Kuu COO 68 0.005109 0.004739 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks Kuu CSC 68 0.008023 0.000405 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 7103 # was wrong
+ Performance MathWorks Kuu DIA 68 0.044857 0.001784 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Kuu IE 68 0.001862 0.000099 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 7103 # was wrong
+ Performance MathWorks Kuu BSR 68 0.039100 0.000036 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Kuu ESB-d 68 0.005082 0.000402 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Kuu ESB-s 68 0.005212 0.000328 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance MathWorks Kuu CVR 68 0.000259 0.000033 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Kuu CSR5 68 0.001076 0.000028 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks Kuu VHCC 68 0.188710 0.000070 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Kuu CSR 136 0.008778 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Kuu COO 136 0.004900 0.005628 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks Kuu CSC 136 0.006763 0.000474 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 7103 # was wrong
+ Performance MathWorks Kuu DIA 136 0.068782 0.002245 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Kuu IE 136 0.000713 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 7103 # was wrong
+ Performance MathWorks Kuu BSR 136 0.049692 0.000039 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Kuu ESB-d 136 0.006586 0.000661 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Kuu ESB-s 136 0.006518 0.000588 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance MathWorks Kuu CVR 136 0.000223 0.000026 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Kuu CSR5 136 0.000449 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks Kuu VHCC 136 0.320217 0.000060 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Kuu CSR 204 0.010598 0.000057 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Kuu COO 204 0.005151 0.007413 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks Kuu CSC 204 0.008199 0.000578 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 7103 # was wrong
+ Performance MathWorks Kuu DIA 204 0.112340 0.002735 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Kuu IE 204 0.000938 0.000030 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 7103 # was wrong
+ Performance MathWorks Kuu BSR 204 0.068971 0.000154 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Kuu ESB-d 204 0.008572 0.000968 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Kuu ESB-s 204 0.008846 0.000889 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance MathWorks Kuu CVR 204 0.000209 0.000026 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Kuu CSR5 204 0.000450 0.000041 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks Kuu VHCC 204 0.381944 0.000060 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance MathWorks Kuu CSR 272 0.013795 0.000045 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance MathWorks Kuu COO 272 0.001512 0.009051 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance MathWorks Kuu CSC 272 0.008739 0.000632 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 7103 # was wrong
+ Performance MathWorks Kuu DIA 272 0.132311 0.002782 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance MathWorks Kuu IE 272 0.001178 0.000036 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 528 out of 7103 # was wrong
+ Performance MathWorks Kuu BSR 272 0.074097 0.000174 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance MathWorks Kuu ESB-d 272 0.009319 0.001136 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance MathWorks Kuu ESB-s 272 0.009929 0.001052 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance MathWorks Kuu CVR 272 0.000357 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance MathWorks Kuu CSR5 272 0.000585 0.000046 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance MathWorks Kuu VHCC 272 0.420815 0.000061 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

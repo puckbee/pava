@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/TSOPF/TSOPF_RS_b2383.mtx
+Reading matrix completed
+Basic informations
+        numRows = 38121
+        numCols = 38121
+            nnz = 16171184
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 CSR 68 0.513957 0.001220 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 COO 68 0.082189 0.224556 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 CSC 68 0.262426 0.037153 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 38121 # was wrong
+ Performance TSOPF TSOPF_RS_b2383 DIA 68 105.932931 0.593976 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TSOPF TSOPF_RS_b2383 IE 68 0.007540 0.001248 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 38121 # was wrong
+ Performance TSOPF TSOPF_RS_b2383 BSR 68 1.691401 0.001136 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TSOPF TSOPF_RS_b2383 ESB-d 68 0.229061 0.001223 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TSOPF TSOPF_RS_b2383 ESB-s 68 0.240252 0.002224 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TSOPF TSOPF_RS_b2383 CVR 68 0.005689 0.001685 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TSOPF TSOPF_RS_b2383 CSR5 68 0.010372 0.001022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TSOPF TSOPF_RS_b2383 VHCC 68 9.318146 0.002532 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 CSR 136 0.583562 0.000792 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 COO 136 0.049657 0.226553 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 CSC 136 0.574143 0.038651 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 38121 # was wrong
+ Performance TSOPF TSOPF_RS_b2383 DIA 136 106.678863 0.599009 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TSOPF TSOPF_RS_b2383 IE 136 0.003273 0.001545 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 68 out of 38121 # was wrong
+ Performance TSOPF TSOPF_RS_b2383 BSR 136 1.683872 0.000827 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TSOPF TSOPF_RS_b2383 ESB-d 136 0.217178 0.000859 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TSOPF TSOPF_RS_b2383 ESB-s 136 0.218737 0.001257 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TSOPF TSOPF_RS_b2383 CVR 136 0.002643 0.001394 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TSOPF TSOPF_RS_b2383 CSR5 136 0.006944 0.001710 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TSOPF TSOPF_RS_b2383 VHCC 136 9.082251 0.002523 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 CSR 204 0.652354 0.001207 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 COO 204 0.059631 0.226668 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 CSC 204 0.353631 0.040809 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 38121 # was wrong
+ Performance TSOPF TSOPF_RS_b2383 DIA 204 106.925228 0.593941 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TSOPF TSOPF_RS_b2383 IE 204 0.010542 0.001399 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 70 out of 38121 # was wrong
+ Performance TSOPF TSOPF_RS_b2383 BSR 204 1.683348 0.003340 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TSOPF TSOPF_RS_b2383 ESB-d 204 0.222834 0.002828 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TSOPF TSOPF_RS_b2383 ESB-s 204 0.224599 0.003056 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TSOPF TSOPF_RS_b2383 CVR 204 0.021327 0.007037 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TSOPF TSOPF_RS_b2383 CSR5 204 0.007703 0.006071 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TSOPF TSOPF_RS_b2383 VHCC 204 8.642455 0.002525 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 CSR 272 0.508181 0.006803 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 COO 272 0.061066 0.223765 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance TSOPF TSOPF_RS_b2383 CSC 272 0.368238 0.041316 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 38121 # was wrong
+ Performance TSOPF TSOPF_RS_b2383 DIA 272 106.181986 0.596806 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance TSOPF TSOPF_RS_b2383 IE 272 0.012967 0.001337 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 38121 # was wrong
+ Performance TSOPF TSOPF_RS_b2383 BSR 272 1.638087 0.001656 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance TSOPF TSOPF_RS_b2383 ESB-d 272 0.226644 0.002525 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance TSOPF TSOPF_RS_b2383 ESB-s 272 0.228241 0.003065 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance TSOPF TSOPF_RS_b2383 CVR 272 0.026449 0.007832 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance TSOPF TSOPF_RS_b2383 CSR5 272 0.012978 0.009536 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance TSOPF TSOPF_RS_b2383 VHCC 272 8.516904 0.002083 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

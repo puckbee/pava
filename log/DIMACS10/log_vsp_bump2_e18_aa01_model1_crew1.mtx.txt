@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/vsp_bump2_e18_aa01_model1_crew1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 56439
+        numCols = 50105
+            nnz = 601616
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSR 68 0.029300 0.000154 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 COO 68 0.007987 0.008779 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 IE 68 0.002262 0.000196 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 ESB-d 68 0.013937 0.000492 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 ESB-s 68 0.011913 0.000287 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CVR 68 0.000499 0.000080 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSR5 68 0.001320 0.000063 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 VHCC 68 0.377559 0.000226 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1212 out of 56439 # was wrong
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSR 136 0.021893 0.000172 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 441 out of 56439 # was wrong
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 COO 136 0.003318 0.010713 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 IE 136 0.000592 0.000092 
+WARNING! # 1436 out of 56439 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 ESB-d 136 0.013879 0.000509 
+WARNING! # 411 out of 56439 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 ESB-s 136 0.013917 0.000336 
+WARNING! # 1219 out of 56439 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CVR 136 0.000397 0.000063 
+WARNING! # 864 out of 56439 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSR5 136 0.000780 0.000057 
+WARNING! # 1101 out of 56439 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 VHCC 136 0.531965 0.000146 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1180 out of 56439 # was wrong
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSR 204 0.037531 0.000281 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 441 out of 56439 # was wrong
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 COO 204 0.018097 0.013883 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 IE 204 0.000906 0.000094 
+WARNING! # 1436 out of 56439 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 ESB-d 204 0.021229 0.000511 
+WARNING! # 422 out of 56439 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 ESB-s 204 0.019157 0.000422 
+WARNING! # 1188 out of 56439 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CVR 204 0.000340 0.000059 
+WARNING! # 857 out of 56439 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSR5 204 0.000756 0.000069 
+WARNING! # 990 out of 56439 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 VHCC 204 0.610259 0.000134 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSR 272 0.049004 0.000233 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 COO 272 0.020842 0.015635 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 IE 272 0.001192 0.000108 
+WARNING! # 467 out of 56439 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 ESB-d 272 0.024278 0.000561 
+WARNING! # 1053 out of 56439 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 ESB-s 272 0.021983 0.000436 
+WARNING! # 1053 out of 56439 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CVR 272 0.000452 0.000060 
+WARNING! # 1176 out of 56439 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 CSR5 272 0.000726 0.000081 
+WARNING! # 1140 out of 56439 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_bump2_e18_aa01_model1_crew1 VHCC 272 0.621342 0.000127 
+WARNING! # 1210 out of 56439 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

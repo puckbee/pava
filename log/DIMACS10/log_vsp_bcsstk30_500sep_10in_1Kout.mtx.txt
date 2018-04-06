@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/vsp_bcsstk30_500sep_10in_1Kout.mtx
+Reading matrix completed
+Basic informations
+        numRows = 58349
+        numCols = 58349
+            nnz = 4033168
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSR 68 0.219873 0.000276 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout COO 68 0.024468 0.062442 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSC 68 0.270018 0.008583 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout IE 68 0.002415 0.000438 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 31881 out of 58349 # was wrong
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout BSR 68 0.876390 0.002730 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout ESB-d 68 0.066315 0.000797 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout ESB-s 68 0.069351 0.000565 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CVR 68 0.000645 0.000396 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSR5 68 0.003332 0.000418 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout VHCC 68 2.815275 0.000981 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSR 136 0.219050 0.000294 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout COO 136 0.013184 0.074101 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSC 136 0.306240 0.012289 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout IE 136 0.001213 0.000338 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 58349 # was wrong
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout BSR 136 0.964062 0.002379 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout ESB-d 136 0.073128 0.000663 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout ESB-s 136 0.069065 0.000501 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CVR 136 0.000484 0.000328 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSR5 136 0.002298 0.000368 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout VHCC 136 3.005411 0.000612 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSR 204 0.264846 0.000367 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout COO 204 0.015622 0.071716 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSC 204 0.323709 0.017571 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout IE 204 0.001587 0.000387 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 58294 out of 58349 # was wrong
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout BSR 204 1.007932 0.004070 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout ESB-d 204 0.088102 0.000656 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout ESB-s 204 0.095066 0.000477 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CVR 204 0.000456 0.000350 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSR5 204 0.002123 0.000449 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout VHCC 204 2.897736 0.000543 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSR 272 0.293247 0.000605 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout COO 272 0.017197 0.069216 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSC 272 0.294408 0.018304 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout IE 272 0.001518 0.000534 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 58305 out of 58349 # was wrong
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout BSR 272 0.921054 0.005579 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout ESB-d 272 0.100963 0.000666 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout ESB-s 272 0.107975 0.000456 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CVR 272 0.000662 0.000440 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout CSR5 272 0.002003 0.000579 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 vsp_bcsstk30_500sep_10in_1Kout VHCC 272 2.909606 0.000596 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

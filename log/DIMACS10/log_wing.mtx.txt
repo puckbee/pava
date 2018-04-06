@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/wing.mtx
+Reading matrix completed
+Basic informations
+        numRows = 62033
+        numCols = 52331
+            nnz = 243088
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 3789 out of 62033 # was wrong
+ Performance DIMACS10 wing CSR 68 0.016362 0.000050 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 3789 out of 62033 # was wrong
+ Performance DIMACS10 wing COO 68 0.004434 0.002439 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 wing CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 wing DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 wing IE 68 0.002244 0.000107 
+WARNING! # 3789 out of 62033 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 wing BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 wing ESB-d 68 0.004736 0.000494 
+WARNING! # 3789 out of 62033 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 wing ESB-s 68 0.006071 0.000040 
+WARNING! # 3789 out of 62033 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 wing CVR 68 0.000372 0.000033 
+WARNING! # 3789 out of 62033 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 wing CSR5 68 0.001113 0.000027 
+WARNING! # 3716 out of 62033 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 wing VHCC 68 0.178819 0.000102 
+WARNING! # 3716 out of 62033 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 15636 out of 62033 # was wrong
+ Performance DIMACS10 wing CSR 136 0.011583 0.000081 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 28922 out of 62033 # was wrong
+ Performance DIMACS10 wing COO 136 0.002427 0.004123 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 wing CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 wing DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 wing IE 136 0.000618 0.000074 
+WARNING! # 29608 out of 62033 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 wing BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 wing ESB-d 136 0.007388 0.000519 
+WARNING! # 28903 out of 62033 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 wing ESB-s 136 0.006801 0.000051 
+WARNING! # 16316 out of 62033 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 wing CVR 136 0.000207 0.000033 
+WARNING! # 12695 out of 62033 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 wing CSR5 136 0.000479 0.000036 
+WARNING! # 15731 out of 62033 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 wing VHCC 136 0.276614 0.000080 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 16882 out of 62033 # was wrong
+ Performance DIMACS10 wing CSR 204 0.016517 0.000075 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 28922 out of 62033 # was wrong
+ Performance DIMACS10 wing COO 204 0.003268 0.005864 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 wing CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 wing DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 wing IE 204 0.000876 0.000073 
+WARNING! # 29608 out of 62033 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 wing BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 wing ESB-d 204 0.010322 0.000541 
+WARNING! # 28903 out of 62033 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 wing ESB-s 204 0.010275 0.000056 
+WARNING! # 16628 out of 62033 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 wing CVR 204 0.000175 0.000039 
+WARNING! # 13000 out of 62033 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 wing CSR5 204 0.000426 0.000057 
+WARNING! # 16569 out of 62033 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 wing VHCC 204 0.333679 0.000080 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 wing CSR 272 0.020761 0.000053 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 wing COO 272 0.003964 0.006129 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 wing CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 wing DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 wing IE 272 0.001113 0.000060 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 wing BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 wing ESB-d 272 0.012074 0.000588 
+WARNING! # 8698 out of 62033 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 wing ESB-s 272 0.011970 0.000048 
+WARNING! # 8698 out of 62033 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 wing CVR 272 0.000254 0.000036 
+WARNING! # 8698 out of 62033 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 wing CSR5 272 0.000483 0.000055 
+WARNING! # 9644 out of 62033 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 wing VHCC 272 0.366207 0.000077 
+WARNING! # 10573 out of 62033 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

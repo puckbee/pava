@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DNVS/x104.mtx
+Reading matrix completed
+Basic informations
+        numRows = 108385
+        numCols = 108385
+            nnz = 10276016
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DNVS x104 CSR 68 0.228997 0.000584 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DNVS x104 COO 68 0.052035 0.146639 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DNVS x104 CSC 68 0.169592 0.007753 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance DNVS x104 DIA 68 39.461494 1.268134 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DNVS x104 IE 68 0.004588 0.000606 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance DNVS x104 BSR 68 1.314753 0.000758 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DNVS x104 ESB-d 68 0.162615 0.003413 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DNVS x104 ESB-s 68 0.163722 0.002960 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DNVS x104 CVR 68 0.003373 0.000851 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DNVS x104 CSR5 68 0.009428 0.000767 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DNVS x104 VHCC 68 6.031494 0.001181 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DNVS x104 CSR 136 0.213985 0.000605 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DNVS x104 COO 136 0.033468 0.148913 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DNVS x104 CSC 136 0.148511 0.008990 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance DNVS x104 DIA 136 39.546453 1.270805 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DNVS x104 IE 136 0.002918 0.000415 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 29025 out of 108385 # was wrong
+ Performance DNVS x104 BSR 136 1.330723 0.000669 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DNVS x104 ESB-d 136 0.156981 0.004925 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DNVS x104 ESB-s 136 0.156504 0.004477 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DNVS x104 CVR 136 0.001273 0.000546 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DNVS x104 CSR5 136 0.004877 0.000539 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DNVS x104 VHCC 136 6.093950 0.000696 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DNVS x104 CSR 204 0.265457 0.000669 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DNVS x104 COO 204 0.040501 0.148387 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DNVS x104 CSC 204 0.150270 0.011417 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance DNVS x104 DIA 204 39.625975 1.275677 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DNVS x104 IE 204 0.003411 0.000487 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 10836 out of 108385 # was wrong
+ Performance DNVS x104 BSR 204 1.381440 0.000858 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DNVS x104 ESB-d 204 0.206275 0.006992 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DNVS x104 ESB-s 204 0.204255 0.006230 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DNVS x104 CVR 204 0.001126 0.000487 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DNVS x104 CSR5 204 0.004582 0.000496 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DNVS x104 VHCC 204 5.985203 0.000614 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DNVS x104 CSR 272 0.293128 0.000927 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DNVS x104 COO 272 0.042039 0.147479 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance DNVS x104 CSC 272 0.158806 0.012740 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance DNVS x104 DIA 272 39.358834 1.277255 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DNVS x104 IE 272 0.004445 0.000574 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 11645 out of 108385 # was wrong
+ Performance DNVS x104 BSR 272 1.354869 0.000894 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DNVS x104 ESB-d 272 0.219731 0.007770 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DNVS x104 ESB-s 272 0.218196 0.007012 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DNVS x104 CVR 272 0.001198 0.000434 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DNVS x104 CSR5 272 0.004085 0.000517 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DNVS x104 VHCC 272 5.979474 0.000855 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

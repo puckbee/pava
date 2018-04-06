@@ -1,0 +1,292 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Meszaros/iprob.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3002
+        numCols = 3002
+            nnz = 9008
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Meszaros iprob CSR 68 0.003526 0.000016 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Meszaros iprob COO 68 0.000280 0.000075 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Meszaros iprob CSC 68 0.000368 0.000058 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3002 # was wrong
+ Performance Meszaros iprob DIA 68 0.081471 0.012114 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Meszaros iprob IE 68 0.001064 0.000187 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3002 # was wrong
+ Performance Meszaros iprob BSR 68 0.002478 0.000035 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Meszaros iprob ESB-d 68 0.000473 0.000089 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Meszaros iprob ESB-s 68 0.000292 0.000089 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Meszaros iprob CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Meszaros iprob CSR5 68 0.000789 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance Meszaros iprob VHCC 68 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Meszaros iprob CSR 136 0.000231 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Meszaros iprob COO 136 0.000163 0.000102 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Meszaros iprob CSC 136 0.000536 0.000103 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3002 # was wrong
+ Performance Meszaros iprob DIA 136 0.126480 0.012914 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Meszaros iprob IE 136 0.001574 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3002 # was wrong
+ Performance Meszaros iprob BSR 136 0.002903 0.000056 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Meszaros iprob ESB-d 136 0.000420 0.000113 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Meszaros iprob ESB-s 136 0.000451 0.000103 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Meszaros iprob CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Meszaros iprob CSR5 136 0.000151 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance Meszaros iprob VHCC 136 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Meszaros iprob CSR 204 0.000333 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Meszaros iprob COO 204 0.000181 0.000121 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Meszaros iprob CSC 204 0.000608 0.000115 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3002 # was wrong
+ Performance Meszaros iprob DIA 204 0.182516 0.011892 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Meszaros iprob IE 204 0.001084 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3002 # was wrong
+ Performance Meszaros iprob BSR 204 0.002755 0.000074 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Meszaros iprob ESB-d 204 0.000502 0.000149 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Meszaros iprob ESB-s 204 0.000531 0.000129 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Meszaros iprob CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Meszaros iprob CSR5 204 0.000173 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance Meszaros iprob VHCC 204 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Meszaros iprob CSR 272 0.000416 0.000031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Meszaros iprob COO 272 0.000181 0.000133 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Meszaros iprob CSC 272 0.000638 0.000132 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 3002 # was wrong
+ Performance Meszaros iprob DIA 272 0.199599 0.011872 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Meszaros iprob IE 272 0.001230 0.000057 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 3002 # was wrong
+ Performance Meszaros iprob BSR 272 0.003124 0.000123 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Meszaros iprob ESB-d 272 0.000544 0.000171 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Meszaros iprob ESB-s 272 0.000599 0.000145 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Meszaros iprob CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Meszaros iprob CSR5 272 0.000240 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance Meszaros iprob VHCC 272 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

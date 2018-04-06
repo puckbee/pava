@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Shen/e40r0100.mtx
+Reading matrix completed
+Basic informations
+        numRows = 17282
+        numCols = 17282
+            nnz = 553568
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Shen e40r0100 CSR 68 0.016883 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Shen e40r0100 COO 68 0.006847 0.007434 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Shen e40r0100 CSC 68 0.012459 0.000664 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Shen e40r0100 DIA 68 1.542873 0.206075 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Shen e40r0100 IE 68 0.001857 0.000169 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Shen e40r0100 BSR 68 0.077939 0.000072 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Shen e40r0100 ESB-d 68 0.008494 0.000165 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Shen e40r0100 ESB-s 68 0.009000 0.000068 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Shen e40r0100 CVR 68 0.000436 0.000050 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Shen e40r0100 CSR5 68 0.001096 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Shen e40r0100 VHCC 68 0.279121 0.000083 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Shen e40r0100 CSR 136 0.010767 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Shen e40r0100 COO 136 0.002114 0.008694 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Shen e40r0100 CSC 136 0.011558 0.000817 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Shen e40r0100 DIA 136 1.616091 0.208871 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Shen e40r0100 IE 136 0.001329 0.000044 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Shen e40r0100 BSR 136 0.089132 0.000124 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Shen e40r0100 ESB-d 136 0.010291 0.000175 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Shen e40r0100 ESB-s 136 0.010625 0.000054 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Shen e40r0100 CVR 136 0.000338 0.000037 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Shen e40r0100 CSR5 136 0.000655 0.000038 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Shen e40r0100 VHCC 136 0.408132 0.000057 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Shen e40r0100 CSR 204 0.020569 0.000052 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Shen e40r0100 COO 204 0.011844 0.011717 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Shen e40r0100 CSC 204 0.014765 0.001036 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Shen e40r0100 DIA 204 1.650115 0.206955 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Shen e40r0100 IE 204 0.001300 0.000070 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 574 out of 17282 # was wrong
+ Performance Shen e40r0100 BSR 204 0.121265 0.000083 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Shen e40r0100 ESB-d 204 0.014324 0.000192 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Shen e40r0100 ESB-s 204 0.014871 0.000054 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Shen e40r0100 CVR 204 0.000326 0.000035 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Shen e40r0100 CSR5 204 0.000641 0.000048 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Shen e40r0100 VHCC 204 0.483901 0.000058 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Shen e40r0100 CSR 272 0.026078 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Shen e40r0100 COO 272 0.007973 0.014005 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Shen e40r0100 CSC 272 0.016084 0.001152 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Shen e40r0100 DIA 272 1.702306 0.206006 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Shen e40r0100 IE 272 0.001683 0.000053 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Shen e40r0100 BSR 272 0.130070 0.000502 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Shen e40r0100 ESB-d 272 0.016694 0.000217 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Shen e40r0100 ESB-s 272 0.017063 0.000058 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Shen e40r0100 CVR 272 0.000394 0.000036 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Shen e40r0100 CSR5 272 0.000718 0.000057 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Shen e40r0100 VHCC 272 0.525532 0.000057 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/aug2dc.mtx
+Reading matrix completed
+Basic informations
+        numRows = 30201
+        numCols = 20201
+            nnz = 80000
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef aug2dc CSR 68 0.005969 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef aug2dc COO 68 0.001738 0.000389 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef aug2dc CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef aug2dc DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef aug2dc IE 68 0.001620 0.000054 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef aug2dc BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef aug2dc ESB-d 68 0.001810 0.000243 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef aug2dc ESB-s 68 0.001805 0.000024 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef aug2dc CVR 68 0.000262 0.000016 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef aug2dc CSR5 68 0.000804 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef aug2dc VHCC 68 0.050117 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1305 out of 30201 # was wrong
+ Performance GHS_indef aug2dc CSR 136 0.001807 0.000032 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1305 out of 30201 # was wrong
+ Performance GHS_indef aug2dc COO 136 0.001132 0.000642 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef aug2dc CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef aug2dc DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef aug2dc IE 136 0.000589 0.000026 
+WARNING! # 739 out of 30201 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef aug2dc BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef aug2dc ESB-d 136 0.002898 0.000260 
+WARNING! # 207 out of 30201 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef aug2dc ESB-s 136 0.003099 0.000027 
+WARNING! # 207 out of 30201 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef aug2dc CVR 136 0.000101 0.000016 
+WARNING! # 168 out of 30201 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef aug2dc CSR5 136 0.000291 0.000025 
+WARNING! # 168 out of 30201 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef aug2dc VHCC 136 0.079625 0.000029 
+WARNING! # 168 out of 30201 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 184 out of 30201 # was wrong
+ Performance GHS_indef aug2dc CSR 204 0.002542 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 184 out of 30201 # was wrong
+ Performance GHS_indef aug2dc COO 204 0.001533 0.000847 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef aug2dc CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef aug2dc DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef aug2dc IE 204 0.000876 0.000029 
+WARNING! # 184 out of 30201 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef aug2dc BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef aug2dc ESB-d 204 0.003991 0.000279 
+WARNING! # 184 out of 30201 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef aug2dc ESB-s 204 0.004149 0.000031 
+WARNING! # 184 out of 30201 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef aug2dc CVR 204 0.000099 0.000022 
+WARNING! # 184 out of 30201 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef aug2dc CSR5 204 0.000292 0.000036 
+WARNING! # 184 out of 30201 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef aug2dc VHCC 204 0.105967 0.000033 
+WARNING! # 184 out of 30201 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 184 out of 30201 # was wrong
+ Performance GHS_indef aug2dc CSR 272 0.003232 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 184 out of 30201 # was wrong
+ Performance GHS_indef aug2dc COO 272 0.001833 0.000899 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef aug2dc CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef aug2dc DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef aug2dc IE 272 0.001175 0.000032 
+WARNING! # 184 out of 30201 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef aug2dc BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef aug2dc ESB-d 272 0.004578 0.000308 
+WARNING! # 184 out of 30201 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef aug2dc ESB-s 272 0.004824 0.000037 
+WARNING! # 184 out of 30201 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef aug2dc CVR 272 0.000118 0.000022 
+WARNING! # 184 out of 30201 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef aug2dc CSR5 272 0.000411 0.000042 
+WARNING! # 184 out of 30201 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef aug2dc VHCC 272 0.124763 0.000035 
+WARNING! # 184 out of 30201 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

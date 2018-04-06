@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Gset/G58.mtx
+Reading matrix completed
+Basic informations
+        numRows = 5001
+        numCols = 4970
+            nnz = 59152
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 52 out of 5001 # was wrong
+ Performance Gset G58 CSR 68 0.005434 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 88 out of 5001 # was wrong
+ Performance Gset G58 COO 68 0.001096 0.000668 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Gset G58 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Gset G58 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gset G58 IE 68 0.001230 0.000085 
+WARNING! # 92 out of 5001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Gset G58 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gset G58 ESB-d 68 0.001809 0.000056 
+WARNING! # 54 out of 5001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gset G58 ESB-s 68 0.001456 0.000053 
+WARNING! # 8 out of 5001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gset G58 CVR 68 0.000209 0.000013 
+WARNING! # 21 out of 5001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gset G58 CSR5 68 0.000849 0.000017 
+WARNING! # 40 out of 5001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gset G58 VHCC 68 0.042864 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 14 out of 5001 # was wrong
+ Performance Gset G58 CSR 136 0.001701 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 88 out of 5001 # was wrong
+ Performance Gset G58 COO 136 0.000371 0.000843 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Gset G58 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Gset G58 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gset G58 IE 136 0.000129 0.000020 
+WARNING! # 92 out of 5001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Gset G58 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gset G58 ESB-d 136 0.001307 0.000069 
+WARNING! # 33 out of 5001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gset G58 ESB-s 136 0.001597 0.000051 
+WARNING! # 3 out of 5001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gset G58 CVR 136 0.000084 0.000014 
+WARNING! # 74 out of 5001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gset G58 CSR5 136 0.000211 0.000024 
+WARNING! # 34 out of 5001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gset G58 VHCC 136 0.069647 0.000051 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 13 out of 5001 # was wrong
+ Performance Gset G58 CSR 204 0.002817 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 88 out of 5001 # was wrong
+ Performance Gset G58 COO 204 0.001630 0.001151 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Gset G58 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Gset G58 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gset G58 IE 204 0.000144 0.000020 
+WARNING! # 92 out of 5001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Gset G58 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gset G58 ESB-d 204 0.001913 0.000082 
+WARNING! # 32 out of 5001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gset G58 ESB-s 204 0.002077 0.000058 
+WARNING! # 3 out of 5001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gset G58 CVR 204 0.000083 0.000016 
+WARNING! # 59 out of 5001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gset G58 CSR5 204 0.000216 0.000031 
+WARNING! # 50 out of 5001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gset G58 VHCC 204 0.102025 0.000049 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gset G58 CSR 272 0.003852 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gset G58 COO 272 0.000851 0.001320 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Gset G58 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Gset G58 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gset G58 IE 272 0.000184 0.000032 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Gset G58 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gset G58 ESB-d 272 0.002025 0.000100 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gset G58 ESB-s 272 0.002232 0.000060 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gset G58 CVR 272 0.000168 0.000020 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gset G58 CSR5 272 0.000332 0.000037 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gset G58 VHCC 272 0.124752 0.000050 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

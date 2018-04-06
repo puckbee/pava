@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/orani678.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2530
+        numCols = 2530
+            nnz = 90160
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB orani678 CSR 68 0.005889 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB orani678 COO 68 0.001451 0.001243 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB orani678 CSC 68 0.002341 0.000319 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB orani678 DIA 68 0.114001 0.006910 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB orani678 IE 68 0.001549 0.000053 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB orani678 BSR 68 0.011179 0.000033 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB orani678 ESB-d 68 0.001759 0.000045 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB orani678 ESB-s 68 0.001404 0.000077 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB orani678 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB orani678 CSR5 68 0.000878 0.000017 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB orani678 VHCC 68 0.046929 0.000035 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB orani678 CSR 136 0.002230 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB orani678 COO 136 0.001390 0.001499 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB orani678 CSC 136 0.001792 0.000398 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB orani678 DIA 136 0.196091 0.006810 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB orani678 IE 136 0.000876 0.000033 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB orani678 BSR 136 0.012683 0.000049 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB orani678 ESB-d 136 0.001877 0.000062 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB orani678 ESB-s 136 0.001949 0.000059 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB orani678 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB orani678 CSR5 136 0.000254 0.000023 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB orani678 VHCC 136 0.077800 0.000033 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB orani678 CSR 204 0.002877 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB orani678 COO 204 0.000445 0.001991 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB orani678 CSC 204 0.002300 0.000509 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB orani678 DIA 204 0.226814 0.006774 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB orani678 IE 204 0.001025 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance HB orani678 BSR 204 0.016911 0.000038 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB orani678 ESB-d 204 0.002233 0.000081 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB orani678 ESB-s 204 0.002321 0.000067 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB orani678 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB orani678 CSR5 204 0.000262 0.000029 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB orani678 VHCC 204 0.109076 0.000036 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB orani678 CSR 272 0.004175 0.000039 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB orani678 COO 272 0.000926 0.002392 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB orani678 CSC 272 0.002578 0.000566 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance HB orani678 DIA 272 0.234578 0.006784 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB orani678 IE 272 0.001212 0.000047 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 11 out of 2530 # was wrong
+ Performance HB orani678 BSR 272 0.019217 0.000079 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB orani678 ESB-d 272 0.002503 0.000100 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB orani678 ESB-s 272 0.002634 0.000077 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB orani678 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB orani678 CSR5 272 0.000366 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance HB orani678 VHCC 272 0.130092 0.000042 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

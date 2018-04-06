@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Kim/kim2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 456977
+        numCols = 456977
+            nnz = 11330032
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Kim kim2 CSR 68 0.217568 0.000571 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Kim kim2 COO 68 0.061461 0.144928 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Kim kim2 CSC 68 0.179465 0.008717 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 456977 # was wrong
+ Performance Kim kim2 DIA 68 0.640376 0.016235 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Kim kim2 IE 68 0.004696 0.000738 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Kim kim2 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Kim kim2 ESB-d 68 0.173493 0.003408 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Kim kim2 ESB-s 68 0.174285 0.000876 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Kim kim2 CVR 68 0.003532 0.001011 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Kim kim2 CSR5 68 0.012739 0.000908 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Kim kim2 VHCC 68 6.165444 0.001642 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Kim kim2 CSR 136 0.203767 0.000504 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Kim kim2 COO 136 0.045342 0.164785 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Kim kim2 CSC 136 0.169099 0.011907 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 456977 # was wrong
+ Performance Kim kim2 DIA 136 0.659244 0.019624 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Kim kim2 IE 136 0.001709 0.000540 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Kim kim2 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Kim kim2 ESB-d 136 0.188599 0.003480 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Kim kim2 ESB-s 136 0.193446 0.000589 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Kim kim2 CVR 136 0.001356 0.000679 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Kim kim2 CSR5 136 0.005667 0.000628 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Kim kim2 VHCC 136 6.387900 0.001078 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Kim kim2 CSR 204 0.235316 0.000522 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Kim kim2 COO 204 0.058402 0.164481 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Kim kim2 CSC 204 0.164470 0.015043 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 456977 # was wrong
+ Performance Kim kim2 DIA 204 0.659495 0.019837 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Kim kim2 IE 204 0.001988 0.000535 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Kim kim2 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Kim kim2 ESB-d 204 0.226417 0.003653 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Kim kim2 ESB-s 204 0.230203 0.000523 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Kim kim2 CVR 204 0.001235 0.000588 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Kim kim2 CSR5 204 0.005348 0.000602 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Kim kim2 VHCC 204 6.135563 0.001004 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Kim kim2 CSR 272 0.262257 0.000545 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Kim kim2 COO 272 0.263454 0.164207 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Kim kim2 CSC 272 0.155958 0.017039 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 456977 # was wrong
+ Performance Kim kim2 DIA 272 0.640004 0.019731 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Kim kim2 IE 272 0.002102 0.000585 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Kim kim2 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Kim kim2 ESB-d 272 0.241524 0.003825 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Kim kim2 ESB-s 272 0.243950 0.000532 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Kim kim2 CVR 272 0.001340 0.000544 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Kim kim2 CSR5 272 0.004728 0.000623 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Kim kim2 VHCC 272 6.205709 0.000926 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

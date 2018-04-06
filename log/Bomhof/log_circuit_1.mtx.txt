@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Bomhof/circuit_1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2625
+        numCols = 2625
+            nnz = 35824
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bomhof circuit_1 CSR 68 0.004338 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bomhof circuit_1 COO 68 0.000684 0.000377 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bomhof circuit_1 CSC 68 0.001011 0.000141 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2625 # was wrong
+ Performance Bomhof circuit_1 DIA 68 0.144636 0.009349 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bomhof circuit_1 IE 68 0.001285 0.000136 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2625 # was wrong
+ Performance Bomhof circuit_1 BSR 68 0.005757 0.000086 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bomhof circuit_1 ESB-d 68 0.000907 0.000099 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bomhof circuit_1 ESB-s 68 0.000635 0.000084 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bomhof circuit_1 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bomhof circuit_1 CSR5 68 0.000721 0.000016 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bomhof circuit_1 VHCC 68 0.019033 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bomhof circuit_1 CSR 136 0.000792 0.000037 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bomhof circuit_1 COO 136 0.000224 0.000499 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bomhof circuit_1 CSC 136 0.001058 0.000164 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2625 # was wrong
+ Performance Bomhof circuit_1 DIA 136 0.221520 0.009303 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bomhof circuit_1 IE 136 0.000873 0.000016 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2625 # was wrong
+ Performance Bomhof circuit_1 BSR 136 0.005678 0.000175 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bomhof circuit_1 ESB-d 136 0.001010 0.000113 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bomhof circuit_1 ESB-s 136 0.000943 0.000089 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bomhof circuit_1 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bomhof circuit_1 CSR5 136 0.000181 0.000022 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bomhof circuit_1 VHCC 136 0.033859 0.000029 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bomhof circuit_1 CSR 204 0.001093 0.000072 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bomhof circuit_1 COO 204 0.000252 0.000664 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bomhof circuit_1 CSC 204 0.001113 0.000223 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2625 # was wrong
+ Performance Bomhof circuit_1 DIA 204 0.259249 0.009837 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bomhof circuit_1 IE 204 0.000990 0.000021 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2625 # was wrong
+ Performance Bomhof circuit_1 BSR 204 0.008488 0.000189 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bomhof circuit_1 ESB-d 204 0.001094 0.000142 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bomhof circuit_1 ESB-s 204 0.001131 0.000113 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bomhof circuit_1 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bomhof circuit_1 CSR5 204 0.000219 0.000029 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bomhof circuit_1 VHCC 204 0.047674 0.000038 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Bomhof circuit_1 CSR 272 0.001382 0.000081 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Bomhof circuit_1 COO 272 0.000266 0.000786 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Bomhof circuit_1 CSC 272 0.001165 0.000247 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2625 # was wrong
+ Performance Bomhof circuit_1 DIA 272 0.260786 0.009467 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Bomhof circuit_1 IE 272 0.002040 0.000042 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2625 # was wrong
+ Performance Bomhof circuit_1 BSR 272 0.009068 0.000282 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Bomhof circuit_1 ESB-d 272 0.001193 0.000167 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Bomhof circuit_1 ESB-s 272 0.001244 0.000129 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Bomhof circuit_1 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Bomhof circuit_1 CSR5 272 0.000298 0.000033 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Bomhof circuit_1 VHCC 272 0.058215 0.000050 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/POLYFLOW/mixtank_new.mtx
+Reading matrix completed
+Basic informations
+        numRows = 29958
+        numCols = 29958
+            nnz = 1995056
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new CSR 68 0.066624 0.000149 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new COO 68 0.013094 0.028861 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new CSC 68 0.048719 0.002626 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance POLYFLOW mixtank_new DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance POLYFLOW mixtank_new IE 68 0.002268 0.000169 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new BSR 68 0.288535 0.000539 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance POLYFLOW mixtank_new ESB-d 68 0.030282 0.000308 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance POLYFLOW mixtank_new ESB-s 68 0.026236 0.000256 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance POLYFLOW mixtank_new CVR 68 0.000375 0.000169 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance POLYFLOW mixtank_new CSR5 68 0.001995 0.000119 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance POLYFLOW mixtank_new VHCC 68 1.048358 0.000397 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new CSR 136 0.049956 0.000128 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new COO 136 0.006189 0.031144 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new CSC 136 0.041134 0.003346 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance POLYFLOW mixtank_new DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance POLYFLOW mixtank_new IE 136 0.000796 0.000104 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2550 out of 29958 # was wrong
+ Performance POLYFLOW mixtank_new BSR 136 0.315282 0.000457 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance POLYFLOW mixtank_new ESB-d 136 0.029948 0.000306 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance POLYFLOW mixtank_new ESB-s 136 0.033266 0.000171 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance POLYFLOW mixtank_new CVR 136 0.000391 0.000118 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance POLYFLOW mixtank_new CSR5 136 0.001343 0.000108 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance POLYFLOW mixtank_new VHCC 136 1.165040 0.000278 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new CSR 204 0.099185 0.000134 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new COO 204 0.042543 0.032604 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new CSC 204 0.043572 0.004073 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance POLYFLOW mixtank_new DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance POLYFLOW mixtank_new IE 204 0.001158 0.000098 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new BSR 204 0.337916 0.000655 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance POLYFLOW mixtank_new ESB-d 204 0.041245 0.000322 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance POLYFLOW mixtank_new ESB-s 204 0.045618 0.000163 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance POLYFLOW mixtank_new CVR 204 0.000382 0.000107 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance POLYFLOW mixtank_new CSR5 204 0.001066 0.000126 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance POLYFLOW mixtank_new VHCC 204 1.234113 0.000252 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new CSR 272 0.102187 0.000122 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new COO 272 0.008623 0.034922 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance POLYFLOW mixtank_new CSC 272 0.044297 0.004466 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: too large for memory allocation 
+ DIA Converting Failed
+ Performance POLYFLOW mixtank_new DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance POLYFLOW mixtank_new IE 272 0.001350 0.000119 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 635 out of 29958 # was wrong
+ Performance POLYFLOW mixtank_new BSR 272 0.338296 0.000680 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance POLYFLOW mixtank_new ESB-d 272 0.047883 0.000346 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance POLYFLOW mixtank_new ESB-s 272 0.052195 0.000144 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance POLYFLOW mixtank_new CVR 272 0.000519 0.000103 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance POLYFLOW mixtank_new CSR5 272 0.000988 0.000134 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance POLYFLOW mixtank_new VHCC 272 1.249380 0.000235 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

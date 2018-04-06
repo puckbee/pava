@@ -1,0 +1,292 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/HB/blckhole.mtx
+Reading matrix completed
+Basic informations
+        numRows = 2133
+        numCols = 2133
+            nnz = 17008
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB blckhole CSR 68 0.003813 0.000015 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB blckhole COO 68 0.000377 0.000127 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB blckhole CSC 68 0.000491 0.000071 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2133 # was wrong
+ Performance HB blckhole DIA 68 0.007643 0.001606 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB blckhole IE 68 0.001080 0.000085 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 2133 # was wrong
+ Performance HB blckhole BSR 68 0.002746 0.000030 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB blckhole ESB-d 68 0.000480 0.000091 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB blckhole ESB-s 68 0.000383 0.000073 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB blckhole CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB blckhole CSR5 68 0.000698 0.000015 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance HB blckhole VHCC 68 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB blckhole CSR 136 0.000393 0.000025 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB blckhole COO 136 0.000145 0.000181 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB blckhole CSC 136 0.000521 0.000093 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2133 # was wrong
+ Performance HB blckhole DIA 136 0.010665 0.001973 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB blckhole IE 136 0.000612 0.000014 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 91 out of 2133 # was wrong
+ Performance HB blckhole BSR 136 0.003365 0.000051 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB blckhole ESB-d 136 0.000506 0.000153 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB blckhole ESB-s 136 0.000516 0.000135 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB blckhole CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB blckhole CSR5 136 0.000146 0.000021 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance HB blckhole VHCC 136 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB blckhole CSR 204 0.000565 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB blckhole COO 204 0.000162 0.000267 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB blckhole CSC 204 0.000608 0.000117 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2133 # was wrong
+ Performance HB blckhole DIA 204 0.007414 0.002465 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB blckhole IE 204 0.000851 0.000019 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 91 out of 2133 # was wrong
+ Performance HB blckhole BSR 204 0.003944 0.000092 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB blckhole ESB-d 204 0.000650 0.000223 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB blckhole ESB-s 204 0.000657 0.000197 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB blckhole CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB blckhole CSR5 204 0.000146 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance HB blckhole VHCC 204 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance HB blckhole CSR 272 0.000753 0.000049 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance HB blckhole COO 272 0.000173 0.000293 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance HB blckhole CSC 272 0.000682 0.000128 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 2133 # was wrong
+ Performance HB blckhole DIA 272 0.008905 0.002530 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance HB blckhole IE 272 0.001136 0.000027 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 91 out of 2133 # was wrong
+ Performance HB blckhole BSR 272 0.004427 0.000156 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance HB blckhole ESB-d 272 0.000683 0.000339 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance HB blckhole ESB-s 272 0.000745 0.000350 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance HB blckhole CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance HB blckhole CSR5 272 0.000265 0.000031 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Performance HB blckhole VHCC 272 -1.000000 -1.000000 
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

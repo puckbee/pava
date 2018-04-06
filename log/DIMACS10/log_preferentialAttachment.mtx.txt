@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/DIMACS10/preferentialAttachment.mtx
+Reading matrix completed
+Basic informations
+        numRows = 100001
+        numCols = 99504
+            nnz = 999984
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance DIMACS10 preferentialAttachment CSR 68 0.070923 0.000931 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance DIMACS10 preferentialAttachment COO 68 0.012723 0.021499 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 preferentialAttachment CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 preferentialAttachment DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 preferentialAttachment IE 68 0.002780 0.000363 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 preferentialAttachment BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 preferentialAttachment ESB-d 68 0.020903 0.000866 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 preferentialAttachment ESB-s 68 0.020795 0.001861 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 preferentialAttachment CVR 68 0.000392 0.000158 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 preferentialAttachment CSR5 68 0.001659 0.000170 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 preferentialAttachment VHCC 68 0.703599 0.000544 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 93 out of 100001 # was wrong
+ Performance DIMACS10 preferentialAttachment CSR 136 0.065433 0.001054 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 2246 out of 100001 # was wrong
+ Performance DIMACS10 preferentialAttachment COO 136 0.005180 0.024833 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 preferentialAttachment CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 preferentialAttachment DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 preferentialAttachment IE 136 0.000808 0.000249 
+WARNING! # 2329 out of 100001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 preferentialAttachment BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 preferentialAttachment ESB-d 136 0.020843 0.000835 
+WARNING! # 2118 out of 100001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 preferentialAttachment ESB-s 136 0.022744 0.001972 
+WARNING! # 85 out of 100001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 preferentialAttachment CVR 136 0.000438 0.000130 
+WARNING! # 1282 out of 100001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 preferentialAttachment CSR5 136 0.000998 0.000178 
+WARNING! # 1380 out of 100001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 preferentialAttachment VHCC 136 0.843663 0.000336 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 58 out of 100001 # was wrong
+ Performance DIMACS10 preferentialAttachment CSR 204 0.097744 0.001342 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 2246 out of 100001 # was wrong
+ Performance DIMACS10 preferentialAttachment COO 204 0.024853 0.027482 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 preferentialAttachment CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 preferentialAttachment DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 preferentialAttachment IE 204 0.000961 0.000212 
+WARNING! # 2329 out of 100001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 preferentialAttachment BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 preferentialAttachment ESB-d 204 0.040120 0.000871 
+WARNING! # 2037 out of 100001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 preferentialAttachment ESB-s 204 0.033856 0.002246 
+WARNING! # 55 out of 100001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 preferentialAttachment CVR 204 0.000416 0.000158 
+WARNING! # 1242 out of 100001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 preferentialAttachment CSR5 204 0.000928 0.000216 
+WARNING! # 1251 out of 100001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 preferentialAttachment VHCC 204 0.913660 0.000289 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 194 out of 100001 # was wrong
+ Performance DIMACS10 preferentialAttachment CSR 272 0.120755 0.001165 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 2246 out of 100001 # was wrong
+ Performance DIMACS10 preferentialAttachment COO 272 0.034753 0.027159 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance DIMACS10 preferentialAttachment CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance DIMACS10 preferentialAttachment DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance DIMACS10 preferentialAttachment IE 272 0.001253 0.000238 
+WARNING! # 2329 out of 100001 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance DIMACS10 preferentialAttachment BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance DIMACS10 preferentialAttachment ESB-d 272 0.038389 0.000921 
+WARNING! # 1973 out of 100001 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance DIMACS10 preferentialAttachment ESB-s 272 0.036892 0.001883 
+WARNING! # 182 out of 100001 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance DIMACS10 preferentialAttachment CVR 272 0.000420 0.000193 
+WARNING! # 1259 out of 100001 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance DIMACS10 preferentialAttachment CSR5 272 0.000902 0.000324 
+WARNING! # 1247 out of 100001 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance DIMACS10 preferentialAttachment VHCC 272 0.942010 0.000273 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

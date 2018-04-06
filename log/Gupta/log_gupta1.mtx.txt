@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Gupta/gupta1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 31803
+        numCols = 31803
+            nnz = 2196016
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gupta gupta1 CSR 68 0.076472 0.000753 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gupta gupta1 COO 68 0.015530 0.030341 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gupta gupta1 CSC 68 0.065757 0.002846 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 31803 # was wrong
+ Performance Gupta gupta1 DIA 68 42.483095 0.747859 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gupta gupta1 IE 68 0.002715 0.000222 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 31803 # was wrong
+ Performance Gupta gupta1 BSR 68 0.298952 0.002883 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gupta gupta1 ESB-d 68 0.039073 0.001369 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gupta gupta1 ESB-s 68 0.041056 0.003437 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gupta gupta1 CVR 68 0.000351 0.000183 
+WARNING! # 2 out of 31803 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gupta gupta1 CSR5 68 0.001979 0.000165 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gupta gupta1 VHCC 68 1.316725 0.000304 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gupta gupta1 CSR 136 0.068447 0.000648 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gupta gupta1 COO 136 0.006941 0.033008 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gupta gupta1 CSC 136 0.059928 0.003646 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 31803 # was wrong
+ Performance Gupta gupta1 DIA 136 42.594551 0.746980 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gupta gupta1 IE 136 0.001160 0.000217 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 31803 # was wrong
+ Performance Gupta gupta1 BSR 136 0.348728 0.002618 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gupta gupta1 ESB-d 136 0.036577 0.002094 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gupta gupta1 ESB-s 136 0.040804 0.002177 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gupta gupta1 CVR 136 0.000267 0.000131 
+WARNING! # 2 out of 31803 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gupta gupta1 CSR5 136 0.001213 0.000118 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gupta gupta1 VHCC 136 1.392780 0.000199 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gupta gupta1 CSR 204 0.111030 0.000732 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gupta gupta1 COO 204 0.008563 0.035553 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gupta gupta1 CSC 204 0.060540 0.004448 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 31803 # was wrong
+ Performance Gupta gupta1 DIA 204 42.799693 0.750791 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gupta gupta1 IE 204 0.004815 0.000119 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 16922 out of 31803 # was wrong
+ Performance Gupta gupta1 BSR 204 0.389493 0.002562 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gupta gupta1 ESB-d 204 0.049316 0.002951 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gupta gupta1 ESB-s 204 0.056032 0.002738 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gupta gupta1 CVR 204 0.000244 0.000121 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gupta gupta1 CSR5 204 0.001080 0.000149 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gupta gupta1 VHCC 204 1.436523 0.000178 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Gupta gupta1 CSR 272 0.189731 0.000664 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Gupta gupta1 COO 272 0.009245 0.036516 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Gupta gupta1 CSC 272 0.059187 0.004836 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 31803 # was wrong
+ Performance Gupta gupta1 DIA 272 42.712651 0.749131 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Gupta gupta1 IE 272 0.005133 0.000157 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 31803 # was wrong
+ Performance Gupta gupta1 BSR 272 0.351943 0.002330 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Gupta gupta1 ESB-d 272 0.057879 0.003561 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Gupta gupta1 ESB-s 272 0.063550 0.003233 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Gupta gupta1 CVR 272 0.000524 0.000115 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Gupta gupta1 CSR5 272 0.000976 0.000141 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Gupta gupta1 VHCC 272 1.446877 0.000176 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

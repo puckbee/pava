@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/IPSO/TSC_OPF_1047.mtx
+Reading matrix completed
+Basic informations
+        numRows = 8141
+        numCols = 8141
+            nnz = 2025056
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 CSR 68 0.052922 0.000317 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 COO 68 0.013805 0.028110 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 CSC 68 0.035529 0.003069 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 DIA 68 4.025357 0.059500 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IPSO TSC_OPF_1047 IE 68 0.002244 0.000208 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 31 out of 8141 # was wrong
+ Performance IPSO TSC_OPF_1047 BSR 68 0.211514 0.000423 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IPSO TSC_OPF_1047 ESB-d 68 0.030060 0.000521 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IPSO TSC_OPF_1047 ESB-s 68 0.025477 0.000616 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IPSO TSC_OPF_1047 CVR 68 0.000604 0.000196 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IPSO TSC_OPF_1047 CSR5 68 0.001735 0.000128 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IPSO TSC_OPF_1047 VHCC 68 1.082368 0.000726 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 CSR 136 0.049261 0.000289 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 COO 136 0.006189 0.031260 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 CSC 136 0.030527 0.003389 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 DIA 136 4.075405 0.058284 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IPSO TSC_OPF_1047 IE 136 0.001338 0.000151 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 BSR 136 0.246473 0.000867 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IPSO TSC_OPF_1047 ESB-d 136 0.029174 0.000729 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IPSO TSC_OPF_1047 ESB-s 136 0.031917 0.000701 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IPSO TSC_OPF_1047 CVR 136 0.000563 0.000141 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IPSO TSC_OPF_1047 CSR5 136 0.001221 0.000121 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IPSO TSC_OPF_1047 VHCC 136 1.243128 0.000483 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 CSR 204 0.068181 0.000462 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 COO 204 0.007452 0.032870 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 CSC 204 0.033283 0.004618 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 DIA 204 4.135237 0.058503 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IPSO TSC_OPF_1047 IE 204 0.001566 0.000172 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 3562 out of 8141 # was wrong
+ Performance IPSO TSC_OPF_1047 BSR 204 0.284037 0.001750 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IPSO TSC_OPF_1047 ESB-d 204 0.041629 0.000995 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IPSO TSC_OPF_1047 ESB-s 204 0.044205 0.000917 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IPSO TSC_OPF_1047 CVR 204 0.000578 0.000136 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IPSO TSC_OPF_1047 CSR5 204 0.001214 0.000116 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IPSO TSC_OPF_1047 VHCC 204 1.291336 0.000426 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 CSR 272 0.086038 0.000566 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 COO 272 0.007504 0.033700 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 CSC 272 0.027640 0.005148 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance IPSO TSC_OPF_1047 DIA 272 4.127310 0.059470 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance IPSO TSC_OPF_1047 IE 272 0.001451 0.000142 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2158 out of 8141 # was wrong
+ Performance IPSO TSC_OPF_1047 BSR 272 0.289880 0.001244 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance IPSO TSC_OPF_1047 ESB-d 272 0.047881 0.001267 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance IPSO TSC_OPF_1047 ESB-s 272 0.050410 0.001225 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance IPSO TSC_OPF_1047 CVR 272 0.000655 0.000130 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance IPSO TSC_OPF_1047 CSR5 272 0.000951 0.000117 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance IPSO TSC_OPF_1047 VHCC 272 1.290369 0.000452 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

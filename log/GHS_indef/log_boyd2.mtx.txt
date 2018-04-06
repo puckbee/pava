@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/boyd2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 466317
+        numCols = 279786
+            nnz = 1780192
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1976 out of 466317 # was wrong
+ Performance GHS_indef boyd2 CSR 68 0.046939 0.000855 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1976 out of 466317 # was wrong
+ Performance GHS_indef boyd2 COO 68 0.018804 0.013460 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef boyd2 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef boyd2 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef boyd2 IE 68 0.003163 0.000631 
+WARNING! # 1976 out of 466317 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef boyd2 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef boyd2 ESB-d 68 0.042170 0.010602 
+WARNING! # 1976 out of 466317 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef boyd2 ESB-s 68 0.042410 0.008848 
+WARNING! # 1976 out of 466317 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef boyd2 CVR 68 0.000807 0.000309 
+WARNING! # 1976 out of 466317 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef boyd2 CSR5 68 0.002412 0.000164 
+WARNING! # 1938 out of 466317 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef boyd2 VHCC 68 0.946346 0.000628 
+WARNING! # 1938 out of 466317 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 144247 out of 466317 # was wrong
+ Performance GHS_indef boyd2 CSR 136 0.038501 0.000881 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 186433 out of 466317 # was wrong
+ Performance GHS_indef boyd2 COO 136 0.017297 0.017812 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef boyd2 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef boyd2 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef boyd2 IE 136 0.000841 0.000611 
+WARNING! # 4 out of 466317 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef boyd2 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef boyd2 ESB-d 136 0.053563 0.012040 
+WARNING! # 6 out of 466317 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef boyd2 ESB-s 136 0.054533 0.009505 
+WARNING! # 126 out of 466317 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef boyd2 CVR 136 0.000456 0.000205 
+WARNING! # 7379 out of 466317 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef boyd2 CSR5 136 0.001509 0.000142 
+WARNING! # 8 out of 466317 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef boyd2 VHCC 136 1.140668 0.000428 
+WARNING! # 4 out of 466317 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 4 out of 466317 # was wrong
+ Performance GHS_indef boyd2 CSR 204 0.054715 0.001079 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 4 out of 466317 # was wrong
+ Performance GHS_indef boyd2 COO 204 0.025252 0.020984 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef boyd2 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef boyd2 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef boyd2 IE 204 0.001247 0.000768 
+WARNING! # 4 out of 466317 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef boyd2 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef boyd2 ESB-d 204 0.076283 0.014870 
+WARNING! # 4 out of 466317 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef boyd2 ESB-s 204 0.078808 0.012123 
+WARNING! # 4 out of 466317 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef boyd2 CVR 204 0.000497 0.000215 
+WARNING! # 4 out of 466317 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef boyd2 CSR5 204 0.001496 0.000157 
+WARNING! # 4 out of 466317 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef boyd2 VHCC 204 1.142715 0.000430 
+WARNING! # 100955 out of 466317 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 4 out of 466317 # was wrong
+ Performance GHS_indef boyd2 CSR 272 0.072610 0.001129 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 4 out of 466317 # was wrong
+ Performance GHS_indef boyd2 COO 272 0.065984 0.020198 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef boyd2 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef boyd2 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef boyd2 IE 272 0.001256 0.000833 
+WARNING! # 4 out of 466317 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef boyd2 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef boyd2 ESB-d 272 0.149997 0.016457 
+WARNING! # 4 out of 466317 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef boyd2 ESB-s 272 0.091440 0.013350 
+WARNING! # 4 out of 466317 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef boyd2 CVR 272 0.000486 0.000266 
+WARNING! # 4 out of 466317 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef boyd2 CSR5 272 0.006133 0.000286 
+WARNING! # 27580 out of 466317 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef boyd2 VHCC 272 1.200263 0.000377 
+WARNING! # 110261 out of 466317 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

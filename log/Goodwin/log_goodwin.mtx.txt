@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Goodwin/goodwin.mtx
+Reading matrix completed
+Basic informations
+        numRows = 7321
+        numCols = 7321
+            nnz = 324784
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Goodwin goodwin CSR 68 0.027265 0.000023 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Goodwin goodwin COO 68 0.005031 0.004590 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Goodwin goodwin CSC 68 0.006610 0.000336 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Goodwin goodwin DIA 68 0.069133 0.004082 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Goodwin goodwin IE 68 0.001484 0.000099 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Goodwin goodwin BSR 68 0.041574 0.000077 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Goodwin goodwin ESB-d 68 0.007203 0.000088 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Goodwin goodwin ESB-s 68 0.005177 0.000049 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Goodwin goodwin CVR 68 0.000246 0.000031 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Goodwin goodwin CSR5 68 0.001011 0.000027 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Goodwin goodwin VHCC 68 0.165733 0.000056 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Goodwin goodwin CSR 136 0.007724 0.000036 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Goodwin goodwin COO 136 0.005220 0.005171 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Goodwin goodwin CSC 136 0.006135 0.000441 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Goodwin goodwin DIA 136 0.117014 0.005087 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Goodwin goodwin IE 136 0.000704 0.000023 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 2734 out of 7321 # was wrong
+ Performance Goodwin goodwin BSR 136 0.048716 0.000086 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Goodwin goodwin ESB-d 136 0.006286 0.000096 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Goodwin goodwin ESB-s 136 0.006699 0.000042 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Goodwin goodwin CVR 136 0.000205 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Goodwin goodwin CSR5 136 0.000485 0.000032 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Goodwin goodwin VHCC 136 0.272873 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Goodwin goodwin CSR 204 0.008715 0.000055 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Goodwin goodwin COO 204 0.001417 0.006956 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Goodwin goodwin CSC 204 0.007534 0.000537 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Goodwin goodwin DIA 204 0.174741 0.004179 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Goodwin goodwin IE 204 0.001225 0.000024 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Goodwin goodwin BSR 204 0.074520 0.000388 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Goodwin goodwin ESB-d 204 0.008407 0.000107 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Goodwin goodwin ESB-s 204 0.008819 0.000045 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Goodwin goodwin CVR 204 0.000202 0.000025 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Goodwin goodwin CSR5 204 0.000444 0.000042 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Goodwin goodwin VHCC 204 0.334673 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Goodwin goodwin CSR 272 0.014654 0.000075 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Goodwin goodwin COO 272 0.001475 0.008321 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Goodwin goodwin CSC 272 0.008311 0.000589 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Goodwin goodwin DIA 272 0.192875 0.004010 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Goodwin goodwin IE 272 0.001260 0.000047 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Goodwin goodwin BSR 272 0.073677 0.000423 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Goodwin goodwin ESB-d 272 0.008960 0.000124 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Goodwin goodwin ESB-s 272 0.009837 0.000050 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Goodwin goodwin CVR 272 0.000225 0.000027 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Goodwin goodwin CSR5 272 0.000496 0.000047 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Goodwin goodwin VHCC 272 0.364765 0.000048 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

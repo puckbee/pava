@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Arenas/PGPgiantcompo.mtx
+Reading matrix completed
+Basic informations
+        numRows = 10681
+        numCols = 7329
+            nnz = 48640
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1693 out of 10681 # was wrong
+ Performance Arenas PGPgiantcompo CSR 68 0.005292 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 3856 out of 10681 # was wrong
+ Performance Arenas PGPgiantcompo COO 68 0.000996 0.000540 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Arenas PGPgiantcompo CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Arenas PGPgiantcompo DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Arenas PGPgiantcompo IE 68 0.001445 0.000103 
+WARNING! # 3856 out of 10681 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Arenas PGPgiantcompo BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Arenas PGPgiantcompo ESB-d 68 0.002715 0.000102 
+WARNING! # 3528 out of 10681 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Arenas PGPgiantcompo ESB-s 68 0.002629 0.000039 
+WARNING! # 2197 out of 10681 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Arenas PGPgiantcompo CVR 68 0.000118 0.000013 
+WARNING! # 1683 out of 10681 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Arenas PGPgiantcompo CSR5 68 0.000736 0.000019 
+WARNING! # 1939 out of 10681 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Arenas PGPgiantcompo VHCC 68 0.034930 0.000040 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1868 out of 10681 # was wrong
+ Performance Arenas PGPgiantcompo CSR 136 0.001513 0.000031 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 3842 out of 10681 # was wrong
+ Performance Arenas PGPgiantcompo COO 136 0.000529 0.000732 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Arenas PGPgiantcompo CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Arenas PGPgiantcompo DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Arenas PGPgiantcompo IE 136 0.000554 0.000029 
+WARNING! # 3842 out of 10681 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Arenas PGPgiantcompo BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Arenas PGPgiantcompo ESB-d 136 0.001635 0.000113 
+WARNING! # 3457 out of 10681 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Arenas PGPgiantcompo ESB-s 136 0.001890 0.000036 
+WARNING! # 2010 out of 10681 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Arenas PGPgiantcompo CVR 136 0.000080 0.000014 
+WARNING! # 1694 out of 10681 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Arenas PGPgiantcompo CSR5 136 0.000231 0.000029 
+WARNING! # 1894 out of 10681 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Arenas PGPgiantcompo VHCC 136 0.063376 0.000040 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 9 out of 10681 # was wrong
+ Performance Arenas PGPgiantcompo CSR 204 0.002088 0.000030 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 9 out of 10681 # was wrong
+ Performance Arenas PGPgiantcompo COO 204 0.000663 0.000959 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Arenas PGPgiantcompo CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Arenas PGPgiantcompo DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Arenas PGPgiantcompo IE 204 0.000877 0.000023 
+WARNING! # 9 out of 10681 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Arenas PGPgiantcompo BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Arenas PGPgiantcompo ESB-d 204 0.002152 0.000127 
+WARNING! # 9 out of 10681 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Arenas PGPgiantcompo ESB-s 204 0.002579 0.000037 
+WARNING! # 9 out of 10681 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Arenas PGPgiantcompo CVR 204 0.000078 0.000017 
+WARNING! # 9 out of 10681 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Arenas PGPgiantcompo CSR5 204 0.000260 0.000040 
+WARNING! # 9 out of 10681 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Arenas PGPgiantcompo VHCC 204 0.091786 0.000041 
+WARNING! # 84 out of 10681 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 9 out of 10681 # was wrong
+ Performance Arenas PGPgiantcompo CSR 272 0.002560 0.000034 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 9 out of 10681 # was wrong
+ Performance Arenas PGPgiantcompo COO 272 0.000754 0.001095 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance Arenas PGPgiantcompo CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance Arenas PGPgiantcompo DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Arenas PGPgiantcompo IE 272 0.001129 0.000034 
+WARNING! # 58 out of 10681 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance Arenas PGPgiantcompo BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Arenas PGPgiantcompo ESB-d 272 0.002447 0.000148 
+WARNING! # 58 out of 10681 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Arenas PGPgiantcompo ESB-s 272 0.002816 0.000042 
+WARNING! # 58 out of 10681 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Arenas PGPgiantcompo CVR 272 0.000157 0.000019 
+WARNING! # 58 out of 10681 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Arenas PGPgiantcompo CSR5 272 0.000337 0.000051 
+WARNING! # 56 out of 10681 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Arenas PGPgiantcompo VHCC 272 0.116537 0.000041 
+WARNING! # 33 out of 10681 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

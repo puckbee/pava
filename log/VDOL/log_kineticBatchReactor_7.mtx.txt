@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/VDOL/kineticBatchReactor_7.mtx
+Reading matrix completed
+Basic informations
+        numRows = 7969
+        numCols = 4163
+            nnz = 88672
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 566 out of 7969 # was wrong
+ Performance VDOL kineticBatchReactor_7 CSR 68 0.006334 0.000033 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 666 out of 7969 # was wrong
+ Performance VDOL kineticBatchReactor_7 COO 68 0.001553 0.000958 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL kineticBatchReactor_7 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL kineticBatchReactor_7 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL kineticBatchReactor_7 IE 68 0.001479 0.000090 
+WARNING! # 64 out of 7969 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL kineticBatchReactor_7 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL kineticBatchReactor_7 ESB-d 68 0.002956 0.000164 
+WARNING! # 1092 out of 7969 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL kineticBatchReactor_7 ESB-s 68 0.002327 0.000129 
+WARNING! # 445 out of 7969 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance VDOL kineticBatchReactor_7 CVR 68 0.000231 0.000016 
+WARNING! # 864 out of 7969 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL kineticBatchReactor_7 CSR5 68 0.000898 0.000018 
+WARNING! # 835 out of 7969 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL kineticBatchReactor_7 VHCC 68 0.054369 0.000047 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 634 out of 7969 # was wrong
+ Performance VDOL kineticBatchReactor_7 CSR 136 0.002119 0.000042 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 439 out of 7969 # was wrong
+ Performance VDOL kineticBatchReactor_7 COO 136 0.000546 0.001241 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL kineticBatchReactor_7 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL kineticBatchReactor_7 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL kineticBatchReactor_7 IE 136 0.000133 0.000027 
+WARNING! # 1 out of 7969 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL kineticBatchReactor_7 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL kineticBatchReactor_7 ESB-d 136 0.001896 0.000200 
+WARNING! # 994 out of 7969 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL kineticBatchReactor_7 ESB-s 136 0.002317 0.000139 
+WARNING! # 588 out of 7969 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance VDOL kineticBatchReactor_7 CVR 136 0.000099 0.000016 
+WARNING! # 602 out of 7969 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL kineticBatchReactor_7 CSR5 136 0.000269 0.000026 
+WARNING! # 558 out of 7969 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL kineticBatchReactor_7 VHCC 136 0.092512 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 30 out of 7969 # was wrong
+ Performance VDOL kineticBatchReactor_7 CSR 204 0.002732 0.000035 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 30 out of 7969 # was wrong
+ Performance VDOL kineticBatchReactor_7 COO 204 0.000669 0.001638 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL kineticBatchReactor_7 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL kineticBatchReactor_7 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL kineticBatchReactor_7 IE 204 0.000144 0.000023 
+WARNING! # 30 out of 7969 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL kineticBatchReactor_7 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL kineticBatchReactor_7 ESB-d 204 0.002777 0.000244 
+WARNING! # 30 out of 7969 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL kineticBatchReactor_7 ESB-s 204 0.002968 0.000180 
+WARNING! # 30 out of 7969 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance VDOL kineticBatchReactor_7 CVR 204 0.000100 0.000019 
+WARNING! # 30 out of 7969 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL kineticBatchReactor_7 CSR5 204 0.000254 0.000036 
+WARNING! # 30 out of 7969 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL kineticBatchReactor_7 VHCC 204 0.127890 0.000053 
+WARNING! # 30 out of 7969 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 30 out of 7969 # was wrong
+ Performance VDOL kineticBatchReactor_7 CSR 272 0.003607 0.000040 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 30 out of 7969 # was wrong
+ Performance VDOL kineticBatchReactor_7 COO 272 0.000720 0.001926 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance VDOL kineticBatchReactor_7 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance VDOL kineticBatchReactor_7 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance VDOL kineticBatchReactor_7 IE 272 0.000184 0.000037 
+WARNING! # 30 out of 7969 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance VDOL kineticBatchReactor_7 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance VDOL kineticBatchReactor_7 ESB-d 272 0.003078 0.000274 
+WARNING! # 30 out of 7969 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance VDOL kineticBatchReactor_7 ESB-s 272 0.003317 0.000201 
+WARNING! # 30 out of 7969 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance VDOL kineticBatchReactor_7 CVR 272 0.000180 0.000022 
+WARNING! # 30 out of 7969 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance VDOL kineticBatchReactor_7 CSR5 272 0.000374 0.000043 
+WARNING! # 30 out of 7969 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance VDOL kineticBatchReactor_7 VHCC 272 0.153228 0.000056 
+WARNING! # 30 out of 7969 # was wrong
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

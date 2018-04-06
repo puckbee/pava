@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/GHS_indef/k1_san.mtx
+Reading matrix completed
+Basic informations
+        numRows = 67760
+        numCols = 46955
+            nnz = 606736
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance GHS_indef k1_san CSR 68 0.019682 0.000092 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance GHS_indef k1_san COO 68 0.008038 0.005952 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef k1_san CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef k1_san DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef k1_san IE 68 0.002364 0.000156 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef k1_san BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef k1_san ESB-d 68 0.014296 0.001842 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef k1_san ESB-s 68 0.012649 0.001474 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef k1_san CVR 68 0.000465 0.000076 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef k1_san CSR5 68 0.001408 0.000044 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef k1_san VHCC 68 0.356086 0.000155 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 12468 out of 67760 # was wrong
+ Performance GHS_indef k1_san CSR 136 0.013904 0.000117 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 42179 out of 67760 # was wrong
+ Performance GHS_indef k1_san COO 136 0.003143 0.007500 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef k1_san CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef k1_san DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef k1_san IE 136 0.000659 0.000082 
+WARNING! # 46444 out of 67760 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef k1_san BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef k1_san ESB-d 136 0.013945 0.002040 
+WARNING! # 41760 out of 67760 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef k1_san ESB-s 136 0.013959 0.001594 
+WARNING! # 11125 out of 67760 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef k1_san CVR 136 0.000356 0.000056 
+WARNING! # 12601 out of 67760 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef k1_san CSR5 136 0.000870 0.000045 
+WARNING! # 12905 out of 67760 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef k1_san VHCC 136 0.508131 0.000103 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 12775 out of 67760 # was wrong
+ Performance GHS_indef k1_san CSR 204 0.018535 0.000153 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 42179 out of 67760 # was wrong
+ Performance GHS_indef k1_san COO 204 0.004520 0.010039 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef k1_san CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef k1_san DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef k1_san IE 204 0.000923 0.000155 
+WARNING! # 46420 out of 67760 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef k1_san BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef k1_san ESB-d 204 0.020119 0.002500 
+WARNING! # 41749 out of 67760 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef k1_san ESB-s 204 0.020209 0.002016 
+WARNING! # 11710 out of 67760 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef k1_san CVR 204 0.000347 0.000055 
+WARNING! # 12781 out of 67760 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef k1_san CSR5 204 0.000772 0.000055 
+WARNING! # 12583 out of 67760 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef k1_san VHCC 204 0.561065 0.000096 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 17523 out of 67760 # was wrong
+ Performance GHS_indef k1_san CSR 272 0.024103 0.000167 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 42179 out of 67760 # was wrong
+ Performance GHS_indef k1_san COO 272 0.017725 0.011808 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance GHS_indef k1_san CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance GHS_indef k1_san DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance GHS_indef k1_san IE 272 0.001190 0.000160 
+WARNING! # 46302 out of 67760 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance GHS_indef k1_san BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance GHS_indef k1_san ESB-d 272 0.024054 0.002895 
+WARNING! # 41488 out of 67760 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance GHS_indef k1_san ESB-s 272 0.023143 0.002240 
+WARNING! # 13193 out of 67760 # was wrong
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance GHS_indef k1_san CVR 272 0.000333 0.000054 
+WARNING! # 12883 out of 67760 # was wrong
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance GHS_indef k1_san CSR5 272 0.000785 0.000063 
+WARNING! # 14296 out of 67760 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance GHS_indef k1_san VHCC 272 0.611688 0.000094 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

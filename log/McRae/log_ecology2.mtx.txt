@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/McRae/ecology2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 1000000
+        numCols = 1000000
+            nnz = 5996000
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance McRae ecology2 CSR 68 0.140422 0.002310 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance McRae ecology2 COO 68 0.043745 0.041548 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance McRae ecology2 CSC 68 0.138431 0.018808 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance McRae ecology2 DIA 68 0.243800 0.010587 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance McRae ecology2 IE 68 0.002431 0.002002 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance McRae ecology2 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance McRae ecology2 ESB-d 68 0.132362 0.050391 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance McRae ecology2 ESB-s 68 0.132284 0.043429 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance McRae ecology2 CVR 68 0.002256 0.000853 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance McRae ecology2 CSR5 68 0.005968 0.000546 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance McRae ecology2 VHCC 68 3.440637 0.001369 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance McRae ecology2 CSR 136 0.126462 0.002449 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance McRae ecology2 COO 136 0.043238 0.058873 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance McRae ecology2 CSC 136 0.165758 0.021558 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance McRae ecology2 DIA 136 0.236800 0.013903 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance McRae ecology2 IE 136 0.000854 0.002033 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance McRae ecology2 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance McRae ecology2 ESB-d 136 0.191174 0.082312 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance McRae ecology2 ESB-s 136 0.140912 0.074530 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance McRae ecology2 CVR 136 0.001058 0.000558 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance McRae ecology2 CSR5 136 0.003551 0.000432 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance McRae ecology2 VHCC 136 3.511183 0.000929 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance McRae ecology2 CSR 204 0.176231 0.002923 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance McRae ecology2 COO 204 0.059907 0.080996 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance McRae ecology2 CSC 204 0.175782 0.024031 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance McRae ecology2 DIA 204 0.235917 0.017073 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance McRae ecology2 IE 204 0.000881 0.002548 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance McRae ecology2 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance McRae ecology2 ESB-d 204 0.200570 0.113448 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance McRae ecology2 ESB-s 204 0.142322 0.105516 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance McRae ecology2 CVR 204 0.000783 0.000494 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance McRae ecology2 CSR5 204 0.003368 0.000425 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance McRae ecology2 VHCC 204 3.410392 0.000856 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance McRae ecology2 CSR 272 0.196071 0.003226 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance McRae ecology2 COO 272 0.069653 0.093169 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance McRae ecology2 CSC 272 0.175573 0.025256 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance McRae ecology2 DIA 272 0.237271 0.017373 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance McRae ecology2 IE 272 0.001498 0.002661 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance McRae ecology2 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance McRae ecology2 ESB-d 272 0.212745 0.130757 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance McRae ecology2 ESB-s 272 0.133556 0.121617 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance McRae ecology2 CVR 272 0.000997 0.000447 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance McRae ecology2 CSR5 272 0.003028 0.000750 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance McRae ecology2 VHCC 272 3.397335 0.000822 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

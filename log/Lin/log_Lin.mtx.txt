@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Lin/Lin.mtx
+Reading matrix completed
+Basic informations
+        numRows = 256001
+        numCols = 256001
+            nnz = 2022400
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Lin Lin CSR 68 0.053670 0.000622 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Lin Lin COO 68 0.016361 0.015913 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Lin Lin CSC 68 0.045101 0.005179 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 256001 # was wrong
+ Performance Lin Lin DIA 68 0.080659 0.002792 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Lin Lin IE 68 0.002207 0.000615 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Lin Lin BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Lin Lin ESB-d 68 0.039404 0.007195 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Lin Lin ESB-s 68 0.036736 0.005420 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Lin Lin CVR 68 0.000590 0.000241 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Lin Lin CSR5 68 0.002312 0.000146 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Lin Lin VHCC 68 1.111920 0.000531 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Lin Lin CSR 136 0.045895 0.000636 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Lin Lin COO 136 0.011791 0.020058 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Lin Lin CSC 136 0.037517 0.006082 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 256001 # was wrong
+ Performance Lin Lin DIA 136 0.130569 0.002744 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Lin Lin IE 136 0.001055 0.000575 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Lin Lin BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Lin Lin ESB-d 136 0.045386 0.011553 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Lin Lin ESB-s 136 0.047775 0.009096 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Lin Lin CVR 136 0.000476 0.000175 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Lin Lin CSR5 136 0.001458 0.000141 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Lin Lin VHCC 136 1.327181 0.000364 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Lin Lin CSR 204 0.060858 0.000762 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Lin Lin COO 204 0.016075 0.022528 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Lin Lin CSC 204 0.037229 0.007153 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 256001 # was wrong
+ Performance Lin Lin DIA 204 0.142659 0.002745 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Lin Lin IE 204 0.001292 0.000702 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Lin Lin BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Lin Lin ESB-d 204 0.066079 0.015494 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Lin Lin ESB-s 204 0.068669 0.013485 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Lin Lin CVR 204 0.000474 0.000158 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Lin Lin CSR5 204 0.001319 0.000159 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Lin Lin VHCC 204 1.327107 0.000327 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Lin Lin CSR 272 0.078767 0.000814 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Lin Lin COO 272 0.060546 0.020941 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Lin Lin CSC 272 0.037346 0.007833 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 256001 # was wrong
+ Performance Lin Lin DIA 272 0.143418 0.002716 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Lin Lin IE 272 0.001361 0.000773 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Lin Lin BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Lin Lin ESB-d 272 0.090583 0.017406 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Lin Lin ESB-s 272 0.079085 0.015333 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Lin Lin CVR 272 0.000435 0.000149 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Lin Lin CSR5 272 0.001188 0.000161 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Lin Lin VHCC 272 1.390343 0.000318 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

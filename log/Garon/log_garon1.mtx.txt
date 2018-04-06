@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Garon/garon1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3176
+        numCols = 3176
+            nnz = 88928
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Garon garon1 CSR 68 0.006034 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Garon garon1 COO 68 0.001573 0.001182 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Garon garon1 CSC 68 0.002666 0.000151 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Garon garon1 DIA 68 0.173449 0.009782 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Garon garon1 IE 68 0.001462 0.000126 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Garon garon1 BSR 68 0.014538 0.000054 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Garon garon1 ESB-d 68 0.001647 0.000039 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Garon garon1 ESB-s 68 0.001412 0.000020 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Garon garon1 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Garon garon1 CSR5 68 0.000775 0.000018 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Garon garon1 VHCC 68 0.049192 0.000043 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Garon garon1 CSR 136 0.002840 0.000024 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Garon garon1 COO 136 0.001300 0.001425 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Garon garon1 CSC 136 0.002606 0.000196 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Garon garon1 DIA 136 0.249291 0.009736 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Garon garon1 IE 136 0.000965 0.000019 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Garon garon1 BSR 136 0.014816 0.000150 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Garon garon1 ESB-d 136 0.001903 0.000051 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Garon garon1 ESB-s 136 0.001703 0.000023 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Garon garon1 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Garon garon1 CSR5 136 0.000254 0.000025 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Garon garon1 VHCC 136 0.080589 0.000037 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Garon garon1 CSR 204 0.002950 0.000041 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Garon garon1 COO 204 0.000453 0.001866 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Garon garon1 CSC 204 0.002859 0.000249 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Garon garon1 DIA 204 0.275689 0.009711 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Garon garon1 IE 204 0.001668 0.000026 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 237 out of 3176 # was wrong
+ Performance Garon garon1 BSR 204 0.018992 0.000332 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Garon garon1 ESB-d 204 0.002244 0.000063 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Garon garon1 ESB-s 204 0.002219 0.000027 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Garon garon1 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Garon garon1 CSR5 204 0.000251 0.000030 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Garon garon1 VHCC 204 0.112995 0.000041 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Garon garon1 CSR 272 0.003723 0.000058 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Garon garon1 COO 272 0.000466 0.002243 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Garon garon1 CSC 272 0.002958 0.000257 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Garon garon1 DIA 272 0.284657 0.009658 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Garon garon1 IE 272 0.001045 0.000044 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+ Checking Pass !  
+ Performance Garon garon1 BSR 272 0.021755 0.000532 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Garon garon1 ESB-d 272 0.002637 0.000077 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Garon garon1 ESB-s 272 0.002580 0.000036 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance Garon garon1 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Garon garon1 CSR5 272 0.000311 0.000036 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Garon garon1 VHCC 272 0.135083 0.000046 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

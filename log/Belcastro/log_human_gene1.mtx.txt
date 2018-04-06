@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Belcastro/human_gene1.mtx
+Reading matrix completed
+Basic informations
+        numRows = 22284
+        numCols = 22284
+            nnz = 24691936
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Belcastro human_gene1 CSR 68 0.697727 0.001733 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Belcastro human_gene1 COO 68 0.120589 0.357180 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Belcastro human_gene1 CSC 68 0.769597 0.023456 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 22284 # was wrong
+ Performance Belcastro human_gene1 DIA 68 653.811374 0.658614 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Belcastro human_gene1 IE 68 0.009123 0.001249 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 22284 # was wrong
+ Performance Belcastro human_gene1 BSR 68 3.591252 0.009247 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Belcastro human_gene1 ESB-d 68 0.518801 0.005135 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Belcastro human_gene1 ESB-s 68 0.521438 0.006972 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Belcastro human_gene1 CVR 68 0.005040 0.001963 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Belcastro human_gene1 CSR5 68 0.009101 0.001381 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Belcastro human_gene1 VHCC 68 16.447425 0.002647 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Belcastro human_gene1 CSR 136 1.083370 0.001454 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Belcastro human_gene1 COO 136 0.074287 0.362120 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Belcastro human_gene1 CSC 136 1.686693 0.025772 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 22284 # was wrong
+ Performance Belcastro human_gene1 DIA 136 652.960037 0.660987 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Belcastro human_gene1 IE 136 0.010984 0.000940 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 22284 # was wrong
+ Performance Belcastro human_gene1 BSR 136 3.577690 0.015217 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Belcastro human_gene1 ESB-d 136 0.506258 0.003948 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Belcastro human_gene1 ESB-s 136 0.511275 0.004339 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Belcastro human_gene1 CVR 136 0.002625 0.001385 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Belcastro human_gene1 CSR5 136 0.003086 0.001252 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Belcastro human_gene1 VHCC 136 15.936733 0.001615 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Belcastro human_gene1 CSR 204 0.996489 0.001668 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Belcastro human_gene1 COO 204 0.084706 0.358683 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Belcastro human_gene1 CSC 204 0.950483 0.030635 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 22284 # was wrong
+ Performance Belcastro human_gene1 DIA 204 653.317565 0.659737 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Belcastro human_gene1 IE 204 0.009313 0.000936 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 22284 # was wrong
+ Performance Belcastro human_gene1 BSR 204 3.600578 0.012816 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Belcastro human_gene1 ESB-d 204 0.516123 0.004065 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Belcastro human_gene1 ESB-s 204 0.521771 0.004174 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Belcastro human_gene1 CVR 204 0.002503 0.001330 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Belcastro human_gene1 CSR5 204 0.003170 0.001150 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Belcastro human_gene1 VHCC 204 15.367054 0.001391 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Belcastro human_gene1 CSR 272 0.719549 0.002248 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Belcastro human_gene1 COO 272 0.086781 0.358354 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Belcastro human_gene1 CSC 272 0.712599 0.031269 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+WARNING! # 1 out of 22284 # was wrong
+ Performance Belcastro human_gene1 DIA 272 652.906346 0.663713 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Belcastro human_gene1 IE 272 0.011226 0.000958 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Executing BSR
+WARNING! # 1 out of 22284 # was wrong
+ Performance Belcastro human_gene1 BSR 272 3.602652 0.020856 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Belcastro human_gene1 ESB-d 272 0.526041 0.004473 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Belcastro human_gene1 ESB-s 272 0.541388 0.004499 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Belcastro human_gene1 CVR 272 0.002597 0.001450 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Belcastro human_gene1 CSR5 272 0.003126 0.001140 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Belcastro human_gene1 VHCC 272 15.379669 0.001371 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

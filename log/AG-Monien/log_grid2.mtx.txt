@@ -1,0 +1,304 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/AG-Monien/grid2.mtx
+Reading matrix completed
+Basic informations
+        numRows = 3297
+        numCols = 2513
+            nnz = 12864
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 1146 out of 3297 # was wrong
+ Performance AG-Monien grid2 CSR 68 0.003944 0.000017 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1630 out of 3297 # was wrong
+ Performance AG-Monien grid2 COO 68 0.000336 0.000057 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance AG-Monien grid2 CSC 68 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance AG-Monien grid2 DIA 68 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien grid2 IE 68 0.000647 0.000083 
+WARNING! # 1630 out of 3297 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance AG-Monien grid2 BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien grid2 ESB-d 68 0.000457 0.000038 
+WARNING! # 1630 out of 3297 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien grid2 ESB-s 68 0.000354 0.000014 
+WARNING! # 991 out of 3297 # was wrong
+**************
+      CVR      
+**************
+ Performance AG-Monien grid2 CVR 68 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien grid2 CSR5 68 0.000748 0.000015 
+WARNING! # 654 out of 3297 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien grid2 VHCC 68 0.009831 0.000021 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 881 out of 3297 # was wrong
+ Performance AG-Monien grid2 CSR 136 0.000316 0.000022 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1627 out of 3297 # was wrong
+ Performance AG-Monien grid2 COO 136 0.000171 0.000097 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance AG-Monien grid2 CSC 136 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance AG-Monien grid2 DIA 136 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien grid2 IE 136 0.000109 0.000017 
+WARNING! # 1627 out of 3297 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance AG-Monien grid2 BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien grid2 ESB-d 136 0.000483 0.000051 
+WARNING! # 1627 out of 3297 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien grid2 ESB-s 136 0.000496 0.000020 
+WARNING! # 914 out of 3297 # was wrong
+**************
+      CVR      
+**************
+ Performance AG-Monien grid2 CVR 136 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien grid2 CSR5 136 0.000129 0.000023 
+WARNING! # 637 out of 3297 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien grid2 VHCC 136 0.017839 0.000021 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+WARNING! # 955 out of 3297 # was wrong
+ Performance AG-Monien grid2 CSR 204 0.000454 0.000027 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+WARNING! # 1630 out of 3297 # was wrong
+ Performance AG-Monien grid2 COO 204 0.000205 0.000143 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance AG-Monien grid2 CSC 204 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance AG-Monien grid2 DIA 204 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien grid2 IE 204 0.000120 0.000022 
+WARNING! # 1630 out of 3297 # was wrong
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance AG-Monien grid2 BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien grid2 ESB-d 204 0.000585 0.000063 
+WARNING! # 1625 out of 3297 # was wrong
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien grid2 ESB-s 204 0.000630 0.000024 
+WARNING! # 848 out of 3297 # was wrong
+**************
+      CVR      
+**************
+ Performance AG-Monien grid2 CVR 204 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien grid2 CSR5 204 0.000144 0.000029 
+WARNING! # 635 out of 3297 # was wrong
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien grid2 VHCC 204 0.025348 0.000026 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance AG-Monien grid2 CSR 272 0.000571 0.000028 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance AG-Monien grid2 COO 272 0.000204 0.000159 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Error: Not a square matrix 
+ CSC Converting Failed
+ Performance AG-Monien grid2 CSC 272 -1.000000 -1.000000 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Error: Not a square matrix 
+ DIA Converting Failed
+ Performance AG-Monien grid2 DIA 272 -1.000000 -1.000000 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance AG-Monien grid2 IE 272 0.000321 0.000035 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: Not a square matrix 
+ BSR Converting Failed
+ Performance AG-Monien grid2 BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance AG-Monien grid2 ESB-d 272 0.000614 0.000078 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance AG-Monien grid2 ESB-s 272 0.000660 0.000030 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Performance AG-Monien grid2 CVR 272 -1.000000 -1.000000 
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance AG-Monien grid2 CSR5 272 0.000359 0.000034 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance AG-Monien grid2 VHCC 272 0.030801 0.000031 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+

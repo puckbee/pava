@@ -1,0 +1,316 @@
+ =================================       now we begin PAVA     ===================================
+Input file: ../dataset/TAMU/Williams/mc2depi.mtx
+Reading matrix completed
+Basic informations
+        numRows = 525826
+        numCols = 525826
+            nnz = 2100240
+
+Print out result in [groupName matrixName][format][thread][convertTime][executionTime]
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Williams mc2depi CSR 68 0.051779 0.000310 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Williams mc2depi COO 68 0.020176 0.010005 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Williams mc2depi CSC 68 0.056496 0.003537 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Williams mc2depi DIA 68 1.485333 0.544607 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Williams mc2depi IE 68 0.001887 0.000325 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Williams mc2depi BSR 68 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Williams mc2depi ESB-d 68 0.035935 0.003975 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Williams mc2depi ESB-s 68 0.036612 0.000265 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Williams mc2depi CVR 68 0.000825 0.000291 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Williams mc2depi CSR5 68 0.002330 0.000163 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Williams mc2depi VHCC 68 1.101677 0.000468 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Williams mc2depi CSR 136 0.041605 0.000284 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Williams mc2depi COO 136 0.022133 0.016216 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Williams mc2depi CSC 136 0.072939 0.004787 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Williams mc2depi DIA 136 1.512106 0.573076 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Williams mc2depi IE 136 0.001651 0.000243 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Williams mc2depi BSR 136 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Williams mc2depi ESB-d 136 0.061444 0.004048 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Williams mc2depi ESB-s 136 0.060503 0.000204 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Williams mc2depi CVR 136 0.000589 0.000217 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Williams mc2depi CSR5 136 0.001533 0.000151 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Williams mc2depi VHCC 136 1.287323 0.000347 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Williams mc2depi CSR 204 0.058607 0.000267 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Williams mc2depi COO 204 0.027955 0.019641 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Williams mc2depi CSC 204 0.071826 0.006237 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Williams mc2depi DIA 204 1.543833 0.565965 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Williams mc2depi IE 204 0.002010 0.000263 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Williams mc2depi BSR 204 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Williams mc2depi ESB-d 204 0.084204 0.004162 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Williams mc2depi ESB-s 204 0.085767 0.000199 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Williams mc2depi CVR 204 0.000608 0.000193 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Williams mc2depi CSR5 204 0.001543 0.000164 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Williams mc2depi VHCC 204 1.267070 0.000330 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+**************
+      CSR     
+**************
+ Converting COO->CSR
+ Executing CSR
+ Checking Pass !  
+ Performance Williams mc2depi CSR 272 0.078494 0.000233 
+**************
+      COO     
+**************
+ Converting CSR->COO
+ Executing COO
+ Checking Pass !  
+ Performance Williams mc2depi COO 272 0.033405 0.020270 
+**************
+      CSC     
+**************
+ Converting CSR->CSC
+ Executing CSC
+ Checking Pass !  
+ Performance Williams mc2depi CSC 272 0.073037 0.006975 
+**************
+      DIA     
+**************
+ Converting CSR->DIA
+ Executing DIA
+ Checking Pass !  
+ Performance Williams mc2depi DIA 272 1.566693 0.568863 
+**************
+      IE      
+**************
+ Converting CSR->IE
+ Executing IE
+ Performance Williams mc2depi IE 272 0.002010 0.000269 
+ Checking Pass !  
+**************
+      BSR      
+**************
+ Converting CSR->BSR
+ Error: too large for memory allocation 
+ BSR Converting Failed
+ Performance Williams mc2depi BSR 272 -1.000000 -1.000000 
+**************
+      ESB      
+**************
+ Converting CSR->ESB-dynamic
+ Executing ESB-dynamic
+ Performance Williams mc2depi ESB-d 272 0.099193 0.004375 
+ Checking Pass !  
+ Converting CSR->ESB-static
+ Executing ESB-static
+ Performance Williams mc2depi ESB-s 272 0.100638 0.000192 
+ Checking Pass !  
+**************
+      CVR      
+**************
+ Converting CSR->CVR
+ Executing CVR
+ Performance Williams mc2depi CVR 272 0.000681 0.000190 
+ Checking Pass !  
+**************
+     CSR5     
+**************
+ Converting CSR->CSR5
+ Executing CSR5
+ Performance Williams mc2depi CSR5 272 0.001345 0.000171 
+ Checking Pass !  
+**************
+     VHCC     
+**************
+ Converting COO->VHCC
+ Executing VHCC
+ Performance Williams mc2depi VHCC 272 1.307787 0.000314 
+ Checking Pass !  
+ x.x.x.x.x.x.x.x.x.x.x.x
+
+
+Congratulations! This File comes to an Normal End! Flag[NormalEnding]
+
