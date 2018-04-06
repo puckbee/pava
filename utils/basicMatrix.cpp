@@ -37,6 +37,8 @@
 #include <math.h>
 #include <omp.h>
 
+#include <iostream>
+
 #include <unistd.h>
 #include <sys/mman.h>
 
@@ -70,6 +72,7 @@ int readCOOMatrix ( char* matrixName, struct _PAVA_COOMatrix *cooMatrix )
     {
         printf( "Input file: %s\n", matrixName );
     }
+
 
     MM_typecode matcode;
     int isComplex, isInteger, isReal, isSymmetric, isPattern;
@@ -141,9 +144,14 @@ int readCOOMatrix ( char* matrixName, struct _PAVA_COOMatrix *cooMatrix )
 
     /* allocate memory for matrices */
 
-    rows = ( int* )    MKL_malloc( nnz * sizeof( int ), ALIGN );
-    cols = ( int* )    MKL_malloc( nnz * sizeof( int ), ALIGN );
-    vals = ( double* ) MKL_malloc( nnz * sizeof( double ), ALIGN );
+
+
+    
+    int nnz_padding =(nnz %16 == 0) ? nnz : (nnz + 16)/ 16 * 16;
+//    nnz_padding = nnz;
+    rows = ( int* )    MKL_malloc( nnz_padding * sizeof( int ), ALIGN512 );
+    cols = ( int* )    MKL_malloc( nnz_padding * sizeof( int ), ALIGN512 );
+    vals = ( double* ) MKL_malloc( nnz_padding * sizeof( double ), ALIGN512 );
 
     if ( NULL == rows || NULL == cols || NULL == vals )
     {
@@ -156,6 +164,10 @@ int readCOOMatrix ( char* matrixName, struct _PAVA_COOMatrix *cooMatrix )
     }
 
     counter = 0;
+
+    int rowMax, colMax;
+    rowMax = 0;
+    colMax = 0;
 
     for ( i = 0; i < sizeV; i++ )
     {
@@ -177,6 +189,12 @@ int readCOOMatrix ( char* matrixName, struct _PAVA_COOMatrix *cooMatrix )
             fscanf(f, "%d %d\n", &rows[counter], &cols[counter] );
             vals[counter] = 1;
         }
+
+        if(rows[counter] > rowMax)
+            rowMax = rows[counter];
+        if(cols[counter] > colMax)
+            colMax = cols[counter];
+
         counter++;
         if ( isSymmetric && rows[counter-1] != cols[counter-1] )
         // expand symmetric formats to "general" one
@@ -186,22 +204,57 @@ int readCOOMatrix ( char* matrixName, struct _PAVA_COOMatrix *cooMatrix )
             vals[counter] = vals[counter-1];
             counter++;
         }
+
+
     }
 
-    if ( f !=stdin ) fclose(f);
+    for(int cc9=counter; cc9<nnz_padding; cc9++)
+    {
+        rows[cc9] = rows[counter-1];
+        cols[cc9] = cols[counter-1];
+        vals[i] = 0;
+    }
 
+
+
+
+
+    if ( f !=stdin ) fclose(f);
     printf("Reading matrix completed\n" );
+
+
+    if(rowMax > sizeM)
+        sizeM = rowMax + 1;
+    if(rowMax > sizeM)
+        sizeN = colMax + 1;
+
+//    sizeM = (sizeM + 15)/16 * 16;
+//    sizeN = (sizeN + 15)/16 * 16;
+
+
+    if(sizeM != sizeN && abs(sizeM - sizeN) < abs(sizeM)/1000)
+    {
+        int max = sizeM > sizeN ? sizeM : sizeN;
+
+        sizeM = max;
+        sizeN = max;
+    }
+
+
 
     cooMatrix->numRows = sizeM;
     cooMatrix->numCols = sizeN;
-    cooMatrix->nnz   = counter; // Actual number of non-zeroes elements in COO matrix
+//    cooMatrix->nnz   = counter; // Actual number of non-zeroes elements in COO matrix
+    cooMatrix->nnz   = nnz_padding; // Actual number of non-zeroes elements in COO matrix
     cooMatrix->rows  = rows;
     cooMatrix->cols  = cols;
     cooMatrix->vals  = vals;
     return 0;
 }   // readSparseCOOMatrix
 
-int convertCOO2CSR ( const struct _PAVA_COOMatrix *cooMatrix, struct _PAVA_CSRMatrix *csrMatrix )
+
+
+int convertCOO2SquareCSR ( const struct _PAVA_COOMatrix *cooMatrix, struct _PAVA_CSRMatrix *csrMatrix )
 {
     int info;
     int job[8];
@@ -218,13 +271,32 @@ int convertCOO2CSR ( const struct _PAVA_COOMatrix *cooMatrix, struct _PAVA_CSRMa
 
     info = 0;
 
-    csrMatrix->numRows = cooMatrix->numRows;
-    csrMatrix->numCols = cooMatrix->numCols;
+
+    int sizeM, sizeN;
+    sizeM = cooMatrix->numRows;
+    sizeN = cooMatrix->numCols;
+
+    if(sizeM != sizeN)
+    {
+        int max = sizeM > sizeN ? sizeM : sizeN;
+
+        sizeM = max;
+        sizeN = max;
+    }
+
+    csrMatrix->numRows = sizeM;
+    csrMatrix->numCols = sizeN;
     csrMatrix->nnz   = cooMatrix->nnz;
 
-    csrMatrix->rowOffsets = ( int* )    MKL_malloc( ( cooMatrix->numRows + 1 ) * sizeof( int ), ALIGN );
-    csrMatrix->cols = ( int* )    MKL_malloc( cooMatrix->nnz * sizeof( int ),           ALIGN );
-    csrMatrix->vals = ( double* ) MKL_malloc( cooMatrix->nnz * sizeof( double ),        ALIGN );
+
+
+    printf(" enter \n");
+    csrMatrix->rowOffsets = ( int* )    MKL_malloc( ( cooMatrix->numRows + 1 ) * sizeof( int ), ALIGN512 );
+    printf(" after rowOffsets\n");
+    csrMatrix->cols = ( int* )    MKL_malloc( cooMatrix->nnz * sizeof( int ),           ALIGN512 );
+    printf(" after cols\n");
+    csrMatrix->vals = ( double* ) MKL_malloc( cooMatrix->nnz * sizeof( double ),        ALIGN512 );
+    printf(" after vals\n");
 
     if ( NULL == csrMatrix->rowOffsets || NULL == csrMatrix->cols || NULL == csrMatrix->vals )
     {
@@ -260,23 +332,142 @@ int convertCOO2CSR ( const struct _PAVA_COOMatrix *cooMatrix, struct _PAVA_CSRMa
     for(kkkk=0; kkkk<256; kkkk++)
        printf(" cols[%d]= %d, vals[%d]=%f\n", kkkk, csrMatrix->cols[kkkk], kkkk, csrMatrix->vals[kkkk]);
 */
+/*
+        MKL_free( cooMatrix->rows );
+        MKL_free( cooMatrix->cols );
+        MKL_free( cooMatrix->vals );
+*/
+//    printf( "Operation COO->CSR completed\n" );
+    return 0;
+}
 
-    printf( "Operation COO->CSR completed\n" );
+
+
+
+
+
+
+int convertCOO2CSR ( const struct _PAVA_COOMatrix *cooMatrix, struct _PAVA_CSRMatrix *csrMatrix )
+{
+    int info;
+    int job[8];
+
+    /************************/
+    /* now convert matrix in COO 1-based format to CSR 0-based format */
+    /************************/
+
+    job[0] = 2; // COO -> sorted CSR
+    job[1] = 0; // 0-based CSR
+    job[2] = 0; // 1-based COO
+    job[4] = cooMatrix->nnz;
+    job[5] = 0; // all CSR arrays are filled
+
+    info = 0;
+
+    csrMatrix->numRows = cooMatrix->numRows;
+    csrMatrix->numCols = cooMatrix->numCols;
+    csrMatrix->nnz   = cooMatrix->nnz;
+
+    csrMatrix->rowOffsets = ( int* )    MKL_malloc( ( cooMatrix->numRows + 1 ) * sizeof( int ), ALIGN512 );
+    csrMatrix->cols = ( int* )    MKL_malloc( cooMatrix->nnz * sizeof( int ),           ALIGN512 );
+    csrMatrix->vals = ( double* ) MKL_malloc( cooMatrix->nnz * sizeof( double ),        ALIGN512 );
+
+    if ( NULL == csrMatrix->rowOffsets || NULL == csrMatrix->cols || NULL == csrMatrix->vals )
+    {
+        MKL_free( csrMatrix->rowOffsets );
+        MKL_free( csrMatrix->cols );
+        MKL_free( csrMatrix->vals );
+        fprintf( stderr, "Could not allocate memory for converting matrix to CSR format\n" );
+        return -5;
+    }
+
+    mkl_dcsrcoo ( job,
+                  &csrMatrix->numRows,
+                  csrMatrix->vals,
+                  csrMatrix->cols,
+                  csrMatrix->rowOffsets,
+                  (int*)&cooMatrix->nnz,
+                  cooMatrix->vals,
+                  cooMatrix->rows,
+                  cooMatrix->cols,
+                  &info );
+
+    if ( info != 0 )
+    {
+        fprintf( stderr, "Error converting COO -> CSR: %d\n", info );
+        MKL_free( csrMatrix->rowOffsets );
+        MKL_free( csrMatrix->cols );
+        MKL_free( csrMatrix->vals );
+        return -10;
+    }
+
+/*
+    int kkkk=0;
+    for(kkkk=0; kkkk<256; kkkk++)
+       printf(" cols[%d]= %d, vals[%d]=%f\n", kkkk, csrMatrix->cols[kkkk], kkkk, csrMatrix->vals[kkkk]);
+*/
+//        MKL_free( cooMatrix->rows );
+//        MKL_free( cooMatrix->cols );
+//        MKL_free( cooMatrix->vals );
+
+//    printf( "Operation COO->CSR completed\n" );
     return 0;
 }   // convertCOO2CSR
 
 void deleteCOOMatrix ( struct _PAVA_COOMatrix *matrix )
 {
-    MKL_free( matrix->rows );
-    MKL_free( matrix->cols );
-    MKL_free( matrix->vals );
+    if(matrix->rows)
+        MKL_free( matrix->rows );
+    if(matrix->cols)
+        MKL_free( matrix->cols );
+    if(matrix->vals)
+        MKL_free( matrix->vals );
+    free(matrix);
 }   // deleteSparseMatrix
 
 void deleteCSRMatrix ( struct _PAVA_CSRMatrix *matrix )
 {
-    MKL_free( matrix->rowOffsets );
-    MKL_free( matrix->cols );
-    MKL_free( matrix->vals );
+    if(matrix->rowOffsets)
+        MKL_free( matrix->rowOffsets );
+    if(matrix->cols)
+        MKL_free( matrix->cols );
+    if(matrix->vals)
+        MKL_free( matrix->vals );
+    free(matrix);
+}   // deleteSparseMatrix
+
+void deleteCSCMatrix ( struct _PAVA_CSCMatrix *matrix )
+{
+    if(matrix->colOffsets)
+        MKL_free( matrix->colOffsets );
+    if(matrix->rows)
+        MKL_free( matrix->rows );
+    if(matrix->vals)
+        MKL_free( matrix->vals );
+    free(matrix);
+}   // deleteSparseMatrix
+
+void deleteDIAMatrix ( struct _PAVA_DIAMatrix *matrix )
+{
+    if(matrix->distance)
+        MKL_free( matrix->distance );
+    if(matrix->vals)
+        MKL_free( matrix->vals );
+    free(matrix);
+}   // deleteSparseMatrix
+
+void deleteBSRMatrix ( struct _PAVA_BSRMatrix *matrix )
+{
+    if(matrix->rowIdx)
+        MKL_free( matrix->rowIdx );
+    if(matrix->cols)
+        MKL_free( matrix->cols );
+    if(matrix->vals)
+        MKL_free( matrix->vals );
+    if(matrix->y_bsr)
+        MKL_free( matrix->y_bsr);
+        
+    free(matrix);
 }   // deleteSparseMatrix
 
 void printMatrixInfo ( const struct SparseMatrix *csrMatrix )
@@ -297,23 +488,35 @@ void printMatrixInfo ( const struct SparseMatrix *csrMatrix )
 }   // printMatrixInfo
 
 
+int printPerformance(char* matrixName, char* format, int numThreads, double convertTime, double executionTime)
+{
+//    std::cout<<std::fixed<<" Performance "<<matrixName<<" "<<format<<" "<< numThreads <<" "<< convertTime <<" "<<executionTime<<std::endl;
+    printf(" Performance %s %s %d %f %f \n", matrixName, format, numThreads, convertTime, executionTime);
+}
+
 
 // Initialize input vectors
 void initVectors( int numRows, int numCols, double *x, double *y, double *y_ref )
 {
     int i;
-    for ( i = 0; i < numRows; i++ )
-    {
-//        y[i] = M_PI;
-//        y_ref[i] = M_PI;
-        y[i] = 0;
-        y_ref[i] = 0;
-    }
-    for ( i = 0; i < numCols; i++ )
-    {
-//        x[i] = M_PI;
-        x[i] = 1;
-    }
+   
+    if(y)
+        for ( i = 0; i < numRows; i++ )
+        {
+            y[i] = 0;
+        }
+
+    if (y_ref)
+        for ( i = 0; i < numRows; i++ )
+        {
+            y_ref[i] = 0;
+        }
+
+    if(x)
+        for ( i = 0; i < numCols; i++ )
+        {
+            x[i] = i%3;
+        }
 }   // initVectors
 
 
@@ -344,29 +547,57 @@ void referenceSpMV ( struct _PAVA_CSRMatrix *csrMatrix, double *x, double *y_ref
         int end   = csrMatrix->rowOffsets[i + 1];
         int j;
         for ( j = start; j < end; j++ )
+        {
             yi += csrMatrix->vals[j] * x[csrMatrix->cols[j]];
+        }
 //        y[i] = yi * alpha + beta * y[i];
         y_ref[i] = yi;
     }
 }   // referenceSpMV
 
 
-double checkResults ( int size, const double *y, const double *y_ref )
+int checkResults ( int size, const double *y, const double *y_ref )
 {
     double res = 0.0;
     int i;
 
+    int errorCount=0;
     for ( i = 0; i < size; i++ )
     {
-        res += ( y[i] - y_ref[i] ) * ( y[i] - y_ref[i] );
+        if(abs(y_ref[i] - y[i]) > 0.01 * abs(y_ref[i]))
+        {
+            errorCount++;
+//            if(i<1000&& i%16==0)
+//            std::cout<<" Error!  y["<<i<<"] = "<<y[i] <<"; y_ref["<<i<<"] = "<<y_ref[i]<<std::endl;
+        }
+//            res += ( y[i] - y_ref[i] ) * ( y[i] - y_ref[i] );
     }
 
-    res = sqrt ( res );
+//    res = sqrt ( res );
+    if(errorCount == 0)
+        std::cout<<" Checking Pass !  "<<std::endl;
+    else
+        std::cout<<"WARNING! # "<<errorCount<<" out of "<<size<<" # was wrong"<<std::endl;
 
-    return res;
+
+//    if(res <= 0.0001)
+//        std::cout<<" Check Right ! "<<std::endl;
+
+    return errorCount;
 }   // checkResults
 
 
+// Calculate Frobenius norm of the matrix and vectors: 
+double calcFrobeniusNorm ( int vectorLength, double *vectorValues )
+{
+    int i;
+    double norm = 0.0;
+    for ( i = 0; i < vectorLength; i++ )
+    {
+        norm += vectorValues[i] * vectorValues[i];
+    }
+    return sqrt (norm) ;
+}   // calcFrobeniusNorm
 
 
 
