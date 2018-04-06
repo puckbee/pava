@@ -329,7 +329,7 @@ int conduct_benchmark(char* fileName, int numThreads, _PAVA_COOMatrix* fileCOOMa
         printPerformance(matrixName, "CSR", mkl_threads, t2 - t1, (t4 - t3)/numIterations);
 
         // we leave fileCOOMarix for the next iteration
-        deleteCOOMatrix( fileCOOMatrix );    
+    //    deleteCOOMatrix( fileCOOMatrix );    
     }
 
 
@@ -537,15 +537,15 @@ int conduct_benchmark(char* fileName, int numThreads, _PAVA_COOMatrix* fileCOOMa
     std::cout<<"**************"<<endl;
     numIterations = LARGE_ITERS;
 
-//    initVectors( csrMatrix->numRows, csrMatrix->numCols, NULL, y, NULL );
+    initVectors( csrMatrix->numRows, csrMatrix->numCols, NULL, y, NULL );
 
-//    benchmark_ESB_SpMV(csrMatrix, alpha, x, beta, y, NULL, 0.0, 0.0, INTEL_SPARSE_SCHEDULE_DYNAMIC, matrixName, numIterations);
-//    res = checkResults(csrMatrix->numRows, y, y_ref);
+    benchmark_ESB_SpMV(csrMatrix, alpha, x, beta, y, NULL, 0.0, 0.0, INTEL_SPARSE_SCHEDULE_DYNAMIC, matrixName, numIterations);
+    res = checkResults(csrMatrix->numRows, y, y_ref);
 
-//    benchmark_ESB_SpMV(csrMatrix, alpha, x, beta, y, NULL, 0.0, 0.0, INTEL_SPARSE_SCHEDULE_STATIC, matrixName, numIterations);
-//    res = checkResults(csrMatrix->numRows, y, y_ref);
+    benchmark_ESB_SpMV(csrMatrix, alpha, x, beta, y, NULL, 0.0, 0.0, INTEL_SPARSE_SCHEDULE_STATIC, matrixName, numIterations);
+    res = checkResults(csrMatrix->numRows, y, y_ref);
 
-    printPerformance(matrixName, "ESB", mkl_threads, -1, -1);
+//    printPerformance(matrixName, "ESB", mkl_threads, -1, -1);
 ///////////////////////////////////////
 ///////////////////////
 //      CVR
@@ -595,13 +595,13 @@ int conduct_benchmark(char* fileName, int numThreads, _PAVA_COOMatrix* fileCOOMa
     std::cout<<"**************"<<endl;
     numIterations = LARGE_ITERS;
 
-//    initVectors( fileCOOMatrix->numRows, fileCOOMatrix->numCols, NULL, y, NULL );
+    initVectors( fileCOOMatrix->numRows, fileCOOMatrix->numCols, NULL, y, NULL );
 
-//    conduct_vhcc(fileCOOMatrix->numRows, fileCOOMatrix->numCols, fileCOOMatrix->nnz, fileCOOMatrix->rows, fileCOOMatrix->cols, fileCOOMatrix->vals, x, y, alpha, matrixName, numIterations);
+    conduct_vhcc(fileCOOMatrix->numRows, fileCOOMatrix->numCols, fileCOOMatrix->nnz, fileCOOMatrix->rows, fileCOOMatrix->cols, fileCOOMatrix->vals, x, y, alpha, matrixName, numIterations);
 //
-    printPerformance(matrixName, "VHCC", omp_threads, -1, -1);
+//    printPerformance(matrixName, "VHCC", omp_threads, -1, -1);
 
-//    res = checkResults(fileCOOMatrix->numRows, y, y_ref);
+    res = checkResults(fileCOOMatrix->numRows, y, y_ref);
     
 ////////////////////////////////////////
     MKL_free( x );
